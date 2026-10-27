@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-66497B0C",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M05, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "Every county jail shall honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours after the person would otherwise be released."
+    }
+  ],
+  "current_law": "Each county decides whether its jail honors federal immigration detainer requests."
+}

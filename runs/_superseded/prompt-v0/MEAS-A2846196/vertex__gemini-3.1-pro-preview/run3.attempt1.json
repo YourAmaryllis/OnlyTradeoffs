@@ -1,0 +1,257 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-A2846196",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "cea13244d2326871254187213c915defc3ef3e6abacbbd40c23073aa463e9e3d",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "39f93a6f156bbc3a58d444f7a196987b7b157ce342fa73b5548b529683044153"
+    }
+  },
+  "prompt_file": "MEAS-A2846196.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:19:22.934955+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1080,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1080
+        }
+      ],
+      "prompt_token_count": 7297,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7297
+        }
+      ],
+      "thoughts_token_count": 752,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 9129,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-A2846196\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Raises the state minimum wage to $17.00 per hour starting January 1, 2028.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C11\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"state minimum wage increases to $17.00 per hour\",\n      \"mechanism\": \"The clause raises the minimum legal pay rate for workers.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"state minimum wage increases to $17.00 per hour\",\n      \"mechanism\": \"The clause requires businesses to pay a higher minimum rate to their employees, increasing their labor costs.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law sets the state minimum wage at $15.00 per hour. The measure changes this by increasing the rate to $17.00 per hour beginning in 2028.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The primary direct cost is the increased wage bill for employers paying workers less than $17.00 per hour, along with associated payroll taxes.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Workers earning between the current and new minimum wage benefit from higher incomes. Employers bear the direct costs, which may ultimately be passed on to consumers in the form of higher prices.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Employers may respond by raising prices, investing in automation, reducing employee hours, or tightening hiring to offset the increased labor costs.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of minimum wage increases on employment is heavily disputed in economics. Some researchers find that minimum wage hikes lead to job losses or reduced hours for low-skill workers, while others find they have little to no negative impact on employment levels.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"On January 1, 2028,\",\n      \"note\": \"Sets a future effective date for the wage increase.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"A higher minimum wage for workers.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Lower labor costs for businesses.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Lower labor costs for businesses.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A higher minimum wage for workers.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-A2846196",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Raises the state minimum wage to $17.00 per hour starting January 1, 2028."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C11",
+        "effect": "advances",
+        "direction": null,
+        "quote": "state minimum wage increases to $17.00 per hour",
+        "mechanism": "The clause raises the minimum legal pay rate for workers.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "costs",
+        "direction": null,
+        "quote": "state minimum wage increases to $17.00 per hour",
+        "mechanism": "The clause requires businesses to pay a higher minimum rate to their employees, increasing their labor costs.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law sets the state minimum wage at $15.00 per hour. The measure changes this by increasing the rate to $17.00 per hour beginning in 2028.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The primary direct cost is the increased wage bill for employers paying workers less than $17.00 per hour, along with associated payroll taxes.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Workers earning between the current and new minimum wage benefit from higher incomes. Employers bear the direct costs, which may ultimately be passed on to consumers in the form of higher prices.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Employers may respond by raising prices, investing in automation, reducing employee hours, or tightening hiring to offset the increased labor costs.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of minimum wage increases on employment is heavily disputed in economics. Some researchers find that minimum wage hikes lead to job losses or reduced hours for low-skill workers, while others find they have little to no negative impact on employment levels.",
+        "disputed": true
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F6",
+        "quote": "On January 1, 2028,",
+        "note": "Sets a future effective date for the wage increase."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "A higher minimum wage for workers.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Lower labor costs for businesses.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Lower labor costs for businesses.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A higher minimum wage for workers.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 19.4,
+  "errors": [],
+  "accepted": true
+}

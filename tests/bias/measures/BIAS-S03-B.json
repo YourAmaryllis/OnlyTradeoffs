@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-6B4DC874",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S03, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services."
+    }
+  ],
+  "current_law": "Demonstrations on public sidewalks are allowed subject to general traffic and noise rules."
+}

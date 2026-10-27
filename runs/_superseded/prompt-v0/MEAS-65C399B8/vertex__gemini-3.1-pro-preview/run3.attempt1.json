@@ -1,0 +1,272 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-65C399B8",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "bacf0872aeb50a2876355bd58121f923a02a4d5fe156157bd337cc26709d9725",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "2c8306c1f51a0082d10577d5c605cc3b096e0030875a9ae0084a2ec0b3c6bc89"
+    }
+  },
+  "prompt_file": "MEAS-65C399B8.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:21:57.598405+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1269,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1269
+        }
+      ],
+      "prompt_token_count": 7316,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7316
+        }
+      ],
+      "thoughts_token_count": 1309,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 9894,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-65C399B8\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires a labor union that spends more than $10,000 in a calendar year on independent political expenditures to publicly identify anyone who contributed more than $1,000 toward those expenditures.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C60\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures.\",\n      \"mechanism\": \"Requires labor unions to publicly name major contributors to their political expenditures, expanding the disclosure of political funding.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C61\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures.\",\n      \"mechanism\": \"Requires labor unions to publicly name major contributors to their political expenditures, removing the ability of those donors to remain private.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures.\",\n      \"mechanism\": \"Adds a reporting requirement for labor unions, increasing their paperwork and compliance burden.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, labor unions report only the total amount they spend on independent political expenditures. The measure changes this by requiring unions spending over $10,000 to name individual donors who contributed more than $1,000 toward those expenditures.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The primary costs are administrative and compliance expenses for labor unions to track, verify, and report the required donor information.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Labor unions bear the compliance costs. The public, journalists, and political opponents benefit by gaining access to the identities of the unions' financial backers.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Donors may choose to keep their contributions at or below $1,000 to avoid disclosure. Labor unions might adjust their fundraising strategies or restructure how they fund political expenditures to adapt to the new reporting thresholds.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses an information gap regarding the original sources of funds used by labor unions for political spending. The mechanism mandates disclosure for expenditures and contributions above specific dollar thresholds.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Public disclosure of the identities of major donors who fund labor unions' political spending.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Privacy for individuals who make large contributions toward union political spending.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower paperwork and compliance burdens for labor unions.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Privacy for individuals who make large contributions toward union political spending.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower paperwork and compliance burdens for labor unions.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Public disclosure of the identities of major donors who fund labor unions' political spending.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-65C399B8",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires a labor union that spends more than $10,000 in a calendar year on independent political expenditures to publicly identify anyone who contributed more than $1,000 toward those expenditures."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C60",
+        "effect": "advances",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures.",
+        "mechanism": "Requires labor unions to publicly name major contributors to their political expenditures, expanding the disclosure of political funding.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C61",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures.",
+        "mechanism": "Requires labor unions to publicly name major contributors to their political expenditures, removing the ability of those donors to remain private.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures.",
+        "mechanism": "Adds a reporting requirement for labor unions, increasing their paperwork and compliance burden.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, labor unions report only the total amount they spend on independent political expenditures. The measure changes this by requiring unions spending over $10,000 to name individual donors who contributed more than $1,000 toward those expenditures.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The primary costs are administrative and compliance expenses for labor unions to track, verify, and report the required donor information.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Labor unions bear the compliance costs. The public, journalists, and political opponents benefit by gaining access to the identities of the unions' financial backers.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Donors may choose to keep their contributions at or below $1,000 to avoid disclosure. Labor unions might adjust their fundraising strategies or restructure how they fund political expenditures to adapt to the new reporting thresholds.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses an information gap regarding the original sources of funds used by labor unions for political spending. The mechanism mandates disclosure for expenditures and contributions above specific dollar thresholds.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Public disclosure of the identities of major donors who fund labor unions' political spending.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Privacy for individuals who make large contributions toward union political spending.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower paperwork and compliance burdens for labor unions.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Privacy for individuals who make large contributions toward union political spending.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower paperwork and compliance burdens for labor unions.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Public disclosure of the identities of major donors who fund labor unions' political spending.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 27.8,
+  "errors": [],
+  "accepted": true
+}

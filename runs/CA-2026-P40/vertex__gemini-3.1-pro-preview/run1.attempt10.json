@@ -1,0 +1,990 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P40",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "1b9ad2e08f8fb2da2e440695023590b77551f8d5f3fc121572c1256ecaf4be79",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "982746e34bd0cafb0e06b9267b501b8674de25e65d86ca0672620de5b171677b",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "5b2196e924bee38160c7c814ffb48d3fac1c1d46cf05c2c1ccc9a6048741435f"
+    }
+  },
+  "prompt_file": "CA-2026-P40.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 10,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T08:16:39.792922+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 9551,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 9551
+        }
+      ],
+      "prompt_token_count": 22949,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 22949
+        }
+      ],
+      "thoughts_token_count": 10453,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 42953,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P40\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"[Prop 40 Preamble]\",\n      \"text\": \"Names the measure the 2026 Billionaire Tax Act.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 1]\",\n      \"text\": \"Provides the official title of the Act.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 2]\",\n      \"text\": \"Declares findings regarding expected federal funding cuts to Medi-Cal, public education, and food assistance, the financial pressure on the health care safety net, and the concentration of billionaire wealth in California as justification for a one-time wealth tax.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 3]\",\n      \"text\": \"States the Act's intent to protect health care, education, and food assistance funding by imposing a one-time tax on billionaires.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 4 §37]\",\n      \"text\": \"Amends the California Constitution to authorize a one-time tax on the personal property and wealth of California billionaires. It creates the 2026 Billionaire Tax Reserve Fund, allocates 90% of revenues to a Health Account and 10% to an Education and Food Assistance Account, and exempts these revenues from the state's constitutional appropriations limit.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n      \"text\": \"Provides rules for the Reserve Fund, directing the Controller's allocations, capping legislative appropriations at $25 billion annually across both accounts, prohibiting the funds from supplanting existing state funding, and requiring annual reporting by the Department of Finance.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50300]\",\n      \"text\": \"Establishes the name of the statutory part as the 2026 Billionaire Tax Act.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n      \"text\": \"Imposes a one-time 5% excise tax on the net worth of California residents with a net worth of $1 billion or more (reduced for those between $1 billion and $1.1 billion), payable with 2026 income taxes or in five annual installments with a deferral charge.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50302]\",\n      \"text\": \"Sets rules for calculating net worth, specifying which debts and liabilities may be deducted, and excluding certain contingent or related-party debts.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50303]\",\n      \"text\": \"Establishes complex valuation methods for different asset types, including presumed valuation formulas for private business interests using book value and profits, and rules for trusts and out-of-state property.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50304]\",\n      \"text\": \"Allows taxpayers whose tax liability exceeds their liquid assets to initiate an Optional Deferral Account (ODA), delaying tax payment until assets are withdrawn or the account is closed, subject to annual reporting of material distributions.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50305]\",\n      \"text\": \"Requires appraisers providing certified appraisals to submit copies to the Franchise Tax Board and establishes penalties for appraisers who substantially overstate or understate valuations.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50306]\",\n      \"text\": \"Apportions 100% of the tax to California based on residency on the tax obligation date, while providing a petition process for alternative apportionment if the standard method violates constitutional limits.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50307]\",\n      \"text\": \"Allows a pro rata credit for net wealth taxes paid to other jurisdictions based on the number of days the taxpayer resided in that jurisdiction during 2026.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50308]\",\n      \"text\": \"Defines key terms, including \\\"applicable individual,\\\" \\\"net worth,\\\" \\\"tax obligation date\\\" (January 1, 2026), and \\\"valuation date\\\" (December 31, 2026).\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50309]\",\n      \"text\": \"Grants the Franchise Tax Board broad authority to adopt regulations to administer the tax, exempting the Board from standard Administrative Procedure Act rulemaking requirements until 2028.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50310]\",\n      \"text\": \"Permits the Legislature to amend the Act by a two-thirds vote, provided the amendments further the Act's purposes.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50311]\",\n      \"text\": \"Contains a severability clause directing courts to preserve the tax imposition, including by reforming specific dates if necessary to cure legal defects.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50312]\",\n      \"text\": \"Imposes severe penalties (20% or 40%) for substantial or gross understatements of tax, authorizes the Franchise Tax Board to hire outside experts, allows the Board to appeal Office of Tax Appeals decisions de novo, and establishes general anti-avoidance rules.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50313]\",\n      \"text\": \"Requires the provisions to be liberally construed to achieve the Act's purposes.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50314]\",\n      \"text\": \"Provides an expedited validation action in Sacramento Superior Court to determine the measure's facial validity, routing any appeals directly to the California Supreme Court and bypassing intermediate appellate courts.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 7]\",\n      \"text\": \"Prohibits taxpayers from taking a state income tax deduction for the net worth tax.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 8]\",\n      \"text\": \"Declares that if this measure appears on the ballot alongside a conflicting billionaire net worth tax measure, the one with more votes prevails entirely.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 9]\",\n      \"text\": \"Grants the measure's proponent, or any citizen if the proponent is absent, legal standing to sue or intervene to defend the Act in court.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50312]\",\n          \"quote\": \"(n) Power of the Board. Without implication as to the powers of the Board in relation to any other tax, ifthe Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It removes finality from administrative tax appeals for the taxpayer by giving the tax agency the right to a completely new trial if it loses.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50303]\",\n          \"quote\": \"(E) Except for assets and entities governed by paragraphs (1) and (2), for all other interests in any business entities including all equity and other ownership interests, all debt interests, and all other contractual or noncontractual interests, the fair market value of those interests at the end of any tax year shall be presumed to be the sum of the book value of the business entity according to generally accepted accounting principles as of the end of the tax year plus a present-value multiplier of 7.5 times the annual book profits of the business entity\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It introduces a complex new presumption formula combining accounting book value and a specific multiplier of profits to determine the taxable value of private businesses.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n          \"quote\": \"(a) An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more\",\n          \"effect\": \"supports\",\n          \"why\": \"It levies a major new tax exclusively on individuals whose net worth is one billion dollars or more.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n          \"quote\": \"(2) Submit a declaration of the amount of any additional tax that is owed under this Part, together with any forms created by the Franchise Tax Board for calculating any additional tax owed under this Part, along with any required appraisals or other evidence of fair market value.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It requires taxpayers to submit detailed personal financial data, appraisals, and documentation of all their assets to the state.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50309]\",\n          \"quote\": \"(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It expands the tax agency's regulatory power by temporarily exempting its rules and guidelines from standard administrative procedures and oversight.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n          \"quote\": \"(1) Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding\",\n          \"effect\": \"supports\",\n          \"why\": \"It directs the vast majority of the new tax revenue toward funding healthcare, including Medi-Cal.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50303]\",\n          \"quote\": \"(A) The taxpayer shall report the following at the time when forms are filed pursuant to this Chapter: (i) The percentage of the business entity owned by the taxpayer, (ii) The book value of the business entity as of the end of the tax year, determined according to generally accepted accounting principles; and (iii) The book profits of the business entity in the tax year\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It increases the paperwork and reporting burden on private business entities owned by affected taxpayers by demanding specific accounting and profit metrics.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50309]\",\n          \"quote\": \"(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It allows the appointed Franchise Tax Board to create rules and procedures without the normal legislative and public constraints of the Administrative Procedure Act.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 4 §37]\",\n          \"quote\": \"(c) Notwithstanding any other provision of the Constitution, the Act provides for taxation on all forms of personal property and wealth, whether tangible or intangible\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It directly subjects owners' personal property, assets, and wealth to a new state tax.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n          \"quote\": \"(f) Upon enactment of the 2026 Billionaire Tax Act and each fiscal year thereafter that the Reserve Fund is in existence, the Department of Finance, in consultation with relevant state agencies, shall provide to the Legislature all the following information: (1) The current balance in the Reserve Fund as of the reporting date;\",\n          \"effect\": \"supports\",\n          \"why\": \"It requires the Department of Finance to deliver annual reports to the Legislature on the balance, spending, and future plans for the new funds.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 4 §37]\",\n          \"quote\": \"(d) After accounting for administrative expenses as provided by law, the Controller shall allocate and transfer the remaining moneys in the Reserve Fund to the following sub-accounts, which are hereby created: 90% to the Billionaire Tax Health Account and 10% to the Billionaire Tax Education and Food Assistance Account.\",\n          \"effect\": \"supports\",\n          \"why\": \"It automatically dedicates fixed percentages of the new tax revenue to specific health, education, and food programs.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 4 §37]\",\n          \"quote\": \"(t) \\\"Appropriations subject to limitation\\\" of each entity of government and the state under Article XIIIB shall not include appropriations of revenue from the Reserve Fund.\",\n          \"effect\": \"supports\",\n          \"why\": \"It exempts the new tax revenues from the state's constitutional appropriations limit, removing a cap on total state spending.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 40 Sec. 4 §37]\",\n          \"quote\": \"(d) After accounting for administrative expenses as provided by law, the Controller shall allocate and transfer the remaining moneys in the Reserve Fund to the following sub-accounts, which are hereby created: 90% to the Billionaire Tax Health Account and 10% to the Billionaire Tax Education and Food Assistance Account.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It locks all revenues from the tax exclusively into special accounts for health, education, and food assistance, preventing their use for the general fund.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50309]\",\n          \"quote\": \"(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"supports\",\n          \"why\": \"It grants the appointed Franchise Tax Board the power to make determinations and rules without the normal oversight constraints.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n          \"quote\": \"(2) Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account for education-related and food assistance expenditures\",\n          \"effect\": \"supports\",\n          \"why\": \"It dedicates a share of the billionaire tax revenue to funding education.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50312]\",\n          \"quote\": \"(c) The penalties are as follows: (I) The penalty for a substantial understatement under this Section shall be an amount equal to 20 percent of any understatement of tax.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It exposes taxpayers to massive new financial penalties if they substantially understate their net worth and tax liability.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50312]\",\n          \"quote\": \"(n) Power of the Board. Without implication as to the powers of the Board in relation to any other tax, ifthe Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.\",\n          \"effect\": \"supports\",\n          \"why\": \"It allows the tax board to escalate an administrative loss into a full new court trial.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 40 Sec. 9]\",\n          \"quote\": \"the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act\",\n          \"effect\": \"supports\",\n          \"why\": \"It explicitly grants citizens and the measure's proponent the legal standing to sue or intervene in court to defend the law.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 9]\",\n          \"quote\": \"the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act\",\n          \"effect\": \"supports\",\n          \"why\": \"It protects the initiative process by guaranteeing that the proponent of a measure has the legal standing to defend it in court if the government declines.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n          \"quote\": \"(1) Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding\",\n          \"effect\": \"supports\",\n          \"why\": \"It dedicates new tax revenue directly to funding public healthcare programs.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50309]\",\n          \"quote\": \"(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"supports\",\n          \"why\": \"It significantly broadens the power of the state tax agency by freeing it from standard rulemaking limits for its initial implementation phase.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n          \"quote\": \"(a) An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It creates a massive new state tax liability for qualifying households.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n          \"quote\": \"(a) An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It targets a specific segment of high-net-worth individuals for an exclusive 5% tax rather than applying evenly across incomes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 40 Sec. 6 §50314]\",\n          \"quote\": \"(2) Any appeal from an adverse determination in the Sacramento County Superior Court shall be directly to the California Supreme Court, without intermediate appellate review;\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It weakens judicial checks by skipping the normal appellate court process and removing a layer of review for legal challenges.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law does not impose a statewide wealth tax on individuals; taxation is based on income, sales, and real property. This measure imposes a one-time 5% excise tax on the net worth of California residents who have assets over $1 billion as of January 1, 2026, creating complex new rules for valuing private businesses, out-of-state property, and trusts.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The text explicitly authorizes up to $50 million in direct startup loans to the Franchise Tax Board. Massive compliance costs will fall on taxpayers to secure certified appraisals and manage reporting. Opportunity costs could include wealthy individuals leaving the state or delaying investments to avoid the tax boundary.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"The cost falls exclusively on the approximately 200 California billionaires targeted by the tax. The benefits flow primarily to low-income residents who use Medi-Cal, public schools, and food assistance programs, as well as the healthcare providers and school districts that receive the augmented state funding.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50304]\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Taxpayers will likely attempt aggressive legal challenges and complex asset restructurings, moving wealth into out-of-state trusts or re-characterizing assets. Some may utilize the Optional Deferral Accounts to indefinitely delay payment on illiquid assets. The Franchise Tax Board will respond by hiring experts and initiating extensive audits to contest asset valuations.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 2]\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses projected multi-billion-dollar federal funding cuts to California's safety net programs and extreme wealth inequality. It attempts to fix this by directly taxing the accumulated assets of billionaires to backfill the state budget. The mechanism may face practical collection hurdles due to the illiquid and movable nature of extreme wealth.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50309]\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The Franchise Tax Board gains extraordinary new discretionary power to value private assets, assess heavy penalties, and create rules without standard administrative constraints. Proponents of the measure gain the legal standing to defend it in court. The Legislature gains the authority to appropriate up to $25 billion annually from the Reserve Fund.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50301]\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The revenue and economic impacts of a state-level wealth tax are fiercely disputed. Proponents assert it will raise necessary revenue from a highly concentrated, untaxed pool of wealth without harming the broader economy. Opponents argue it will cause immediate capital flight, widespread tax evasion, and heavy administrative costs, potentially depressing long-term state revenues.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"The text allocates up to $50 million for initial administration alone, with ongoing costs fully reimbursed from the tax revenue. Significant portions of early revenue could be absorbed by litigation defense, outside expert hiring, and the complex auditing required to enforce the valuation rules.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50310]\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"Because the core tax structure is embedded in the California Constitution, repealing it requires a subsequent ballot measure. However, the Legislature may amend the statutory provisions by a two-thirds vote, provided the amendments are consistent with and further the Act's purposes.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50312]\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"(k) General anti-avoidance rule. (1) If the Board determines that a transaction or series of transactions lack economic substance, or that a substantial purpose for any transaction or series of transactions was to obtain a tax benefit with respect to this Part that is not intended by the voters or the Legislature\",\n      \"note\": \"Allows the Board to retroactively override transactions based on subjective interpretations of economic substance or voter intent.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 4 §37]\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"(e) Notwithstanding any other law, the Reserve Fund is a special fund, permanently separate and apart from the General Fund\",\n      \"note\": \"Overrides existing state accounting and fund rules.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"(c) The Legislature shall have the authority to appropriate up to $22.5 billion each fiscal year from the Billionaire Tax Health Account and up to $2.5 billion each year from the Billionaire Tax Education and Food Assistance Account.\",\n      \"note\": \"The actual distribution of the tax revenue to specific programs depends on the Legislature exercising its appropriation authority.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50311]\",\n      \"flag_id\": \"F5\",\n      \"quote\": \"(a) The provisions of the 2026 Billionaire Tax Act, also referred to as \\\"the Act,\\\" are severable.\",\n      \"note\": \"Includes a severability clause specifically instructing courts to reform dates to save the tax if necessary.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50308]\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"(n) \\\"Tax obligation date\\\" means January I, 2026.\",\n      \"note\": \"Sets a rigid, retroactive date for assessing tax residency and obligation.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 6 §50310]\",\n      \"flag_id\": \"F7\",\n      \"quote\": \"The Legislature may amend the 2026 Billionaire Tax Act, by statute passed in each house of the Legislature by rollcall vote entered in the journal, two-thirds of the membership concurring, ifthe statute is consistent with and furthers the purposes of the 2026 Billionaire Tax Act.\",\n      \"note\": \"Requires a supermajority and limits amendments to those that \\\"further the purposes\\\" of the measure.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 5 §16355]\",\n      \"flag_id\": \"F8\",\n      \"quote\": \"(1) Ninety percent shall be allocated to the Billionaire Tax Health Account ... (2) Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account\",\n      \"note\": \"Bundles funding for distinct policy areas (healthcare, education, and food programs) under a single tax measure.\"\n    },\n    {\n      \"clause_id\": \"[Prop 40 Sec. 9]\",\n      \"flag_id\": \"F9\",\n      \"quote\": \"any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene\",\n      \"note\": \"Creates a private right of action for any citizen to initiate or intervene in lawsuits to defend the Act.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P40",
+    "restatements": [
+      {
+        "clause_id": "Prop 40 Preamble",
+        "text": "Names the measure the 2026 Billionaire Tax Act."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 1",
+        "text": "Provides the official title of the Act."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 2",
+        "text": "Declares findings regarding expected federal funding cuts to Medi-Cal, public education, and food assistance, the financial pressure on the health care safety net, and the concentration of billionaire wealth in California as justification for a one-time wealth tax."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 3",
+        "text": "States the Act's intent to protect health care, education, and food assistance funding by imposing a one-time tax on billionaires."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "text": "Amends the California Constitution to authorize a one-time tax on the personal property and wealth of California billionaires. It creates the 2026 Billionaire Tax Reserve Fund, allocates 90% of revenues to a Health Account and 10% to an Education and Food Assistance Account, and exempts these revenues from the state's constitutional appropriations limit."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "text": "Provides rules for the Reserve Fund, directing the Controller's allocations, capping legislative appropriations at $25 billion annually across both accounts, prohibiting the funds from supplanting existing state funding, and requiring annual reporting by the Department of Finance."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50300",
+        "text": "Establishes the name of the statutory part as the 2026 Billionaire Tax Act."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "text": "Imposes a one-time 5% excise tax on the net worth of California residents with a net worth of $1 billion or more (reduced for those between $1 billion and $1.1 billion), payable with 2026 income taxes or in five annual installments with a deferral charge."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50302",
+        "text": "Sets rules for calculating net worth, specifying which debts and liabilities may be deducted, and excluding certain contingent or related-party debts."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "text": "Establishes complex valuation methods for different asset types, including presumed valuation formulas for private business interests using book value and profits, and rules for trusts and out-of-state property."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "text": "Allows taxpayers whose tax liability exceeds their liquid assets to initiate an Optional Deferral Account (ODA), delaying tax payment until assets are withdrawn or the account is closed, subject to annual reporting of material distributions."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50305",
+        "text": "Requires appraisers providing certified appraisals to submit copies to the Franchise Tax Board and establishes penalties for appraisers who substantially overstate or understate valuations."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "text": "Apportions 100% of the tax to California based on residency on the tax obligation date, while providing a petition process for alternative apportionment if the standard method violates constitutional limits."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50307",
+        "text": "Allows a pro rata credit for net wealth taxes paid to other jurisdictions based on the number of days the taxpayer resided in that jurisdiction during 2026."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50308",
+        "text": "Defines key terms, including \"applicable individual,\" \"net worth,\" \"tax obligation date\" (January 1, 2026), and \"valuation date\" (December 31, 2026)."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "text": "Grants the Franchise Tax Board broad authority to adopt regulations to administer the tax, exempting the Board from standard Administrative Procedure Act rulemaking requirements until 2028."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50310",
+        "text": "Permits the Legislature to amend the Act by a two-thirds vote, provided the amendments further the Act's purposes."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50311",
+        "text": "Contains a severability clause directing courts to preserve the tax imposition, including by reforming specific dates if necessary to cure legal defects."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50312",
+        "text": "Imposes severe penalties (20% or 40%) for substantial or gross understatements of tax, authorizes the Franchise Tax Board to hire outside experts, allows the Board to appeal Office of Tax Appeals decisions de novo, and establishes general anti-avoidance rules."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50313",
+        "text": "Requires the provisions to be liberally construed to achieve the Act's purposes."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50314",
+        "text": "Provides an expedited validation action in Sacramento Superior Court to determine the measure's facial validity, routing any appeals directly to the California Supreme Court and bypassing intermediate appellate courts."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 7",
+        "text": "Prohibits taxpayers from taking a state income tax deduction for the net worth tax."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 8",
+        "text": "Declares that if this measure appears on the ballot alongside a conflicting billionaire net worth tax measure, the one with more votes prevails entirely."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 9",
+        "text": "Grants the measure's proponent, or any citizen if the proponent is absent, legal standing to sue or intervene to defend the Act in court."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "(n) Power of the Board. Without implication as to the powers of the Board in relation to any other tax, ifthe Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.",
+            "effect": "conflicts",
+            "why": "It removes finality from administrative tax appeals for the taxpayer by giving the tax agency the right to a completely new trial if it loses.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "(E) Except for assets and entities governed by paragraphs (1) and (2), for all other interests in any business entities including all equity and other ownership interests, all debt interests, and all other contractual or noncontractual interests, the fair market value of those interests at the end of any tax year shall be presumed to be the sum of the book value of the business entity according to generally accepted accounting principles as of the end of the tax year plus a present-value multiplier of 7.5 times the annual book profits of the business entity",
+            "effect": "conflicts",
+            "why": "It introduces a complex new presumption formula combining accounting book value and a specific multiplier of profits to determine the taxable value of private businesses.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "(a) An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more",
+            "effect": "supports",
+            "why": "It levies a major new tax exclusively on individuals whose net worth is one billion dollars or more.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "(2) Submit a declaration of the amount of any additional tax that is owed under this Part, together with any forms created by the Franchise Tax Board for calculating any additional tax owed under this Part, along with any required appraisals or other evidence of fair market value.",
+            "effect": "conflicts",
+            "why": "It requires taxpayers to submit detailed personal financial data, appraisals, and documentation of all their assets to the state.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "conflicts",
+            "why": "It expands the tax agency's regulatory power by temporarily exempting its rules and guidelines from standard administrative procedures and oversight.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "(1) Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding",
+            "effect": "supports",
+            "why": "It directs the vast majority of the new tax revenue toward funding healthcare, including Medi-Cal.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C08",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "(A) The taxpayer shall report the following at the time when forms are filed pursuant to this Chapter: (i) The percentage of the business entity owned by the taxpayer, (ii) The book value of the business entity as of the end of the tax year, determined according to generally accepted accounting principles; and (iii) The book profits of the business entity in the tax year",
+            "effect": "conflicts",
+            "why": "It increases the paperwork and reporting burden on private business entities owned by affected taxpayers by demanding specific accounting and profit metrics.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "conflicts",
+            "why": "It allows the appointed Franchise Tax Board to create rules and procedures without the normal legislative and public constraints of the Administrative Procedure Act.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "(c) Notwithstanding any other provision of the Constitution, the Act provides for taxation on all forms of personal property and wealth, whether tangible or intangible",
+            "effect": "conflicts",
+            "why": "It directly subjects owners' personal property, assets, and wealth to a new state tax.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "(f) Upon enactment of the 2026 Billionaire Tax Act and each fiscal year thereafter that the Reserve Fund is in existence, the Department of Finance, in consultation with relevant state agencies, shall provide to the Legislature all the following information: (1) The current balance in the Reserve Fund as of the reporting date;",
+            "effect": "supports",
+            "why": "It requires the Department of Finance to deliver annual reports to the Legislature on the balance, spending, and future plans for the new funds.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C74",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "(d) After accounting for administrative expenses as provided by law, the Controller shall allocate and transfer the remaining moneys in the Reserve Fund to the following sub-accounts, which are hereby created: 90% to the Billionaire Tax Health Account and 10% to the Billionaire Tax Education and Food Assistance Account.",
+            "effect": "supports",
+            "why": "It automatically dedicates fixed percentages of the new tax revenue to specific health, education, and food programs.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "(t) \"Appropriations subject to limitation\" of each entity of government and the state under Article XIIIB shall not include appropriations of revenue from the Reserve Fund.",
+            "effect": "supports",
+            "why": "It exempts the new tax revenues from the state's constitutional appropriations limit, removing a cap on total state spending.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "(d) After accounting for administrative expenses as provided by law, the Controller shall allocate and transfer the remaining moneys in the Reserve Fund to the following sub-accounts, which are hereby created: 90% to the Billionaire Tax Health Account and 10% to the Billionaire Tax Education and Food Assistance Account.",
+            "effect": "conflicts",
+            "why": "It locks all revenues from the tax exclusively into special accounts for health, education, and food assistance, preventing their use for the general fund.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "supports",
+            "why": "It grants the appointed Franchise Tax Board the power to make determinations and rules without the normal oversight constraints.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C42",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "(2) Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account for education-related and food assistance expenditures",
+            "effect": "supports",
+            "why": "It dedicates a share of the billionaire tax revenue to funding education.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "(c) The penalties are as follows: (I) The penalty for a substantial understatement under this Section shall be an amount equal to 20 percent of any understatement of tax.",
+            "effect": "conflicts",
+            "why": "It exposes taxpayers to massive new financial penalties if they substantially understate their net worth and tax liability.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "(n) Power of the Board. Without implication as to the powers of the Board in relation to any other tax, ifthe Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.",
+            "effect": "supports",
+            "why": "It allows the tax board to escalate an administrative loss into a full new court trial.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 9",
+            "quote": "the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act",
+            "effect": "supports",
+            "why": "It explicitly grants citizens and the measure's proponent the legal standing to sue or intervene in court to defend the law.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 9",
+            "quote": "the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act",
+            "effect": "supports",
+            "why": "It protects the initiative process by guaranteeing that the proponent of a measure has the legal standing to defend it in court if the government declines.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C02",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "(1) Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding",
+            "effect": "supports",
+            "why": "It dedicates new tax revenue directly to funding public healthcare programs.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "(2) Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "supports",
+            "why": "It significantly broadens the power of the state tax agency by freeing it from standard rulemaking limits for its initial implementation phase.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "(a) An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more",
+            "effect": "conflicts",
+            "why": "It creates a massive new state tax liability for qualifying households.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "(a) An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more",
+            "effect": "conflicts",
+            "why": "It targets a specific segment of high-net-worth individuals for an exclusive 5% tax rather than applying evenly across incomes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50314",
+            "quote": "(2) Any appeal from an adverse determination in the Sacramento County Superior Court shall be directly to the California Supreme Court, without intermediate appellate review;",
+            "effect": "conflicts",
+            "why": "It weakens judicial checks by skipping the normal appellate court process and removing a layer of review for legal challenges.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q1",
+        "answer": "Current law does not impose a statewide wealth tax on individuals; taxation is based on income, sales, and real property. This measure imposes a one-time 5% excise tax on the net worth of California residents who have assets over $1 billion as of January 1, 2026, creating complex new rules for valuing private businesses, out-of-state property, and trusts.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "question_id": "Q2",
+        "answer": "The text explicitly authorizes up to $50 million in direct startup loans to the Franchise Tax Board. Massive compliance costs will fall on taxpayers to secure certified appraisals and manage reporting. Opportunity costs could include wealthy individuals leaving the state or delaying investments to avoid the tax boundary.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "question_id": "Q3",
+        "answer": "The cost falls exclusively on the approximately 200 California billionaires targeted by the tax. The benefits flow primarily to low-income residents who use Medi-Cal, public schools, and food assistance programs, as well as the healthcare providers and school districts that receive the augmented state funding.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "question_id": "Q4",
+        "answer": "Taxpayers will likely attempt aggressive legal challenges and complex asset restructurings, moving wealth into out-of-state trusts or re-characterizing assets. Some may utilize the Optional Deferral Accounts to indefinitely delay payment on illiquid assets. The Franchise Tax Board will respond by hiring experts and initiating extensive audits to contest asset valuations.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 2",
+        "question_id": "Q5",
+        "answer": "The measure addresses projected multi-billion-dollar federal funding cuts to California's safety net programs and extreme wealth inequality. It attempts to fix this by directly taxing the accumulated assets of billionaires to backfill the state budget. The mechanism may face practical collection hurdles due to the illiquid and movable nature of extreme wealth.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "question_id": "Q6",
+        "answer": "The Franchise Tax Board gains extraordinary new discretionary power to value private assets, assess heavy penalties, and create rules without standard administrative constraints. Proponents of the measure gain the legal standing to defend it in court. The Legislature gains the authority to appropriate up to $25 billion annually from the Reserve Fund.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q7",
+        "answer": "The revenue and economic impacts of a state-level wealth tax are fiercely disputed. Proponents assert it will raise necessary revenue from a highly concentrated, untaxed pool of wealth without harming the broader economy. Opponents argue it will cause immediate capital flight, widespread tax evasion, and heavy administrative costs, potentially depressing long-term state revenues.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "question_id": "Q8",
+        "answer": "The text allocates up to $50 million for initial administration alone, with ongoing costs fully reimbursed from the tax revenue. Significant portions of early revenue could be absorbed by litigation defense, outside expert hiring, and the complex auditing required to enforce the valuation rules.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50310",
+        "question_id": "Q9",
+        "answer": "Because the core tax structure is embedded in the California Constitution, repealing it requires a subsequent ballot measure. However, the Legislature may amend the statutory provisions by a two-thirds vote, provided the amendments are consistent with and further the Act's purposes.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50312",
+        "flag_id": "F1",
+        "quote": "(k) General anti-avoidance rule. (1) If the Board determines that a transaction or series of transactions lack economic substance, or that a substantial purpose for any transaction or series of transactions was to obtain a tax benefit with respect to this Part that is not intended by the voters or the Legislature",
+        "note": "Allows the Board to retroactively override transactions based on subjective interpretations of economic substance or voter intent."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "flag_id": "F2",
+        "quote": "(e) Notwithstanding any other law, the Reserve Fund is a special fund, permanently separate and apart from the General Fund",
+        "note": "Overrides existing state accounting and fund rules."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "flag_id": "F3",
+        "quote": "(c) The Legislature shall have the authority to appropriate up to $22.5 billion each fiscal year from the Billionaire Tax Health Account and up to $2.5 billion each year from the Billionaire Tax Education and Food Assistance Account.",
+        "note": "The actual distribution of the tax revenue to specific programs depends on the Legislature exercising its appropriation authority."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50311",
+        "flag_id": "F5",
+        "quote": "(a) The provisions of the 2026 Billionaire Tax Act, also referred to as \"the Act,\" are severable.",
+        "note": "Includes a severability clause specifically instructing courts to reform dates to save the tax if necessary."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50308",
+        "flag_id": "F6",
+        "quote": "(n) \"Tax obligation date\" means January I, 2026.",
+        "note": "Sets a rigid, retroactive date for assessing tax residency and obligation."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50310",
+        "flag_id": "F7",
+        "quote": "The Legislature may amend the 2026 Billionaire Tax Act, by statute passed in each house of the Legislature by rollcall vote entered in the journal, two-thirds of the membership concurring, ifthe statute is consistent with and furthers the purposes of the 2026 Billionaire Tax Act.",
+        "note": "Requires a supermajority and limits amendments to those that \"further the purposes\" of the measure."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "flag_id": "F8",
+        "quote": "(1) Ninety percent shall be allocated to the Billionaire Tax Health Account ... (2) Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account",
+        "note": "Bundles funding for distinct policy areas (healthcare, education, and food programs) under a single tax measure."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 9",
+        "flag_id": "F9",
+        "quote": "any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene",
+        "note": "Creates a private right of action for any citizen to initiate or intervene in lawsuits to defend the Act."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [
+    "[Prop 40 Preamble]",
+    "[Prop 40 Sec. 1]",
+    "[Prop 40 Sec. 2]",
+    "[Prop 40 Sec. 3]",
+    "[Prop 40 Sec. 4 §37]",
+    "[Prop 40 Sec. 5 §16355]",
+    "[Prop 40 Sec. 6 §50300]",
+    "[Prop 40 Sec. 6 §50301]",
+    "[Prop 40 Sec. 6 §50302]",
+    "[Prop 40 Sec. 6 §50303]",
+    "[Prop 40 Sec. 6 §50304]",
+    "[Prop 40 Sec. 6 §50305]",
+    "[Prop 40 Sec. 6 §50306]",
+    "[Prop 40 Sec. 6 §50307]",
+    "[Prop 40 Sec. 6 §50308]",
+    "[Prop 40 Sec. 6 §50309]",
+    "[Prop 40 Sec. 6 §50310]",
+    "[Prop 40 Sec. 6 §50311]",
+    "[Prop 40 Sec. 6 §50312]",
+    "[Prop 40 Sec. 6 §50313]",
+    "[Prop 40 Sec. 6 §50314]",
+    "[Prop 40 Sec. 7]",
+    "[Prop 40 Sec. 8]",
+    "[Prop 40 Sec. 9]"
+  ],
+  "seconds": 207.7,
+  "errors": [
+    "C74 evidence: quote not found verbatim in Prop 40 Sec. 4 §37: '(d) After accounting for administrative expenses as provided'",
+    "C06 evidence: quote not found verbatim in Prop 40 Sec. 4 §37: '(d) After accounting for administrative expenses as provided'",
+    "C78 evidence in Prop 40 Sec. 6 §50312: mirror C23 has no evidence with the same clause and quote",
+    "C23 evidence in Prop 40 Sec. 6 §50312: mirror C78 has no evidence with the same clause and quote",
+    "C23 evidence in Prop 40 Sec. 9: mirror C78 has no evidence with the same clause and quote",
+    "analysis: blocked term 'extreme'"
+  ],
+  "accepted": false
+}

@@ -1,0 +1,27 @@
+# Who funds, supports, and opposes each measure. Shown next to the text analysis,
+# never sent to a model. Every row cites a source below.
+#
+# committees:    the campaign committees formed for or against the measure
+# contributions: money given to one of those committees (from -> to)
+# endorsements:  public statements of support or opposition
+# side: support | oppose (the measure). A contribution takes the side of the committee it went to.
+as_of: 2026-10-20
+synthetic: true
+sources:
+  demo: {title: "Synthetic demo data (not real filings)", url: null, fetched_at: null}
+
+measures:
+  Measure A:
+    committees:
+    - {entity: committee-for-a, side: support, raised_usd: 1850000, source: demo}
+    - {entity: committee-against-a, side: oppose, raised_usd: 2400000, source: demo}
+    contributions:
+    - {from: example-safety-fund, to: committee-for-a, amount_usd: 1200000, source: demo}
+    - {from: example-donor-one, to: committee-for-a, amount_usd: 250000, source: demo}
+    - {from: example-sporting-council, to: committee-against-a, amount_usd: 1900000, source: demo}
+    - {from: example-retailers, to: committee-against-a, amount_usd: 150000, source: demo}
+    - {from: example-donor-two, to: committee-against-a, amount_usd: 1200, source: demo}
+    endorsements:
+    - {entity: example-safety-fund, side: support, source: demo}
+    - {entity: example-sporting-council, side: oppose, source: demo}
+    - {entity: example-clerks, side: oppose, source: demo}

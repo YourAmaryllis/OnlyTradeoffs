@@ -1,0 +1,761 @@
+{
+  "manifest": {
+    "measure_id": "SYN-0001",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "7b33aefee47e9ce286448acc726e7c5608dab7fe2a0ecc749f5815c517870764",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "982746e34bd0cafb0e06b9267b501b8674de25e65d86ca0672620de5b171677b",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "b1b2809a63cb32ec35c0ca2d788933d598ffd65867a928200a52a7ce26667eb1"
+    }
+  },
+  "prompt_file": "SYN-0001.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T07:35:04.960046+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 5126,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5126
+        }
+      ],
+      "prompt_token_count": 6470,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6470
+        }
+      ],
+      "thoughts_token_count": 8051,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 19647,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"SYN-0001\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"text\": \"Requires individuals keeping a firearm in a residence to store it in a locked container when not carried or used.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"text\": \"Directs the Department to issue a storage certificate to applicants for a $25 fee.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"text\": \"Preempts all city and county ordinances regarding firearm storage, establishing that the act occupies the entire field of regulation.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §1\",\n          \"quote\": \"shall store it in a locked container\",\n          \"effect\": \"supports\",\n          \"why\": \"Requiring individuals to store firearms in a locked container imposes a new restriction on firearm storage.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"SYN-0001 §3\",\n          \"quote\": \"A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Preempting city and county ordinances prevents local governments from enforcing tighter firearm storage regulations.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §1\",\n          \"quote\": \"shall store it in a locked container\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Mandating locked containers expands government mandates on residents' private behavior.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"SYN-0001 §2\",\n          \"quote\": \"issue a storage certificate to each applicant upon payment of a fee\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Requiring the Department to process applications and collect fees expands a government program.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"SYN-0001 §3\",\n          \"quote\": \"A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n          \"effect\": \"supports\",\n          \"why\": \"Stripping cities and counties of their ability to regulate firearm storage reduces the regulatory powers of local governments.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §3\",\n          \"quote\": \"This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n          \"effect\": \"supports\",\n          \"why\": \"Declaring that the act occupies the whole field and banning local ordinances shifts all regulatory authority over firearm storage to the state.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §1\",\n          \"quote\": \"shall store it in a locked container\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Mandating the use of a locked container restricts how firearm owners may keep their weapons at home.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"SYN-0001 §3\",\n          \"quote\": \"A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n          \"effect\": \"supports\",\n          \"why\": \"Prohibiting local storage ordinances protects firearm owners from navigating a patchwork of potentially stricter local rules.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §3\",\n          \"quote\": \"This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Forbidding cities and counties from adopting or enforcing firearm storage ordinances strips local governments of their authority over the issue.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §2\",\n          \"quote\": \"upon payment of a fee of twenty-five dollars ($25).\",\n          \"effect\": \"supports\",\n          \"why\": \"Collecting a $25 fee from applicants generates new revenue for the Department.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §1\",\n          \"quote\": \"shall store it in a locked container\",\n          \"effect\": \"supports\",\n          \"why\": \"Mandating locked containers creates a new government mandate on private residents.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"SYN-0001 §2\",\n          \"quote\": \"issue a storage certificate to each applicant upon payment of a fee\",\n          \"effect\": \"supports\",\n          \"why\": \"Requiring the Department to issue certificates and collect fees expands a government program.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"SYN-0001 §3\",\n          \"quote\": \"A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Preempting local ordinances removes the regulatory power of cities and counties over firearm storage.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §2\",\n          \"quote\": \"upon payment of a fee of twenty-five dollars ($25).\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Creating a $25 fee for a storage certificate imposes a new financial cost on individuals who own firearms.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"SYN-0001 §2\",\n          \"quote\": \"upon payment of a fee of twenty-five dollars ($25).\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Setting a mandatory $25 fee directly increases the charges residents must pay to obtain a storage certificate.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law has no state rules on residential firearm storage, allowing cities and counties to adopt their own ordinances. The measure establishes a statewide mandate to store unattended firearms in a locked container, introduces a $25 storage certificate, and strips local governments of the power to regulate firearm storage.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include the $25 fee for the storage certificate and the purchase price of a locked container for those who do not already own one. Opportunity costs include the time spent completing the certificate application process.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Firearm owners bear the costs of the fee and the required storage containers. The state Department receives the fee revenue. Firearm owners benefit from a uniform statewide standard instead of varying local rules, while residents may benefit from potentially reduced unauthorized access to firearms.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Many firearm owners will likely purchase lockboxes or safes to comply, though some may ignore the mandate given the difficulty of enforcement inside private homes. The Department will need to establish a system to process applications and issue certificates. Local governments with existing storage ordinances will have to stop enforcing them.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the risk of unauthorized access to firearms and the complexity of varying local storage laws. The locked-container requirement directly targets unauthorized access, though it relies heavily on voluntary compliance. The preemption clause effectively resolves the patchwork of local rules by centralizing authority at the state level.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The state legislature and the Department gain power over firearm storage policy and administration. Cities and counties lose their regulatory authority over the issue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effectiveness of safe storage laws in reducing accidental shootings and suicides is broadly supported by public health research, though researchers sometimes debate the exact magnitude of the effect and the level of actual compliance among firearm owners.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"A portion of the $25 fee revenue will be absorbed by the Department's administrative costs to process applications, verify payments, and issue the certificates.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"As a statutory measure, it can be amended or repealed by the legislature through the normal legislative process.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"locked container\",\n      \"note\": \"The text requires a \\\"locked container\\\" without defining what types of devices (e.g., safes, lockboxes, trigger locks) meet this standard.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"The Department shall issue a storage certificate to each applicant\",\n      \"note\": \"The certificate program's real-world operation depends on the Department creating and administering an application process.\"\n    }\n  ]\n}",
+  "parsed": {
+    "measure_id": "SYN-0001",
+    "restatements": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "text": "Requires individuals keeping a firearm in a residence to store it in a locked container when not carried or used."
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "text": "Directs the Department to issue a storage certificate to applicants for a $25 fee."
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "text": "Preempts all city and county ordinances regarding firearm storage, establishing that the act occupies the entire field of regulation."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §1",
+            "quote": "shall store it in a locked container",
+            "effect": "supports",
+            "why": "Requiring individuals to store firearms in a locked container imposes a new restriction on firearm storage.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "SYN-0001 §3",
+            "quote": "A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+            "effect": "conflicts",
+            "why": "Preempting city and county ordinances prevents local governments from enforcing tighter firearm storage regulations.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §1",
+            "quote": "shall store it in a locked container",
+            "effect": "conflicts",
+            "why": "Mandating locked containers expands government mandates on residents' private behavior.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "SYN-0001 §2",
+            "quote": "issue a storage certificate to each applicant upon payment of a fee",
+            "effect": "conflicts",
+            "why": "Requiring the Department to process applications and collect fees expands a government program.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "SYN-0001 §3",
+            "quote": "A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+            "effect": "supports",
+            "why": "Stripping cities and counties of their ability to regulate firearm storage reduces the regulatory powers of local governments.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C77",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §3",
+            "quote": "This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+            "effect": "supports",
+            "why": "Declaring that the act occupies the whole field and banning local ordinances shifts all regulatory authority over firearm storage to the state.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C33",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §1",
+            "quote": "shall store it in a locked container",
+            "effect": "conflicts",
+            "why": "Mandating the use of a locked container restricts how firearm owners may keep their weapons at home.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "SYN-0001 §3",
+            "quote": "A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+            "effect": "supports",
+            "why": "Prohibiting local storage ordinances protects firearm owners from navigating a patchwork of potentially stricter local rules.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §3",
+            "quote": "This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+            "effect": "conflicts",
+            "why": "Forbidding cities and counties from adopting or enforcing firearm storage ordinances strips local governments of their authority over the issue.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C02",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §2",
+            "quote": "upon payment of a fee of twenty-five dollars ($25).",
+            "effect": "supports",
+            "why": "Collecting a $25 fee from applicants generates new revenue for the Department.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C75",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §1",
+            "quote": "shall store it in a locked container",
+            "effect": "supports",
+            "why": "Mandating locked containers creates a new government mandate on private residents.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "SYN-0001 §2",
+            "quote": "issue a storage certificate to each applicant upon payment of a fee",
+            "effect": "supports",
+            "why": "Requiring the Department to issue certificates and collect fees expands a government program.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "SYN-0001 §3",
+            "quote": "A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+            "effect": "conflicts",
+            "why": "Preempting local ordinances removes the regulatory power of cities and counties over firearm storage.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §2",
+            "quote": "upon payment of a fee of twenty-five dollars ($25).",
+            "effect": "conflicts",
+            "why": "Creating a $25 fee for a storage certificate imposes a new financial cost on individuals who own firearms.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "SYN-0001 §2",
+            "quote": "upon payment of a fee of twenty-five dollars ($25).",
+            "effect": "conflicts",
+            "why": "Setting a mandatory $25 fee directly increases the charges residents must pay to obtain a storage certificate.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q1",
+        "answer": "Current law has no state rules on residential firearm storage, allowing cities and counties to adopt their own ordinances. The measure establishes a statewide mandate to store unattended firearms in a locked container, introduces a $25 storage certificate, and strips local governments of the power to regulate firearm storage.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "question_id": "Q2",
+        "answer": "Direct costs include the $25 fee for the storage certificate and the purchase price of a locked container for those who do not already own one. Opportunity costs include the time spent completing the certificate application process.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q3",
+        "answer": "Firearm owners bear the costs of the fee and the required storage containers. The state Department receives the fee revenue. Firearm owners benefit from a uniform statewide standard instead of varying local rules, while residents may benefit from potentially reduced unauthorized access to firearms.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q4",
+        "answer": "Many firearm owners will likely purchase lockboxes or safes to comply, though some may ignore the mandate given the difficulty of enforcement inside private homes. The Department will need to establish a system to process applications and issue certificates. Local governments with existing storage ordinances will have to stop enforcing them.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the risk of unauthorized access to firearms and the complexity of varying local storage laws. The locked-container requirement directly targets unauthorized access, though it relies heavily on voluntary compliance. The preemption clause effectively resolves the patchwork of local rules by centralizing authority at the state level.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "question_id": "Q6",
+        "answer": "The state legislature and the Department gain power over firearm storage policy and administration. Cities and counties lose their regulatory authority over the issue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q7",
+        "answer": "The effectiveness of safe storage laws in reducing accidental shootings and suicides is broadly supported by public health research, though researchers sometimes debate the exact magnitude of the effect and the level of actual compliance among firearm owners.",
+        "disputed": true
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "question_id": "Q8",
+        "answer": "A portion of the $25 fee revenue will be absorbed by the Department's administrative costs to process applications, verify payments, and issue the certificates.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q9",
+        "answer": "As a statutory measure, it can be amended or repealed by the legislature through the normal legislative process.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "flag_id": "F1",
+        "quote": "locked container",
+        "note": "The text requires a \"locked container\" without defining what types of devices (e.g., safes, lockboxes, trigger locks) meet this standard."
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "flag_id": "F3",
+        "quote": "The Department shall issue a storage certificate to each applicant",
+        "note": "The certificate program's real-world operation depends on the Department creating and administering an application process."
+      }
+    ]
+  },
+  "stripped_fences": false,
+  "seconds": 130.7,
+  "errors": [],
+  "accepted": true
+}

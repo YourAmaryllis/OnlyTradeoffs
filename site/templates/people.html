@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}People and organizations · Only Tradeoffs{% endblock %}
+{% block main %}
+<h1>People and organizations</h1>
+<p class="lede">Everyone on record as funding, running, or endorsing a campaign for or against a measure on this site. Open a name to see their record across elections.</p>
+<p class="small muted">From campaign filings and public endorsements. Individuals who gave less than ${{ '{:,}'.format(policy.individual_min_usd or 0) }} to a measure are counted on the measure page but not named. Nobody is labeled by what they fund.</p>
+<table class="record">
+  <thead><tr><th>Name</th><th>Kind</th><th class="num">Measures</th><th class="num">Gave supporting</th><th class="num">Gave opposing</th></tr></thead>
+  <tbody>
+  {% for p in people %}
+    <tr><td><a href="{{ p.id }}/index.html">{{ p.name }}</a></td><td>{{ p.kind }}</td><td class="num">{{ p.n_measures }}</td>
+      <td class="num">{% if p.totals.support %}${{ '{:,.0f}'.format(p.totals.support) }}{% endif %}</td>
+      <td class="num">{% if p.totals.oppose %}${{ '{:,.0f}'.format(p.totals.oppose) }}{% endif %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

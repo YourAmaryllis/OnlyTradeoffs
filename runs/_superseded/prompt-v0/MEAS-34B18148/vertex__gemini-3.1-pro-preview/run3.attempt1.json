@@ -1,0 +1,300 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-34B18148",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "7cd321a974137208f24a319a7afa9d3fc901ee67cf4a58085e3aa3499be15ed5",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "c8015ddc8e7def620f743065db784cb1c7d45ebd97c5513b9cf6e24e4e0d7bca"
+    }
+  },
+  "prompt_file": "MEAS-34B18148.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:21:46.755198+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1644,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1644
+        }
+      ],
+      "prompt_token_count": 7315,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7315
+        }
+      ],
+      "thoughts_token_count": 3630,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12589,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-34B18148\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires a corporation that spends over $10,000 on independent political expenditures in a year to publicly disclose the identity of anyone who contributed more than $1,000 toward those expenditures.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C60\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures\",\n      \"mechanism\": \"The measure mandates that the names of individuals giving more than $1,000 for certain corporate political spending be made public.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C61\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures\",\n      \"mechanism\": \"The measure mandates that the names of individuals giving more than $1,000 for certain corporate political spending be made public, removing their anonymity.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"A corporation that makes independent political expenditures over $10,000 in a calendar year shall publicly disclose\",\n      \"mechanism\": \"Corporations engaging in this spending must track and report individual donor information, adding an administrative paperwork burden.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C24\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures\",\n      \"mechanism\": \"The requirement compels corporations to publish lists of donors and prevents those donors from remaining anonymous in their political funding.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law requires corporations to report only the total amount spent on independent political expenditures. This measure changes that by requiring them to also disclose the identities of individuals who contributed more than $1,000 toward those expenditures, if the corporation spends over $10,000 in a year.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"There will be administrative costs for the state campaign finance agency to process and publish the new disclosures. Corporations will face compliance costs to track, verify, and report donor identities. There may be an opportunity cost if corporations reduce political spending to avoid the reporting burden.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Corporations bear the compliance costs of tracking and reporting. Donors who prefer anonymity bear the cost of exposure. Watchdog organizations, journalists, political opponents, and the voting public benefit from increased visibility into who is funding corporate political spending.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Corporations may attempt to solicit donations just under the $1,000 threshold, or cap their independent expenditures at $9,999 to avoid the disclosure requirement entirely. Alternatively, donors seeking anonymity might route their money through other entities not covered by this specific disclosure rule.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the information gap known as dark money, where voters see political spending but do not know the original source of the funds. The mechanism reaches this by forcing disclosure of large donors, though it may create incentives for donors and corporations to use loopholes or restructure their giving to bypass the specific thresholds.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The voting public, journalists, and campaign watchdog groups gain information power. State regulators gain oversight and enforcement authority over corporate political accounting.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded public disclosure of the major donors funding corporate political expenditures.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The ability of large donors to anonymously fund corporate political expenditures.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower compliance and paperwork burdens for corporations making political expenditures.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"Protection against compelled speech for corporations and anonymous speech protections for their donors.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The ability of large donors to anonymously fund corporate political expenditures.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower compliance and paperwork burdens for corporations making political expenditures.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"Protection against compelled speech for corporations and anonymous speech protections for their donors.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded public disclosure of the major donors funding corporate political expenditures.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-34B18148",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires a corporation that spends over $10,000 on independent political expenditures in a year to publicly disclose the identity of anyone who contributed more than $1,000 toward those expenditures."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C60",
+        "effect": "advances",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures",
+        "mechanism": "The measure mandates that the names of individuals giving more than $1,000 for certain corporate political spending be made public.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C61",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures",
+        "mechanism": "The measure mandates that the names of individuals giving more than $1,000 for certain corporate political spending be made public, removing their anonymity.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "costs",
+        "direction": null,
+        "quote": "A corporation that makes independent political expenditures over $10,000 in a calendar year shall publicly disclose",
+        "mechanism": "Corporations engaging in this spending must track and report individual donor information, adding an administrative paperwork burden.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C24",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures",
+        "mechanism": "The requirement compels corporations to publish lists of donors and prevents those donors from remaining anonymous in their political funding.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law requires corporations to report only the total amount spent on independent political expenditures. This measure changes that by requiring them to also disclose the identities of individuals who contributed more than $1,000 toward those expenditures, if the corporation spends over $10,000 in a year.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "There will be administrative costs for the state campaign finance agency to process and publish the new disclosures. Corporations will face compliance costs to track, verify, and report donor identities. There may be an opportunity cost if corporations reduce political spending to avoid the reporting burden.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Corporations bear the compliance costs of tracking and reporting. Donors who prefer anonymity bear the cost of exposure. Watchdog organizations, journalists, political opponents, and the voting public benefit from increased visibility into who is funding corporate political spending.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Corporations may attempt to solicit donations just under the $1,000 threshold, or cap their independent expenditures at $9,999 to avoid the disclosure requirement entirely. Alternatively, donors seeking anonymity might route their money through other entities not covered by this specific disclosure rule.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the information gap known as dark money, where voters see political spending but do not know the original source of the funds. The mechanism reaches this by forcing disclosure of large donors, though it may create incentives for donors and corporations to use loopholes or restructure their giving to bypass the specific thresholds.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "The voting public, journalists, and campaign watchdog groups gain information power. State regulators gain oversight and enforcement authority over corporate political accounting.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded public disclosure of the major donors funding corporate political expenditures.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The ability of large donors to anonymously fund corporate political expenditures.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower compliance and paperwork burdens for corporations making political expenditures.",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "Protection against compelled speech for corporations and anonymous speech protections for their donors.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The ability of large donors to anonymously fund corporate political expenditures.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower compliance and paperwork burdens for corporations making political expenditures.",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "Protection against compelled speech for corporations and anonymous speech protections for their donors.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Expanded public disclosure of the major donors funding corporate political expenditures.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 46.2,
+  "errors": [],
+  "accepted": true
+}

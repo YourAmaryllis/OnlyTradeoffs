@@ -1,0 +1,263 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-308F87C2",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "fb866d93e37e5b49b1939c39c7a0e8a3950aecf3f9cf9411ecabafaaae42746c",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "11779b5af4f727bf379c171257097984a98ca7df3aa478085c701406bd62d6a1"
+    }
+  },
+  "prompt_file": "MEAS-308F87C2.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:20:14.962685+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1308,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1308
+        }
+      ],
+      "prompt_token_count": 7333,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7333
+        }
+      ],
+      "thoughts_token_count": 1741,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10382,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-308F87C2\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the education savings account program on July 1, 2028, and transfers any remaining funds in those accounts to the state school fund.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C41\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The education savings account program is repealed\",\n      \"mechanism\": \"Eliminates a program that allows parents to use 90 percent of state per-pupil funding for private tuition, tutoring, textbooks, and online courses.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C42\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Funds remaining in an account on that date revert to the state school fund.\",\n      \"mechanism\": \"Returns unspent private account balances to the public school system and stops future state per-pupil funding from being diverted away from district schools.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, parents can open an education savings account funded with 90 percent of state per-pupil funding to pay for private education expenses. The measure repeals this program in 2028 and sends any remaining funds back to the state school fund.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The measure removes a source of state financial support for private education, increasing out-of-pocket costs for families who continue to use private schools or tutoring. It shifts those state funds back to the public education budget.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Families using the accounts lose a financial benefit and will have to cover alternative education costs themselves. Public school districts benefit by keeping or regaining per-pupil funding that would have otherwise gone to private accounts.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Families currently using the program may transfer their children back to public schools, creating an enrollment increase for districts. Alternatively, they may keep their children in private schools and cut back on other household spending. Private education providers might see reduced demand or revenue as families lose their state subsidies.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the diversion of state education funds to private alternatives. It removes the program, preventing public money from being used for private tuition and ensuring per-pupil funding stays in the public school system.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Public school districts gain resources and potentially enrollment. Private schools and tutoring services lose access to state-subsidized customers.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"effective July 1, 2028.\",\n      \"note\": \"The repeal takes effect on a delayed date, creating a multi-year phase-out period.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Retention of state per-pupil funding within the public school system, and the return of unspent private account balances to the state school fund.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Publicly funded education savings accounts that parents can use for private tuition, tutoring, textbooks, and online courses.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"No directional concerns were identified.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Education savings accounts that provide parents with 90 percent of state per-pupil funding for private schooling and tutoring.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Returning unspent account balances and redirecting future per-pupil funding back to the state school fund.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-308F87C2",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the education savings account program on July 1, 2028, and transfers any remaining funds in those accounts to the state school fund."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C41",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The education savings account program is repealed",
+        "mechanism": "Eliminates a program that allows parents to use 90 percent of state per-pupil funding for private tuition, tutoring, textbooks, and online courses.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C42",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Funds remaining in an account on that date revert to the state school fund.",
+        "mechanism": "Returns unspent private account balances to the public school system and stops future state per-pupil funding from being diverted away from district schools.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, parents can open an education savings account funded with 90 percent of state per-pupil funding to pay for private education expenses. The measure repeals this program in 2028 and sends any remaining funds back to the state school fund.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The measure removes a source of state financial support for private education, increasing out-of-pocket costs for families who continue to use private schools or tutoring. It shifts those state funds back to the public education budget.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Families using the accounts lose a financial benefit and will have to cover alternative education costs themselves. Public school districts benefit by keeping or regaining per-pupil funding that would have otherwise gone to private accounts.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Families currently using the program may transfer their children back to public schools, creating an enrollment increase for districts. Alternatively, they may keep their children in private schools and cut back on other household spending. Private education providers might see reduced demand or revenue as families lose their state subsidies.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the diversion of state education funds to private alternatives. It removes the program, preventing public money from being used for private tuition and ensuring per-pupil funding stays in the public school system.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Public school districts gain resources and potentially enrollment. Private schools and tutoring services lose access to state-subsidized customers.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F6",
+        "quote": "effective July 1, 2028.",
+        "note": "The repeal takes effect on a delayed date, creating a multi-year phase-out period."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Retention of state per-pupil funding within the public school system, and the return of unspent private account balances to the state school fund.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Publicly funded education savings accounts that parents can use for private tuition, tutoring, textbooks, and online courses.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "No directional concerns were identified."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Education savings accounts that provide parents with 90 percent of state per-pupil funding for private schooling and tutoring.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Returning unspent account balances and redirecting future per-pupil funding back to the state school fund.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 33.8,
+  "errors": [],
+  "accepted": true
+}

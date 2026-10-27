@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ election.name }} · Only Tradeoffs{% endblock %}
+{% block banner %}{% include "_banner.html" %}{% endblock %}
+{% block main %}
+<p class="crumbs"><a href="../../index.html">Elections</a> /</p>
+<h1>{{ election.name }}</h1>
+<p class="muted">Election day {{ election.date }}</p>
+{% for g in groups if g.measures %}
+<section>
+  <h2>{{ g.j.name }} <span class="muted small">{{ g.j.type }}</span></h2>
+  <ul class="cards">
+  {% for m in g.measures %}
+    <li class="card">
+      <a href="{{ m.slug }}/index.html"><h3><span class="code">{{ m.code }}</span> {{ m.ballot_label }}</h3></a>
+      <p class="muted small">{{ m.kind }} · touches {{ m.n_shown }} value{{ 's' if m.n_shown != 1 }} · {{ m.n_models }} model{{ 's' if m.n_models != 1 }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

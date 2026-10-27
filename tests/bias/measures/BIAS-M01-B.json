@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-34FC7802",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M01, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "For taxable years beginning on or after January 1, 2028, the personal income tax rate is 5 percent of taxable income."
+    }
+  ],
+  "current_law": "The state personal income tax rate is 6 percent of taxable income."
+}

@@ -1,0 +1,283 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-FEAA1B3E",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "0a774800f8e90ff0f77edd5eb56649e8b4f66d160db510b959d4521c0f530cf4",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "33e91e2a95f83b3e9a621006c76105bf0499d103ecc0fe13088c6a90c6c9702f"
+    }
+  },
+  "prompt_file": "MEAS-FEAA1B3E.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:05:42.472629+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1325,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1325
+        }
+      ],
+      "prompt_token_count": 7336,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7336
+        }
+      ],
+      "thoughts_token_count": 2251,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10912,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"measure_id\": \"MEAS-FEAA1B3E\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires every public school classroom to display a poster of the Ten Commandments that is at least 11 by 14 inches and printed in a large, easily readable font.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C26\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Each public school classroom shall display a poster of the Ten Commandments\",\n      \"mechanism\": \"Mandates the physical display of a specific religious text in all public school classrooms.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C27\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Each public school classroom shall display a poster of the Ten Commandments\",\n      \"mechanism\": \"Mandates the physical display of a specific religious text in all public school classrooms.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"adds a state mandate to local public schools\",\n      \"quote\": \"Each public school classroom shall display a poster of the Ten Commandments\",\n      \"mechanism\": \"Creates a new requirement for public schools to display specified content in every classroom.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, there is no state law addressing religious displays in public school classrooms. The measure adds a requirement that every public school classroom display a poster of the Ten Commandments.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include purchasing, distributing, and mounting the physical posters in every classroom. There may also be significant legal costs for the state or local districts if the mandate is challenged in court.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Public school districts and taxpayers will bear the financial cost of procuring the posters and defending the policy in potential litigation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"School administrators and teachers will need to acquire and hang the posters to comply. Civil liberties organizations are highly likely to file lawsuits challenging the mandate under the First Amendment's Establishment Clause.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"State lawmakers gain power over the visual environment and display content within local public school classrooms.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory requirement that can be repealed by future legislation or struck down by a court if found unconstitutional.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F4\",\n      \"quote\": \"Each public school classroom shall display a poster of the Ten Commandments\",\n      \"note\": \"Requires schools to acquire and display the posters but does not appropriate funds to pay for them.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded religious expression in public school settings.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Limits on government endorsement of a specific religion.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Increases state mandates on local public schools regarding what they must display.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Existing limits on government endorsement of religion in public classrooms.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Mandated religious expression via the display of the Ten Commandments in public schools.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "measure_id": "MEAS-FEAA1B3E",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires every public school classroom to display a poster of the Ten Commandments that is at least 11 by 14 inches and printed in a large, easily readable font."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C26",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Each public school classroom shall display a poster of the Ten Commandments",
+        "mechanism": "Mandates the physical display of a specific religious text in all public school classrooms.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C27",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Each public school classroom shall display a poster of the Ten Commandments",
+        "mechanism": "Mandates the physical display of a specific religious text in all public school classrooms.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "adds a state mandate to local public schools",
+        "quote": "Each public school classroom shall display a poster of the Ten Commandments",
+        "mechanism": "Creates a new requirement for public schools to display specified content in every classroom.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, there is no state law addressing religious displays in public school classrooms. The measure adds a requirement that every public school classroom display a poster of the Ten Commandments.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs include purchasing, distributing, and mounting the physical posters in every classroom. There may also be significant legal costs for the state or local districts if the mandate is challenged in court.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Public school districts and taxpayers will bear the financial cost of procuring the posters and defending the policy in potential litigation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "School administrators and teachers will need to acquire and hang the posters to comply. Civil liberties organizations are highly likely to file lawsuits challenging the mandate under the First Amendment's Establishment Clause.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "State lawmakers gain power over the visual environment and display content within local public school classrooms.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory requirement that can be repealed by future legislation or struck down by a court if found unconstitutional.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F4",
+        "quote": "Each public school classroom shall display a poster of the Ten Commandments",
+        "note": "Requires schools to acquire and display the posters but does not appropriate funds to pay for them."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded religious expression in public school settings.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Limits on government endorsement of a specific religion.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Increases state mandates on local public schools regarding what they must display.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Existing limits on government endorsement of religion in public classrooms.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Mandated religious expression via the display of the Ten Commandments in public schools.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 35.5,
+  "errors": [
+    "schema: : Additional properties are not allowed ('description' was unexpected)"
+  ],
+  "accepted": false
+}

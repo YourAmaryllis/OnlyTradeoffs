@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-7F8C4615",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M10, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "A city shall allow up to two homes on any lot zoned for single-family residential use. A city may not require a public hearing to approve a project that meets this section."
+    }
+  ],
+  "current_law": "Cities set the number of homes allowed on each residential lot."
+}

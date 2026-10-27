@@ -1,0 +1,743 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P42",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "770413e1c0c19bd2ebe9ce2634c62002c06e5f53c856433b5c6447b08ec70771",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "09d29f5ffcba4688ac4dfe9052f041802ba5d4f45d983d4c08a684b051aafe69",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "7172dae25005ba4790a8ddeea222f85dc0982cd1de5e477745393f7d6d355560"
+    }
+  },
+  "prompt_file": "CA-2026-P42.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 6,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T09:31:34.008381+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 5801,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5801
+        }
+      ],
+      "prompt_token_count": 9050,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 9050
+        }
+      ],
+      "thoughts_token_count": 9192,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 24043,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P42\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"Prop 42 Sec. 1\",\n      \"text\": \"Titles the act the Retirement and Personal Savings Protection Act of 2026.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 2\",\n      \"text\": \"States findings that Californians face a high cost of living and tax burden, and asserts a need to protect personal savings and retirement holdings from new or retroactive taxation.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 3\",\n      \"text\": \"Declares the purpose of the act is to prohibit new taxes on personal property and savings and to require that new taxes apply prospectively.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"text\": \"Amends the California Constitution to prohibit the state from enacting or collecting any new tax on the ownership or control of retirement holdings, individually-owned assets, and personal savings on or after January 1, 2026. Exempts taxes collected before December 31, 2025, and real property taxes.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §2\",\n      \"text\": \"Prohibits the state from imposing taxes that operate retroactively based on past conduct, activities, or residency status. Provides an exception for emergency taxes passed by the Legislature, provided the retroactivity does not exceed 365 days.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §3\",\n      \"text\": \"Defines \\\"retirement holdings, individually-owned assets, and other forms of personal savings\\\" to include pensions, retirement accounts, mutual funds, and all personal property, whether tangible or intangible.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §4\",\n      \"text\": \"Applies the article's provisions to all statewide initiatives submitted to voters on or after January 1, 2026.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 5\",\n      \"text\": \"Declares that if this measure receives more votes than a conflicting measure on the same ballot, this measure shall prevail and the conflicting measure shall be void.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 6\",\n      \"text\": \"Provides that if any part of the act is found invalid by a court, the remaining portions shall remain in effect.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 7\",\n      \"text\": \"Specifies that the act takes effect and becomes operative at the earliest possible date allowed by the California Constitution.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 8\",\n      \"text\": \"Requires the act to be liberally construed to give effect to its intent.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 9\",\n      \"text\": \"Requires the Attorney General to appoint independent counsel to defend the act if both the Governor and Attorney General refuse to do so, and establishes a continuous appropriation from the General Fund to cover these legal costs.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 42 Sec. 4 §1\",\n          \"quote\": \"No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure explicitly protects seniors and others saving for retirement by prohibiting the state from imposing taxes on the ownership of retirement holdings.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 42 Sec. 4 §1\",\n          \"quote\": \"No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings, individually-owned assets, and other forms of personal savings, whether held directly or indirectly.\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure expands the rights of property owners by prohibiting the state from levying taxes simply for owning or controlling personal property and assets.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 42 Sec. 9\",\n          \"quote\": \"a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act on behalf of the State of California to the fullest extent possible.\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure establishes a continuous, open-ended appropriation from the General Fund specifically to pay for independent counsel to defend the law.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 42 Sec. 4 §1\",\n          \"quote\": \"No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings, individually-owned assets, and other forms of personal savings, whether held directly or indirectly.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure creates a strict lock-in by permanently banning the legislature from enacting taxes on personal property and assets.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 42 Sec. 9\",\n          \"quote\": \"a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure reduces budget flexibility by creating a continuous, guaranteed appropriation that is locked into the General Fund without regard to fiscal years.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 42 Sec. 4 §1\",\n          \"quote\": \"No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings, individually-owned assets, and other forms of personal savings\",\n          \"effect\": \"supports\",\n          \"why\": \"By prohibiting the state from establishing new taxes on personal savings and assets, the measure protects households from potential increases in taxation.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. The measure amends the state constitution to permanently prohibit the imposition of any new tax on the ownership or control of personal property, retirement holdings, and savings. It also prohibits new taxes from applying retroactively, except during emergencies for up to 365 days, and creates a continuous appropriation to fund independent legal defense if state officials decline to defend the measure.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 9\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include an open-ended, continuous appropriation from the General Fund to pay independent counsel if the Governor and Attorney General refuse to defend the act. Opportunity costs include the loss of potential future state revenue that could otherwise be collected through wealth or personal property taxes.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Wealthy individuals, investors, and retirees benefit directly by being shielded from future wealth or asset taxes. The state budget bears the cost of lost potential revenue, which may lead to reduced public services or prompt the legislature to increase other forms of taxation, such as sales or income taxes, passing the burden onto the broader public.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Individuals and businesses may restructure their assets to ensure they fall under the broad constitutional definition of \\\"individually-owned assets\\\" to shield them from taxation. Deprived of the ability to tax wealth directly, the legislature may respond by increasing taxes on alternative sources like corporate income, real estate transactions, or sales.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text asserts that Californians face high taxes and living costs, and that their retirement savings and personal assets are unfairly threatened by proposed wealth taxes and retroactive taxation. The mechanism—a constitutional ban on new personal property taxes and retroactive taxes—directly addresses this by eliminating the state's legal authority to impose them.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §3\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Courts gain significant power to interpret the measure's expansive definition of \\\"personal property\\\" when determining if future taxes violate the ban. Independent counsel, if appointed, gains guaranteed funding and authority to direct state litigation, reducing the discretion normally held by the Attorney General.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The economic impact of banning wealth taxes is disputed. Some researchers find that prohibiting wealth taxes encourages long-term investment and capital accumulation by providing a predictable tax environment. Others argue that banning wealth taxes exacerbates income inequality and forces governments to rely on regressive consumption taxes to fund essential services.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §3\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"The state could face significant administrative and legal costs litigating whether future revenue measures inadvertently tax the \\\"ownership or control\\\" of intangible assets, given the measure's highly expansive definitions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"Because the measure adds a new article to the California Constitution, it can only be undone or modified by another constitutional amendment approved by a majority of voters.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"Prop 42 Sec. 4 §3\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"(a) “Retirement holdings, individually-owned assets, and other forms of personal savings” means pensions; retirement accounts including but not limited to 401(k) accounts, 403(b) accounts, and all other individual retirement accounts; mutual funds; and all personal property, whether tangible or intangible, including but not limited to financial assets, investment accounts, business interests, digital assets, intellectual property, personal belongings, and other assets used to produce or collect income or savings for retirement or financial planning.\",\n      \"note\": \"The definition of protected assets is highly expansive, encompassing nearly all forms of tangible and intangible personal property and business interests.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 9\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"(a) Notwithstanding anything to the contrary contained in Chapter 6 (commencing with Section 12500) of Part 2 of Division 3 of Title 2 of the Government Code or any other law, the Attorney General shall appoint independent counsel to faithfully and vigorously defend this Act to the fullest extent possible on behalf of the State of California.\",\n      \"note\": \"Overrides existing laws regarding the Attorney General's authority and discretion over state litigation.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 6\",\n      \"flag_id\": \"F5\",\n      \"quote\": \"Section 6. Severability. The provisions of this Act are severable. If any portion, section, subdivision, paragraph, clause, subclause, sentence, phrase, word, or application of this Act is for any reason held to be invalid by a decision of any court of competent jurisdiction, that decision shall not affect the validity of the remaining portions of this Act. The People of the State of California hereby declare that they would have adopted this Act and each and every portion, section, subdivision, paragraph, clause, subclause, sentence, phrase, word, and application not declared invalid or unconstitutional without regard to whether any part of this Act or application thereof would be subsequently declared invalid.\",\n      \"note\": \"Contains a standard severability clause.\"\n    },\n    {\n      \"clause_id\": \"Prop 42 Sec. 7\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"Section 7. Effective Date. This Act shall take effect at the earliest possible date in accordance with Section 10 of Article II of the California Constitution. This Act shall become operative on the same day it takes effect.\",\n      \"note\": \"Specifies that the act takes effect and becomes operative immediately upon the earliest allowed date.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P42",
+    "restatements": [
+      {
+        "clause_id": "Prop 42 Sec. 1",
+        "text": "Titles the act the Retirement and Personal Savings Protection Act of 2026."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 2",
+        "text": "States findings that Californians face a high cost of living and tax burden, and asserts a need to protect personal savings and retirement holdings from new or retroactive taxation."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 3",
+        "text": "Declares the purpose of the act is to prohibit new taxes on personal property and savings and to require that new taxes apply prospectively."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "text": "Amends the California Constitution to prohibit the state from enacting or collecting any new tax on the ownership or control of retirement holdings, individually-owned assets, and personal savings on or after January 1, 2026. Exempts taxes collected before December 31, 2025, and real property taxes."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §2",
+        "text": "Prohibits the state from imposing taxes that operate retroactively based on past conduct, activities, or residency status. Provides an exception for emergency taxes passed by the Legislature, provided the retroactivity does not exceed 365 days."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §3",
+        "text": "Defines \"retirement holdings, individually-owned assets, and other forms of personal savings\" to include pensions, retirement accounts, mutual funds, and all personal property, whether tangible or intangible."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §4",
+        "text": "Applies the article's provisions to all statewide initiatives submitted to voters on or after January 1, 2026."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 5",
+        "text": "Declares that if this measure receives more votes than a conflicting measure on the same ballot, this measure shall prevail and the conflicting measure shall be void."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 6",
+        "text": "Provides that if any part of the act is found invalid by a court, the remaining portions shall remain in effect."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 7",
+        "text": "Specifies that the act takes effect and becomes operative at the earliest possible date allowed by the California Constitution."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 8",
+        "text": "Requires the act to be liberally construed to give effect to its intent."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 9",
+        "text": "Requires the Attorney General to appoint independent counsel to defend the act if both the Governor and Attorney General refuse to do so, and establishes a continuous appropriation from the General Fund to cover these legal costs."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 42 Sec. 4 §1",
+            "quote": "No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings",
+            "effect": "supports",
+            "why": "The measure explicitly protects seniors and others saving for retirement by prohibiting the state from imposing taxes on the ownership of retirement holdings.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 42 Sec. 4 §1",
+            "quote": "No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings, individually-owned assets, and other forms of personal savings, whether held directly or indirectly.",
+            "effect": "supports",
+            "why": "The measure expands the rights of property owners by prohibiting the state from levying taxes simply for owning or controlling personal property and assets.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C74",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 42 Sec. 9",
+            "quote": "a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act on behalf of the State of California to the fullest extent possible.",
+            "effect": "supports",
+            "why": "The measure establishes a continuous, open-ended appropriation from the General Fund specifically to pay for independent counsel to defend the law.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 42 Sec. 4 §1",
+            "quote": "No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings, individually-owned assets, and other forms of personal savings, whether held directly or indirectly.",
+            "effect": "conflicts",
+            "why": "The measure creates a strict lock-in by permanently banning the legislature from enacting taxes on personal property and assets.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 42 Sec. 9",
+            "quote": "a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act",
+            "effect": "conflicts",
+            "why": "The measure reduces budget flexibility by creating a continuous, guaranteed appropriation that is locked into the General Fund without regard to fiscal years.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C75",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 42 Sec. 4 §1",
+            "quote": "No state law and no provision of this Constitution enacted on or after January 1, 2026 may enact, create, impose, or authorize collection of a tax on the ownership or control of retirement holdings, individually-owned assets, and other forms of personal savings",
+            "effect": "supports",
+            "why": "By prohibiting the state from establishing new taxes on personal savings and assets, the measure protects households from potential increases in taxation.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. The measure amends the state constitution to permanently prohibit the imposition of any new tax on the ownership or control of personal property, retirement holdings, and savings. It also prohibits new taxes from applying retroactively, except during emergencies for up to 365 days, and creates a continuous appropriation to fund independent legal defense if state officials decline to defend the measure.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 9",
+        "question_id": "Q2",
+        "answer": "Direct costs include an open-ended, continuous appropriation from the General Fund to pay independent counsel if the Governor and Attorney General refuse to defend the act. Opportunity costs include the loss of potential future state revenue that could otherwise be collected through wealth or personal property taxes.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "question_id": "Q3",
+        "answer": "Wealthy individuals, investors, and retirees benefit directly by being shielded from future wealth or asset taxes. The state budget bears the cost of lost potential revenue, which may lead to reduced public services or prompt the legislature to increase other forms of taxation, such as sales or income taxes, passing the burden onto the broader public.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "question_id": "Q4",
+        "answer": "Individuals and businesses may restructure their assets to ensure they fall under the broad constitutional definition of \"individually-owned assets\" to shield them from taxation. Deprived of the ability to tax wealth directly, the legislature may respond by increasing taxes on alternative sources like corporate income, real estate transactions, or sales.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "question_id": "Q5",
+        "answer": "The text asserts that Californians face high taxes and living costs, and that their retirement savings and personal assets are unfairly threatened by proposed wealth taxes and retroactive taxation. The mechanism—a constitutional ban on new personal property taxes and retroactive taxes—directly addresses this by eliminating the state's legal authority to impose them.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §3",
+        "question_id": "Q6",
+        "answer": "Courts gain significant power to interpret the measure's expansive definition of \"personal property\" when determining if future taxes violate the ban. Independent counsel, if appointed, gains guaranteed funding and authority to direct state litigation, reducing the discretion normally held by the Attorney General.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "question_id": "Q7",
+        "answer": "The economic impact of banning wealth taxes is disputed. Some researchers find that prohibiting wealth taxes encourages long-term investment and capital accumulation by providing a predictable tax environment. Others argue that banning wealth taxes exacerbates income inequality and forces governments to rely on regressive consumption taxes to fund essential services.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §3",
+        "question_id": "Q8",
+        "answer": "The state could face significant administrative and legal costs litigating whether future revenue measures inadvertently tax the \"ownership or control\" of intangible assets, given the measure's highly expansive definitions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 42 Sec. 4 §1",
+        "question_id": "Q9",
+        "answer": "Because the measure adds a new article to the California Constitution, it can only be undone or modified by another constitutional amendment approved by a majority of voters.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 42 Sec. 4 §3",
+        "flag_id": "F1",
+        "quote": "(a) “Retirement holdings, individually-owned assets, and other forms of personal savings” means pensions; retirement accounts including but not limited to 401(k) accounts, 403(b) accounts, and all other individual retirement accounts; mutual funds; and all personal property, whether tangible or intangible, including but not limited to financial assets, investment accounts, business interests, digital assets, intellectual property, personal belongings, and other assets used to produce or collect income or savings for retirement or financial planning.",
+        "note": "The definition of protected assets is highly expansive, encompassing nearly all forms of tangible and intangible personal property and business interests."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 9",
+        "flag_id": "F2",
+        "quote": "(a) Notwithstanding anything to the contrary contained in Chapter 6 (commencing with Section 12500) of Part 2 of Division 3 of Title 2 of the Government Code or any other law, the Attorney General shall appoint independent counsel to faithfully and vigorously defend this Act to the fullest extent possible on behalf of the State of California.",
+        "note": "Overrides existing laws regarding the Attorney General's authority and discretion over state litigation."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 6",
+        "flag_id": "F5",
+        "quote": "Section 6. Severability. The provisions of this Act are severable. If any portion, section, subdivision, paragraph, clause, subclause, sentence, phrase, word, or application of this Act is for any reason held to be invalid by a decision of any court of competent jurisdiction, that decision shall not affect the validity of the remaining portions of this Act. The People of the State of California hereby declare that they would have adopted this Act and each and every portion, section, subdivision, paragraph, clause, subclause, sentence, phrase, word, and application not declared invalid or unconstitutional without regard to whether any part of this Act or application thereof would be subsequently declared invalid.",
+        "note": "Contains a standard severability clause."
+      },
+      {
+        "clause_id": "Prop 42 Sec. 7",
+        "flag_id": "F6",
+        "quote": "Section 7. Effective Date. This Act shall take effect at the earliest possible date in accordance with Section 10 of Article II of the California Constitution. This Act shall become operative on the same day it takes effect.",
+        "note": "Specifies that the act takes effect and becomes operative immediately upon the earliest allowed date."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [],
+  "seconds": 142.2,
+  "errors": [],
+  "accepted": true
+}

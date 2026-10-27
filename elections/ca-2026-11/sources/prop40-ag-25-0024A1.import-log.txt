@@ -1,0 +1,46 @@
+Import log for prop40-ag-25-0024A1.pdf (sha256 69b30cc46956bf34250ab02e02742bf30fbb2eae8a94d709ac20bce0d88a373c)
+Source: https://oag.ca.gov/system/files/initiatives/pdfs/25-0024A1%20%28Billionaire%20Tax%20%29.pdf
+Tool: tools/import_measure.py
+
+p1 OCR unresolved: 'Nov 26 2025' -> "R: 'Nov 26 2025 Office of the Attorney General' / L: '' -> kept T"
+p1 OCR unresolved: "INITIATIVE COORDINATOR ATTORNEY GENERAL'S OFFICE" -> 'R: "Nov 26 2025 Office of the Attorney General 1300 I Street, 17th Floor Sacramento, CA 95814-2919 INITIATIVECOORDINATOR ATTORNEYGENERAL\'SOFFICE" / L: \'\' -> kept T'
+p1 furniture removed: 'Initiative 25-0024 Amdt. 1'
+p3 OCR unresolved: '(j)' -> "R: '' / L: 'G)' -> kept T"
+p4 OCR replaced: '(0)' -> '(o)'
+p5 OCR replaced: '(20235).' -> '(2025).'
+p7 OCR roman numeral: 'XIJIB' -> 'XIIIB'
+p10 OCR spacing: 'Acertification' -> 'A certification'
+p10 OCR unresolved: '(2) ‘Reductions in state appropriations” or other references to reductions or cuts in state appropriations mean a decrease in appropriations for any and' -> 'R: \'\' / L: \'(2) "Reductions in state appropriations" or other references to reductions or cuts in state appropriations mean a decrease in appropriations for any and\' -> kept T'
+p13 OCR replaced: 'shal!' -> 'shall'
+p14 OCR replaced: '(0)' -> '(o )'
+p15 OCR spacing: 'Ifthe' -> 'If the'
+p16 OCR spacing: 'Ifthe' -> 'If the'
+p20 OCR spacing: 'Ifa' -> 'If a'
+p21 OCR unresolved: '(j)' -> "R: '!' / L: 'G)' -> kept T"
+p22 OCR spacing: 'Inthe' -> 'In the'
+p23 OCR unresolved: '(1)' -> "R: '(1)S' / L: '(I)' -> kept T"
+p25 OCR replaced: '(0),' -> '( o ),'
+p26 OCR unresolved: '(j)' -> "R: '' / L: 'G)' -> kept T"
+p26 OCR unresolved: 'well as any other person so specified by regulations adopted by the Board. (!)' -> "R: '(1)' / L: 'well as any other person so specified by regulations adopted by the Board. (1)' -> kept R"
+p26 OCR unresolved: '|,' -> "R: '1,' / L: 'I,' -> kept R"
+p28 OCR replaced: '(0)' -> '(o )'
+p29 OCR spacing: 'Achange' -> 'A change'
+p30 OCR unresolved: '(j)' -> "R: 'G' / L: 'G)' -> kept T"
+p30 OCR spacing: 'Ifthe' -> 'If the'
+p32 OCR unresolved: '(1)' -> "R: '1)' / L: '(I)' -> kept T"
+p32 OCR spacing: 'Ifthe Supreme Court grants a petition for review, it shall hear any appeal' -> 'If the Supreme Court grants a petition for review, it shall hear any appeal'
+p34 OCR unresolved: 'sage {ENE one 2a visa guhoal' -> 'R: \'2025 NOV26 AHIO:53 3 REOEIVED\' / L: \'\\\', I~\\\\ \\\' 1 C .:l : .; I I \\\' • f Q .,1· ~ . 1 J 1• ,,"..".. ~ i l 1\' -> kept T'
+cover letter and filing pages removed: "26 lines before 'THE 2026 BILLIONAIRE TAX ACT'"
+trailing OCR noise removed: 'guhoal'
+trailing OCR noise removed: 'one 2a visa'
+trailing OCR noise removed: 'sage {ENE'
+subdivision spacing: '(o )' -> '(o)'
+'(0)' is the letter o: '(0)' -> '(o)'
+subdivision spacing: '( o )' -> '(o)'
+subdivision spacing: '(o )' -> '(o)'
+'of' split: 'officials' -> 'of ficials'
+'of' split: 'officials' -> 'of ficials'
+subdivision label from sequence: '(1) between (k) and (m)' -> '(l)'
+subdivision label from sequence: '(1) between (k) and (m)' -> '(l)'
+subdivision label from sequence: '(1) between (k) and (m)' -> '(l)'
+subdivision label from sequence: '(1) between (k) and (m)' -> '(l)'

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://onlytradeoffs.org/schema/eval-output-v1.json",
+  "title": "Only Tradeoffs evaluation output v1",
+  "description": "One model run on one measure. Every property is required. One entry per value, each with one of four results.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "measure_id",
+    "restatements",
+    "values",
+    "analysis",
+    "flags"
+  ],
+  "properties": {
+    "measure_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "restatements": {
+      "type": "array",
+      "description": "What each clause does, in neutral words, with no evaluation.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id",
+          "text"
+        ],
+        "properties": {
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "values": {
+      "type": "array",
+      "description": "Exactly one entry for every value on the list.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "value_id",
+          "result",
+          "evidence"
+        ],
+        "properties": {
+          "value_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^C\\d+$"
+          },
+          "result": {
+            "enum": [
+              "supports",
+              "conflicts",
+              "both",
+              "none"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "description": "Empty when result is none.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "clause_id",
+                "quote",
+                "effect",
+                "why",
+                "certainty"
+              ],
+              "properties": {
+                "clause_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Exact span copied from the clause."
+                },
+                "effect": {
+                  "enum": [
+                    "supports",
+                    "conflicts"
+                  ]
+                },
+                "why": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "certainty": {
+                  "enum": [
+                    "stated",
+                    "likely",
+                    "depends-on-implementation"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "analysis": {
+      "type": "array",
+      "description": "Analysis-question answers. Always inference.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id",
+          "question_id",
+          "answer",
+          "disputed"
+        ],
+        "properties": {
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^Q\\d+$"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "disputed": {
+            "type": "boolean",
+            "description": "True if researchers disagree about the effect; the answer must then describe both findings."
+          }
+        }
+      }
+    },
+    "flags": {
+      "type": "array",
+      "description": "Text-quality flags.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id",
+          "flag_id",
+          "quote",
+          "note"
+        ],
+        "properties": {
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "flag_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^F\\d+$"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

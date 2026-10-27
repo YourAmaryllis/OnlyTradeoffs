@@ -1,0 +1,279 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-BB31064A",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "6f0c64031d771cf2e9dce55be44378d62d1573ee27ed462085255d60c7826575",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "14948f74b622321bd10d9dc3657b88ea47fae5a2a67ebafbbe8c9ab8d29cfc46"
+    }
+  },
+  "prompt_file": "MEAS-BB31064A.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:17:32.040233+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1466,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1466
+        }
+      ],
+      "prompt_token_count": 7315,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7315
+        }
+      ],
+      "thoughts_token_count": 2023,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10804,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-BB31064A\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits landlords from raising rent by more than 5% in a 12-month period, while exempting residential units that were first occupied within the past 15 years.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C07\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"may not increase rent by more than 5 percent in any 12-month period.\",\n      \"mechanism\": \"Caps the allowable annual increase in rent, limiting price hikes for households.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C17\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period.\",\n      \"mechanism\": \"Strengthens renter stability by protecting tenants from sudden, large rent increases.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period.\",\n      \"mechanism\": \"Restricts property owners' control over the pricing and revenue of their residential units.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, landlords can raise rent by any amount with 60 days' notice. This measure changes that by capping rent increases at 5% per 12-month period, while exempting units that were first occupied within the last 15 years.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Renters in units older than 15 years benefit from predictable limits on rent hikes. Landlords of those units bear the cost of restricted revenue, particularly if inflation, property taxes, or maintenance costs rise faster than 5%.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Landlords might automatically increase rent by the maximum 5% each year to avoid falling behind the market, even if they would otherwise have kept rents flat. Some owners may reduce investment in maintenance or upgrades if they cannot recoup those costs through larger rent increases.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the problem of tenant displacement caused by sudden, unaffordable rent increases by establishing a hard 5% cap. The 15-year rolling exemption attempts to mitigate the perverse incentive of rent caps discouraging new housing construction, preserving the potential for market-rate returns on new builds.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The broader effects of rent control are heavily disputed among researchers. Proponents point to findings that rent caps successfully keep current tenants in their homes and provide immediate stability and affordability. Opponents and many economists point to findings that rent control reduces the overall supply and quality of rental housing over time, which can ultimately lead to higher rents for uncontrolled units and increased difficulty for new renters seeking housing.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"may not increase rent by more than 5 percent in any 12-month period\",\n      \"note\": \"The text does not specify whether the cap applies when a unit turns over to a new tenant (vacancy control) or only during a continuous tenancy.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"A 5% cap on annual rent increases for households in covered units.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Stronger protections for renters against large rent hikes.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Property owners' unrestricted control over the rent they charge for covered units.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"No directional concerns were moved.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Property owners' unrestricted control over the rent they charge for covered units.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A 5% cap on annual rent increases for households in covered units.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Stronger protections for renters against large rent hikes.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-BB31064A",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits landlords from raising rent by more than 5% in a 12-month period, while exempting residential units that were first occupied within the past 15 years."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C07",
+        "effect": "advances",
+        "direction": null,
+        "quote": "may not increase rent by more than 5 percent in any 12-month period.",
+        "mechanism": "Caps the allowable annual increase in rent, limiting price hikes for households.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C17",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period.",
+        "mechanism": "Strengthens renter stability by protecting tenants from sudden, large rent increases.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "costs",
+        "direction": null,
+        "quote": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period.",
+        "mechanism": "Restricts property owners' control over the pricing and revenue of their residential units.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, landlords can raise rent by any amount with 60 days' notice. This measure changes that by capping rent increases at 5% per 12-month period, while exempting units that were first occupied within the last 15 years.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Renters in units older than 15 years benefit from predictable limits on rent hikes. Landlords of those units bear the cost of restricted revenue, particularly if inflation, property taxes, or maintenance costs rise faster than 5%.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Landlords might automatically increase rent by the maximum 5% each year to avoid falling behind the market, even if they would otherwise have kept rents flat. Some owners may reduce investment in maintenance or upgrades if they cannot recoup those costs through larger rent increases.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the problem of tenant displacement caused by sudden, unaffordable rent increases by establishing a hard 5% cap. The 15-year rolling exemption attempts to mitigate the perverse incentive of rent caps discouraging new housing construction, preserving the potential for market-rate returns on new builds.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The broader effects of rent control are heavily disputed among researchers. Proponents point to findings that rent caps successfully keep current tenants in their homes and provide immediate stability and affordability. Opponents and many economists point to findings that rent control reduces the overall supply and quality of rental housing over time, which can ultimately lead to higher rents for uncontrolled units and increased difficulty for new renters seeking housing.",
+        "disputed": true
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "may not increase rent by more than 5 percent in any 12-month period",
+        "note": "The text does not specify whether the cap applies when a unit turns over to a new tenant (vacancy control) or only during a continuous tenancy."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "A 5% cap on annual rent increases for households in covered units.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Stronger protections for renters against large rent hikes.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Property owners' unrestricted control over the rent they charge for covered units.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "No directional concerns were moved."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Property owners' unrestricted control over the rent they charge for covered units.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A 5% cap on annual rent increases for households in covered units.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Stronger protections for renters against large rent hikes.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 38.3,
+  "errors": [],
+  "accepted": true
+}

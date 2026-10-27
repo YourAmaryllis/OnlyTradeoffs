@@ -1,0 +1,20 @@
+{
+  "measure_id": "SYN-0001",
+  "synthetic": true,
+  "note": "Synthetic test measure. Not a real proposal. Used to exercise build_prompt and validate_output.",
+  "clauses": [
+    {
+      "id": "SYN-0001 \u00a71",
+      "text": "A person who keeps a firearm in a residence shall store it in a locked container when it is not being carried or used."
+    },
+    {
+      "id": "SYN-0001 \u00a72",
+      "text": "The Department shall issue a storage certificate to each applicant upon payment of a fee of twenty-five dollars ($25)."
+    },
+    {
+      "id": "SYN-0001 \u00a73",
+      "text": "This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage."
+    }
+  ],
+  "current_law": "No state law governs firearm storage in a residence. Cities and counties may adopt storage ordinances."
+}

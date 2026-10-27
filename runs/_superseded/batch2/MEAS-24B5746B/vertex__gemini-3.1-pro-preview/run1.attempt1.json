@@ -1,0 +1,257 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-24B5746B",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "cd4f897829a2f329b55ce05457b355b16ba79ce98ef857554c2d6998dc86ec5a",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "30524cae3e8c7e3243753048b23a2bee565f83a4f2fdb3f7cf04585a9f85cb67"
+    }
+  },
+  "prompt_file": "MEAS-24B5746B.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:02:54.720921+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1291,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1291
+        }
+      ],
+      "prompt_token_count": 7347,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7347
+        }
+      ],
+      "thoughts_token_count": 1339,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 9977,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-24B5746B\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits physicians from performing abortions after 15 weeks of pregnancy, except to prevent the pregnant woman's death or a severe, irreversible impairment of a major bodily function.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C36\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No physician may perform an abortion after 15 weeks of gestation, except when necessary to prevent the death of the pregnant woman or serious risk of substantial and irreversible physical impairment of a major bodily function.\",\n      \"mechanism\": \"The clause introduces a new gestational limit that restricts abortion procedures starting at 15 weeks.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C35\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No physician may perform an abortion after 15 weeks of gestation, except when necessary to prevent the death of the pregnant woman or serious risk of substantial and irreversible physical impairment of a major bodily function.\",\n      \"mechanism\": \"The clause limits access to abortion by prohibiting it after 15 weeks of gestation, earlier than the current standard of fetal viability, while allowing narrow medical exceptions.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Compared to current law, which permits abortion at any point prior to fetal viability, this measure establishes an earlier ban at 15 weeks of gestation, retaining exceptions only for the pregnant woman's life or severe physical impairment.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Patients seeking an abortion after 15 weeks will face travel and opportunity costs to obtain care in other jurisdictions. Medical providers may incur compliance costs or legal expenses to verify and document that any procedures performed after the limit meet the specific medical exceptions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"The burden falls primarily on pregnant women seeking abortion care after 15 weeks, as well as on physicians who must navigate the new restrictions. Those who favor legal restrictions on prenatal life benefit from the policy change.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Some patients may schedule procedures earlier in their pregnancies, while those who pass the 15-week mark may travel out of state. Physicians may alter their practices or refer patients out of state near the 15-week threshold to avoid the risk of violating the ban.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the perceived moral and policy issue of terminating a pregnancy after 15 weeks. The mechanism is a direct statutory prohibition. This may create barriers for patients who discover fetal anomalies later in pregnancy or who experience severe health complications that do not strictly meet the physical impairment threshold.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"serious risk of substantial and irreversible physical impairment of a major bodily function\",\n      \"note\": \"Terms like 'serious risk' and 'substantial' may lack precise clinical definitions, potentially creating ambiguity for physicians determining whether an emergency exception applies.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Earlier restrictions on abortion, providing legal protections for prenatal life starting at 15 weeks of gestation.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Legal access to abortion after 15 weeks of gestation, except in specific life-threatening or physically impairing emergencies.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Legal access to abortion at any point prior to fetal viability.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A 15-week gestational limit on abortion.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-24B5746B",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits physicians from performing abortions after 15 weeks of pregnancy, except to prevent the pregnant woman's death or a severe, irreversible impairment of a major bodily function."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C36",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No physician may perform an abortion after 15 weeks of gestation, except when necessary to prevent the death of the pregnant woman or serious risk of substantial and irreversible physical impairment of a major bodily function.",
+        "mechanism": "The clause introduces a new gestational limit that restricts abortion procedures starting at 15 weeks.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C35",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No physician may perform an abortion after 15 weeks of gestation, except when necessary to prevent the death of the pregnant woman or serious risk of substantial and irreversible physical impairment of a major bodily function.",
+        "mechanism": "The clause limits access to abortion by prohibiting it after 15 weeks of gestation, earlier than the current standard of fetal viability, while allowing narrow medical exceptions.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Compared to current law, which permits abortion at any point prior to fetal viability, this measure establishes an earlier ban at 15 weeks of gestation, retaining exceptions only for the pregnant woman's life or severe physical impairment.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Patients seeking an abortion after 15 weeks will face travel and opportunity costs to obtain care in other jurisdictions. Medical providers may incur compliance costs or legal expenses to verify and document that any procedures performed after the limit meet the specific medical exceptions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "The burden falls primarily on pregnant women seeking abortion care after 15 weeks, as well as on physicians who must navigate the new restrictions. Those who favor legal restrictions on prenatal life benefit from the policy change.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Some patients may schedule procedures earlier in their pregnancies, while those who pass the 15-week mark may travel out of state. Physicians may alter their practices or refer patients out of state near the 15-week threshold to avoid the risk of violating the ban.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the perceived moral and policy issue of terminating a pregnancy after 15 weeks. The mechanism is a direct statutory prohibition. This may create barriers for patients who discover fetal anomalies later in pregnancy or who experience severe health complications that do not strictly meet the physical impairment threshold.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "serious risk of substantial and irreversible physical impairment of a major bodily function",
+        "note": "Terms like 'serious risk' and 'substantial' may lack precise clinical definitions, potentially creating ambiguity for physicians determining whether an emergency exception applies."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Earlier restrictions on abortion, providing legal protections for prenatal life starting at 15 weeks of gestation.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Legal access to abortion after 15 weeks of gestation, except in specific life-threatening or physically impairing emergencies.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Legal access to abortion at any point prior to fetal viability.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A 15-week gestational limit on abortion.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 44.6,
+  "errors": [],
+  "accepted": true
+}

@@ -1,0 +1,3 @@
+seed 1 attempt 1: REJECTED (167.9s) C08 evidence: quote not found verbatim in Prop 42 Sec. 4 §3: '"Retirement holdings, individually-owned assets, and other f'; flag F8: quote not found verbatim in Prop 42 Sec. 3: '...prohibiting the imposition of new taxes on our personal p'
+seed 1 attempt 2: ACCEPTED (150.0s) 
+1/1 runs accepted → /Users/arthur/YourAmaryllis/OnlyTradeoffs/runs/CA-2026-P42/vertex__gemini-3.1-pro-preview

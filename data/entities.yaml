@@ -1,0 +1,41 @@
+# Everyone who funds, runs, or endorses a ballot-measure campaign, across all elections.
+# One entry per person or organization, so their record can be followed from one
+# election to the next. Campaign data lives in elections/<id>/campaign.yaml and points
+# at these IDs. None of it is ever sent to a model.
+#
+# kind: organization | person | committee
+# Names are given as they appear in the official filing or endorsement.
+#
+# Privacy policy: a person who is not a public official gets their own page only if
+# their contributions on one measure reach `individual_min_usd`, or if they
+# endorsed publicly. Smaller gifts from individuals are shown only as a combined total.
+policy:
+  individual_min_usd: 5000
+
+entities:
+# Synthetic entities for the demo elections. Every name contains "Example" so none
+# can be mistaken for a real organization or person.
+- {id: committee-for-a, name: Committee for Measure A (Example), kind: committee, synthetic: true}
+- {id: committee-against-a, name: Committee against Measure A (Example), kind: committee, synthetic: true}
+- {id: committee-for-c, name: Committee for Measure C (Example), kind: committee, synthetic: true}
+- {id: committee-against-c, name: Committee against Measure C (Example), kind: committee, synthetic: true}
+- {id: committee-for-d, name: Committee for Measure D (Example), kind: committee, synthetic: true}
+- {id: committee-against-d, name: Committee against Measure D (Example), kind: committee, synthetic: true}
+- {id: committee-for-1, name: Committee for Measure 1 (Example), kind: committee, synthetic: true}
+- {id: committee-against-1, name: Committee against Measure 1 (Example), kind: committee, synthetic: true}
+- {id: committee-for-wage-2024, name: Committee for the 2024 Wage Measure (Example), kind: committee, synthetic: true}
+- {id: committee-against-wage-2024, name: Committee against the 2024 Wage Measure (Example), kind: committee, synthetic: true}
+- {id: committee-for-cannabis-2024, name: Committee for the 2024 Cannabis Measure (Example), kind: committee, synthetic: true}
+- {id: example-safety-fund, name: Example Household Safety Fund, kind: organization, synthetic: true}
+- {id: example-sporting-council, name: Example Sporting Council, kind: organization, synthetic: true}
+- {id: example-retailers, name: Example Retailers Association, kind: organization, synthetic: true}
+- {id: example-chamber, name: Example Chamber of Commerce, kind: organization, synthetic: true}
+- {id: example-teachers, name: Example Teachers Association, kind: organization, synthetic: true}
+- {id: example-families, name: Example Families for School Options, kind: organization, synthetic: true}
+- {id: example-taxpayers, name: Example Taxpayers Association, kind: organization, synthetic: true}
+- {id: example-tenants, name: Example Tenants Union, kind: organization, synthetic: true}
+- {id: example-rental-owners, name: Example Rental Housing Association, kind: organization, synthetic: true}
+- {id: example-workers, name: Example Workers Council, kind: organization, synthetic: true}
+- {id: example-clerks, name: Example County Clerks Association, kind: organization, synthetic: true}
+- {id: example-donor-one, name: Example Donor One, kind: person, synthetic: true}
+- {id: example-donor-two, name: Example Donor Two, kind: person, synthetic: true}

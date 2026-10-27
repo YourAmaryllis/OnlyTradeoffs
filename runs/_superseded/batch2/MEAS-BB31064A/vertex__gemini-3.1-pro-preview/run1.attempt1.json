@@ -1,0 +1,265 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-BB31064A",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "6f0c64031d771cf2e9dce55be44378d62d1573ee27ed462085255d60c7826575",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "bdf0b401771874de20ea042e6b9fe6fbe7ff627742c8e527a308ba469b4a522c"
+    }
+  },
+  "prompt_file": "MEAS-BB31064A.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:03:24.583339+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1398,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1398
+        }
+      ],
+      "prompt_token_count": 7354,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7354
+        }
+      ],
+      "thoughts_token_count": 4474,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 13226,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"measure_id\": \"MEAS-BB31064A\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits landlords from raising rent by more than 5 percent in any 12-month period, except for units that were first occupied within the past 15 years.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C17\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period. This section does not apply to units first occupied within the last 15 years.\",\n      \"mechanism\": \"Protects renters in units older than 15 years from annual rent increases greater than 5%.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period. This section does not apply to units first occupied within the last 15 years.\",\n      \"mechanism\": \"Restricts the ability of property owners to set rent rates freely for units older than 15 years.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C07\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period.\",\n      \"mechanism\": \"Caps the allowable increase in housing rent charges at 5% per year for covered units.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law allows landlords to raise rent by any amount given 60 days' written notice. The measure restricts rent increases to no more than 5% in any 12-month period, exempting units that were first occupied within the last 15 years.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Renters in non-exempt units benefit from predictable, legally capped rent increases. Landlords of these units bear the cost of limited revenue potential.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Landlords of covered units may respond by raising rent by the maximum 5% every year rather than waiting and making larger, less frequent increases, to avoid permanently losing the capacity to raise rates. Some landlords may also reduce investments in maintenance or upgrades since they cannot readily recoup those costs through higher rents.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the problem of sudden, unmanageable rent increases that can displace existing tenants. The 5% cap directly reaches this by prohibiting such spikes for older units, while the 15-year rolling exemption attempts to avoid deterring new housing construction.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Researchers disagree on the net outcomes of rent control. Studies consistently show that rent caps benefit current tenants by keeping them in their homes and lowering their immediate housing costs. However, many economists find that rent controls eventually reduce the overall supply and quality of rental housing, which can drive up costs for future renters or those moving into uncontrolled units.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Caps annual rent increases at 5% for units older than 15 years.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Restricts property owners from raising rents by whatever amount the market will bear on units older than 15 years.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"No directional concerns were affected.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Allows landlords to raise rent by any amount with 60 days' written notice.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Misses the introduction of a 5% cap on annual rent increases for units older than 15 years.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "measure_id": "MEAS-BB31064A",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits landlords from raising rent by more than 5 percent in any 12-month period, except for units that were first occupied within the past 15 years."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C17",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period. This section does not apply to units first occupied within the last 15 years.",
+        "mechanism": "Protects renters in units older than 15 years from annual rent increases greater than 5%.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "costs",
+        "direction": null,
+        "quote": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period. This section does not apply to units first occupied within the last 15 years.",
+        "mechanism": "Restricts the ability of property owners to set rent rates freely for units older than 15 years.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C07",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period.",
+        "mechanism": "Caps the allowable increase in housing rent charges at 5% per year for covered units.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law allows landlords to raise rent by any amount given 60 days' written notice. The measure restricts rent increases to no more than 5% in any 12-month period, exempting units that were first occupied within the last 15 years.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Renters in non-exempt units benefit from predictable, legally capped rent increases. Landlords of these units bear the cost of limited revenue potential.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Landlords of covered units may respond by raising rent by the maximum 5% every year rather than waiting and making larger, less frequent increases, to avoid permanently losing the capacity to raise rates. Some landlords may also reduce investments in maintenance or upgrades since they cannot readily recoup those costs through higher rents.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the problem of sudden, unmanageable rent increases that can displace existing tenants. The 5% cap directly reaches this by prohibiting such spikes for older units, while the 15-year rolling exemption attempts to avoid deterring new housing construction.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Researchers disagree on the net outcomes of rent control. Studies consistently show that rent caps benefit current tenants by keeping them in their homes and lowering their immediate housing costs. However, many economists find that rent controls eventually reduce the overall supply and quality of rental housing, which can drive up costs for future renters or those moving into uncontrolled units.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Caps annual rent increases at 5% for units older than 15 years.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Restricts property owners from raising rents by whatever amount the market will bear on units older than 15 years.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "No directional concerns were affected."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Allows landlords to raise rent by any amount with 60 days' written notice.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Misses the introduction of a 5% cap on annual rent increases for units older than 15 years.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 73.8,
+  "errors": [
+    "schema: : Additional properties are not allowed ('description' was unexpected)"
+  ],
+  "accepted": false
+}

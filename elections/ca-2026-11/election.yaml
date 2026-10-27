@@ -1,0 +1,39 @@
+id: ca-2026-11
+name: California, November 2026
+date: 2026-11-03
+status: draft
+synthetic: false
+pins:
+  prompt_version: v1
+  concern_list_version: 1-draft.r4
+jurisdictions:
+- id: ca
+  name: California
+  type: state
+# Each measure file holds the clauses the models read, imported by tools/import_measure.py
+# from the archived official source in sources/ (never from the voter guide).
+measures:
+- file: elections/ca-2026-11/measures/CA-2026-P40.json
+  code: Proposition 40
+  ballot_label: Imposes One-Time Tax on Certain Taxpayers
+  jurisdiction: ca
+  kind: initiative
+  source_name: Initiative 25-0024A1, as filed with the Attorney General
+- file: elections/ca-2026-11/measures/CA-2026-P41.json
+  code: Proposition 41
+  ballot_label: Prohibits New State Taxes That Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes
+  jurisdiction: ca
+  kind: initiative
+  source_name: Initiative 25-0040A1, as filed with the Attorney General
+- file: elections/ca-2026-11/measures/CA-2026-P42.json
+  code: Proposition 42
+  ballot_label: Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes
+  jurisdiction: ca
+  kind: initiative
+  source_name: Initiative 25-0041A1, as filed with the Attorney General
+- file: elections/ca-2026-11/measures/CA-2026-P43.json
+  code: Proposition 43
+  ballot_label: Limits Voters' Ability to Raise Revenues for Local Government Services
+  jurisdiction: ca
+  kind: amendment
+  source_name: Assembly Constitutional Amendment 22 (Resolution Chapter 132, Statutes of 2026), California Legislative Information

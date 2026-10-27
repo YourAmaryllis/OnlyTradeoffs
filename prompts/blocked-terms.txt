@@ -1,0 +1,58 @@
+# Terms that may not appear in model-written fields (restatements, mechanisms,
+# directions, analysis answers, flag notes, vote summaries). Quotes from the
+# measure text are exempt: the law may itself name a party.
+# One term per line, matched case-insensitively on word boundaries.
+# An output that contains one is rejected and the run is repeated (DESIGN.md §5.3).
+#
+# Words that need judgment in context ("freedom", "progress", "fair") are not
+# here: several concern names use them plainly. They go to the language audit
+# (§5.5) instead.
+#
+# Some legal terms of art collide with this list ("progressive" rates, "liberal"
+# construction). In model-written fields, use "graduated" and "broad" instead.
+
+# Parties
+democrat
+democrats
+democratic party
+republican
+republicans
+gop
+libertarian party
+green party
+
+# Ideology and movement labels
+conservative
+conservatives
+liberal
+liberals
+progressive
+progressives
+libertarian
+libertarians
+socialist
+socialism
+leftist
+right-wing
+left-wing
+far-right
+far-left
+populist
+woke
+maga
+
+# Loaded adjectives
+radical
+extreme
+extremist
+common-sense
+commonsense
+dangerous
+reckless
+draconian
+job-killing
+
+# Motive language (rule 3)
+intended to
+aims to
+designed to

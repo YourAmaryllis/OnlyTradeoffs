@@ -1,0 +1,624 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-B9AF9BAA",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "e92bf2f2ce512119816761a3c93caa5f13cb1dfac42fe665c5fd74573728e45d",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "af573768ac1aeacf6d57d09a1c90091f92f7d697bdc5893abf0a2655c7c85015",
+      "user_template": "e3a62682914a346cb0307a1bb4914bc0a5be6d9b50bdf9e8e785b3b05864d1da",
+      "schema": "f205ce78fe339dfb80adc2d4b05ac8bbd36c99f6bb835fdbdefaabde8cebfac4",
+      "user_message": "249d08b99c23ba33bade440e928765105194fd8daadadbbd911e4c01f8b38d89"
+    }
+  },
+  "prompt_file": "MEAS-B9AF9BAA.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T07:06:08.112366+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 3444,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3444
+        }
+      ],
+      "prompt_token_count": 6429,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6429
+        }
+      ],
+      "thoughts_token_count": 1352,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11225,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-B9AF9BAA\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the requirement for voters to present photo identification at the polls, allowing voters to receive a ballot by stating their name and address and signing the poll book.\"\n    }\n  ],\n  \"concerns\": [\n    {\n      \"concern_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C58\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The photo identification requirement is repealed.\",\n          \"effect\": \"supports\",\n          \"why\": \"Eliminating the requirement to present a photo identification removes a step needed to cast a ballot.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C18\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C59\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The photo identification requirement is repealed.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Repealing the photo identification requirement removes a step for verifying a voter's identity at the polling place.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C75\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C01\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law requires a voter to show a government-issued photo ID at the polling place, or cast a provisional ballot that is counted only if the voter presents an ID within six days. This measure removes the photo ID requirement, allowing voters to receive a regular ballot simply by stating their name and address and signing the poll book.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Voters who do not possess a government-issued photo ID benefit by avoiding the time and effort required to obtain one or to return with one after casting a provisional ballot. Election administrators benefit from processing fewer provisional ballots.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Voters without a photo ID may be more likely to participate in elections. Poll workers will follow a faster, simplified check-in procedure without having to verify and record ID details.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the problem of voting barriers for residents who lack a government-issued photo ID by removing the requirement to present one. By doing so, it removes a mechanism that proponents of voter ID laws argue deters voter impersonation fraud.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The impact of voter ID requirements is heavily debated in political science. Some studies find that strict ID requirements disproportionately lower turnout among minority and low-income voters, while other research finds that such requirements have little to no measurable effect on overall voter turnout or on the incidence of voter fraud.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Administrative time and costs may decrease slightly, as election officials will have fewer provisional ballots to verify and process after election day.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": []\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-B9AF9BAA",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the requirement for voters to present photo identification at the polls, allowing voters to receive a ballot by stating their name and address and signing the poll book."
+      }
+    ],
+    "concerns": [
+      {
+        "concern_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C58",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The photo identification requirement is repealed.",
+            "effect": "supports",
+            "why": "Eliminating the requirement to present a photo identification removes a step needed to cast a ballot.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C18",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C59",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The photo identification requirement is repealed.",
+            "effect": "conflicts",
+            "why": "Repealing the photo identification requirement removes a step for verifying a voter's identity at the polling place.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C75",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C01",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law requires a voter to show a government-issued photo ID at the polling place, or cast a provisional ballot that is counted only if the voter presents an ID within six days. This measure removes the photo ID requirement, allowing voters to receive a regular ballot simply by stating their name and address and signing the poll book.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Voters who do not possess a government-issued photo ID benefit by avoiding the time and effort required to obtain one or to return with one after casting a provisional ballot. Election administrators benefit from processing fewer provisional ballots.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Voters without a photo ID may be more likely to participate in elections. Poll workers will follow a faster, simplified check-in procedure without having to verify and record ID details.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the problem of voting barriers for residents who lack a government-issued photo ID by removing the requirement to present one. By doing so, it removes a mechanism that proponents of voter ID laws argue deters voter impersonation fraud.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The impact of voter ID requirements is heavily debated in political science. Some studies find that strict ID requirements disproportionately lower turnout among minority and low-income voters, while other research finds that such requirements have little to no measurable effect on overall voter turnout or on the incidence of voter fraud.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q8",
+        "answer": "Administrative time and costs may decrease slightly, as election officials will have fewer provisional ballots to verify and process after election day.",
+        "disputed": false
+      }
+    ],
+    "flags": []
+  },
+  "stripped_fences": true,
+  "seconds": 54.7,
+  "errors": [],
+  "accepted": true
+}

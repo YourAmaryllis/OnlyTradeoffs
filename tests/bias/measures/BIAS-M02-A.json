@@ -1,0 +1,16 @@
+{
+  "measure_id": "MEAS-090393D3",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M02, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "No person may carry a concealed handgun without a concealed carry permit issued by the county sheriff."
+    },
+    {
+      "id": "§2",
+      "text": "The sheriff shall issue a permit to an applicant who is 21 or older, may lawfully possess a handgun, and completes an eight-hour safety course."
+    }
+  ],
+  "current_law": "A person 21 or older who may lawfully possess a handgun may carry it concealed without a permit."
+}

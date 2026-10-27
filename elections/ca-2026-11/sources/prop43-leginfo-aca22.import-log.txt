@@ -1,0 +1,5 @@
+Import log for prop43-leginfo-aca22.html (sha256 58afb4bc8355704c138544e08f6a4ac20f0665f78b1ad428336b8800fe87b5bf)
+Source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA22
+Tool: tools/import_measure.py
+
+kept bill text only: "Legislative Counsel's Digest and page navigation dropped"

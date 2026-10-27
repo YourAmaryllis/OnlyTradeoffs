@@ -1,0 +1,646 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-F16E34AB",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C26",
+      "C58",
+      "C06",
+      "C79",
+      "C36",
+      "C03",
+      "C55",
+      "C16",
+      "C12",
+      "C51",
+      "C08",
+      "C05",
+      "C48",
+      "C18",
+      "C77",
+      "C82",
+      "C17",
+      "C32",
+      "C70",
+      "C40",
+      "C45",
+      "C65",
+      "C15",
+      "C57",
+      "C59",
+      "C31",
+      "C54",
+      "C11",
+      "C50",
+      "C25",
+      "C46",
+      "C33",
+      "C35",
+      "C76",
+      "C37",
+      "C60",
+      "C22",
+      "C78",
+      "C71",
+      "C80",
+      "C38",
+      "C20",
+      "C39",
+      "C69",
+      "C07",
+      "C43",
+      "C66",
+      "C68",
+      "C02",
+      "C13",
+      "C14",
+      "C64",
+      "C30",
+      "C63",
+      "C28",
+      "C56",
+      "C62",
+      "C21",
+      "C67",
+      "C61",
+      "C49",
+      "C24",
+      "C83",
+      "C73",
+      "C72",
+      "C29",
+      "C52",
+      "C81",
+      "C42",
+      "C53",
+      "C44",
+      "C47",
+      "C75",
+      "C04",
+      "C23",
+      "C27",
+      "C34",
+      "C19",
+      "C41",
+      "C09",
+      "C10",
+      "C74"
+    ],
+    "sha256": {
+      "measure": "2d1242930f527be7239408651f4d4ef434b4036469a2f3df09ea488f7d926bcd",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "af573768ac1aeacf6d57d09a1c90091f92f7d697bdc5893abf0a2655c7c85015",
+      "user_template": "e3a62682914a346cb0307a1bb4914bc0a5be6d9b50bdf9e8e785b3b05864d1da",
+      "schema": "f205ce78fe339dfb80adc2d4b05ac8bbd36c99f6bb835fdbdefaabde8cebfac4",
+      "user_message": "c9d01cf6096cffa358263f4290c619eef4eef62e6917171c1966ff26b943b509"
+    }
+  },
+  "prompt_file": "MEAS-F16E34AB.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T07:16:30.591652+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 3882,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3882
+        }
+      ],
+      "prompt_token_count": 6421,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6421
+        }
+      ],
+      "thoughts_token_count": 4478,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 14781,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-F16E34AB\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"The state requirement to allow two homes per single-family lot and the prohibition on requiring public hearings for such projects are repealed, returning authority to each city to determine the number of homes permitted on residential lots and the approval procedures.\"\n    }\n  ],\n  \"concerns\": [\n    {\n      \"concern_id\": \"C01\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C16\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Eliminating the state mandate that streamlined the building of two homes per lot removes a rule that made it easier to build housing.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C18\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C77\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"Each city sets the number of homes allowed on each residential lot and its own approval process.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Allowing individual cities to determine housing limits and approval processes moves zoning authority away from the state and back to local governments.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C15\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"Repealing the statewide mandate strips property owners of a guaranteed right to build a second home without a public hearing, exposing them to potential local limits on their property use.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C21\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"Each city sets the number of homes allowed on each residential lot and its own approval process.\",\n          \"effect\": \"supports\",\n          \"why\": \"Giving each city the power to set residential lot limits and approval processes shifts authority over zoning from the state to local governments.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C75\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law requires cities to permit up to two homes on any single-family zoned lot without holding a public hearing. The measure repeals this requirement, granting each city the authority to decide how many homes are allowed per residential lot and to design its own approval process, including whether to require public hearings.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"There is no direct fiscal cost. Property owners and developers may face higher compliance costs, delays, and lost potential revenue if cities reinstate public hearings, limit density, or impose discretionary reviews. Local governments may incur administrative costs to process discretionary reviews and hold public hearings.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Property owners, developers, and potential residents bear the cost of restricted housing supply and lengthier approval processes. Local homeowners and neighborhood groups who prefer single-family zoning benefit by retaining the ability to block or influence new development through public hearings. Local governments benefit from regained control over land use.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Cities with strong opposition to density will likely revert to single-family zoning rules and reinstate public hearings or discretionary review processes. In response, property owners and developers will likely build fewer duplexes and secondary units in those areas due to the increased time, uncertainty, and cost of securing approval.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses local concerns about state overreach, loss of neighborhood character, and the absence of public input in housing development. By returning zoning authority to cities, the mechanism successfully restores local control and allows residents to vet projects. However, removing the state mandate may worsen housing shortages and increase prices by enabling exclusionary zoning and erecting local entry barriers to new housing construction.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"City councils, local planning departments, and neighborhood associations gain discretionary power over housing approvals. State lawmakers and the state government lose preemptive authority over local zoning, while property owners and developers lose the certainty of a guaranteed right to build.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of discretionary review and restrictive zoning on reducing housing supply and increasing costs is empirically well-established. However, researchers debate the magnitude of the impact of statewide upzoning mandates, as factors such as construction costs, interest rates, and other local fees often constrain duplex development even when it is legally allowed by the state.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": []\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-F16E34AB",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "The state requirement to allow two homes per single-family lot and the prohibition on requiring public hearings for such projects are repealed, returning authority to each city to determine the number of homes permitted on residential lots and the approval procedures."
+      }
+    ],
+    "concerns": [
+      {
+        "concern_id": "C01",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C16",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.",
+            "effect": "conflicts",
+            "why": "Eliminating the state mandate that streamlined the building of two homes per lot removes a rule that made it easier to build housing.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C18",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C77",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "Each city sets the number of homes allowed on each residential lot and its own approval process.",
+            "effect": "conflicts",
+            "why": "Allowing individual cities to determine housing limits and approval processes moves zoning authority away from the state and back to local governments.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C15",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.",
+            "effect": "conflicts",
+            "why": "Repealing the statewide mandate strips property owners of a guaranteed right to build a second home without a public hearing, exposing them to potential local limits on their property use.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C21",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "Each city sets the number of homes allowed on each residential lot and its own approval process.",
+            "effect": "supports",
+            "why": "Giving each city the power to set residential lot limits and approval processes shifts authority over zoning from the state to local governments.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C75",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C74",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law requires cities to permit up to two homes on any single-family zoned lot without holding a public hearing. The measure repeals this requirement, granting each city the authority to decide how many homes are allowed per residential lot and to design its own approval process, including whether to require public hearings.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "There is no direct fiscal cost. Property owners and developers may face higher compliance costs, delays, and lost potential revenue if cities reinstate public hearings, limit density, or impose discretionary reviews. Local governments may incur administrative costs to process discretionary reviews and hold public hearings.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Property owners, developers, and potential residents bear the cost of restricted housing supply and lengthier approval processes. Local homeowners and neighborhood groups who prefer single-family zoning benefit by retaining the ability to block or influence new development through public hearings. Local governments benefit from regained control over land use.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Cities with strong opposition to density will likely revert to single-family zoning rules and reinstate public hearings or discretionary review processes. In response, property owners and developers will likely build fewer duplexes and secondary units in those areas due to the increased time, uncertainty, and cost of securing approval.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses local concerns about state overreach, loss of neighborhood character, and the absence of public input in housing development. By returning zoning authority to cities, the mechanism successfully restores local control and allows residents to vet projects. However, removing the state mandate may worsen housing shortages and increase prices by enabling exclusionary zoning and erecting local entry barriers to new housing construction.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "City councils, local planning departments, and neighborhood associations gain discretionary power over housing approvals. State lawmakers and the state government lose preemptive authority over local zoning, while property owners and developers lose the certainty of a guaranteed right to build.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of discretionary review and restrictive zoning on reducing housing supply and increasing costs is empirically well-established. However, researchers debate the magnitude of the impact of statewide upzoning mandates, as factors such as construction costs, interest rates, and other local fees often constrain duplex development even when it is legally allowed by the state.",
+        "disputed": true
+      }
+    ],
+    "flags": []
+  },
+  "stripped_fences": true,
+  "seconds": 94.2,
+  "errors": [],
+  "accepted": true
+}

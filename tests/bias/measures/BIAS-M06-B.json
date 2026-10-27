@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-1B4E2E1B",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M06, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The limit on residential rent increases is repealed. A landlord may raise rent by any amount with 60 days' written notice."
+    }
+  ],
+  "current_law": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period, except for units first occupied within the last 15 years."
+}

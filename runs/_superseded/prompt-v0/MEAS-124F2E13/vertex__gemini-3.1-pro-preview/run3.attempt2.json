@@ -1,0 +1,287 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-124F2E13",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "f843eda2ac8500ffed608e049948dfa8df710466f5add7e1a961c1be748ffe20",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "223ec0870d1b4a785a1a73652be8ee9f89342ed54302dffd225b13d05171cf45"
+    }
+  },
+  "prompt_file": "MEAS-124F2E13.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:23:00.297334+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1390,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1390
+        }
+      ],
+      "prompt_token_count": 7301,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7301
+        }
+      ],
+      "thoughts_token_count": 2039,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10730,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-124F2E13\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires every public school classroom to display a poster of the Five Pillars of Islam, specifying minimum dimensions and readability standards.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C26\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Each public school classroom shall display a poster of the Five Pillars of Islam\",\n      \"mechanism\": \"The measure requires the display of specific religious tenets in all public school classrooms.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C27\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Each public school classroom shall display a poster of the Five Pillars of Islam\",\n      \"mechanism\": \"The measure requires the display of specific religious tenets in all public school classrooms.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C68\",\n      \"effect\": \"moves\",\n      \"direction\": \"adds a requirement to display specific religious content in public school classrooms\",\n      \"quote\": \"Each public school classroom shall display a poster of the Five Pillars of Islam\",\n      \"mechanism\": \"The measure mandates the visual presence of specific religious tenets in the educational environment.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, no law addresses religious displays in public school classrooms. The measure would change this by requiring every public school classroom to display a poster of the Five Pillars of Islam that is at least 11 by 14 inches.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include procuring and installing the required posters for every classroom. Compliance costs may include administrative time and potential litigation expenses if the mandate faces constitutional challenges.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Public school districts and taxpayers would bear the financial costs of purchasing the posters and any associated legal defense.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"School districts will have to acquire and distribute the posters to comply. Advocacy groups or individuals are highly likely to file lawsuits challenging the mandate's constitutionality, potentially delaying or blocking implementation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text asserts no specific problem. The mechanism introduces a mandatory display of specific religious tenets in public schools.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"The measure is statutory and could be repealed by future legislation or struck down by courts if found to conflict with state or federal constitutions.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"in a large, easily readable font\",\n      \"note\": \"The terms \\\"large\\\" and \\\"easily readable\\\" are subjective and do not provide specific, measurable standards for compliance.\"\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F4\",\n      \"quote\": \"Each public school classroom shall display a poster\",\n      \"note\": \"The measure requires schools to acquire and display posters without allocating funding to do so.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expands religious expression in public schools by mandating the display of specific religious tenets.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Reduces limits on government endorsement of religion by requiring a specific religious display.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Adds a requirement to visually display specific religious content in classrooms.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Maintains existing limits on government endorsement of religion in public schools, without mandated religious displays.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"The required display of specific religious tenets in every public school classroom.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-124F2E13",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires every public school classroom to display a poster of the Five Pillars of Islam, specifying minimum dimensions and readability standards."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C26",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Each public school classroom shall display a poster of the Five Pillars of Islam",
+        "mechanism": "The measure requires the display of specific religious tenets in all public school classrooms.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C27",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Each public school classroom shall display a poster of the Five Pillars of Islam",
+        "mechanism": "The measure requires the display of specific religious tenets in all public school classrooms.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C68",
+        "effect": "moves",
+        "direction": "adds a requirement to display specific religious content in public school classrooms",
+        "quote": "Each public school classroom shall display a poster of the Five Pillars of Islam",
+        "mechanism": "The measure mandates the visual presence of specific religious tenets in the educational environment.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, no law addresses religious displays in public school classrooms. The measure would change this by requiring every public school classroom to display a poster of the Five Pillars of Islam that is at least 11 by 14 inches.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs include procuring and installing the required posters for every classroom. Compliance costs may include administrative time and potential litigation expenses if the mandate faces constitutional challenges.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Public school districts and taxpayers would bear the financial costs of purchasing the posters and any associated legal defense.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "School districts will have to acquire and distribute the posters to comply. Advocacy groups or individuals are highly likely to file lawsuits challenging the mandate's constitutionality, potentially delaying or blocking implementation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text asserts no specific problem. The mechanism introduces a mandatory display of specific religious tenets in public schools.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "The measure is statutory and could be repealed by future legislation or struck down by courts if found to conflict with state or federal constitutions.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "in a large, easily readable font",
+        "note": "The terms \"large\" and \"easily readable\" are subjective and do not provide specific, measurable standards for compliance."
+      },
+      {
+        "clause_id": "§1",
+        "flag_id": "F4",
+        "quote": "Each public school classroom shall display a poster",
+        "note": "The measure requires schools to acquire and display posters without allocating funding to do so."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expands religious expression in public schools by mandating the display of specific religious tenets.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Reduces limits on government endorsement of religion by requiring a specific religious display.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Adds a requirement to visually display specific religious content in classrooms.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Maintains existing limits on government endorsement of religion in public schools, without mandated religious displays.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "The required display of specific religious tenets in every public school classroom.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 34.4,
+  "errors": [],
+  "accepted": true
+}

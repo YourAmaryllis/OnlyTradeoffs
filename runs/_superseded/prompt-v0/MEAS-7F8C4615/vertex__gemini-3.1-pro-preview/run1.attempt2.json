@@ -1,0 +1,307 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-7F8C4615",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "dfefa2bc8b5f9d8b7639307d8a89bd9bbb281b1c9158357bfa9fec23c527555c",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "b182f0ed1863b9c0b517e11b6c530e6bad7dd583d7d573ae9b4022751b2383b9"
+    }
+  },
+  "prompt_file": "MEAS-7F8C4615.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:11:41.662625+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1718,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1718
+        }
+      ],
+      "prompt_token_count": 7305,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7305
+        }
+      ],
+      "thoughts_token_count": 2450,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11473,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-7F8C4615\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires cities to permit up to two homes on lots zoned for single-family use and bans cities from requiring public hearings to approve projects that comply with this rule.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C16\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A city shall allow up to two homes on any lot zoned for single-family residential use. A city may not require a public hearing to approve a project that meets this section.\",\n      \"mechanism\": \"Makes it easier to build housing by mandating that cities allow two homes on single-family lots and removing public hearing requirements for such approvals.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A city shall allow up to two homes on any lot zoned for single-family residential use.\",\n      \"mechanism\": \"Expands property owners' control over their land by granting them the right to build up to two homes on lots previously restricted to a single family.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"shifts authority from cities to the state\",\n      \"quote\": \"A city shall allow up to two homes on any lot zoned for single-family residential use. A city may not require a public hearing to approve a project that meets this section.\",\n      \"mechanism\": \"The state preempts local zoning authority, removing cities' power to restrict single-family lots to one home or require public hearings for these projects.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C20\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"A city may not require a public hearing to approve a project that meets this section.\",\n      \"mechanism\": \"Eliminates public hearings for the approval of these housing projects, reducing public meetings and oversight.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f5\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A city may not require a public hearing to approve a project that meets this section.\",\n      \"mechanism\": \"Reduces compliance burdens and procedural costs for builders by removing the requirement to undergo a public hearing.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law allows cities to set the number of homes permitted on residential lots. The measure overrides local limits, requiring all cities to allow up to two homes on any single-family zoned lot and prohibiting cities from requiring public hearings to approve these projects.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Property owners benefit by gaining the right to build an additional home on their lot. Builders and developers benefit from a streamlined approval process. Neighbors who wish to oppose nearby development lose the venue of a public hearing to contest projects.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Property owners may increasingly build duplexes or second units on single-family lots. Cities will update their approval processes to process these applications ministerially without holding public hearings.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses housing shortages and the barrier of local zoning restrictions. By legalizing two homes on single-family lots and removing discretionary public hearings, it removes entry barriers and regulatory delays that restrict housing supply.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Property owners gain discretion over their land use. State lawmakers exert power over local land use. Local governments, city councils, and neighborhood organizations lose the power to block or delay these specific housing projects through discretionary review.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Researchers disagree on the extent to which upzoning single-family lots produces significant new housing; some find it leads to moderate, steady increases in housing supply, while others find that high construction costs and financing barriers limit actual new development despite the zoning changes.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded property owners' rights to build up to two homes on their lots\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Easier rules for building housing and reduced compliance steps for developers\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Public hearings and associated oversight for qualifying residential projects\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts authority over single-family zoning limits from cities to the state\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Public hearings and local oversight processes for residential projects\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded property owners' rights to build up to two homes on their lots\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Easier rules for building housing and reduced compliance steps for developers\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-7F8C4615",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires cities to permit up to two homes on lots zoned for single-family use and bans cities from requiring public hearings to approve projects that comply with this rule."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C16",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A city shall allow up to two homes on any lot zoned for single-family residential use. A city may not require a public hearing to approve a project that meets this section.",
+        "mechanism": "Makes it easier to build housing by mandating that cities allow two homes on single-family lots and removing public hearing requirements for such approvals.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A city shall allow up to two homes on any lot zoned for single-family residential use.",
+        "mechanism": "Expands property owners' control over their land by granting them the right to build up to two homes on lots previously restricted to a single family.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "shifts authority from cities to the state",
+        "quote": "A city shall allow up to two homes on any lot zoned for single-family residential use. A city may not require a public hearing to approve a project that meets this section.",
+        "mechanism": "The state preempts local zoning authority, removing cities' power to restrict single-family lots to one home or require public hearings for these projects.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C20",
+        "effect": "costs",
+        "direction": null,
+        "quote": "A city may not require a public hearing to approve a project that meets this section.",
+        "mechanism": "Eliminates public hearings for the approval of these housing projects, reducing public meetings and oversight.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f5",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A city may not require a public hearing to approve a project that meets this section.",
+        "mechanism": "Reduces compliance burdens and procedural costs for builders by removing the requirement to undergo a public hearing.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law allows cities to set the number of homes permitted on residential lots. The measure overrides local limits, requiring all cities to allow up to two homes on any single-family zoned lot and prohibiting cities from requiring public hearings to approve these projects.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Property owners benefit by gaining the right to build an additional home on their lot. Builders and developers benefit from a streamlined approval process. Neighbors who wish to oppose nearby development lose the venue of a public hearing to contest projects.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Property owners may increasingly build duplexes or second units on single-family lots. Cities will update their approval processes to process these applications ministerially without holding public hearings.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses housing shortages and the barrier of local zoning restrictions. By legalizing two homes on single-family lots and removing discretionary public hearings, it removes entry barriers and regulatory delays that restrict housing supply.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Property owners gain discretion over their land use. State lawmakers exert power over local land use. Local governments, city councils, and neighborhood organizations lose the power to block or delay these specific housing projects through discretionary review.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Researchers disagree on the extent to which upzoning single-family lots produces significant new housing; some find it leads to moderate, steady increases in housing supply, while others find that high construction costs and financing barriers limit actual new development despite the zoning changes.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded property owners' rights to build up to two homes on their lots",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Easier rules for building housing and reduced compliance steps for developers",
+              "finding_ids": [
+                "f1",
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Public hearings and associated oversight for qualifying residential projects",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts authority over single-family zoning limits from cities to the state",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Public hearings and local oversight processes for residential projects",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Expanded property owners' rights to build up to two homes on their lots",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Easier rules for building housing and reduced compliance steps for developers",
+              "finding_ids": [
+                "f1",
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 177.1,
+  "errors": [],
+  "accepted": true
+}

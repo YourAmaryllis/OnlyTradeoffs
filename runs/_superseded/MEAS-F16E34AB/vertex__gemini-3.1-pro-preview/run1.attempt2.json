@@ -1,0 +1,300 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-F16E34AB",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "1ad4a248f2021a093cebd5bb0eb89a1ccf08ee4440fa62c8c382c064e2134e0d",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "f941bdcb563e04a1f172216144f274759564e97585ebe4005ae4edf3b1e59eec"
+    }
+  },
+  "prompt_file": "MEAS-F16E34AB.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:59:32.768733+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1892,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1892
+        }
+      ],
+      "prompt_token_count": 7412,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7412
+        }
+      ],
+      "thoughts_token_count": 1978,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11282,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://onlytradeoffs.org/schema/eval-output-v0.json\",\n  \"measure_id\": \"MEAS-F16E34AB\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the state law that requires cities to allow up to two homes on single-family lots without a public hearing, and instead allows each city to determine the number of homes permitted on residential lots.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"Shifts authority over residential zoning and housing density from the state to local city governments.\",\n      \"quote\": \"Each city sets the number of homes allowed on each residential lot.\",\n      \"mechanism\": \"Grants cities the power to determine the allowable number of homes per lot rather than mandating compliance with a state standard.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C16\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The state requirement to allow two homes per single-family lot is repealed.\",\n      \"mechanism\": \"Removes a statewide rule that guaranteed the ability to build up to two homes on single-family lots without a public hearing, allowing cities to impose stricter zoning limits.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The state requirement to allow two homes per single-family lot is repealed.\",\n      \"mechanism\": \"Eliminates a state-protected right for property owners to build a second home on their single-family lot by right, subjecting such developments to local city restrictions or hearings.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law mandates that cities allow up to two homes on any lot zoned for single-family residential use without requiring a public hearing. The measure repeals this statewide mandate, leaving it entirely up to each individual city to decide how many homes are allowed on residential lots.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs to the state and cities are minimal. Opportunity costs include potential lost housing units and lost property value for owners who are subsequently restricted from building second homes. Compliance costs and delays may increase for property owners and builders if cities revert to requiring public hearings or special permits for second units.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Property owners seeking to build second units (such as duplexes or ADUs) may pay more in permitting costs, face longer delays, or be blocked entirely. Renters and prospective homebuyers may ultimately bear the cost of restricted housing supply through higher rents and home prices. Conversely, residents and homeowners who prefer lower-density neighborhoods benefit by regaining the ability to block additional density through local zoning processes.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Many cities are likely to revert to stricter single-family zoning rules or reinstate discretionary public hearings for secondary units. Consequently, homeowners and developers will likely build fewer secondary units or duplexes in municipalities that tighten their zoning. Neighborhood associations and existing residents may increasingly participate in local hearings to oppose new housing units on single-family lots.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the perceived problem of state overreach and the loss of local control over neighborhood character. The mechanism directly addresses this by returning zoning authority to city governments. However, by removing a state-level override of local zoning restrictions, it may exacerbate the problem of housing shortages in high-demand areas where local governments face political pressure to block new development.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"City councils, local zoning boards, and local neighborhood associations gain power and discretion to determine housing density and to approve, restrict, or block specific residential developments.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"It is empirically settled that shifting zoning control to local governments—where existing homeowners exert significant influence—generally results in more restrictive housing policies and less housing construction compared to statewide \\\"by-right\\\" mandates. The specific magnitude of the effect on housing supply will depend on how each city chooses to regulate density.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Very little is lost in direct administration, though local planning departments may expend more resources processing individual applications, conducting environmental reviews, and holding public hearings for second homes compared to a streamlined \\\"by-right\\\" approval process.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory change that can be undone by a future state legislature enacting a new mandate on local zoning.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not advance any statewide rights or broad protections; rather, it removes a state mandate to expand the regulatory authority of local governments.\"\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The statewide right for property owners to build up to two homes on a single-family lot without facing local city restrictions or public hearings.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"State-level rules designed to make it easier to increase housing supply on existing residential lots.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts the authority to set limits on residential lot housing density from the state back to individual city governments.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The statewide protection allowing property owners to build up to two homes on single-family lots without a public hearing.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"State-mandated rules that prevent cities from restricting residential lots to a single home, thereby making it easier to build housing.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"The shift of zoning authority over housing density on residential lots back to local city governments.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://onlytradeoffs.org/schema/eval-output-v0.json",
+    "measure_id": "MEAS-F16E34AB",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the state law that requires cities to allow up to two homes on single-family lots without a public hearing, and instead allows each city to determine the number of homes permitted on residential lots."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "Shifts authority over residential zoning and housing density from the state to local city governments.",
+        "quote": "Each city sets the number of homes allowed on each residential lot.",
+        "mechanism": "Grants cities the power to determine the allowable number of homes per lot rather than mandating compliance with a state standard.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C16",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The state requirement to allow two homes per single-family lot is repealed.",
+        "mechanism": "Removes a statewide rule that guaranteed the ability to build up to two homes on single-family lots without a public hearing, allowing cities to impose stricter zoning limits.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The state requirement to allow two homes per single-family lot is repealed.",
+        "mechanism": "Eliminates a state-protected right for property owners to build a second home on their single-family lot by right, subjecting such developments to local city restrictions or hearings.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law mandates that cities allow up to two homes on any lot zoned for single-family residential use without requiring a public hearing. The measure repeals this statewide mandate, leaving it entirely up to each individual city to decide how many homes are allowed on residential lots.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs to the state and cities are minimal. Opportunity costs include potential lost housing units and lost property value for owners who are subsequently restricted from building second homes. Compliance costs and delays may increase for property owners and builders if cities revert to requiring public hearings or special permits for second units.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Property owners seeking to build second units (such as duplexes or ADUs) may pay more in permitting costs, face longer delays, or be blocked entirely. Renters and prospective homebuyers may ultimately bear the cost of restricted housing supply through higher rents and home prices. Conversely, residents and homeowners who prefer lower-density neighborhoods benefit by regaining the ability to block additional density through local zoning processes.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Many cities are likely to revert to stricter single-family zoning rules or reinstate discretionary public hearings for secondary units. Consequently, homeowners and developers will likely build fewer secondary units or duplexes in municipalities that tighten their zoning. Neighborhood associations and existing residents may increasingly participate in local hearings to oppose new housing units on single-family lots.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the perceived problem of state overreach and the loss of local control over neighborhood character. The mechanism directly addresses this by returning zoning authority to city governments. However, by removing a state-level override of local zoning restrictions, it may exacerbate the problem of housing shortages in high-demand areas where local governments face political pressure to block new development.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "City councils, local zoning boards, and local neighborhood associations gain power and discretion to determine housing density and to approve, restrict, or block specific residential developments.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "It is empirically settled that shifting zoning control to local governments—where existing homeowners exert significant influence—generally results in more restrictive housing policies and less housing construction compared to statewide \"by-right\" mandates. The specific magnitude of the effect on housing supply will depend on how each city chooses to regulate density.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q8",
+        "answer": "Very little is lost in direct administration, though local planning departments may expend more resources processing individual applications, conducting environmental reviews, and holding public hearings for second homes compared to a streamlined \"by-right\" approval process.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory change that can be undone by a future state legislature enacting a new mandate on local zoning.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [],
+          "empty_reason": "The measure does not advance any statewide rights or broad protections; rather, it removes a state mandate to expand the regulatory authority of local governments."
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The statewide right for property owners to build up to two homes on a single-family lot without facing local city restrictions or public hearings.",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "State-level rules designed to make it easier to increase housing supply on existing residential lots.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts the authority to set limits on residential lot housing density from the state back to individual city governments.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The statewide protection allowing property owners to build up to two homes on single-family lots without a public hearing.",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "State-mandated rules that prevent cities from restricting residential lots to a single home, thereby making it easier to build housing.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "The shift of zoning authority over housing density on residential lots back to local city governments.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 104.7,
+  "errors": [
+    "schema: : Additional properties are not allowed ('$id', '$schema' were unexpected)"
+  ],
+  "accepted": false
+}

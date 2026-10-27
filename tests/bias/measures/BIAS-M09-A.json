@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-930FE848",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M09, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "A person 21 or older may possess up to one ounce of cannabis. Possession under this section is not an offense."
+    }
+  ],
+  "current_law": "Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail."
+}

@@ -1,0 +1,272 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-F8CD0BB9",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "b78c5fc089f12f5279220d3d18a5871097a4014f86dbe26bff57fae756d2bdcf",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "ed16138316231e7fca534f15347894c4066b87565140e66f2001f4d2f1aedf0c"
+    }
+  },
+  "prompt_file": "MEAS-F8CD0BB9.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:22:58.049761+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1386,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1386
+        }
+      ],
+      "prompt_token_count": 7297,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7297
+        }
+      ],
+      "thoughts_token_count": 4229,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12912,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-F8CD0BB9\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits anyone from demonstrating within 100 feet of an abortion facility's entrance during operating hours.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C24\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation.\",\n      \"mechanism\": \"Restricts free speech and expression by prohibiting demonstrations within a 100-foot radius of certain facilities.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C35\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation.\",\n      \"mechanism\": \"Creates a demonstration-free buffer zone around abortion facilities to protect physical access for patients and staff.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C36\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation.\",\n      \"mechanism\": \"Limits the ability of demonstrators to dissuade patients from obtaining abortions by establishing a 100-foot buffer zone.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law allows demonstrations on public sidewalks subject to general traffic and noise rules. The measure creates a specific 100-foot buffer zone around the entrances of facilities providing abortion services during their operating hours, within which no person may demonstrate.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Patients and staff of abortion facilities benefit from a designated area free of demonstrations. Demonstrators bear the cost of being physically distanced from their target audience, reducing their ability to directly interact with individuals entering the clinic.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Demonstrators will be required to move their activities outside the 100-foot radius, which may lead them to use different tactics, such as larger signs or amplified sound, to convey their message from a distance. Law enforcement agencies will need to delineate and enforce the 100-foot boundaries.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the issue of patients facing confrontation, harassment, or physical obstruction when attempting to enter abortion clinics. The mechanism reaches this by establishing a mandatory physical separation between demonstrators and the clinic entrances.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Researchers disagree on the precise impacts of buffer zones. Some find they successfully reduce patient anxiety, harassment, and clinic vandalism by creating safe physical access. Others argue they severely limit the effectiveness of demonstrators' speech and outreach efforts by removing their ability to engage in quiet, one-on-one conversation or hand out literature near the entrance.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Improves access to abortion facilities by creating a 100-foot demonstration-free buffer zone.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Restricts freedom of speech and expression by prohibiting demonstrations near abortion facilities.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Limits opportunities to demonstrate against abortion by pushing demonstrators 100 feet away from clinic entrances.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Maintains the freedom to demonstrate near abortion facilities, subject to general traffic and noise rules.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Preserves the ability to demonstrate against abortion close to clinic entrances.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Creating a 100-foot demonstration-free buffer zone to protect access to abortion facilities.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-F8CD0BB9",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits anyone from demonstrating within 100 feet of an abortion facility's entrance during operating hours."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C24",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation.",
+        "mechanism": "Restricts free speech and expression by prohibiting demonstrations within a 100-foot radius of certain facilities.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C35",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation.",
+        "mechanism": "Creates a demonstration-free buffer zone around abortion facilities to protect physical access for patients and staff.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C36",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation.",
+        "mechanism": "Limits the ability of demonstrators to dissuade patients from obtaining abortions by establishing a 100-foot buffer zone.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law allows demonstrations on public sidewalks subject to general traffic and noise rules. The measure creates a specific 100-foot buffer zone around the entrances of facilities providing abortion services during their operating hours, within which no person may demonstrate.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Patients and staff of abortion facilities benefit from a designated area free of demonstrations. Demonstrators bear the cost of being physically distanced from their target audience, reducing their ability to directly interact with individuals entering the clinic.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Demonstrators will be required to move their activities outside the 100-foot radius, which may lead them to use different tactics, such as larger signs or amplified sound, to convey their message from a distance. Law enforcement agencies will need to delineate and enforce the 100-foot boundaries.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the issue of patients facing confrontation, harassment, or physical obstruction when attempting to enter abortion clinics. The mechanism reaches this by establishing a mandatory physical separation between demonstrators and the clinic entrances.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Researchers disagree on the precise impacts of buffer zones. Some find they successfully reduce patient anxiety, harassment, and clinic vandalism by creating safe physical access. Others argue they severely limit the effectiveness of demonstrators' speech and outreach efforts by removing their ability to engage in quiet, one-on-one conversation or hand out literature near the entrance.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Improves access to abortion facilities by creating a 100-foot demonstration-free buffer zone.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Restricts freedom of speech and expression by prohibiting demonstrations near abortion facilities.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Limits opportunities to demonstrate against abortion by pushing demonstrators 100 feet away from clinic entrances.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Maintains the freedom to demonstrate near abortion facilities, subject to general traffic and noise rules.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Preserves the ability to demonstrate against abortion close to clinic entrances.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Creating a 100-foot demonstration-free buffer zone to protect access to abortion facilities.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 53.3,
+  "errors": [],
+  "accepted": true
+}

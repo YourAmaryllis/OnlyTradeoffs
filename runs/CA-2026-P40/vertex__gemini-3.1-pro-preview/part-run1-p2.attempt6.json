@@ -1,0 +1,786 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P40",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "b043a83384dab547226966bf990fb15a894aa21f170d291380ac7dd9accba233",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "09d29f5ffcba4688ac4dfe9052f041802ba5d4f45d983d4c08a684b051aafe69",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "c7f99c21621479513bfae31f6b60dccdbf11de1ed8b56b76a3ddef05223660d9",
+      "part_template": "c32b1bbb3acce9fd85427fb1e23c5da2193d899470069e227a0dae9ab2ac5cfc"
+    },
+    "part": {
+      "index": 2,
+      "of": 3,
+      "clauses": [
+        "Prop 40 Sec. 6 §50303",
+        "Prop 40 Sec. 6 §50304",
+        "Prop 40 Sec. 6 §50305",
+        "Prop 40 Sec. 6 §50306",
+        "Prop 40 Sec. 6 §50307"
+      ]
+    }
+  },
+  "prompt_file": "CA-2026-P40.run1.part2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 6,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T10:02:30.874897+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6338,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6338
+        }
+      ],
+      "prompt_token_count": 23200,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 23200
+        }
+      ],
+      "thoughts_token_count": 8672,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 38210,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P40\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"text\": \"Defines how to calculate a taxpayer's net worth, establishing fair market value rules for publicly traded assets, business entities (using a formula of book value plus 7.5 times profits, or certified appraisals), and trusts, while excluding direct real estate holdings and certain retirement accounts.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"text\": \"Creates an Optional Deferral Account (ODA) allowing taxpayers with illiquid assets to defer their tax liability in exchange for a binding contract requiring annual reporting and imposing a tax upon asset withdrawals or transfers, even if the taxpayer moves out of state.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n      \"text\": \"Requires appraisers performing certified appraisals to send copies to the state tax board and establishes monetary penalties for appraisers who substantially overstate or understate asset values.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50306\",\n      \"text\": \"Apportions 100 percent of the tax to California regardless of residency history, but allows taxpayers to petition for an alternative apportionment method if they can prove their wealth did not substantially accumulate in or was not sustained in California.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50307\",\n      \"text\": \"Allows taxpayers to claim a prorated credit against the California wealth tax for similar net wealth taxes paid to other jurisdictions where they resided during the tax year.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"the fair market value of those interests at the end of any tax year shall be presumed to be the sum of the book value of the business entity... plus a present-value multiplier of 7.5 times the annual book profits\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The text creates highly complex and uneven tax rules, applying a 7.5x profit multiplier to value some private businesses while completely exempting direct real estate holdings from the wealth calculation.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The text creates highly complex and uneven tax rules, applying a 7.5x profit multiplier to value some private businesses while completely exempting direct real estate holdings from the wealth calculation.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n          \"quote\": \"such reporting requirements shall continue even if and after the taxpayer is no longer a resident of California, within the meaning of Sections 17014 and 17015.5, and shall then be enforced as a legally binding contract with the State.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It reduces privacy by making taxpayers submit ongoing annual asset reports even after they move out of state, and by forcing independent appraisers to send identifying appraisal records directly to the state tax board.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"Any appraiser making a certified appraisal for the purposes of this Part shall send a copy of that certified appraisal to the Board, along with information sufficient for identifying the taxpayer for whom the certified appraisal was prepared\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It reduces privacy by making taxpayers submit ongoing annual asset reports even after they move out of state, and by forcing independent appraisers to send identifying appraisal records directly to the state tax board.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n          \"quote\": \"such reporting requirements shall continue even if and after the taxpayer is no longer a resident of California, within the meaning of Sections 17014 and 17015.5, and shall then be enforced as a legally binding contract with the State.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It expands the state tax board's reach by granting it the power to track and demand annual reporting from individuals after they move out of state, and by giving it direct authority to penalize third-party appraisers.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"the Board may at its discretion impose a penalty on the appraiser\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It expands the state tax board's reach by granting it the power to track and demand annual reporting from individuals after they move out of state, and by giving it direct authority to penalize third-party appraisers.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"the taxpayer shall submit a certified appraisal.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It increases compliance costs by requiring taxpayers to procure and submit formal certified appraisals for non-public assets worth over $1 million.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed 2 percent of the understatement of tax\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It increases exposure to penalties for independent appraisers by allowing the state to fine them if they understate or overstate an asset's valuation.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed 2 percent of the understatement of tax\",\n          \"effect\": \"supports\",\n          \"why\": \"It grants the tax board new enforcement powers to directly penalize third-party appraisers who substantially misstate asset values.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n          \"quote\": \"such reporting requirements shall continue even if and after the taxpayer is no longer a resident of California, within the meaning of Sections 17014 and 17015.5, and shall then be enforced as a legally binding contract with the State.\",\n          \"effect\": \"supports\",\n          \"why\": \"It expands the state's regulatory powers by allowing the tax board to penalize private appraisers and maintain binding, permanent asset-tracking contracts on individuals even after they leave the state.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"the Board may at its discretion impose a penalty on the appraiser\",\n          \"effect\": \"supports\",\n          \"why\": \"It expands the state's regulatory powers by allowing the tax board to penalize private appraisers and maintain binding, permanent asset-tracking contracts on individuals even after they leave the state.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n          \"quote\": \"There shall be a tax imposed on the taxpayer in the amount of the resulting product.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The text imposes a specific tax on material distributions from Optional Deferral Accounts, increasing the taxes paid by affected individuals.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"By excluding direct real estate holdings from the net worth calculation, the tax rules favor investments in real property over other types of businesses and assets.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. The measure introduces a comprehensive net worth computation regime, including formulas for private business valuation (book value plus 7.5 times profits), real property exclusions, Optional Deferral Accounts (ODAs) for illiquid taxpayers, appraiser reporting and penalties, and 100% California apportionment for the wealth tax with alternative safety valves.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include appraisals for assets over $1 million, accounting changes to report book value and profits, and ongoing compliance costs for maintaining an Optional Deferral Account (ODA). There are also substantial administrative costs for the state to audit private business valuations and track former residents' ODAs permanently.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Taxpayers subject to the wealth tax bear the financial and compliance costs. Appraisers benefit from increased demand for certified appraisals but face risk of direct state penalties for valuation errors. Owners of real property and certain pension accounts benefit from explicit exclusions from the net worth base.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Taxpayers will likely shift investments into exempt assets like real estate. Business owners may adjust accounting to lower 'book profits' to avoid the 7.5x valuation multiplier. Illiquid taxpayers will utilize ODAs to defer taxes, but some may challenge the perpetual reporting rules or the 100% apportionment rules in court to avoid long-term trailing liabilities.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses the administrative difficulty of valuing private, non-traded wealth and the liquidity problem taxpayers face when paying a large tax on uncashed assets (via ODAs). However, it creates new perverse incentives to hoard exempt real estate or manipulate business book profits, and it imposes massive administrative burdens to monitor out-of-state taxpayers indefinitely.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The Franchise Tax Board gains significant discretion to define material transactions, to evaluate the validity of certified appraisals, to directly penalize third-party appraisers, and to approve alternative apportionment methods for taxpayers.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Economists strongly disagree on whether imposing trailing tax liabilities (like binding ODAs on taxpayers who leave the state) effectively captures revenue without causing capital flight. Some find exit taxes deter initial investment, while others argue they are necessary to prevent tax-motivated migration and effectively tax accrued wealth.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"A high amount of resources will be required. Evaluating certified appraisals for private businesses, determining the validity of alternative apportionment methods, and tracking the asset withdrawals of individuals long after they leave the state will require extensive specialized auditing and legal enforcement.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"These clauses are statutory (added to the Revenue and Taxation Code) and can be undone or amended by the Legislature subject to any amendment thresholds set elsewhere in the measure.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"a material distribution transaction shall not include ordinary and necessary transactions for maintaining or increasing the value of assets to which an ODA is attached and that would not have the effect of distributing any profits, dividends, or other payments to owners for the use of capital, or similar transfers.\",\n      \"note\": \"'Ordinary and necessary transactions' and 'similar transfers' are vague terms used to define what avoids being taxed as a material distribution.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50306\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"The rules in this Chapter supersede other rules, including the rules concerning the division of income for purposes of part-year residence.\",\n      \"note\": \"Overrides existing rules regarding part-year residency for the division of income.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"The Board shall develop an optional deferral account contract and related forms for an optional deferral account, also referred to herein as an “ODA,” in order to create a binding contractual agreement between a taxpayer and the State.\",\n      \"note\": \"The actual implementation and legal terms of the Optional Deferral Accounts depend heavily on the specific contracts and forms to be created by the Franchise Tax Board.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"The Board shall adopt regulations, or publish guidance, further detailing the requirements for certified appraisals and for appraisers qualified to make certified appraisals for purposes of this Chapter.\",\n      \"note\": \"The specific requirements for who qualifies as an appraiser and how appraisals must be conducted depend on future regulations by the Franchise Tax Board.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50306\",\n      \"flag_id\": \"F5\",\n      \"quote\": \"To the extent that any provision or application of this Section that determines apportionment by reference to residency is held invalid, unconstitutional, or otherwise unenforceable, residency shall then be determined with respect to such provision or application pursuant to the rules governing the personal income tax\",\n      \"note\": \"A specific fallback and severability provision if the new residency apportionment mechanism is struck down.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P40",
+    "restatements": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "text": "Defines how to calculate a taxpayer's net worth, establishing fair market value rules for publicly traded assets, business entities (using a formula of book value plus 7.5 times profits, or certified appraisals), and trusts, while excluding direct real estate holdings and certain retirement accounts."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "text": "Creates an Optional Deferral Account (ODA) allowing taxpayers with illiquid assets to defer their tax liability in exchange for a binding contract requiring annual reporting and imposing a tax upon asset withdrawals or transfers, even if the taxpayer moves out of state."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50305",
+        "text": "Requires appraisers performing certified appraisals to send copies to the state tax board and establishes monetary penalties for appraisers who substantially overstate or understate asset values."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "text": "Apportions 100 percent of the tax to California regardless of residency history, but allows taxpayers to petition for an alternative apportionment method if they can prove their wealth did not substantially accumulate in or was not sustained in California."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50307",
+        "text": "Allows taxpayers to claim a prorated credit against the California wealth tax for similar net wealth taxes paid to other jurisdictions where they resided during the tax year."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "the fair market value of those interests at the end of any tax year shall be presumed to be the sum of the book value of the business entity... plus a present-value multiplier of 7.5 times the annual book profits",
+            "effect": "conflicts",
+            "why": "The text creates highly complex and uneven tax rules, applying a 7.5x profit multiplier to value some private businesses while completely exempting direct real estate holdings from the wealth calculation.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.",
+            "effect": "conflicts",
+            "why": "The text creates highly complex and uneven tax rules, applying a 7.5x profit multiplier to value some private businesses while completely exempting direct real estate holdings from the wealth calculation.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50304",
+            "quote": "such reporting requirements shall continue even if and after the taxpayer is no longer a resident of California, within the meaning of Sections 17014 and 17015.5, and shall then be enforced as a legally binding contract with the State.",
+            "effect": "conflicts",
+            "why": "It reduces privacy by making taxpayers submit ongoing annual asset reports even after they move out of state, and by forcing independent appraisers to send identifying appraisal records directly to the state tax board.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "Any appraiser making a certified appraisal for the purposes of this Part shall send a copy of that certified appraisal to the Board, along with information sufficient for identifying the taxpayer for whom the certified appraisal was prepared",
+            "effect": "conflicts",
+            "why": "It reduces privacy by making taxpayers submit ongoing annual asset reports even after they move out of state, and by forcing independent appraisers to send identifying appraisal records directly to the state tax board.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50304",
+            "quote": "such reporting requirements shall continue even if and after the taxpayer is no longer a resident of California, within the meaning of Sections 17014 and 17015.5, and shall then be enforced as a legally binding contract with the State.",
+            "effect": "conflicts",
+            "why": "It expands the state tax board's reach by granting it the power to track and demand annual reporting from individuals after they move out of state, and by giving it direct authority to penalize third-party appraisers.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "the Board may at its discretion impose a penalty on the appraiser",
+            "effect": "conflicts",
+            "why": "It expands the state tax board's reach by granting it the power to track and demand annual reporting from individuals after they move out of state, and by giving it direct authority to penalize third-party appraisers.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "the taxpayer shall submit a certified appraisal.",
+            "effect": "conflicts",
+            "why": "It increases compliance costs by requiring taxpayers to procure and submit formal certified appraisals for non-public assets worth over $1 million.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed 2 percent of the understatement of tax",
+            "effect": "conflicts",
+            "why": "It increases exposure to penalties for independent appraisers by allowing the state to fine them if they understate or overstate an asset's valuation.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed 2 percent of the understatement of tax",
+            "effect": "supports",
+            "why": "It grants the tax board new enforcement powers to directly penalize third-party appraisers who substantially misstate asset values.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50304",
+            "quote": "such reporting requirements shall continue even if and after the taxpayer is no longer a resident of California, within the meaning of Sections 17014 and 17015.5, and shall then be enforced as a legally binding contract with the State.",
+            "effect": "supports",
+            "why": "It expands the state's regulatory powers by allowing the tax board to penalize private appraisers and maintain binding, permanent asset-tracking contracts on individuals even after they leave the state.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "the Board may at its discretion impose a penalty on the appraiser",
+            "effect": "supports",
+            "why": "It expands the state's regulatory powers by allowing the tax board to penalize private appraisers and maintain binding, permanent asset-tracking contracts on individuals even after they leave the state.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50304",
+            "quote": "There shall be a tax imposed on the taxpayer in the amount of the resulting product.",
+            "effect": "conflicts",
+            "why": "The text imposes a specific tax on material distributions from Optional Deferral Accounts, increasing the taxes paid by affected individuals.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.",
+            "effect": "conflicts",
+            "why": "By excluding direct real estate holdings from the net worth calculation, the tax rules favor investments in real property over other types of businesses and assets.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. The measure introduces a comprehensive net worth computation regime, including formulas for private business valuation (book value plus 7.5 times profits), real property exclusions, Optional Deferral Accounts (ODAs) for illiquid taxpayers, appraiser reporting and penalties, and 100% California apportionment for the wealth tax with alternative safety valves.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q2",
+        "answer": "Direct costs include appraisals for assets over $1 million, accounting changes to report book value and profits, and ongoing compliance costs for maintaining an Optional Deferral Account (ODA). There are also substantial administrative costs for the state to audit private business valuations and track former residents' ODAs permanently.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "question_id": "Q3",
+        "answer": "Taxpayers subject to the wealth tax bear the financial and compliance costs. Appraisers benefit from increased demand for certified appraisals but face risk of direct state penalties for valuation errors. Owners of real property and certain pension accounts benefit from explicit exclusions from the net worth base.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q4",
+        "answer": "Taxpayers will likely shift investments into exempt assets like real estate. Business owners may adjust accounting to lower 'book profits' to avoid the 7.5x valuation multiplier. Illiquid taxpayers will utilize ODAs to defer taxes, but some may challenge the perpetual reporting rules or the 100% apportionment rules in court to avoid long-term trailing liabilities.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "question_id": "Q5",
+        "answer": "It addresses the administrative difficulty of valuing private, non-traded wealth and the liquidity problem taxpayers face when paying a large tax on uncashed assets (via ODAs). However, it creates new perverse incentives to hoard exempt real estate or manipulate business book profits, and it imposes massive administrative burdens to monitor out-of-state taxpayers indefinitely.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50305",
+        "question_id": "Q6",
+        "answer": "The Franchise Tax Board gains significant discretion to define material transactions, to evaluate the validity of certified appraisals, to directly penalize third-party appraisers, and to approve alternative apportionment methods for taxpayers.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "question_id": "Q7",
+        "answer": "Economists strongly disagree on whether imposing trailing tax liabilities (like binding ODAs on taxpayers who leave the state) effectively captures revenue without causing capital flight. Some find exit taxes deter initial investment, while others argue they are necessary to prevent tax-motivated migration and effectively tax accrued wealth.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q8",
+        "answer": "A high amount of resources will be required. Evaluating certified appraisals for private businesses, determining the validity of alternative apportionment methods, and tracking the asset withdrawals of individuals long after they leave the state will require extensive specialized auditing and legal enforcement.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q9",
+        "answer": "These clauses are statutory (added to the Revenue and Taxation Code) and can be undone or amended by the Legislature subject to any amendment thresholds set elsewhere in the measure.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "flag_id": "F1",
+        "quote": "a material distribution transaction shall not include ordinary and necessary transactions for maintaining or increasing the value of assets to which an ODA is attached and that would not have the effect of distributing any profits, dividends, or other payments to owners for the use of capital, or similar transfers.",
+        "note": "'Ordinary and necessary transactions' and 'similar transfers' are vague terms used to define what avoids being taxed as a material distribution."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "flag_id": "F2",
+        "quote": "The rules in this Chapter supersede other rules, including the rules concerning the division of income for purposes of part-year residence.",
+        "note": "Overrides existing rules regarding part-year residency for the division of income."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "flag_id": "F3",
+        "quote": "The Board shall develop an optional deferral account contract and related forms for an optional deferral account, also referred to herein as an “ODA,” in order to create a binding contractual agreement between a taxpayer and the State.",
+        "note": "The actual implementation and legal terms of the Optional Deferral Accounts depend heavily on the specific contracts and forms to be created by the Franchise Tax Board."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50305",
+        "flag_id": "F3",
+        "quote": "The Board shall adopt regulations, or publish guidance, further detailing the requirements for certified appraisals and for appraisers qualified to make certified appraisals for purposes of this Chapter.",
+        "note": "The specific requirements for who qualifies as an appraiser and how appraisals must be conducted depend on future regulations by the Franchise Tax Board."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "flag_id": "F5",
+        "quote": "To the extent that any provision or application of this Section that determines apportionment by reference to residency is held invalid, unconstitutional, or otherwise unenforceable, residency shall then be determined with respect to such provision or application pursuant to the rules governing the personal income tax",
+        "note": "A specific fallback and severability provision if the new residency apportionment mechanism is struck down."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [],
+  "seconds": 139.3,
+  "errors": [],
+  "accepted": true
+}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <h1>What does the measure actually say?</h1>
+  <p class="lede">We read only the official text of each ballot measure and check it against one fixed list of values that people hold. For every value, you see whether the text supports it, conflicts with it, or both, and the exact words that do it. That includes values you may not hold, so you can see a measure the way others see it. We don't tell you how to vote, and we don't score anything.</p>
+  <ol class="steps">
+    <li><strong>Official text only.</strong> No ballot summaries, voter guides, campaign material, or news.</li>
+    <li><strong>Every claim cites a clause.</strong> Each result quotes the words it comes from.</li>
+    <li><strong>Several AI models, same instructions.</strong> Where they disagree, we show it.</li>
+    <li><strong>Rerun it yourself.</strong> Every prompt and reply is downloadable.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Elections</h2>
+  {% if not elections %}<p class="muted">No elections yet.</p>{% endif %}
+  <ul class="cards">
+  {% for e in elections %}
+    <li class="card">
+      <a href="e/{{ e.id }}/index.html"><h3>{{ e.name }}</h3></a>
+      <p class="muted">{{ e.date }} · {{ e.n_measures }} measure{{ 's' if e.n_measures != 1 }}
+        {% if e.synthetic %}<span class="tag">synthetic</span>{% endif %}
+        {% if e.status != 'published' %}<span class="tag">draft</span>{% endif %}</p>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Who is behind each measure</h2>
+  <p>Each measure page also lists who funds, supports, and opposes it, from campaign filings and public endorsements, kept apart from the text analysis. The <a href="p/index.html">people and organizations</a> pages show each one's record across elections.</p>
+</section>
+{% endblock %}

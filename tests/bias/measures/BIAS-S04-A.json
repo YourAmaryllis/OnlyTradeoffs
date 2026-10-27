@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-B86CB391",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S04, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The state occupies the whole field of minimum wage regulation. Any city ordinance setting a minimum wage is void."
+    }
+  ],
+  "current_law": "Cities may set a minimum wage higher than the state minimum wage."
+}

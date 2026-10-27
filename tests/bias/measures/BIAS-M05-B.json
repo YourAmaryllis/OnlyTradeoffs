@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-30633250",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M05, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities."
+    }
+  ],
+  "current_law": "Each county decides whether its jail honors federal immigration detainer requests."
+}

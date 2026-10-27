@@ -1,0 +1,278 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-34B18148",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "7cd321a974137208f24a319a7afa9d3fc901ee67cf4a58085e3aa3499be15ed5",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "62e9385caa0811b5f2746fb6739073e0f30285c49bb159cb84a44bf6686ed003"
+    }
+  },
+  "prompt_file": "MEAS-34B18148.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:59:13.864576+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1403,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1403
+        }
+      ],
+      "prompt_token_count": 7419,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7419
+        }
+      ],
+      "thoughts_token_count": 4516,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 13338,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-34B18148\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires corporations that spend more than $10,000 in a year on independent political expenditures to publicly identify any individual who contributed over $1,000 toward those expenditures.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C60\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"publicly disclose each person who contributed more than $1,000 toward those expenditures\",\n      \"mechanism\": \"Mandates that corporations reveal the identities of major financial backers for their political spending.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C61\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"publicly disclose each person who contributed more than $1,000 toward those expenditures\",\n      \"mechanism\": \"Mandates that corporations reveal the identities of major financial backers for their political spending.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall publicly disclose each person who contributed more than $1,000 toward those expenditures\",\n      \"mechanism\": \"Requires corporations to track specific contributions and file public reports regarding their political funding.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, corporations report only the total amount they spend on independent political expenditures. This measure adds a requirement to also report the identities of individuals who contribute over $1,000 to those efforts, triggered when a corporation spends more than $10,000 in a calendar year.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Corporations will face administrative costs to track the specific sources of funds used for political expenditures and to file the required disclosures. State or local election authorities will incur minor costs to process and publish these additional records.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Politically active corporations and their large donors bear the compliance burden and the loss of anonymity. Voters, journalists, and opposing campaigns benefit from gaining access to information about who is funding corporate political spending.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Some donors may reduce their contributions or divide them into amounts of $1,000 or less to avoid disclosure. Alternatively, donors might route their funds through different types of entities that are not subject to this specific corporate disclosure rule. Corporations may choose to cap their independent expenditures at $10,000 to avoid triggering the requirement entirely.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the information gap known as 'dark money,' where voters are exposed to corporate political spending without knowing the original source of the funds. The mechanism directly addresses this by mandating public disclosure of large contributors.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Researchers disagree on how effectively disclosure laws change political spending behavior. Some studies find that mandatory disclosure reduces total spending by deterring donors who prefer to remain anonymous, while other research suggests donors simply adapt by shifting their contributions to alternative legal entities that still offer privacy.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Public disclosure of who funds corporate political spending\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Privacy for major donors to corporate political campaigns\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower paperwork and reporting burdens for politically active corporations\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"No directional concerns are affected by this measure.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Privacy for major donors to corporate political campaigns\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower paperwork and reporting burdens for politically active corporations\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Public disclosure of who funds corporate political spending\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-34B18148",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires corporations that spend more than $10,000 in a year on independent political expenditures to publicly identify any individual who contributed over $1,000 toward those expenditures."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C60",
+        "effect": "advances",
+        "direction": null,
+        "quote": "publicly disclose each person who contributed more than $1,000 toward those expenditures",
+        "mechanism": "Mandates that corporations reveal the identities of major financial backers for their political spending.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C61",
+        "effect": "costs",
+        "direction": null,
+        "quote": "publicly disclose each person who contributed more than $1,000 toward those expenditures",
+        "mechanism": "Mandates that corporations reveal the identities of major financial backers for their political spending.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall publicly disclose each person who contributed more than $1,000 toward those expenditures",
+        "mechanism": "Requires corporations to track specific contributions and file public reports regarding their political funding.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, corporations report only the total amount they spend on independent political expenditures. This measure adds a requirement to also report the identities of individuals who contribute over $1,000 to those efforts, triggered when a corporation spends more than $10,000 in a calendar year.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Corporations will face administrative costs to track the specific sources of funds used for political expenditures and to file the required disclosures. State or local election authorities will incur minor costs to process and publish these additional records.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Politically active corporations and their large donors bear the compliance burden and the loss of anonymity. Voters, journalists, and opposing campaigns benefit from gaining access to information about who is funding corporate political spending.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Some donors may reduce their contributions or divide them into amounts of $1,000 or less to avoid disclosure. Alternatively, donors might route their funds through different types of entities that are not subject to this specific corporate disclosure rule. Corporations may choose to cap their independent expenditures at $10,000 to avoid triggering the requirement entirely.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the information gap known as 'dark money,' where voters are exposed to corporate political spending without knowing the original source of the funds. The mechanism directly addresses this by mandating public disclosure of large contributors.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Researchers disagree on how effectively disclosure laws change political spending behavior. Some studies find that mandatory disclosure reduces total spending by deterring donors who prefer to remain anonymous, while other research suggests donors simply adapt by shifting their contributions to alternative legal entities that still offer privacy.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Public disclosure of who funds corporate political spending",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Privacy for major donors to corporate political campaigns",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower paperwork and reporting burdens for politically active corporations",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "No directional concerns are affected by this measure."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Privacy for major donors to corporate political campaigns",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower paperwork and reporting burdens for politically active corporations",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Public disclosure of who funds corporate political spending",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 61.9,
+  "errors": [],
+  "accepted": true
+}

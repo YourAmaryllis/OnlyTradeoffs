@@ -1,0 +1,244 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-B9AF9BAA",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "e92bf2f2ce512119816761a3c93caa5f13cb1dfac42fe665c5fd74573728e45d",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "8e474059f13b52b6fc8cf0028d35a7a7031e553de204be5d203479750006ae68"
+    }
+  },
+  "prompt_file": "MEAS-B9AF9BAA.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:56:05.618146+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1033,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1033
+        }
+      ],
+      "prompt_token_count": 7438,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7438
+        }
+      ],
+      "thoughts_token_count": 1977,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10448,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-B9AF9BAA\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the requirement for voters to present photo identification at the polling place, requiring them instead to state their name and address and sign the poll book.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C58\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"The photo identification requirement is repealed. A voter at a polling place shall state their name and address and sign the poll book.\",\n      \"mechanism\": \"Removes the requirement to present photo identification to vote, simplifying the steps required at the polling place to stating a name and address and providing a signature.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C59\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The photo identification requirement is repealed.\",\n      \"mechanism\": \"Removes a step used to verify the identity of a voter at the polling place.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, voters must present a current government-issued photo ID at the polling place or cast a provisional ballot that requires presenting ID within six days, and the state provides free IDs to registered voters. The measure repeals the photo ID requirement, instead requiring voters to state their name and address and sign the poll book.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Voters who lack photo identification will no longer need to obtain an ID or cast provisional ballots to vote. Poll workers will change their procedures to stop checking IDs and instead rely on the poll book signature.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the hurdle that obtaining and presenting photo identification poses to some voters. By repealing the ID requirement, it removes a mechanism used to verify identity and prevent voter impersonation at the polls.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The impact of voter identification requirements on election turnout is disputed. Some researchers find that such laws disproportionately reduce turnout among low-income and minority voters, while other studies find no significant effect on overall turnout or turnout among specific demographic groups.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Simpler voting process without the need to present photo identification\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Verification of voter identity at the polling place using photo identification\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Verification of voter identity at the polling place using photo identification\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Simpler voting process without the need to present photo identification\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-B9AF9BAA",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the requirement for voters to present photo identification at the polling place, requiring them instead to state their name and address and sign the poll book."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C58",
+        "effect": "advances",
+        "direction": null,
+        "quote": "The photo identification requirement is repealed. A voter at a polling place shall state their name and address and sign the poll book.",
+        "mechanism": "Removes the requirement to present photo identification to vote, simplifying the steps required at the polling place to stating a name and address and providing a signature.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C59",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The photo identification requirement is repealed.",
+        "mechanism": "Removes a step used to verify the identity of a voter at the polling place.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, voters must present a current government-issued photo ID at the polling place or cast a provisional ballot that requires presenting ID within six days, and the state provides free IDs to registered voters. The measure repeals the photo ID requirement, instead requiring voters to state their name and address and sign the poll book.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Voters who lack photo identification will no longer need to obtain an ID or cast provisional ballots to vote. Poll workers will change their procedures to stop checking IDs and instead rely on the poll book signature.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the hurdle that obtaining and presenting photo identification poses to some voters. By repealing the ID requirement, it removes a mechanism used to verify identity and prevent voter impersonation at the polls.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The impact of voter identification requirements on election turnout is disputed. Some researchers find that such laws disproportionately reduce turnout among low-income and minority voters, while other studies find no significant effect on overall turnout or turnout among specific demographic groups.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Simpler voting process without the need to present photo identification",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Verification of voter identity at the polling place using photo identification",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Verification of voter identity at the polling place using photo identification",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Simpler voting process without the need to present photo identification",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 35.2,
+  "errors": [],
+  "accepted": true
+}

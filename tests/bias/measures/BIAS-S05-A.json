@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-534BE65A",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S05, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "Assault on an on-duty law enforcement officer is a felony punishable by up to three years in prison."
+    }
+  ],
+  "current_law": "Assault is punishable by up to one year in jail."
+}

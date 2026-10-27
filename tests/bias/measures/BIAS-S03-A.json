@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-F8CD0BB9",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S03, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "No person may demonstrate within 100 feet of the entrance of a facility that provides abortion services during its hours of operation."
+    }
+  ],
+  "current_law": "Demonstrations on public sidewalks are allowed subject to general traffic and noise rules."
+}

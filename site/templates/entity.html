@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ ent.name }} · Only Tradeoffs{% endblock %}
+{% block main %}
+<p class="crumbs"><a href="../index.html">People and organizations</a> /</p>
+<h1>{{ ent.name }}</h1>
+<p class="muted">{{ ent.kind | capitalize }}{% if ent.synthetic %} · <span class="tag">synthetic demo entry</span>{% endif %}</p>
+{% if totals.support or totals.oppose %}
+<p class="totals">Gave {% if totals.support %}<strong>${{ '{:,.0f}'.format(totals.support) }}</strong> supporting measures{% endif %}{% if totals.support and totals.oppose %} and {% endif %}{% if totals.oppose %}<strong>${{ '{:,.0f}'.format(totals.oppose) }}</strong> opposing measures{% endif %}, across the elections on this site.</p>
+{% endif %}
+<p class="small muted">Only the role and the money are shown. Open a measure to see what its text does; we don't label anyone by what they fund.</p>
+{% for eid, group in rows | groupby('election.id') | sort(attribute='list.0.election.date', reverse=True) %}{% set el = group[0].election %}
+<section>
+  <h2>{{ el.name }} <span class="muted small">{{ el.date }}</span></h2>
+  <ul class="record-list">
+  {% for r in group %}{% set src = r.sources.get(r.source, {}) %}
+    <li>
+      <p class="rec-head"><span class="side-tag">{{ 'Supported' if r.side == 'support' else 'Opposed' }}</span>
+        {% if r.measure.slug %}<a href="{{ depth | rel }}e/{{ el.id }}/{{ r.measure.slug }}/index.html">{{ r.measure.code }}: {{ r.measure.ballot_label }}</a>{% else %}{{ r.measure.code }}{% endif %}</p>
+      <p class="small">{% if r.role == 'contributor' %}Gave <strong>${{ '{:,.0f}'.format(r.amount_usd) }}</strong> to {{ r.to.name }}{% elif r.role == 'committee' %}Campaign committee{% if r.amount_usd %}, raised <strong>${{ '{:,.0f}'.format(r.amount_usd) }}</strong>{% endif %}{% else %}Endorsed{% endif %}
+        <span class="muted">· Source: {% if src.url %}<a href="{{ src.url }}">{{ src.title }}</a>{% else %}{{ src.title }}{% endif %}</span></p>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

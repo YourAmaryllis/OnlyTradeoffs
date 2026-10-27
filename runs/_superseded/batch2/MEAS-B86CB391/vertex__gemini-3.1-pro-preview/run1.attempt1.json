@@ -1,0 +1,276 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-B86CB391",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "0e466c64038b301fb8b41864a5d18a85ca4587ac19482b2da659f1a552c3d062",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "a1c850728d667ed5fc210ebb244ba623286a599d896e0add124f9ecd2ea74298"
+    }
+  },
+  "prompt_file": "MEAS-B86CB391.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:05:39.743426+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1420,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1420
+        }
+      ],
+      "prompt_token_count": 7329,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7329
+        }
+      ],
+      "thoughts_token_count": 1086,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 9835,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"measure_id\": \"MEAS-B86CB391\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Declares that the state has exclusive authority over minimum wage regulation and invalidates any city ordinances that set a local minimum wage.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C11\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance setting a minimum wage is void.\",\n      \"mechanism\": \"Eliminates local minimum wage laws, which reduces minimum pay protections in cities that currently set wages higher than the state level.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"The state occupies the whole field of minimum wage regulation. Any city ordinance setting a minimum wage is void.\",\n      \"mechanism\": \"Reduces wage costs for businesses in cities that had higher local minimum wages and simplifies compliance by replacing a patchwork of local ordinances with a single state standard.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"Authority over minimum wage moves from local governments to the state.\",\n      \"quote\": \"The state occupies the whole field of minimum wage regulation. Any city ordinance setting a minimum wage is void.\",\n      \"mechanism\": \"Preempts cities from regulating minimum wages, granting exclusive authority to the state legislature.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, cities can establish their own minimum wage rates that are higher than the state minimum. This measure removes that local authority and invalidates any existing city minimum wage laws, meaning the state minimum wage becomes the sole legal floor statewide.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Employers in cities that currently have or would have enacted higher local minimum wages benefit from lower labor and compliance costs. Workers earning those higher local minimums bear the cost through reduced wages and earning potential.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the compliance complexity and potential local competitive disadvantages created for businesses by a patchwork of differing city wage laws. Its mechanism effectively achieves uniformity by eliminating local authority. Conversely, it prevents local governments from addressing higher living costs in specific cities, potentially leaving low-wage workers in expensive areas with inadequate compensation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The state legislature gains exclusive control over setting minimum wages. City councils lose the power to tailor minimum wage policy to local economic conditions. Employers gain uniformity, while labor advocates lose the ability to secure wage increases at the local level.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of minimum wage levels on hiring, job creation, and investment is widely disputed. Some researchers find that higher local minimum wages reduce employment opportunities or hours for low-skill workers, suggesting that invalidating these laws could increase hiring. Others find that higher minimum wages have little to no negative effect on employment and reduce employee turnover, suggesting that lowering the effective minimum wage would not significantly boost job creation but would harm workers' purchasing power.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Lower wage costs and simplified compliance for businesses in cities with higher minimum wages.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Higher minimum wages for workers in cities that have enacted local wage ordinances.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Authority to regulate minimum wages is shifted exclusively to the state, preempting local control.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Higher minimum wages for workers in cities with local wage ordinances.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"The ability of local governments to set minimum wages tailored to their jurisdictions.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A single statewide minimum wage standard with lower regulatory and wage costs for businesses operating in certain cities.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "measure_id": "MEAS-B86CB391",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Declares that the state has exclusive authority over minimum wage regulation and invalidates any city ordinances that set a local minimum wage."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C11",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Any city ordinance setting a minimum wage is void.",
+        "mechanism": "Eliminates local minimum wage laws, which reduces minimum pay protections in cities that currently set wages higher than the state level.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "advances",
+        "direction": null,
+        "quote": "The state occupies the whole field of minimum wage regulation. Any city ordinance setting a minimum wage is void.",
+        "mechanism": "Reduces wage costs for businesses in cities that had higher local minimum wages and simplifies compliance by replacing a patchwork of local ordinances with a single state standard.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "Authority over minimum wage moves from local governments to the state.",
+        "quote": "The state occupies the whole field of minimum wage regulation. Any city ordinance setting a minimum wage is void.",
+        "mechanism": "Preempts cities from regulating minimum wages, granting exclusive authority to the state legislature.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, cities can establish their own minimum wage rates that are higher than the state minimum. This measure removes that local authority and invalidates any existing city minimum wage laws, meaning the state minimum wage becomes the sole legal floor statewide.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Employers in cities that currently have or would have enacted higher local minimum wages benefit from lower labor and compliance costs. Workers earning those higher local minimums bear the cost through reduced wages and earning potential.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the compliance complexity and potential local competitive disadvantages created for businesses by a patchwork of differing city wage laws. Its mechanism effectively achieves uniformity by eliminating local authority. Conversely, it prevents local governments from addressing higher living costs in specific cities, potentially leaving low-wage workers in expensive areas with inadequate compensation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "The state legislature gains exclusive control over setting minimum wages. City councils lose the power to tailor minimum wage policy to local economic conditions. Employers gain uniformity, while labor advocates lose the ability to secure wage increases at the local level.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of minimum wage levels on hiring, job creation, and investment is widely disputed. Some researchers find that higher local minimum wages reduce employment opportunities or hours for low-skill workers, suggesting that invalidating these laws could increase hiring. Others find that higher minimum wages have little to no negative effect on employment and reduce employee turnover, suggesting that lowering the effective minimum wage would not significantly boost job creation but would harm workers' purchasing power.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Lower wage costs and simplified compliance for businesses in cities with higher minimum wages.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Higher minimum wages for workers in cities that have enacted local wage ordinances.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Authority to regulate minimum wages is shifted exclusively to the state, preempting local control.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Higher minimum wages for workers in cities with local wage ordinances.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "The ability of local governments to set minimum wages tailored to their jurisdictions.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A single statewide minimum wage standard with lower regulatory and wage costs for businesses operating in certain cities.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 28.6,
+  "errors": [
+    "schema: : Additional properties are not allowed ('description' was unexpected)"
+  ],
+  "accepted": false
+}

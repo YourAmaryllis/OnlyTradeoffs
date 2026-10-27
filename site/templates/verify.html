@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Verify · Only Tradeoffs{% endblock %}
+{% block main %}
+<h1>Run it yourself</h1>
+<div class="prose">
+<p>You don't have to trust us. Every measure page has a <strong>Verify this</strong> section with three options:</p>
+<ol>
+  <li><strong>Download the bundle.</strong> It contains the official text as the models received it, the value list, every prompt exactly as sent, the output schema, every model reply (including rejected ones), the reconciled result, and the scripts that produced it.</li>
+  <li><strong>Copy the prompt</strong> and paste it into any AI chat. Compare the results it returns with ours.</li>
+  <li><strong>Run the scripts</strong> with your own API keys and compare results automatically.</li>
+</ol>
+<p>Compare <em>results</em> (which values the text supports or conflicts with, and which clauses do it), not wording. Models phrase things differently each run.</p>
+
+<h2>Use it on any measure, with your own AI</h2>
+<p>The same instructions are packaged for common AI apps. They walk you through getting the official text, splitting it into sections, and producing the same value-by-value results.</p>
+<p><a class="button" href="only-tradeoffs-packs.zip" download>Download the packs</a></p>
+<ul>
+  <li><strong>Claude:</strong> a skill (<code>claude-skill/only-tradeoffs</code>).</li>
+  <li><strong>Gemini:</strong> instructions and knowledge files for a Gem.</li>
+  <li><strong>ChatGPT:</strong> instructions and knowledge files for a custom GPT.</li>
+  <li><strong>Any other chat</strong> (Grok, open-weights models): one self-contained prompt to paste.</li>
+</ul>
+<p class="muted">Chat apps add their own hidden instructions and may not use the same model version as our runs, so results can differ. The scripts with an API key give the closest comparison.</p>
+</div>
+{% endblock %}

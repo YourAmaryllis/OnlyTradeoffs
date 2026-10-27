@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+{% block title %}{{ meta.code }}: {{ meta.ballot_label }} · Only Tradeoffs{% endblock %}
+{% block banner %}{% include "_banner.html" %}{% endblock %}
+
+{% set LABEL = {'supports': 'Supports', 'conflicts': 'Conflicts with', 'both': 'Both'} %}
+{% set EFFECT = {'supports': 'supports', 'conflicts': 'conflicts with'} %}
+
+{% macro chip(c, r=None) %}{% set r = r or c.result %}<a class="chip r-{{ r }}" href="#{{ c.value_id }}" data-open="{{ c.value_id }}"><span class="dot" aria-hidden="true"></span>{{ c.name }}<span class="sr"> ({{ LABEL[r] | lower }})</span></a>{% endmacro %}
+
+{% macro money(v) %}{% if v is not none %}${{ '{:,.0f}'.format(v) }}{% endif %}{% endmacro %}
+
+{% block main %}
+<p class="crumbs"><a href="../../../index.html">Elections</a> / <a href="../index.html">{{ election.name }}</a> /</p>
+<header class="measure-head">
+  <h1><span class="code">{{ meta.code }}</span> {{ meta.ballot_label }}</h1>
+  <p class="muted">{{ meta.kind | capitalize }} · {{ m.models | length }} model{{ 's' if m.models | length != 1 }} · value list {{ m.pins.concern_list_version }} · prompt {{ m.pins.prompt_version }}</p>
+  <p class="small muted">The name above identifies the measure on the ballot. The models never saw it. They read only the measure's own text{% if meta.source and meta.source.url %}, from the <a href="#source">official source</a>{% endif %}.</p>
+</header>
+
+{% if m.models | length < 2 %}
+<p class="note">Only one model has been run on this measure so far. Results marked “1/1 models” have not been checked by a second model.</p>
+{% endif %}
+
+<section aria-labelledby="glance">
+  <h2 id="glance">What the text touches</h2>
+  <p class="lede">The text bears on <strong>{{ shown | length }}</strong> of the {{ n_values }} values we check.
+  Each value is something some people care about. A measure that supports one often conflicts with another, so both are shown, side by side, with the words that cause them.</p>
+  <p class="legend small"><span class="key r-supports"><span class="dot"></span>Supports</span> the text moves things the way this value wants ({{ counts.supports }})
+    <span class="key r-conflicts"><span class="dot"></span>Conflicts with</span> the text moves things the other way ({{ counts.conflicts }})
+    <span class="key r-both"><span class="dot"></span>Both</span> some of each ({{ counts.both }})</p>
+  {% if shown %}
+  <div class="map">
+  {% for domain, cs in by_domain.items() %}
+    <div class="map-row"><span class="map-domain">{{ domain }}</span><span class="chips">{% for c in cs %}{{ chip(c) }}{% endfor %}</span></div>
+  {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">No value reached agreement among the models.</p>
+  {% endif %}
+</section>
+
+{% if shown %}
+<div class="tabs" role="tablist" aria-label="Views" hidden>
+  <button type="button" role="tab" aria-selected="true" aria-controls="by-value" id="tab-value">By value</button>
+  <button type="button" role="tab" aria-selected="false" aria-controls="by-section" id="tab-section">By section of the text</button>
+</div>
+
+<section id="by-value" class="view" role="tabpanel" aria-labelledby="tab-value">
+  <h2 class="view-title">By value</h2>
+  <p class="muted small">Open a value to see what the text does to it and why. <button type="button" class="linkish" data-expand="#by-value">Open all</button></p>
+  {% for domain, cs in by_domain.items() %}
+  <h3 class="domain">{{ domain }}</h3>
+  {% for c in cs %}
+  <details class="value-card r-{{ c.result }}" id="{{ c.value_id }}">
+    <summary>
+      <span class="c-name">{{ c.name }}</span>
+      <span class="badges"><span class="res r-{{ c.result }}"><span class="dot" aria-hidden="true"></span>{{ LABEL[c.result] }}</span>
+      <span class="badge" title="Models that reached this result">{{ c.agree }}/{{ c.models }} models</span></span>
+    </summary>
+    <div class="c-body">
+      <p class="small muted">About: {{ c.axis }}. Supported when: {{ c.advances_when | lower }}.
+      {% if c.mirror %}Read from the other side, this is “<a href="#{{ c.mirror }}" data-open="{{ c.mirror }}">{{ value_by_id[c.mirror].name }}</a>”.{% endif %}</p>
+      <ul class="evidence">
+      {% for e in c.evidence %}
+        <li class="ev e-{{ e.effect }}">
+          <p class="ev-head"><span class="res r-{{ e.effect }}"><span class="dot" aria-hidden="true"></span>{{ EFFECT[e.effect] | capitalize }}</span>
+            <a class="cl" href="#{{ anchors[e.clause_id] }}">{{ e.clause_id }}</a>
+            <span class="badge" title="How directly the text does this">{{ e.certainty | replace('-', ' ') }}</span>
+            <span class="badge" title="Models that cite this">{{ e.agree }}/{{ c.models }} models</span></p>
+          <a class="quote" href="#{{ anchors[e.clause_id] }}" data-ref="{{ c.value_id }}">“{{ e.quote }}”</a>
+          <p class="why">{{ e.why }}</p>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </details>
+  {% endfor %}
+  {% endfor %}
+  <p class="small muted">Certainty: <em>stated</em> = the text does it; <em>likely</em> = follows directly; <em>depends on implementation</em> = turns on future rules, funding, or courts. Each explanation is one model's wording; the badge shows how many models cite the same words.</p>
+</section>
+
+<section id="by-section" class="view" role="tabpanel" aria-labelledby="tab-section">
+  <h2 class="view-title">By section of the text</h2>
+  <p class="muted small">The same results, arranged by where they come from. One section often supports some values and conflicts with others.</p>
+  <ol class="sections">
+  {% for cl in m.clauses %}{% set bc = by_clause[cl.id] %}
+    <li class="sec">
+      <p class="sec-head"><a class="cl" href="#{{ anchors[cl.id] }}">{{ cl.id }}</a> {{ restate.get(cl.id, '') }}</p>
+      {% if bc.supports or bc.conflicts %}
+      <div class="sec-cols">
+        <div><p class="col-h r-supports"><span class="dot"></span>Supports</p>{% for c in bc.supports %}{{ chip(c, 'supports') }}{% else %}<span class="muted small">none</span>{% endfor %}</div>
+        <div><p class="col-h r-conflicts"><span class="dot"></span>Conflicts with</p>{% for c in bc.conflicts %}{{ chip(c, 'conflicts') }}{% else %}<span class="muted small">none</span>{% endfor %}</div>
+      </div>
+      {% else %}<p class="muted small">No value found here by a majority of models.</p>{% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if splits %}
+<section>
+  <details class="disagree">
+    <summary><h2>Models disagree <span class="badge">{{ splits | length }}</span></h2></summary>
+    <p class="muted">Not shown above, because no majority of models reached the same result.</p>
+    <ul class="plain">
+    {% for c in splits %}
+      <li><strong>{{ c.name }}</strong>
+        <ul class="positions">
+        {% for model, p in c.by_model.items() %}
+          <li><span class="model">{{ model | mname }}</span>: {% if p.result != 'none' %}{{ LABEL[p.result] | lower }} ({{ p.found_in }}/{{ p.of }} runs){% else %}no effect{% endif %}</li>
+        {% endfor %}
+        </ul>
+        {% for e in c.evidence %}<p class="small"><a class="cl" href="#{{ anchors[e.clause_id] }}">{{ e.clause_id }}</a> {{ EFFECT[e.effect] }}: {{ e.why }} <span class="muted">({{ e.models | map('mname') | join(', ') }})</span></p>{% endfor %}
+      </li>
+    {% endfor %}
+    </ul>
+  </details>
+</section>
+{% endif %}
+
+<section id="campaign">
+  <h2>Who is for and against it</h2>
+  {% if camp %}
+  <p class="muted small">From campaign filings and public endorsements{% if camp.as_of %}, as of {{ camp.as_of }}{% endif %}. The models never saw any of this; the analysis above comes from the text alone.</p>
+  <div class="sides">
+  {% for side, title in (('support', 'Supporting'), ('oppose', 'Opposing')) %}{% set s = camp.sides[side] %}
+    <div class="side">
+      <h3>{{ title }}</h3>
+      {% if s.committees %}<p class="raised">{{ money(s.raised_usd) }} <span class="muted small">raised by {{ s.committees | length }} committee{{ 's' if s.committees | length != 1 }}</span></p>{% endif %}
+      {% if s.funders or s.other_individuals_n %}
+      <h4>Top funders</h4>
+      <table class="funders">
+        {% for f in s.funders[:8] %}<tr><td><a href="{{ depth | rel }}p/{{ f.id }}/index.html">{{ f.name }}</a></td><td class="num">{{ money(f.amount_usd) }}</td></tr>{% endfor %}
+        {% if s.other_individuals_n %}<tr><td class="muted">{{ s.other_individuals_n }} other individual{{ 's' if s.other_individuals_n != 1 }}</td><td class="num">{{ money(s.other_individuals_usd) }}</td></tr>{% endif %}
+      </table>
+      {% endif %}
+      {% if s.endorsers %}
+      <h4>Endorsed by</h4>
+      <ul class="plain">{% for f in s.endorsers %}<li><a href="{{ depth | rel }}p/{{ f.id }}/index.html">{{ f.name }}</a></li>{% endfor %}</ul>
+      {% endif %}
+      {% if not (s.committees or s.funders or s.endorsers) %}<p class="empty">None on record.</p>{% endif %}
+    </div>
+  {% endfor %}
+  </div>
+  <p class="small muted">Sources: {% for sid, src in camp.sources.items() %}{% if src.url %}<a href="{{ src.url }}">{{ src.title }}</a>{% else %}{{ src.title }}{% endif %}{% if src.fetched_at %} (fetched {{ src.fetched_at }}){% endif %}{{ '; ' if not loop.last }}{% endfor %}.
+  Individuals who gave less than ${{ '{:,}'.format(policy_min) if policy_min is defined else '5,000' }} are counted but not named.</p>
+  {% else %}
+  <p class="empty">No campaign data collected for this measure yet.</p>
+  {% endif %}
+</section>
+
+{% if m.flags %}
+<section>
+  <h2>How the text is written</h2>
+  <p class="muted">Drafting features, not effects.</p>
+  <ul class="flags">
+  {% for f in m.flags %}
+    <li><strong>{{ f.flag }}</strong> · <a class="cl" href="#{{ anchors[f.clause_id] }}">{{ f.clause_id }}</a> <span class="badge">{{ f.models | length }}/{{ m.models | length }} models</span>
+      <p>{{ f.notes.values() | first }}</p></li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if m.analysis %}
+<section>
+  <h2>Analysis <span class="tag">inference</span></h2>
+  <p class="muted">Predictions and context from the models. Unlike the results above, these are not what the text says. They are reasoning about what may follow.</p>
+  {% for clause_id, items in analysis_groups %}
+  <details class="analysis">
+    <summary><span class="cl">{{ clause_id }}</span> {{ items | length }} question{{ 's' if items | length != 1 }}</summary>
+    <dl>
+    {% for a in items %}
+      <dt>{{ a.question | shortq }}</dt>
+      {% for ans in a.answers %}<dd>{% if ans.disputed %}<span class="tag">disputed</span> {% endif %}{{ ans.answer }} <span class="small muted">({{ ans.model | mname }})</span></dd>{% endfor %}
+    {% endfor %}
+    </dl>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section>
+  <h2>Full text</h2>
+  <p class="muted small">Highlighted words are cited by a result above. Select a quote to jump here.</p>
+  <div class="fulltext">
+  {% for cl in clauses %}
+    <p id="{{ cl.anchor }}"><span class="cl">{{ cl.id }}</span> {{ cl.html }}</p>
+  {% endfor %}
+  </div>
+  {% if m.current_law %}
+  <h3>Current law, as given to the models</h3>
+  <p class="current-law">{{ m.current_law }}</p>
+  {% endif %}
+  {% if meta.source and meta.source.url %}
+  <div class="source-box" id="source">
+    <h3>Source</h3>
+    <p>{{ meta.source_name or 'Official text' }}.</p>
+    <ul>
+      <li><a href="{{ meta.source.url }}">Official copy</a> <span class="small muted">({{ meta.source.url | host }}, fetched {{ meta.source.fetched_at }})</span></li>
+      {% if meta.source_copy %}<li><a href="{{ meta.source_copy }}">Our archived copy</a> <span class="small muted">SHA-256 <code>{{ meta.source.sha256[:16] }}…</code>, the same file as fetched</span></li>{% endif %}
+      {% if meta.source_log %}<li><a href="{{ meta.source_log }}">Import log</a> <span class="small muted">every change made turning the file into the text above (layout only)</span></li>{% endif %}
+    </ul>
+    {% if meta.source_copy and meta.source_copy.endswith('.pdf') %}<p class="small muted">This file is a scan. Its text was read by machine (OCR), so a few words above may differ from the scan. The scan is the authority.</p>{% endif %}
+  </div>
+  {% endif %}
+</section>
+
+<section id="how">
+  <h2>How we got this</h2>
+  <table class="models">
+    <thead><tr><th>Model</th><th>Version reported</th><th>Runs used</th><th>Attempts</th><th>Rejected</th></tr></thead>
+    <tbody>
+    {% for md in m.models %}
+      <tr><td>{{ md.model }} <span class="small muted">via {{ md.provider }}</span></td><td>{{ md.model_versions | join(', ') or '—' }}</td><td>{{ md.seeds | length }}{% if md.parts %} <span class="small muted">(each in {{ md.parts }} parts)</span>{% endif %}</td><td>{{ md.attempts }}</td><td>{{ md.rejected }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="small muted">Rejected attempts failed validation (a quote not in the text, a value skipped, a result that doesn't match its evidence, a missing mirror, a blocked word, malformed output) and were rerun. They are kept in the bundle.{% if m.models | selectattr('parts') | list %} Long measures are evaluated in parts: each part sees the whole text but reports only on its own sections, and the parts are combined and checked together.{% endif %}</p>
+  <details>
+    <summary>Every value any model found ({{ m.results | length }})</summary>
+    <table class="cells">
+      <thead><tr><th>Value</th><th>Status</th>{% for md in m.models %}<th>{{ md.model }}</th>{% endfor %}</tr></thead>
+      <tbody>
+      {% for c in m.results %}
+        <tr class="st-{{ c.status }}"><td>{{ c.name }}</td><td>{{ c.status }}</td>
+        {% for md in m.models %}{% set p = c.by_model[md.slug] %}<td>{% if p.result != 'none' %}{{ p.result }} ({{ p.found_in }}/{{ p.of }}){% elif p.found_in %}below half ({{ p.found_in }}/{{ p.of }}){% else %}—{% endif %}</td>{% endfor %}</tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <p class="small muted">consensus: a majority of models reached the same result · split: two or more found an effect without a majority · outlier: one model only · below half: found in fewer than half of that model's runs. Values no model found in any run are not listed.</p>
+  </details>
+</section>
+
+<section id="verify" class="verify">
+  <h2>Verify this</h2>
+  <ul>
+    <li><a href="bundle.zip" download>Download the bundle</a>: text, value list, prompts, schema, every model reply, and the scripts. <span class="small muted">SHA-256 <code>{{ m.bundle_sha256[:16] }}…</code></span></li>
+    <li><button type="button" class="copy" data-src="prompt.txt">Copy the prompt</button> and paste it into any AI chat. Compare its results with the ones above.</li>
+    <li>Or run it with your own API keys: <code>python3 tools/run_eval.py measure.json --provider &lt;vendor&gt; --model &lt;id&gt; --runs 3</code> (instructions in the bundle).</li>
+  </ul>
+</section>
+{% endblock %}

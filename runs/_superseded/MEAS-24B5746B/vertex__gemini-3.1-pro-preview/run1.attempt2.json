@@ -1,0 +1,244 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-24B5746B",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "cd4f897829a2f329b55ce05457b355b16ba79ce98ef857554c2d6998dc86ec5a",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "7ba840c7b295b228940ec3eb9fbba992e396810c15c98fa5d2a934b61447fac0"
+    }
+  },
+  "prompt_file": "MEAS-24B5746B.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:56:05.202057+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1115,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1115
+        }
+      ],
+      "prompt_token_count": 7412,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7412
+        }
+      ],
+      "thoughts_token_count": 3186,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11713,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-24B5746B\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits physicians from performing abortions after 15 weeks of gestation, with exceptions limited to preventing the death of the pregnant woman or averting a serious and irreversible physical impairment of a major bodily function.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C35\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No physician may perform an abortion after 15 weeks of gestation\",\n      \"mechanism\": \"Restricts legal access to abortion by establishing a 15-week limit, replacing the later threshold of fetal viability.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C36\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No physician may perform an abortion after 15 weeks of gestation\",\n      \"mechanism\": \"Expands legal protections for prenatal life by prohibiting abortions after 15 weeks of gestation rather than at fetal viability.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law permits abortion up to the point of fetal viability. The proposed measure overrides this by prohibiting abortions after 15 weeks of gestation, limiting exceptions strictly to cases where the pregnant woman's life is at risk or to prevent serious, irreversible physical impairment of a major bodily function.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"The costs and burdens are borne by pregnant individuals who seek abortions after 15 weeks but do not meet the narrow medical exceptions, as well as by medical providers whose legal liability increases. The policy benefits fetuses beyond 15 weeks of gestation and individuals who advocate for stricter legal limits on abortion.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Individuals seeking an abortion after 15 weeks are likely to travel to other states where the procedure remains legal, seek methods outside the formal healthcare system, or carry pregnancies to term. Physicians may alter their practices, potentially hesitating or delaying care in complex medical situations near the 15-week mark to ensure compliance with the strict emergency exceptions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses the legality of abortions occurring after 15 weeks by directly prohibiting them. This mechanism strictly limits access but may create perverse incentives in the healthcare system, where doctors might delay medically necessary interventions until a patient's condition deteriorates sufficiently to clearly meet the narrow legal exceptions for life or major bodily impairment.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Legal restrictions and protections for prenatal life starting at 15 weeks of gestation.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Legal access to abortion from 15 weeks of gestation up to the point of fetal viability, except in narrow medical emergencies.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The ability to legally access abortion at any point prior to fetal viability.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A strict prohibition on abortions occurring after 15 weeks of gestation.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-24B5746B",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits physicians from performing abortions after 15 weeks of gestation, with exceptions limited to preventing the death of the pregnant woman or averting a serious and irreversible physical impairment of a major bodily function."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C35",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No physician may perform an abortion after 15 weeks of gestation",
+        "mechanism": "Restricts legal access to abortion by establishing a 15-week limit, replacing the later threshold of fetal viability.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C36",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No physician may perform an abortion after 15 weeks of gestation",
+        "mechanism": "Expands legal protections for prenatal life by prohibiting abortions after 15 weeks of gestation rather than at fetal viability.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law permits abortion up to the point of fetal viability. The proposed measure overrides this by prohibiting abortions after 15 weeks of gestation, limiting exceptions strictly to cases where the pregnant woman's life is at risk or to prevent serious, irreversible physical impairment of a major bodily function.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "The costs and burdens are borne by pregnant individuals who seek abortions after 15 weeks but do not meet the narrow medical exceptions, as well as by medical providers whose legal liability increases. The policy benefits fetuses beyond 15 weeks of gestation and individuals who advocate for stricter legal limits on abortion.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Individuals seeking an abortion after 15 weeks are likely to travel to other states where the procedure remains legal, seek methods outside the formal healthcare system, or carry pregnancies to term. Physicians may alter their practices, potentially hesitating or delaying care in complex medical situations near the 15-week mark to ensure compliance with the strict emergency exceptions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text addresses the legality of abortions occurring after 15 weeks by directly prohibiting them. This mechanism strictly limits access but may create perverse incentives in the healthcare system, where doctors might delay medically necessary interventions until a patient's condition deteriorates sufficiently to clearly meet the narrow legal exceptions for life or major bodily impairment.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Legal restrictions and protections for prenatal life starting at 15 weeks of gestation.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Legal access to abortion from 15 weeks of gestation up to the point of fetal viability, except in narrow medical emergencies.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The ability to legally access abortion at any point prior to fetal viability.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A strict prohibition on abortions occurring after 15 weeks of gestation.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 42.8,
+  "errors": [],
+  "accepted": true
+}

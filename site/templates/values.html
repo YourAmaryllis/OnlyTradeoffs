@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Values · Only Tradeoffs{% endblock %}
+{% block main %}
+<h1>Values</h1>
+<p class="lede">Every measure is checked against this one list, and every value on it is checked every time. Each value is something some people care about. For each one, a model reports whether the text <strong>supports</strong> it, <strong>conflicts with</strong> it, does <strong>both</strong>, or neither, and quotes the words that show it.</p>
+<p>Where people value opposite directions on the same thing, each direction is its own value, so neither is the default. A clause that supports one of these always conflicts with its mirror, and both are shown.</p>
+{% for domain, cs in domains.items() %}
+<section>
+  <h2>{{ domain }}</h2>
+  <ul class="value-list">
+  {% for c in cs %}
+    <li id="{{ c.id }}">
+      <strong>{{ c.name }}</strong><br>
+      <span class="small">{{ c.axis }}. <span class="muted">Supported when: {{ c.advances_when | lower }}.</span>
+      {% if c.mirror %}<span class="muted"> Mirror: “<a href="#{{ c.mirror }}">{{ value_by_id[c.mirror].name }}</a>”.</span>{% endif %}</span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+<section>
+  <h2>Questions asked of every clause</h2>
+  <p class="muted">The answers are always labeled inference.</p>
+  <ol class="qs">{% for q in questions %}<li>{{ q.text }}</li>{% endfor %}</ol>
+</section>
+<section>
+  <h2>How the text is written</h2>
+  <ul>{% for f in flags %}<li>{{ f.text }}</li>{% endfor %}</ul>
+</section>
+{% endblock %}

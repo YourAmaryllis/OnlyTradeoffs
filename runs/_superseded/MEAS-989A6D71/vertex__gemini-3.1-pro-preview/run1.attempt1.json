@@ -1,0 +1,267 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-989A6D71",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "6bdfc60dffe99f7499edc0954a43581bd6470820e87e14355f885d7fec2208d8",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "c7f8d52080f7e3b3dc4f30d8f15eec2687a256fee0070b0a249b099c1f6a5139"
+    }
+  },
+  "prompt_file": "MEAS-989A6D71.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:57:58.166833+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1175,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1175
+        }
+      ],
+      "prompt_token_count": 7400,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7400
+        }
+      ],
+      "thoughts_token_count": 2524,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11099,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-989A6D71\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Makes possession of any amount of cannabis a misdemeanor with a penalty of up to 90 days in jail.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C37\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.\",\n      \"mechanism\": \"Removes the legal freedom to possess up to an ounce of cannabis without penalty, making any possession a misdemeanor.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C38\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.\",\n      \"mechanism\": \"Imposes a misdemeanor penalty and possible jail time for possession of any amount of cannabis.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"toward criminal penalties and possible jail time for cannabis possession\",\n      \"quote\": \"Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.\",\n      \"mechanism\": \"Establishes a sentence of up to 90 days in jail for an offense that previously carried no penalty for adults possessing small amounts.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, individuals 21 or older may possess up to one ounce of cannabis without penalty. This measure changes that by making possession of any amount of cannabis a misdemeanor punishable by up to 90 days in jail.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Jailing and prosecuting individuals for cannabis possession will impose direct costs on local law enforcement, courts, and jail systems.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Individuals will face a higher risk of arrest and incarceration, which may deter some from possessing cannabis while driving others into the illicit market, potentially increasing encounters with the criminal justice system.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Law enforcement officers and prosecutors gain discretion to arrest, detain, and charge individuals for possessing any amount of cannabis.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Criminal penalties and tighter restrictions on the possession of cannabis\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Legal freedom for adults to possess up to one ounce of cannabis without penalty\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Moves toward criminal penalties and possible jail time for cannabis possession\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Legal freedom for adults to possess up to one ounce of cannabis without penalty\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Criminal penalties and tighter restrictions on the possession of cannabis\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Criminal penalties and possible jail time for cannabis possession\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-989A6D71",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Makes possession of any amount of cannabis a misdemeanor with a penalty of up to 90 days in jail."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C37",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.",
+        "mechanism": "Removes the legal freedom to possess up to an ounce of cannabis without penalty, making any possession a misdemeanor.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C38",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.",
+        "mechanism": "Imposes a misdemeanor penalty and possible jail time for possession of any amount of cannabis.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "toward criminal penalties and possible jail time for cannabis possession",
+        "quote": "Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.",
+        "mechanism": "Establishes a sentence of up to 90 days in jail for an offense that previously carried no penalty for adults possessing small amounts.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, individuals 21 or older may possess up to one ounce of cannabis without penalty. This measure changes that by making possession of any amount of cannabis a misdemeanor punishable by up to 90 days in jail.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Jailing and prosecuting individuals for cannabis possession will impose direct costs on local law enforcement, courts, and jail systems.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Individuals will face a higher risk of arrest and incarceration, which may deter some from possessing cannabis while driving others into the illicit market, potentially increasing encounters with the criminal justice system.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Law enforcement officers and prosecutors gain discretion to arrest, detain, and charge individuals for possessing any amount of cannabis.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Criminal penalties and tighter restrictions on the possession of cannabis",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Legal freedom for adults to possess up to one ounce of cannabis without penalty",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Moves toward criminal penalties and possible jail time for cannabis possession",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Legal freedom for adults to possess up to one ounce of cannabis without penalty",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Criminal penalties and tighter restrictions on the possession of cannabis",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Criminal penalties and possible jail time for cannabis possession",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 37.0,
+  "errors": [],
+  "accepted": true
+}

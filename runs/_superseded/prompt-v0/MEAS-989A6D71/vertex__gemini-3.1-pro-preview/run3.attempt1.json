@@ -1,0 +1,301 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-989A6D71",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "6bdfc60dffe99f7499edc0954a43581bd6470820e87e14355f885d7fec2208d8",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "a4b64a7cdef6c1b7cb71d16180472bbce4175abb12bdb76148b9c51064b8639e"
+    }
+  },
+  "prompt_file": "MEAS-989A6D71.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:20:48.971776+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1571,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1571
+        }
+      ],
+      "prompt_token_count": 7296,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7296
+        }
+      ],
+      "thoughts_token_count": 1131,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 9998,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-989A6D71\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Makes possession of any amount of cannabis a misdemeanor carrying a penalty of up to 90 days in jail.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C38\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.\",\n      \"mechanism\": \"Bans the possession of cannabis entirely and establishes criminal penalties for it.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C37\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.\",\n      \"mechanism\": \"Removes the legal freedom for adults to possess cannabis by criminalizing all possession.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"toward longer potential sentences for drug possession\",\n      \"quote\": \"punishable by up to 90 days in jail.\",\n      \"mechanism\": \"Sets a maximum sentence of 90 days in jail for an act that was previously legal up to certain limits.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C46\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Possession of any amount of cannabis is a misdemeanor\",\n      \"mechanism\": \"Expands arrest powers by turning cannabis possession into a criminal offense.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, adults 21 and older can legally possess up to one ounce of cannabis without penalty. The measure eliminates this allowance, making possession of any amount a misdemeanor.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs will increase for law enforcement, courts, public defenders, and county jails processing and housing individuals charged with this new misdemeanor. Opportunity costs include police time diverted from other investigations.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Taxpayers will bear the criminal justice costs. Individuals who possess cannabis will bear the costs of legal defense, fines, lost wages during incarceration, and the long-term impacts of a criminal record.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Some individuals may reduce or stop their cannabis use, while others will continue to consume it covertly or purchase from illicit markets. Legal cannabis businesses will likely close or move out of the jurisdiction.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text implicitly addresses the availability or use of cannabis by imposing a criminal ban. The mechanism (criminalization) removes legal access but may create a shortage of regulated products, fostering an illicit market.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Police and prosecutors gain significant enforcement power and discretion to stop, search, and charge individuals suspected of possessing cannabis. Illicit cannabis sellers may gain market share as legal competitors are eliminated.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The public safety and health effects of criminalizing cannabis are disputed. Some researchers find that bans reduce overall consumption and related public-order issues. Others find that criminalization fails to significantly curb use, instead shifting sales to the illicit market and resulting in disproportionate arrest rates among minority and low-income populations.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Tightened restrictions and criminal bans on the possession of cannabis.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Expanded police arrest powers regarding suspected cannabis possession.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Adults' legal freedom to possess limited amounts of cannabis.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Moves sentencing rules toward longer potential sentences for drug possession by allowing up to 90 days in jail.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Adults' legal freedom to possess limited amounts of cannabis.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Tightened restrictions and criminal bans on the possession of cannabis.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Expanded police arrest powers regarding suspected cannabis possession.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-989A6D71",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Makes possession of any amount of cannabis a misdemeanor carrying a penalty of up to 90 days in jail."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C38",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.",
+        "mechanism": "Bans the possession of cannabis entirely and establishes criminal penalties for it.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C37",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Possession of any amount of cannabis is a misdemeanor punishable by up to 90 days in jail.",
+        "mechanism": "Removes the legal freedom for adults to possess cannabis by criminalizing all possession.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "toward longer potential sentences for drug possession",
+        "quote": "punishable by up to 90 days in jail.",
+        "mechanism": "Sets a maximum sentence of 90 days in jail for an act that was previously legal up to certain limits.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C46",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Possession of any amount of cannabis is a misdemeanor",
+        "mechanism": "Expands arrest powers by turning cannabis possession into a criminal offense.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, adults 21 and older can legally possess up to one ounce of cannabis without penalty. The measure eliminates this allowance, making possession of any amount a misdemeanor.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs will increase for law enforcement, courts, public defenders, and county jails processing and housing individuals charged with this new misdemeanor. Opportunity costs include police time diverted from other investigations.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Taxpayers will bear the criminal justice costs. Individuals who possess cannabis will bear the costs of legal defense, fines, lost wages during incarceration, and the long-term impacts of a criminal record.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Some individuals may reduce or stop their cannabis use, while others will continue to consume it covertly or purchase from illicit markets. Legal cannabis businesses will likely close or move out of the jurisdiction.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text implicitly addresses the availability or use of cannabis by imposing a criminal ban. The mechanism (criminalization) removes legal access but may create a shortage of regulated products, fostering an illicit market.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Police and prosecutors gain significant enforcement power and discretion to stop, search, and charge individuals suspected of possessing cannabis. Illicit cannabis sellers may gain market share as legal competitors are eliminated.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The public safety and health effects of criminalizing cannabis are disputed. Some researchers find that bans reduce overall consumption and related public-order issues. Others find that criminalization fails to significantly curb use, instead shifting sales to the illicit market and resulting in disproportionate arrest rates among minority and low-income populations.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Tightened restrictions and criminal bans on the possession of cannabis.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Expanded police arrest powers regarding suspected cannabis possession.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Adults' legal freedom to possess limited amounts of cannabis.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Moves sentencing rules toward longer potential sentences for drug possession by allowing up to 90 days in jail.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Adults' legal freedom to possess limited amounts of cannabis.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Tightened restrictions and criminal bans on the possession of cannabis.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Expanded police arrest powers regarding suspected cannabis possession.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 28.6,
+  "errors": [],
+  "accepted": true
+}

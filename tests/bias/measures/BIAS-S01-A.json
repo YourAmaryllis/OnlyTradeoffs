@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-34B18148",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S01, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "A corporation that makes independent political expenditures over $10,000 in a calendar year shall publicly disclose each person who contributed more than $1,000 toward those expenditures."
+    }
+  ],
+  "current_law": "Corporations that make independent political expenditures report the total amount spent but not the sources of the funds."
+}

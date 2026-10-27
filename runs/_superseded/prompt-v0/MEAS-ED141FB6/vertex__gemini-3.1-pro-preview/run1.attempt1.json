@@ -1,0 +1,262 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-ED141FB6",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "27d08f0e1a78a18e4477463adb1c1ab459bffceb4574bfd76caca541a6155669",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "215e6001a9bb36f005c47cbc2cf7ee8e92cd07385d797335c4300158f526e9b4"
+    }
+  },
+  "prompt_file": "MEAS-ED141FB6.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:13:14.940894+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1173,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1173
+        }
+      ],
+      "prompt_token_count": 7285,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7285
+        }
+      ],
+      "thoughts_token_count": 1788,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10246,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-ED141FB6\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Establishes that only the state can regulate firearms and invalidates any local city ordinances that do so.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"Shifts authority over firearm regulation exclusively to the state\",\n      \"quote\": \"The state occupies the whole field of firearm regulation. Any city ordinance regulating firearms is void.\",\n      \"mechanism\": \"Preempts local governments from setting their own rules on firearms by voiding all city ordinances on the subject.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance regulating firearms is void.\",\n      \"mechanism\": \"Expands freedom from local restrictions on owning, carrying, or transferring firearms by nullifying city-level rules.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance regulating firearms is void.\",\n      \"mechanism\": \"Reduces the total layer of firearm regulations by eliminating all municipal rules governing their purchase, possession, carry, or sale.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law permits cities to adopt local ordinances regulating the sale and possession of firearms. The proposed measure overrides this by establishing total state preemption, explicitly voiding any existing city ordinances related to firearms and preventing future ones.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Cities with existing firearm restrictions will be forced to cease enforcing them. Gun owners and sellers will no longer need to navigate a patchwork of varying municipal laws when traveling or doing business across city lines within the state.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses the compliance burden and inconsistency created by varied local firearm ordinances. The mechanism reaches this by centralizing all regulatory authority at the state level. However, this also creates a situation where cities cannot enact tailored rules to address specific local concerns regarding firearms.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The state legislature gains exclusive regulatory power over firearms. People and businesses dealing in or carrying firearms gain uniformity in rules. City councils and local law enforcement lose the discretion to establish and enforce municipal firearm regulations.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expands the ability to own and carry firearms free from local restrictions.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Eliminates existing city-level regulations on the purchase, possession, and sale of firearms.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Consolidates all authority to regulate firearms at the state level, nullifying municipal power on the issue.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Maintains the ability of cities to enact and enforce local ordinances regulating firearms.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Forgoes the removal of local municipal restrictions on firearm ownership and carry.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-ED141FB6",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Establishes that only the state can regulate firearms and invalidates any local city ordinances that do so."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "Shifts authority over firearm regulation exclusively to the state",
+        "quote": "The state occupies the whole field of firearm regulation. Any city ordinance regulating firearms is void.",
+        "mechanism": "Preempts local governments from setting their own rules on firearms by voiding all city ordinances on the subject.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C33",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Any city ordinance regulating firearms is void.",
+        "mechanism": "Expands freedom from local restrictions on owning, carrying, or transferring firearms by nullifying city-level rules.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C34",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Any city ordinance regulating firearms is void.",
+        "mechanism": "Reduces the total layer of firearm regulations by eliminating all municipal rules governing their purchase, possession, carry, or sale.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law permits cities to adopt local ordinances regulating the sale and possession of firearms. The proposed measure overrides this by establishing total state preemption, explicitly voiding any existing city ordinances related to firearms and preventing future ones.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Cities with existing firearm restrictions will be forced to cease enforcing them. Gun owners and sellers will no longer need to navigate a patchwork of varying municipal laws when traveling or doing business across city lines within the state.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text addresses the compliance burden and inconsistency created by varied local firearm ordinances. The mechanism reaches this by centralizing all regulatory authority at the state level. However, this also creates a situation where cities cannot enact tailored rules to address specific local concerns regarding firearms.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "The state legislature gains exclusive regulatory power over firearms. People and businesses dealing in or carrying firearms gain uniformity in rules. City councils and local law enforcement lose the discretion to establish and enforce municipal firearm regulations.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expands the ability to own and carry firearms free from local restrictions.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Eliminates existing city-level regulations on the purchase, possession, and sale of firearms.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Consolidates all authority to regulate firearms at the state level, nullifying municipal power on the issue.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Maintains the ability of cities to enact and enforce local ordinances regulating firearms.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Forgoes the removal of local municipal restrictions on firearm ownership and carry.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 45.0,
+  "errors": [],
+  "accepted": true
+}

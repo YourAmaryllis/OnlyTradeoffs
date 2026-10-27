@@ -1,0 +1,790 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P43",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "b56a64d23382151cfc8d7db1e95d861170653dba8294675995205b27ec4b8750",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "982746e34bd0cafb0e06b9267b501b8674de25e65d86ca0672620de5b171677b",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "b327dd26db372e67fc443433ecfa3a5c92383badee4212fa584d5565b819ef8d"
+    }
+  },
+  "prompt_file": "CA-2026-P43.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T07:35:04.957745+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6013,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6013
+        }
+      ],
+      "prompt_token_count": 6706,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6706
+        }
+      ],
+      "thoughts_token_count": 4860,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 17579,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P43\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"[Prop 43 Preamble]\",\n      \"text\": \"Proposes an amendment to the California Constitution by adding Section 4.5 to Article XIII A.\"\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"text\": \"Starting January 1, 2027, prohibits local governments and local voter initiatives from imposing, extending, or increasing any special tax without a two-thirds vote of the electorate, overriding certain other constitutional provisions.\"\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(b)]\",\n      \"text\": \"Prohibits local governments and local voter initiatives from imposing ad valorem taxes on real property, with limited existing exceptions.\"\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(c)]\",\n      \"text\": \"Defines 'local government' and 'special tax' according to Section 1 of Article XIII C.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"supports\",\n          \"why\": \"It reduces government taxing power by requiring a two-thirds supermajority for local governments to impose special taxes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"supports\",\n          \"why\": \"It reduces government taxing power by banning local governments from imposing ad valorem property taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"supports\",\n          \"why\": \"It overrides local authority by imposing a state constitutional limit that requires a two-thirds vote for local special taxes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"supports\",\n          \"why\": \"It overrides local authority by imposing a statewide constitutional ban on local ad valorem property taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It locks in a strict supermajority rule for imposing any special tax.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It locks in a ban on ad valorem real property taxes at the local level.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It removes local discretion by imposing a statewide state constitutional rule requiring a two-thirds vote for local special taxes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It removes local discretion by imposing a statewide constitutional ban on local ad valorem property taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It makes it harder for citizens to pass local initiatives for special taxes by requiring a two-thirds vote instead of a simple majority.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It prevents voters from using the local initiative power to pass ad valorem property taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It restricts the ability to raise money for public services by requiring a two-thirds supermajority for special taxes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It restricts the ability to raise money for public services by banning local ad valorem property taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It limits government spending authority by requiring a two-thirds supermajority for local governments to impose special taxes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It limits government spending authority by banning local governments from imposing ad valorem property taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"[Prop 43 §4.5(a)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.\",\n          \"effect\": \"supports\",\n          \"why\": \"It prevents local special taxes from being passed without a supermajority, keeping household taxes from rising as easily.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"[Prop 43 §4.5(b)]\",\n          \"quote\": \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\",\n          \"effect\": \"supports\",\n          \"why\": \"It prevents local governments from passing ad valorem property taxes, which caps or lowers property taxes paid by households.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. Based on the measure text alone, it newly adds a requirement that any special tax proposed, extended, or increased by a local government or by voter initiative must be approved by a two-thirds vote, and it constitutionally prohibits local ad valorem property taxes.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Local governments may face revenue constraints and might turn to general taxes, fees, or assessments that require lower approval thresholds. Advocates for special taxes will have to invest more resources to achieve a two-thirds majority or may abandon some efforts entirely.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses the perceived problem of local taxes and property taxes increasing too easily, particularly through local initiatives that might currently only require a simple majority. It may create the problem of local governments being unable to fund desired public services because a minority of voters can block special tax measures.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"A minority block of voters (one-third plus one) gains the power to veto special taxes. The state gains power by strictly capping local tax autonomy.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of supermajority requirements on local government revenues and services is empirically studied; researchers generally agree it reduces revenue growth, but debate whether this forces beneficial efficiency and prioritization or causes harmful cuts to essential services.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"[Prop 43 Preamble]\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"Because it amends the state constitution, it can only be undone or modified by another statewide ballot measure.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"notwithstanding Article II and Article XI\",\n      \"note\": \"Overrides other constitutional articles regarding local government and initiative powers.\"\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(a)]\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"Beginning on January 1, 2027\",\n      \"note\": \"Sets a specific effective date for the new tax rules.\"\n    },\n    {\n      \"clause_id\": \"[Prop 43 §4.5(b)]\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"Notwithstanding Article II and Article XI\",\n      \"note\": \"Overrides other constitutional articles.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P43",
+    "restatements": [
+      {
+        "clause_id": "[Prop 43 Preamble]",
+        "text": "Proposes an amendment to the California Constitution by adding Section 4.5 to Article XIII A."
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "text": "Starting January 1, 2027, prohibits local governments and local voter initiatives from imposing, extending, or increasing any special tax without a two-thirds vote of the electorate, overriding certain other constitutional provisions."
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(b)]",
+        "text": "Prohibits local governments and local voter initiatives from imposing ad valorem taxes on real property, with limited existing exceptions."
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(c)]",
+        "text": "Defines 'local government' and 'special tax' according to Section 1 of Article XIII C."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "supports",
+            "why": "It reduces government taxing power by requiring a two-thirds supermajority for local governments to impose special taxes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "supports",
+            "why": "It reduces government taxing power by banning local governments from imposing ad valorem property taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C77",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "supports",
+            "why": "It overrides local authority by imposing a state constitutional limit that requires a two-thirds vote for local special taxes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "supports",
+            "why": "It overrides local authority by imposing a statewide constitutional ban on local ad valorem property taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "conflicts",
+            "why": "It locks in a strict supermajority rule for imposing any special tax.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "conflicts",
+            "why": "It locks in a ban on ad valorem real property taxes at the local level.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "conflicts",
+            "why": "It removes local discretion by imposing a statewide state constitutional rule requiring a two-thirds vote for local special taxes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "conflicts",
+            "why": "It removes local discretion by imposing a statewide constitutional ban on local ad valorem property taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "conflicts",
+            "why": "It makes it harder for citizens to pass local initiatives for special taxes by requiring a two-thirds vote instead of a simple majority.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "conflicts",
+            "why": "It prevents voters from using the local initiative power to pass ad valorem property taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C02",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "conflicts",
+            "why": "It restricts the ability to raise money for public services by requiring a two-thirds supermajority for special taxes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "conflicts",
+            "why": "It restricts the ability to raise money for public services by banning local ad valorem property taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C75",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "conflicts",
+            "why": "It limits government spending authority by requiring a two-thirds supermajority for local governments to impose special taxes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "conflicts",
+            "why": "It limits government spending authority by banning local governments from imposing ad valorem property taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "[Prop 43 §4.5(a)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote.",
+            "effect": "supports",
+            "why": "It prevents local special taxes from being passed without a supermajority, keeping household taxes from rising as easily.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "[Prop 43 §4.5(b)]",
+            "quote": "no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+            "effect": "supports",
+            "why": "It prevents local governments from passing ad valorem property taxes, which caps or lowers property taxes paid by households.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. Based on the measure text alone, it newly adds a requirement that any special tax proposed, extended, or increased by a local government or by voter initiative must be approved by a two-thirds vote, and it constitutionally prohibits local ad valorem property taxes.",
+        "disputed": false
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "question_id": "Q4",
+        "answer": "Local governments may face revenue constraints and might turn to general taxes, fees, or assessments that require lower approval thresholds. Advocates for special taxes will have to invest more resources to achieve a two-thirds majority or may abandon some efforts entirely.",
+        "disputed": false
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "question_id": "Q5",
+        "answer": "It addresses the perceived problem of local taxes and property taxes increasing too easily, particularly through local initiatives that might currently only require a simple majority. It may create the problem of local governments being unable to fund desired public services because a minority of voters can block special tax measures.",
+        "disputed": false
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "question_id": "Q6",
+        "answer": "A minority block of voters (one-third plus one) gains the power to veto special taxes. The state gains power by strictly capping local tax autonomy.",
+        "disputed": false
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "question_id": "Q7",
+        "answer": "The effect of supermajority requirements on local government revenues and services is empirically studied; researchers generally agree it reduces revenue growth, but debate whether this forces beneficial efficiency and prioritization or causes harmful cuts to essential services.",
+        "disputed": true
+      },
+      {
+        "clause_id": "[Prop 43 Preamble]",
+        "question_id": "Q9",
+        "answer": "Because it amends the state constitution, it can only be undone or modified by another statewide ballot measure.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "flag_id": "F2",
+        "quote": "notwithstanding Article II and Article XI",
+        "note": "Overrides other constitutional articles regarding local government and initiative powers."
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(a)]",
+        "flag_id": "F6",
+        "quote": "Beginning on January 1, 2027",
+        "note": "Sets a specific effective date for the new tax rules."
+      },
+      {
+        "clause_id": "[Prop 43 §4.5(b)]",
+        "flag_id": "F2",
+        "quote": "Notwithstanding Article II and Article XI",
+        "note": "Overrides other constitutional articles."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "seconds": 106.0,
+  "errors": [
+    "restatement: unknown clause [Prop 43 Preamble]",
+    "restatement: unknown clause [Prop 43 §4.5(a)]",
+    "restatement: unknown clause [Prop 43 §4.5(b)]",
+    "restatement: unknown clause [Prop 43 §4.5(c)]",
+    "restatements missing for clauses: Prop 43 Preamble, Prop 43 §4.5(a), Prop 43 §4.5(b), Prop 43 §4.5(c)",
+    "C18 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C18 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C77 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C77 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C06 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C06 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C21 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C21 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C62 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C62 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C02 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C02 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C75 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C75 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "C01 evidence: unknown clause [Prop 43 §4.5(a)]",
+    "C01 evidence: unknown clause [Prop 43 §4.5(b)]",
+    "analysis: unknown clause [Prop 43 §4.5(a)]",
+    "analysis: unknown clause [Prop 43 §4.5(a)]",
+    "analysis: unknown clause [Prop 43 §4.5(a)]",
+    "analysis: unknown clause [Prop 43 §4.5(a)]",
+    "analysis: unknown clause [Prop 43 §4.5(a)]",
+    "analysis: unknown clause [Prop 43 Preamble]",
+    "flag F2: unknown clause [Prop 43 §4.5(a)]",
+    "flag F6: unknown clause [Prop 43 §4.5(a)]",
+    "flag F2: unknown clause [Prop 43 §4.5(b)]"
+  ],
+  "accepted": false
+}

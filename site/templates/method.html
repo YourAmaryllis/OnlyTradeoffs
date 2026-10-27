@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Method · Only Tradeoffs{% endblock %}
+{% block main %}
+<h1>Method</h1>
+<div class="prose">
+<h2>Rules we hold ourselves to</h2>
+<ol>
+  <li><strong>Official text only.</strong> The models read the measure's own clauses and the current law it changes. They never see the ballot title, summary, fiscal statement, arguments, sponsors, or news.</li>
+  <li><strong>No sides.</strong> No party, movement, or politician is named anywhere on this site or in any prompt.</li>
+  <li><strong>Every value, every time.</strong> Each model checks every value on the list, and the page shows every value the text touches, whether it supports or conflicts with it. Nothing is hidden or filtered.</li>
+  <li><strong>Every claim cites a clause</strong>, with the exact words quoted. A result whose quote doesn't match the text is rejected.</li>
+  <li><strong>Fact and inference are separate.</strong> Results say what the text does. Predictions sit under "Analysis" and are labeled inference.</li>
+  <li><strong>Text and money are kept apart.</strong> Funders and endorsers are shown on each measure page, but the models never see them.</li>
+  <li><strong>Several models, same instructions.</strong> Each model gets byte-identical prompts. Disagreement is shown, not hidden.</li>
+  <li><strong>No verdicts, no scores, no recommendations.</strong></li>
+  <li><strong>Everything is published</strong>, so anyone can rerun it.</li>
+</ol>
+
+<h2>Where the values came from</h2>
+<p>We collected what voters across the spectrum say they care about, and what economists of different schools ask about any policy, from published sources. We then merged them into one list and removed every label. Each value is written as something a text can change, with the direction in which the text supports it. Where values pull in opposite directions on the same thing, both directions are listed as separate values, so neither is the default. The research trail, from each value back to its sources, is published with the method files.</p>
+
+<h2>How a measure is evaluated</h2>
+<ol>
+  <li>The official text is fetched, archived, and fingerprinted (SHA-256).</li>
+  <li>It is split into clauses by its own numbering.</li>
+  <li>Each model, several times, reports, for every value, whether the text supports it, conflicts with it, both, or neither, quoting the clauses that show it, answers the analysis questions, and flags drafting features. The value order is shuffled each run, using a recorded seed.</li>
+  <li>Long measures are evaluated in parts. Each part sees the whole text but reports only on its own sections, and the parts are then combined and checked together.</li>
+  <li>Each reply is checked automatically: format, exact quotes, every value answered, results that match their evidence, consistent mirror values, a list of blocked words, and no names that aren't in the measure's own text (so nothing comes from a model's memory). Failures are rerun, and kept.</li>
+  <li>Results are reconciled by fixed rules, with no judge model. A model's result on a value is what it said in at least half its runs. A value is shown when a majority of models reach the same result. Other results are shown as disagreements or kept in the full table.</li>
+</ol>
+
+<h2>Testing for lean</h2>
+<p>Before results are published, every model is run on pairs of test measures that are mirror images (raise and lower the same tax; add and remove the same rule) or swaps (the same rule applied to different groups). A model should treat both sides of a pair the same way. Where it doesn't, we report it. Agreement between models is not proof of neutrality, because models share training data, so these tests are the gate.</p>
+
+<h2>Limits</h2>
+<ul>
+  <li>Models make mistakes. The quotes let you check every result against the text.</li>
+  <li>Models are not fully deterministic and vendors update them. We publish every run so differences can be traced.</li>
+  <li>The text tells you what a law does, not what will happen. Effects that depend on behavior, funding, or courts are marked as such.</li>
+</ul>
+</div>
+{% endblock %}

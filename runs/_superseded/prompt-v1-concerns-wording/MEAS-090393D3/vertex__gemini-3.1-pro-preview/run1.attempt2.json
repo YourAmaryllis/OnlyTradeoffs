@@ -1,0 +1,726 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-090393D3",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "b372d6a0404d1de5bc2207188e1136fd78be86dc411096e8006868d6377209a3",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "af573768ac1aeacf6d57d09a1c90091f92f7d697bdc5893abf0a2655c7c85015",
+      "user_template": "e3a62682914a346cb0307a1bb4914bc0a5be6d9b50bdf9e8e785b3b05864d1da",
+      "schema": "f205ce78fe339dfb80adc2d4b05ac8bbd36c99f6bb835fdbdefaabde8cebfac4",
+      "user_message": "e88d24cd806233c3684441220828c42f1221544412facf5f92064705ddc217ea"
+    }
+  },
+  "prompt_file": "MEAS-090393D3.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T07:03:20.756149+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4058
+        }
+      ],
+      "cached_content_token_count": 4058,
+      "candidates_token_count": 4433,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4433
+        }
+      ],
+      "prompt_token_count": 6429,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6429
+        }
+      ],
+      "thoughts_token_count": 4990,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 15852,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-090393D3\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Carrying a concealed handgun requires a permit issued by the county sheriff.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"The sheriff must issue the permit if the applicant is at least 21 years old, is legally allowed to possess a handgun, and completes an eight-hour safety course.\"\n    }\n  ],\n  \"concerns\": [\n    {\n      \"concern_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C34\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"No person may carry a concealed handgun without a concealed carry permit issued by the county sheriff.\",\n          \"effect\": \"supports\",\n          \"why\": \"It establishes a permit requirement for carrying a concealed handgun.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"§2\",\n          \"quote\": \"completes an eight-hour safety course.\",\n          \"effect\": \"supports\",\n          \"why\": \"It adds an eight-hour safety course as a condition for receiving a permit.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"issued by the county sheriff.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It gives the county sheriff a new permitting role.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"§2\",\n          \"quote\": \"The sheriff shall issue a permit to an applicant who\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It mandates a government permitting process administered by the sheriff.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C33\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"No person may carry a concealed handgun without a concealed carry permit issued by the county sheriff.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It restricts the ability to carry a concealed handgun by requiring a permit.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"§2\",\n          \"quote\": \"completes an eight-hour safety course.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It creates a mandatory training barrier to legally carrying a concealed handgun.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"issued by the county sheriff.\",\n          \"effect\": \"supports\",\n          \"why\": \"It gives the county sheriff a new permitting role.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"§2\",\n          \"quote\": \"The sheriff shall issue a permit to an applicant who\",\n          \"effect\": \"supports\",\n          \"why\": \"It establishes a government permitting process administered by the sheriff.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C01\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Compared to current law, which allows individuals 21 or older who can lawfully possess a handgun to carry it concealed without a permit, this measure introduces a requirement to obtain a permit from the county sheriff.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"This clause conditions the new concealed carry permit on completing an eight-hour safety course, adding a training requirement that does not exist under current law.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include the cost of safety courses for applicants and their time. The sheriff's office will face new administrative costs to process applications, verify backgrounds, and issue permits, though no funding source or fee is established in the text.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"People wanting to carry concealed handguns bear the time and financial costs of the required training. Instructors providing eight-hour safety courses gain a financial benefit from new demand. The public may benefit if mandatory training decreases firearm accidents or misuse.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Some firearm owners may decide to carry openly or not carry at all to avoid the cost and time of the permitting process. Sheriffs will need to create and staff a process for issuing permits.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Demand for certified safety training classes will rise significantly as applicants seek to fulfill the new mandate.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses concerns that people carrying concealed handguns in public without training pose safety risks. By requiring an eight-hour safety course and a formal permit, the mechanism ensures basic instruction before carrying concealed, which simultaneously introduces time and cost entry barriers to legal carry.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"County sheriffs gain an administrative role in processing permits, though the \\\"shall issue\\\" language in §2 limits their discretion.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Firearm safety instructors gain a captive market of required customers.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of concealed carry permitting and mandatory training on public safety is empirically disputed. Some researchers find that tighter carry regulations, including training requirements and permitting, reduce violent crime and accidental firearm injuries. Other researchers find no significant effect or argue that expanding unencumbered concealed carry deters crime by making criminals uncertain about who is armed.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Sheriff departments will incur administrative overhead to verify age, lawful possession status, and completion of the safety course for every applicant. This will require personnel time and record-keeping systems.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory measure that can be undone or modified by future legislation, subject to normal legislative processes.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F5\",\n      \"quote\": \"No person may carry\",\n      \"note\": \"The measure lacks a severability clause.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"flag_id\": \"F4\",\n      \"quote\": \"The sheriff shall issue a permit\",\n      \"note\": \"The measure requires the sheriff to issue permits but does not specify an application fee or funding source to cover administrative costs.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-090393D3",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Carrying a concealed handgun requires a permit issued by the county sheriff."
+      },
+      {
+        "clause_id": "§2",
+        "text": "The sheriff must issue the permit if the applicant is at least 21 years old, is legally allowed to possess a handgun, and completes an eight-hour safety course."
+      }
+    ],
+    "concerns": [
+      {
+        "concern_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C34",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "No person may carry a concealed handgun without a concealed carry permit issued by the county sheriff.",
+            "effect": "supports",
+            "why": "It establishes a permit requirement for carrying a concealed handgun.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "§2",
+            "quote": "completes an eight-hour safety course.",
+            "effect": "supports",
+            "why": "It adds an eight-hour safety course as a condition for receiving a permit.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "issued by the county sheriff.",
+            "effect": "conflicts",
+            "why": "It gives the county sheriff a new permitting role.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "§2",
+            "quote": "The sheriff shall issue a permit to an applicant who",
+            "effect": "conflicts",
+            "why": "It mandates a government permitting process administered by the sheriff.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C33",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "No person may carry a concealed handgun without a concealed carry permit issued by the county sheriff.",
+            "effect": "conflicts",
+            "why": "It restricts the ability to carry a concealed handgun by requiring a permit.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "§2",
+            "quote": "completes an eight-hour safety course.",
+            "effect": "conflicts",
+            "why": "It creates a mandatory training barrier to legally carrying a concealed handgun.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "issued by the county sheriff.",
+            "effect": "supports",
+            "why": "It gives the county sheriff a new permitting role.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "§2",
+            "quote": "The sheriff shall issue a permit to an applicant who",
+            "effect": "supports",
+            "why": "It establishes a government permitting process administered by the sheriff.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C01",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Compared to current law, which allows individuals 21 or older who can lawfully possess a handgun to carry it concealed without a permit, this measure introduces a requirement to obtain a permit from the county sheriff.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q1",
+        "answer": "This clause conditions the new concealed carry permit on completing an eight-hour safety course, adding a training requirement that does not exist under current law.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q2",
+        "answer": "Direct costs include the cost of safety courses for applicants and their time. The sheriff's office will face new administrative costs to process applications, verify backgrounds, and issue permits, though no funding source or fee is established in the text.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q3",
+        "answer": "People wanting to carry concealed handguns bear the time and financial costs of the required training. Instructors providing eight-hour safety courses gain a financial benefit from new demand. The public may benefit if mandatory training decreases firearm accidents or misuse.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Some firearm owners may decide to carry openly or not carry at all to avoid the cost and time of the permitting process. Sheriffs will need to create and staff a process for issuing permits.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q4",
+        "answer": "Demand for certified safety training classes will rise significantly as applicants seek to fulfill the new mandate.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q5",
+        "answer": "The measure addresses concerns that people carrying concealed handguns in public without training pose safety risks. By requiring an eight-hour safety course and a formal permit, the mechanism ensures basic instruction before carrying concealed, which simultaneously introduces time and cost entry barriers to legal carry.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "County sheriffs gain an administrative role in processing permits, though the \"shall issue\" language in §2 limits their discretion.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q6",
+        "answer": "Firearm safety instructors gain a captive market of required customers.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of concealed carry permitting and mandatory training on public safety is empirically disputed. Some researchers find that tighter carry regulations, including training requirements and permitting, reduce violent crime and accidental firearm injuries. Other researchers find no significant effect or argue that expanding unencumbered concealed carry deters crime by making criminals uncertain about who is armed.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q8",
+        "answer": "Sheriff departments will incur administrative overhead to verify age, lawful possession status, and completion of the safety course for every applicant. This will require personnel time and record-keeping systems.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory measure that can be undone or modified by future legislation, subject to normal legislative processes.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F5",
+        "quote": "No person may carry",
+        "note": "The measure lacks a severability clause."
+      },
+      {
+        "clause_id": "§2",
+        "flag_id": "F4",
+        "quote": "The sheriff shall issue a permit",
+        "note": "The measure requires the sheriff to issue permits but does not specify an application fee or funding source to cover administrative costs."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "seconds": 88.0,
+  "errors": [],
+  "accepted": true
+}

@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-BB31064A",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M06, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "A landlord of a residential unit may not increase rent by more than 5 percent in any 12-month period. This section does not apply to units first occupied within the last 15 years."
+    }
+  ],
+  "current_law": "Landlords may raise rent by any amount with 60 days' written notice."
+}

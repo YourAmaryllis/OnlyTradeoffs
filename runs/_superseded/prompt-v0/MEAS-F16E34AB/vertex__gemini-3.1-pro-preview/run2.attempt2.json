@@ -1,0 +1,271 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-F16E34AB",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "2d1242930f527be7239408651f4d4ef434b4036469a2f3df09ea488f7d926bcd",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "c470ada8a92b276990ffc5fb50f6d16048f0d655745bd87dd49edab367681531"
+    }
+  },
+  "prompt_file": "MEAS-F16E34AB.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:28:12.955924+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1427,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1427
+        }
+      ],
+      "prompt_token_count": 7326,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7326
+        }
+      ],
+      "thoughts_token_count": 4270,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 13023,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-F16E34AB\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the existing state law that requires cities to permit up to two homes on single-family lots without a public hearing, and instead grants each city the authority to determine residential lot density and project approval procedures.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C16\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.\",\n      \"mechanism\": \"Removes the state mandate that streamlines approval for two homes per lot, permitting cities to mandate hearings and restrict lots to single homes.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"toward local governments\",\n      \"quote\": \"Each city sets the number of homes allowed on each residential lot and its own approval process.\",\n      \"mechanism\": \"Transfers the authority to dictate residential density and approval steps from the state back to individual cities.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.\",\n      \"mechanism\": \"Eliminates the statutory right of property owners to build a second home on their lot without facing a discretionary local public hearing.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law mandates that cities allow up to two homes on single-family lots by right, without public hearings. The measure repeals this state preemption, restoring the authority of individual cities to limit lots to a single home and to require public hearings for any proposed development.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Many local governments will likely reinstate single-family zoning restrictions and discretionary review processes. Consequently, developers and homeowners are likely to propose fewer duplex projects due to the added costs, delays, and uncertainty associated with navigating local public hearings.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses local opposition to state preemption of zoning laws and neighborhood concerns regarding increased density. The mechanism returns full discretion to cities, resolving the local control issue but simultaneously removing the state's primary tool for overcoming local resistance to new housing supply.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Local city councils, planning commissions, and neighborhood associations gain discretionary power to alter or block housing approvals. Property owners wishing to develop their land, housing developers, and prospective residents lose leverage.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The broader effect of local zoning on housing is largely settled, with researchers generally agreeing that local discretionary review restricts supply and increases housing costs. However, the specific impact of state-level duplex mandates is disputed; some researchers find they significantly boost housing availability, while others argue they primarily alter the type of housing built without deeply impacting overall affordability.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure primarily restores local regulatory authority and removes state mandates, which does not directly advance any of the measured policy axes.\"\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Property owners' guaranteed right to build a second home on their single-family lot\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"Streamlined, hearing-free approval for duplexes, which makes building housing easier\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Authority over residential housing density and project approvals shifts from the state back to individual cities\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"State-level preemption over local residential zoning for duplexes\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Property owners' guaranteed right to build up to two homes on their single-family lot\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"Streamlined rules that make building housing easier by exempting duplexes from public hearings\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [],\n        \"empty_reason\": \"A no vote maintains current state law, meaning local governments do not regain discretionary authority over these zoning approvals.\"\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-F16E34AB",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the existing state law that requires cities to permit up to two homes on single-family lots without a public hearing, and instead grants each city the authority to determine residential lot density and project approval procedures."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C16",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.",
+        "mechanism": "Removes the state mandate that streamlines approval for two homes per lot, permitting cities to mandate hearings and restrict lots to single homes.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "toward local governments",
+        "quote": "Each city sets the number of homes allowed on each residential lot and its own approval process.",
+        "mechanism": "Transfers the authority to dictate residential density and approval steps from the state back to individual cities.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed.",
+        "mechanism": "Eliminates the statutory right of property owners to build a second home on their lot without facing a discretionary local public hearing.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law mandates that cities allow up to two homes on single-family lots by right, without public hearings. The measure repeals this state preemption, restoring the authority of individual cities to limit lots to a single home and to require public hearings for any proposed development.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Many local governments will likely reinstate single-family zoning restrictions and discretionary review processes. Consequently, developers and homeowners are likely to propose fewer duplex projects due to the added costs, delays, and uncertainty associated with navigating local public hearings.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses local opposition to state preemption of zoning laws and neighborhood concerns regarding increased density. The mechanism returns full discretion to cities, resolving the local control issue but simultaneously removing the state's primary tool for overcoming local resistance to new housing supply.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Local city councils, planning commissions, and neighborhood associations gain discretionary power to alter or block housing approvals. Property owners wishing to develop their land, housing developers, and prospective residents lose leverage.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The broader effect of local zoning on housing is largely settled, with researchers generally agreeing that local discretionary review restricts supply and increases housing costs. However, the specific impact of state-level duplex mandates is disputed; some researchers find they significantly boost housing availability, while others argue they primarily alter the type of housing built without deeply impacting overall affordability.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [],
+          "empty_reason": "The measure primarily restores local regulatory authority and removes state mandates, which does not directly advance any of the measured policy axes."
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Property owners' guaranteed right to build a second home on their single-family lot",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "Streamlined, hearing-free approval for duplexes, which makes building housing easier",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Authority over residential housing density and project approvals shifts from the state back to individual cities",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "State-level preemption over local residential zoning for duplexes",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Property owners' guaranteed right to build up to two homes on their single-family lot",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "Streamlined rules that make building housing easier by exempting duplexes from public hearings",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [],
+          "empty_reason": "A no vote maintains current state law, meaning local governments do not regain discretionary authority over these zoning approvals."
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 56.0,
+  "errors": [],
+  "accepted": true
+}

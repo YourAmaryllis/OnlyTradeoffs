@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-F16E34AB",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M10, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The state requirement to allow two homes per single-family lot, and the bar on requiring a public hearing for such projects, are repealed. Each city sets the number of homes allowed on each residential lot and its own approval process."
+    }
+  ],
+  "current_law": "A city must allow up to two homes on any lot zoned for single-family residential use, without a public hearing."
+}

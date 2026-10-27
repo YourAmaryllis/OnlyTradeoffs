@@ -1,0 +1,260 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-DD3C8D74",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "ac5cc539ab5bdf0e343a38f3bc7c84f0df7ef64b42ac4a515a1b16f8150546c7",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "f8d3471c357b6b5f0a613dce39f325dcf753d9e72f0f85c9309121a9882e4181"
+    }
+  },
+  "prompt_file": "MEAS-DD3C8D74.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:15:28.475986+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1239,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1239
+        }
+      ],
+      "prompt_token_count": 7347,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7347
+        }
+      ],
+      "thoughts_token_count": 2680,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11266,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-DD3C8D74\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Allows a person 21 or older who lawfully possesses a handgun to carry it concealed without a permit.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Requires sheriffs to continue issuing concealed carry permits to qualified applicants who request them for use in other states.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"may carry it concealed without a permit\",\n      \"mechanism\": \"Expands the legal ability to carry a firearm by allowing individuals 21 and older who lawfully possess a handgun to carry it concealed without needing a permit or a safety course.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"may carry it concealed without a permit\",\n      \"mechanism\": \"Removes the requirement to obtain a permit and complete an eight-hour safety course in order to carry a concealed handgun for lawful possessors 21 and older.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law requires a person to complete an eight-hour safety course and obtain a permit from the county sheriff to carry a concealed handgun. This clause removes the permit and safety course requirements for individuals 21 or older who lawfully possess a handgun.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"While §1 removes the permit requirement for in-state carry, this clause maintains the sheriff's role in issuing permits so that residents can legally carry in other states that require a permit and recognize this state's permits.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Removing the permit requirement likely eliminates the direct costs to individuals of paying for an eight-hour safety course and any application fees associated with obtaining an in-state permit.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Without the barrier of an eight-hour safety course and a formal permit process, more individuals may choose to carry concealed handguns in public.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The clause addresses the barrier to carrying a concealed weapon by eliminating the permit and safety course requirement, thereby removing friction for lawful handgun owners who wish to carry concealed.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of permitless concealed carry laws on public safety and crime rates is disputed. Some researchers find that removing permit and training requirements leads to increases in violent crime, while other researchers find no significant effect or suggest it may deter crime by allowing more individuals to defend themselves.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability for adults 21 and older to carry a concealed handgun without obtaining a permit.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"No directional concerns were affected by the measure.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability for adults 21 and older to carry a concealed handgun without obtaining a permit.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-DD3C8D74",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Allows a person 21 or older who lawfully possesses a handgun to carry it concealed without a permit."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Requires sheriffs to continue issuing concealed carry permits to qualified applicants who request them for use in other states."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C33",
+        "effect": "advances",
+        "direction": null,
+        "quote": "may carry it concealed without a permit",
+        "mechanism": "Expands the legal ability to carry a firearm by allowing individuals 21 and older who lawfully possess a handgun to carry it concealed without needing a permit or a safety course.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C34",
+        "effect": "costs",
+        "direction": null,
+        "quote": "may carry it concealed without a permit",
+        "mechanism": "Removes the requirement to obtain a permit and complete an eight-hour safety course in order to carry a concealed handgun for lawful possessors 21 and older.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law requires a person to complete an eight-hour safety course and obtain a permit from the county sheriff to carry a concealed handgun. This clause removes the permit and safety course requirements for individuals 21 or older who lawfully possess a handgun.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q1",
+        "answer": "While §1 removes the permit requirement for in-state carry, this clause maintains the sheriff's role in issuing permits so that residents can legally carry in other states that require a permit and recognize this state's permits.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Removing the permit requirement likely eliminates the direct costs to individuals of paying for an eight-hour safety course and any application fees associated with obtaining an in-state permit.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Without the barrier of an eight-hour safety course and a formal permit process, more individuals may choose to carry concealed handguns in public.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The clause addresses the barrier to carrying a concealed weapon by eliminating the permit and safety course requirement, thereby removing friction for lawful handgun owners who wish to carry concealed.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of permitless concealed carry laws on public safety and crime rates is disputed. Some researchers find that removing permit and training requirements leads to increases in violent crime, while other researchers find no significant effect or suggest it may deter crime by allowing more individuals to defend themselves.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "The legal ability for adults 21 and older to carry a concealed handgun without obtaining a permit.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "No directional concerns were affected by the measure."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "The legal ability for adults 21 and older to carry a concealed handgun without obtaining a permit.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 42.2,
+  "errors": [],
+  "accepted": true
+}

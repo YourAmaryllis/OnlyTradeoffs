@@ -1,0 +1,257 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-6B4DC874",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "c4cd052cf5925c10105d20ffebeec94ec88e5a19a1f7ac452df7502e86900265",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "589f7551ea707a6a8896d2e99fbd35c0e1f57d45d8846bd4c35a0073f8552342"
+    }
+  },
+  "prompt_file": "MEAS-6B4DC874.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:00:04.330213+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1190,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1190
+        }
+      ],
+      "prompt_token_count": 7399,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7399
+        }
+      ],
+      "thoughts_token_count": 2070,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10659,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-6B4DC874\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits demonstrating within 100 feet of the entrance to a house of worship while scheduled religious services are taking place.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C24\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.\",\n      \"mechanism\": \"It restricts freedom of speech and assembly by creating a spatial and temporal buffer zone where demonstrations are banned.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C25\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.\",\n      \"mechanism\": \"It protects religious exercise by shielding attendees from disruption, noise, or confrontation as they enter or attend scheduled services.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law permits demonstrations on public sidewalks subject only to general noise and traffic rules. The measure changes this by adding a specific restriction that bans demonstrations within 100 feet of a house of worship's entrance during scheduled services.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Demonstrators bear the cost of losing access to a specific public space during service times. Congregants and religious organizations benefit from a guaranteed buffer zone free of protest activity.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Demonstrators will likely adjust by holding protests outside the 100-foot radius or at times when services are not scheduled. Police will be required to measure boundaries and assess whether specific activities violate the new restriction.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses the problem of protests disrupting religious services or impeding access for attendees. The 100-foot buffer mechanism addresses this by enforcing physical separation between demonstrators and congregants during service times.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Law enforcement officers gain discretion to determine what conduct qualifies as a demonstration and to enforce the 100-foot boundary around house of worship entrances.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"demonstrate\",\n      \"note\": \"The term is not defined, leaving it to law enforcement to decide what activities (such as praying silently, holding signs, or distributing literature) qualify as a demonstration.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Protection for attendees of religious services from nearby protests and disruptions.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The ability to demonstrate in public areas within 100 feet of a house of worship during scheduled services.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The ability to demonstrate on public sidewalks near houses of worship, subject only to general noise and traffic laws.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A 100-foot protest-free buffer zone around entrances to houses of worship during scheduled services.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-6B4DC874",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits demonstrating within 100 feet of the entrance to a house of worship while scheduled religious services are taking place."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C24",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.",
+        "mechanism": "It restricts freedom of speech and assembly by creating a spatial and temporal buffer zone where demonstrations are banned.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C25",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.",
+        "mechanism": "It protects religious exercise by shielding attendees from disruption, noise, or confrontation as they enter or attend scheduled services.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law permits demonstrations on public sidewalks subject only to general noise and traffic rules. The measure changes this by adding a specific restriction that bans demonstrations within 100 feet of a house of worship's entrance during scheduled services.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Demonstrators bear the cost of losing access to a specific public space during service times. Congregants and religious organizations benefit from a guaranteed buffer zone free of protest activity.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Demonstrators will likely adjust by holding protests outside the 100-foot radius or at times when services are not scheduled. Police will be required to measure boundaries and assess whether specific activities violate the new restriction.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text addresses the problem of protests disrupting religious services or impeding access for attendees. The 100-foot buffer mechanism addresses this by enforcing physical separation between demonstrators and congregants during service times.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Law enforcement officers gain discretion to determine what conduct qualifies as a demonstration and to enforce the 100-foot boundary around house of worship entrances.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "demonstrate",
+        "note": "The term is not defined, leaving it to law enforcement to decide what activities (such as praying silently, holding signs, or distributing literature) qualify as a demonstration."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Protection for attendees of religious services from nearby protests and disruptions.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The ability to demonstrate in public areas within 100 feet of a house of worship during scheduled services.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The ability to demonstrate on public sidewalks near houses of worship, subject only to general noise and traffic laws.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A 100-foot protest-free buffer zone around entrances to houses of worship during scheduled services.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 37.7,
+  "errors": [],
+  "accepted": true
+}

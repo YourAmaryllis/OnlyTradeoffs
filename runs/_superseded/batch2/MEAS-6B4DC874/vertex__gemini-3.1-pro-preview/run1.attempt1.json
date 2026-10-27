@@ -1,0 +1,254 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-6B4DC874",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "c4cd052cf5925c10105d20ffebeec94ec88e5a19a1f7ac452df7502e86900265",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "9d3977ca4231842cf60bff3d922c84e5a9560e31cf6522bff73b053066247ee0"
+    }
+  },
+  "prompt_file": "MEAS-6B4DC874.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:05:37.710524+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1124,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1124
+        }
+      ],
+      "prompt_token_count": 7334,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7334
+        }
+      ],
+      "thoughts_token_count": 1620,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10078,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"measure_id\": \"MEAS-6B4DC874\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Bans demonstrating within 100 feet of a house of worship's entrance during scheduled services.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C24\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.\",\n      \"mechanism\": \"It limits speech by establishing a buffer zone where demonstrations are not allowed at specific times.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C25\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.\",\n      \"mechanism\": \"It shields religious gatherings from outside interruption by preventing demonstrations near the entrance during service times.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, demonstrations are permitted on public sidewalks subject to general noise and traffic rules. This measure creates a new, specific restriction prohibiting demonstrations within 100 feet of a house of worship's entrance while scheduled services are occurring.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Houses of worship and their attendees benefit from reduced disruption and confrontation. Demonstrators bear the cost of losing access to the immediate vicinity of the entrance when attendees are present.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Demonstrators will likely relocate just beyond the 100-foot boundary or time their protests for when services are not scheduled. Law enforcement may need to measure distances and verify service schedules to enforce the zone.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the potential for protests to disrupt religious services or confront worshippers. Its mechanism is a physical and temporal buffer zone that pushes demonstrations away from the entrance during service times.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"demonstrate\",\n      \"note\": \"The text does not define what actions constitute a demonstration, leaving ambiguity about whether it applies to leafleting, holding signs, silent prayer, or only vocal protests.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expands protection for religious exercise by shielding gatherings from nearby demonstrations.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Restricts freedom of speech by banning demonstrations within 100 feet of houses of worship during service times.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"No directional concerns were affected.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Maintains freedom of speech to demonstrate on public sidewalks near houses of worship under general noise and traffic rules.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Passes up a specific buffer zone that would protect religious gatherings from outside demonstrations.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "measure_id": "MEAS-6B4DC874",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Bans demonstrating within 100 feet of a house of worship's entrance during scheduled services."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C24",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.",
+        "mechanism": "It limits speech by establishing a buffer zone where demonstrations are not allowed at specific times.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C25",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No person may demonstrate within 100 feet of the entrance of a house of worship during scheduled religious services.",
+        "mechanism": "It shields religious gatherings from outside interruption by preventing demonstrations near the entrance during service times.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, demonstrations are permitted on public sidewalks subject to general noise and traffic rules. This measure creates a new, specific restriction prohibiting demonstrations within 100 feet of a house of worship's entrance while scheduled services are occurring.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Houses of worship and their attendees benefit from reduced disruption and confrontation. Demonstrators bear the cost of losing access to the immediate vicinity of the entrance when attendees are present.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Demonstrators will likely relocate just beyond the 100-foot boundary or time their protests for when services are not scheduled. Law enforcement may need to measure distances and verify service schedules to enforce the zone.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the potential for protests to disrupt religious services or confront worshippers. Its mechanism is a physical and temporal buffer zone that pushes demonstrations away from the entrance during service times.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "demonstrate",
+        "note": "The text does not define what actions constitute a demonstration, leaving ambiguity about whether it applies to leafleting, holding signs, silent prayer, or only vocal protests."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expands protection for religious exercise by shielding gatherings from nearby demonstrations.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Restricts freedom of speech by banning demonstrations within 100 feet of houses of worship during service times.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "No directional concerns were affected."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Maintains freedom of speech to demonstrate on public sidewalks near houses of worship under general noise and traffic rules.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Passes up a specific buffer zone that would protect religious gatherings from outside demonstrations.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 28.6,
+  "errors": [
+    "schema: : Additional properties are not allowed ('description' was unexpected)"
+  ],
+  "accepted": false
+}

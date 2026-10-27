@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-3A5B4433",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M03, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The 15-week limit on abortion is repealed. Abortion is lawful at any point before fetal viability."
+    }
+  ],
+  "current_law": "No physician may perform an abortion after 15 weeks of gestation, except when necessary to prevent the death of the pregnant woman or serious risk of substantial and irreversible physical impairment of a major bodily function."
+}

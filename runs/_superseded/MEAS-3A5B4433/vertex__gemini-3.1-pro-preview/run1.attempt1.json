@@ -1,0 +1,245 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-3A5B4433",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "2bf735fbf8f2113fe859bca9067f3a16a59d685090805dff7882918ba5b7fc3e",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "527dbcfdbd7fdce64546aebc9ec7fe6577190765748ecaece3cce1e057cd0dd7"
+    }
+  },
+  "prompt_file": "MEAS-3A5B4433.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:55:28.130963+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1060,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1060
+        }
+      ],
+      "prompt_token_count": 7423,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7423
+        }
+      ],
+      "thoughts_token_count": 2102,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10585,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-3A5B4433\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the existing law that prohibits abortions after 15 weeks of gestation and makes abortion legally permissible at any point prior to fetal viability.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C35\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"The 15-week limit on abortion is repealed. Abortion is lawful at any point before fetal viability.\",\n      \"mechanism\": \"Removes the 15-week gestational ban, permitting abortion until the point of fetal viability.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C36\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The 15-week limit on abortion is repealed. Abortion is lawful at any point before fetal viability.\",\n      \"mechanism\": \"Removes the 15-week gestational ban, permitting abortion until the point of fetal viability.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law bans abortion after 15 weeks of gestation, with exceptions only for preventing the pregnant woman's death or serious, irreversible physical impairment of a major bodily function. This measure entirely repeals that 15-week ban and establishes that abortion is lawful for any reason up until fetal viability.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses restrictions on reproductive healthcare access by removing the state's 15-week ban on abortion. The mechanism explicitly legalizes the procedure until fetal viability, eliminating the entry barrier for pregnant individuals seeking abortions and for medical providers offering them during that gestational window.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Pregnant individuals gain the power and discretion to choose to have an abortion between 15 weeks and fetal viability without state restriction. Physicians and healthcare providers gain the legal authority to perform these procedures during this timeframe.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"fetal viability\",\n      \"note\": \"The text does not define 'fetal viability' or attach it to a specific week of gestation, leaving its exact determination to medical judgment or future judicial interpretation.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded legal access to abortion, allowing the procedure up to the point of fetal viability.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Legal protections for the fetus that previously applied starting at 15 weeks of gestation.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not trigger any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The 15-week gestational ban on abortion, preserving existing legal protections for prenatal life after that point.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Legal access to abortion for any reason between 15 weeks of gestation and fetal viability.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-3A5B4433",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the existing law that prohibits abortions after 15 weeks of gestation and makes abortion legally permissible at any point prior to fetal viability."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C35",
+        "effect": "advances",
+        "direction": null,
+        "quote": "The 15-week limit on abortion is repealed. Abortion is lawful at any point before fetal viability.",
+        "mechanism": "Removes the 15-week gestational ban, permitting abortion until the point of fetal viability.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C36",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The 15-week limit on abortion is repealed. Abortion is lawful at any point before fetal viability.",
+        "mechanism": "Removes the 15-week gestational ban, permitting abortion until the point of fetal viability.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law bans abortion after 15 weeks of gestation, with exceptions only for preventing the pregnant woman's death or serious, irreversible physical impairment of a major bodily function. This measure entirely repeals that 15-week ban and establishes that abortion is lawful for any reason up until fetal viability.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "It addresses restrictions on reproductive healthcare access by removing the state's 15-week ban on abortion. The mechanism explicitly legalizes the procedure until fetal viability, eliminating the entry barrier for pregnant individuals seeking abortions and for medical providers offering them during that gestational window.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Pregnant individuals gain the power and discretion to choose to have an abortion between 15 weeks and fetal viability without state restriction. Physicians and healthcare providers gain the legal authority to perform these procedures during this timeframe.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "fetal viability",
+        "note": "The text does not define 'fetal viability' or attach it to a specific week of gestation, leaving its exact determination to medical judgment or future judicial interpretation."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded legal access to abortion, allowing the procedure up to the point of fetal viability.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Legal protections for the fetus that previously applied starting at 15 weeks of gestation.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not trigger any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The 15-week gestational ban on abortion, preserving existing legal protections for prenatal life after that point.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Legal access to abortion for any reason between 15 weeks of gestation and fetal viability.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 56.4,
+  "errors": [],
+  "accepted": true
+}

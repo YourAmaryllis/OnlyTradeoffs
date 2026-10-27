@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.wrangler/
+node_modules/
+# Generated: rebuilt by Cloudflare on every push (python3 tools/build_site.py)
+build/

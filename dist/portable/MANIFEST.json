@@ -1,0 +1,15 @@
+{
+  "version": "prompt v1, values 1-draft.r4 (draft, not frozen)",
+  "files": {
+    "any-chat/paste-prompt.md": "8c32b34b0466ed0198f7c060ac81d075f15a6e36ac17279991bb69dbef6cdcae",
+    "chatgpt-gpt/instructions.md": "76ff6cef413a11857f2294e15b07981d950cb68107145302fdea08c9573cf785",
+    "chatgpt-gpt/schema.json": "ac4fcf8861a807520d9ed08c720d45b749882ad7ab5f49b1f268b718d09ed80d",
+    "chatgpt-gpt/values.yaml": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+    "claude-skill/only-tradeoffs/SKILL.md": "0cea9d4687dc22e7583b88b6a535e7254f2b6d59b220410300ccf89609788fb9",
+    "claude-skill/only-tradeoffs/schema.json": "ac4fcf8861a807520d9ed08c720d45b749882ad7ab5f49b1f268b718d09ed80d",
+    "claude-skill/only-tradeoffs/values.yaml": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+    "gemini-gem/instructions.md": "323bd75426087b0d08c89fb45f004621ae8289c275cc0306f2590f94009b3df8",
+    "gemini-gem/schema.json": "ac4fcf8861a807520d9ed08c720d45b749882ad7ab5f49b1f268b718d09ed80d",
+    "gemini-gem/values.yaml": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528"
+  }
+}

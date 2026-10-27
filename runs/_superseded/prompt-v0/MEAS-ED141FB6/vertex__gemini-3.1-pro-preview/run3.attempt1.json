@@ -1,0 +1,291 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-ED141FB6",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "27d08f0e1a78a18e4477463adb1c1ab459bffceb4574bfd76caca541a6155669",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "6da6ac1cd11b19818d2ddd65531ef2c6e51f8451c7e6707aa13c01ec12274f61"
+    }
+  },
+  "prompt_file": "MEAS-ED141FB6.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:23:43.119029+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1591,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1591
+        }
+      ],
+      "prompt_token_count": 7285,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7285
+        }
+      ],
+      "thoughts_token_count": 3274,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12150,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-ED141FB6\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Declares that the state has exclusive authority over firearm regulation and voids any city ordinances that regulate firearms.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"shifts authority from cities to the state\",\n      \"quote\": \"The state occupies the whole field of firearm regulation. Any city ordinance regulating firearms is void.\",\n      \"mechanism\": \"Asserts exclusive state jurisdiction over firearm regulation, explicitly voiding all local city ordinances on the matter.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance regulating firearms is void.\",\n      \"mechanism\": \"Voids city-level rules on the sale and possession of firearms, removing those local restrictions.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance regulating firearms is void.\",\n      \"mechanism\": \"Voids city-level rules on the sale and possession of firearms, removing those local restrictions.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, cities may adopt ordinances regulating the sale and possession of firearms. The proposed measure changes this by asserting exclusive state authority over firearm regulation and voiding all existing and future city ordinances that regulate firearms.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Cities lose the administrative and legislative effort previously invested in passing local firearm ordinances. There may be legal costs if the scope of what constitutes a 'city ordinance regulating firearms' (such as zoning for firearm retailers) is contested in court.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Individuals who own firearms and firearm retailers benefit by having to comply only with state law, removing the burden of navigating varying local rules. Cities and local residents who prefer localized rules bear the cost of losing the ability to tailor firearm policies to specific local conditions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Cities will cease enforcing local firearm ordinances. Proponents of firearm ownership may challenge peripheral city regulations, such as specific zoning rules for gun stores or noise ordinances near shooting ranges, to test whether they fall under the new state preemption.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the problem of a patchwork of varying local laws, which can create compliance complexity for individuals and businesses moving between jurisdictions. The mechanism of field preemption and voiding local ordinances establishes statewide uniformity. Conversely, the measure removes local governments' ability to address localized public order or safety issues related to firearms.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"State legislators gain exclusive power over firearm policy. Firearm owners and retailers gain discretion as local restrictions are lifted. City councils and local law enforcement lose the power to enact and enforce localized firearm regulations.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Researchers disagree on the impact of state firearm preemption laws. Some studies find that removing local firearm regulations correlates with increased rates of firearm-related injuries or homicides, particularly in urban areas that might otherwise enact stricter rules. Other research finds that preemption laws have no significant effect on overall crime or violence rates, arguing they primarily function to standardize legal requirements across a state.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Administration and enforcement costs are likely minimal, as the measure simply voids existing local laws and prevents new ones, reducing the overall enforcement burden at the local level.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory measure that can be undone by a subsequent state legislative act or ballot measure repealing the preemption language.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Remove city-level restrictions on the sale and possession of firearms.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The ability of cities to maintain and enforce local rules regulating firearms.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts authority over firearm regulation entirely from local governments to the state.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Cities' ability to adopt and enforce ordinances regulating the sale and possession of firearms.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"The removal of city-level firearm restrictions and the establishment of a uniform statewide standard.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-ED141FB6",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Declares that the state has exclusive authority over firearm regulation and voids any city ordinances that regulate firearms."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "shifts authority from cities to the state",
+        "quote": "The state occupies the whole field of firearm regulation. Any city ordinance regulating firearms is void.",
+        "mechanism": "Asserts exclusive state jurisdiction over firearm regulation, explicitly voiding all local city ordinances on the matter.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C33",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Any city ordinance regulating firearms is void.",
+        "mechanism": "Voids city-level rules on the sale and possession of firearms, removing those local restrictions.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C34",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Any city ordinance regulating firearms is void.",
+        "mechanism": "Voids city-level rules on the sale and possession of firearms, removing those local restrictions.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, cities may adopt ordinances regulating the sale and possession of firearms. The proposed measure changes this by asserting exclusive state authority over firearm regulation and voiding all existing and future city ordinances that regulate firearms.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Cities lose the administrative and legislative effort previously invested in passing local firearm ordinances. There may be legal costs if the scope of what constitutes a 'city ordinance regulating firearms' (such as zoning for firearm retailers) is contested in court.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Individuals who own firearms and firearm retailers benefit by having to comply only with state law, removing the burden of navigating varying local rules. Cities and local residents who prefer localized rules bear the cost of losing the ability to tailor firearm policies to specific local conditions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Cities will cease enforcing local firearm ordinances. Proponents of firearm ownership may challenge peripheral city regulations, such as specific zoning rules for gun stores or noise ordinances near shooting ranges, to test whether they fall under the new state preemption.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the problem of a patchwork of varying local laws, which can create compliance complexity for individuals and businesses moving between jurisdictions. The mechanism of field preemption and voiding local ordinances establishes statewide uniformity. Conversely, the measure removes local governments' ability to address localized public order or safety issues related to firearms.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "State legislators gain exclusive power over firearm policy. Firearm owners and retailers gain discretion as local restrictions are lifted. City councils and local law enforcement lose the power to enact and enforce localized firearm regulations.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Researchers disagree on the impact of state firearm preemption laws. Some studies find that removing local firearm regulations correlates with increased rates of firearm-related injuries or homicides, particularly in urban areas that might otherwise enact stricter rules. Other research finds that preemption laws have no significant effect on overall crime or violence rates, arguing they primarily function to standardize legal requirements across a state.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q8",
+        "answer": "Administration and enforcement costs are likely minimal, as the measure simply voids existing local laws and prevents new ones, reducing the overall enforcement burden at the local level.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory measure that can be undone by a subsequent state legislative act or ballot measure repealing the preemption language.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Remove city-level restrictions on the sale and possession of firearms.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The ability of cities to maintain and enforce local rules regulating firearms.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts authority over firearm regulation entirely from local governments to the state.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Cities' ability to adopt and enforce ordinances regulating the sale and possession of firearms.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "The removal of city-level firearm restrictions and the establishment of a uniform statewide standard.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 57.3,
+  "errors": [],
+  "accepted": true
+}

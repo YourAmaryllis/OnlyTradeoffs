@@ -1,0 +1,13 @@
+Import log for prop42-ag-25-0041A1.pdf (sha256 3d068732e984e72e292c9c3749bef2c3dc0d3339b80bb778291c8df91da14547)
+Source: https://oag.ca.gov/system/files/initiatives/pdfs/25-0041A1%20%28Retirement%20Protection%20%29.pdf
+Tool: tools/import_measure.py
+
+p1 OCR unresolved: '25-0041Al1' -> "R: '25-0041Al' / L: '25-0041A1' -> kept T"
+p1 OCR replaced: '— Request for Title and Summary for Proposed Initiative Constitutional Amendment (A.G. No. 25-0041) — Amended Language' -> 'Request for Title and Summary for Proposed Initiative Constitutional Amendment (A.G. No. 25-0041) - Amended Language'
+p1 OCR unresolved: 'KLE a,' -> "R: '' / L: '' -> kept T"
+p1 furniture removed: 'Initiative 25-0041Al1'
+p2 OCR unresolved: '3™' -> "R: '3rd' / L: '3rc1' -> kept R"
+p3 OCR unresolved: 'of personal property such as retirement holdings, individually-owned assets, and other forms of' -> "R: '' / L: 'of personal property such as retirement holdings, individually-owned asset~, and other forms of' -> kept T"
+p6 OCR unresolved: 'VIII' -> "R: 'VIHI' / L: 'VIII§' -> kept T"
+cover letter and filing pages removed: "24 lines before 'Section 1. Title.'"
+'of' split: 'officers' -> 'of ficers'

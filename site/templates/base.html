@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Only Tradeoffs{% endblock %}</title>
+<meta name="description" content="What a ballot measure's own text supports and conflicts with, value by value, with the exact words. No verdicts, no scores.">
+<link rel="stylesheet" href="{{ depth|rel }}static/style.css">
+<script defer src="{{ depth|rel }}static/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="{{ depth|rel }}index.html">Only&nbsp;Tradeoffs</a>
+    <nav>
+      <a href="{{ depth|rel }}index.html">Elections</a>
+      <a href="{{ depth|rel }}values/index.html">Values</a>
+      <a href="{{ depth|rel }}p/index.html">Funders</a>
+      <a href="{{ depth|rel }}method/index.html">Method</a>
+      <a href="{{ depth|rel }}verify/index.html">Verify</a>
+    </nav>
+  </div>
+</header>
+{% block banner %}{% endblock %}
+<main id="main" class="wrap">
+{% block main %}{% endblock %}
+</main>
+<footer class="site">
+  <div class="wrap">
+    <p>The analysis is built only from the official text of each measure. No ads, no endorsements, no recommendations. Every prompt, model reply, and script is published so anyone can rerun it.</p>
+    <p class="meta">Value list {{ concerns_version }}{% if not concerns_frozen %} (draft){% endif %} · built {{ built }}</p>
+  </div>
+</footer>
+</body>
+</html>

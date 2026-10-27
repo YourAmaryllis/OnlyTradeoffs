@@ -1,0 +1,289 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-930FE848",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "d745fc328842ef421d7350d853a9024fc1ffbb606782492a593c3a88f2742a1e",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "577429acb794ce02f1f5b5fb730293b40a3111600540c0b24f8b7e682a134e69"
+    }
+  },
+  "prompt_file": "MEAS-930FE848.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:57:29.463657+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1501,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1501
+        }
+      ],
+      "prompt_token_count": 7406,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7406
+        }
+      ],
+      "thoughts_token_count": 2900,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11807,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-930FE848\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Allows adults 21 and older to possess up to one ounce of cannabis without it being a criminal offense.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C37\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A person 21 or older may possess up to one ounce of cannabis.\",\n      \"mechanism\": \"Permits adults 21 and older to possess up to one ounce of cannabis.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C38\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"A person 21 or older may possess up to one ounce of cannabis.\",\n      \"mechanism\": \"Permits adults 21 and older to possess up to one ounce of cannabis.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"Reduces sentencing exposure by eliminating jail time for possessing up to one ounce of cannabis.\",\n      \"quote\": \"Possession under this section is not an offense.\",\n      \"mechanism\": \"Removes the misdemeanor penalty for possessing up to one ounce of cannabis, eliminating the possibility of up to 90 days in jail for adults 21 and older.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C46\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Possession under this section is not an offense.\",\n      \"mechanism\": \"Eliminates the legal basis for police to arrest or for prosecutors to pursue charges against adults 21 and older for possessing up to one ounce of cannabis.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law makes the possession of any amount of cannabis a misdemeanor punishable by up to 90 days in jail. The proposed measure allows adults 21 and older to possess up to one ounce of cannabis without it being an offense, effectively removing criminal penalties for that group and amount.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The measure lowers costs by reducing the resources spent on arresting, prosecuting, and incarcerating individuals for low-level cannabis possession. It may incur a loss of revenue from fines previously collected for misdemeanor possession convictions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Adults 21 and older benefit by avoiding arrest, legal fees, and jail time for possessing up to one ounce of cannabis. The local criminal justice system benefits from a reduced misdemeanor caseload, freeing up resources.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Without the threat of a misdemeanor charge and jail time, adults 21 and older may be more likely to openly possess and consume cannabis within the one-ounce limit. Law enforcement agencies will reallocate the time and resources previously spent enforcing the possession ban.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the criminalization of low-level cannabis possession. Its mechanism directly reaches this by legalizing the possession of up to one ounce for adults 21 and older.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Adults 21 and older gain the legal freedom to possess up to one ounce of cannabis.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Restrictions on cannabis possession are loosened.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Law enforcement loses the authority to arrest and prosecute adults 21 and older for possessing up to one ounce of cannabis.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Eliminates the possibility of a 90-day jail sentence for adults 21 and older found possessing up to one ounce of cannabis.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Existing restrictions on possessing any amount of cannabis are maintained.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Law enforcement retains the authority to arrest and prosecute anyone for possessing cannabis.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Adults 21 and older will not gain the legal freedom to possess up to one ounce of cannabis.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-930FE848",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Allows adults 21 and older to possess up to one ounce of cannabis without it being a criminal offense."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C37",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A person 21 or older may possess up to one ounce of cannabis.",
+        "mechanism": "Permits adults 21 and older to possess up to one ounce of cannabis.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C38",
+        "effect": "costs",
+        "direction": null,
+        "quote": "A person 21 or older may possess up to one ounce of cannabis.",
+        "mechanism": "Permits adults 21 and older to possess up to one ounce of cannabis.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "Reduces sentencing exposure by eliminating jail time for possessing up to one ounce of cannabis.",
+        "quote": "Possession under this section is not an offense.",
+        "mechanism": "Removes the misdemeanor penalty for possessing up to one ounce of cannabis, eliminating the possibility of up to 90 days in jail for adults 21 and older.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C46",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Possession under this section is not an offense.",
+        "mechanism": "Eliminates the legal basis for police to arrest or for prosecutors to pursue charges against adults 21 and older for possessing up to one ounce of cannabis.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law makes the possession of any amount of cannabis a misdemeanor punishable by up to 90 days in jail. The proposed measure allows adults 21 and older to possess up to one ounce of cannabis without it being an offense, effectively removing criminal penalties for that group and amount.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The measure lowers costs by reducing the resources spent on arresting, prosecuting, and incarcerating individuals for low-level cannabis possession. It may incur a loss of revenue from fines previously collected for misdemeanor possession convictions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Adults 21 and older benefit by avoiding arrest, legal fees, and jail time for possessing up to one ounce of cannabis. The local criminal justice system benefits from a reduced misdemeanor caseload, freeing up resources.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Without the threat of a misdemeanor charge and jail time, adults 21 and older may be more likely to openly possess and consume cannabis within the one-ounce limit. Law enforcement agencies will reallocate the time and resources previously spent enforcing the possession ban.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the criminalization of low-level cannabis possession. Its mechanism directly reaches this by legalizing the possession of up to one ounce for adults 21 and older.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Adults 21 and older gain the legal freedom to possess up to one ounce of cannabis.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Restrictions on cannabis possession are loosened.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Law enforcement loses the authority to arrest and prosecute adults 21 and older for possessing up to one ounce of cannabis.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Eliminates the possibility of a 90-day jail sentence for adults 21 and older found possessing up to one ounce of cannabis.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Existing restrictions on possessing any amount of cannabis are maintained.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Law enforcement retains the authority to arrest and prosecute anyone for possessing cannabis.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Adults 21 and older will not gain the legal freedom to possess up to one ounce of cannabis.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 43.7,
+  "errors": [],
+  "accepted": true
+}

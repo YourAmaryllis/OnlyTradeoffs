@@ -1,0 +1,255 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-534BE65A",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "88db96fcb6b6d6e92eb78aec888c582acb2631dc46a927b3c803d7efa05b0bbc",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "5541b43f6be6c0041d66cbe197ea5f4ee2343583b80fa9e4b03d92806b1bf22f"
+    }
+  },
+  "prompt_file": "MEAS-534BE65A.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:23:34.912801+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1188,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1188
+        }
+      ],
+      "prompt_token_count": 7290,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7290
+        }
+      ],
+      "thoughts_token_count": 950,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 9428,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-534BE65A\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Makes assaulting an on-duty law enforcement officer a felony with a maximum penalty of three years in prison.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"toward longer sentences and felony classification for assaulting on-duty officers\",\n      \"quote\": \"is a felony punishable by up to three years in prison\",\n      \"mechanism\": \"Replaces the current maximum penalty of one year in jail with a felony classification carrying up to three years in prison.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C46\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"is a felony punishable by up to three years in prison\",\n      \"mechanism\": \"Increases the severity of the offense to a felony, which generally expands arrest and pretrial detention powers and extends potential incarceration time.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law punishes assault with up to one year in jail. The measure specifically increases the penalty for assaulting an on-duty law enforcement officer to a felony punishable by up to three years in prison.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"It will likely increase direct state costs for prison operations, as individuals convicted under this statute could be incarcerated in state prisons for up to three years instead of serving shorter terms in local jails.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"State taxpayers will bear the cost of longer prison sentences. Law enforcement officers may benefit from increased deterrence or incapacitation of offenders. Individuals convicted of the offense will face longer sentences and the collateral consequences of a felony record.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Prosecutors may use the threat of a felony charge and a three-year prison sentence as leverage in plea bargaining to secure convictions more efficiently.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Prosecutors gain significant discretion and negotiating power in plea deals due to the higher maximum penalty.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The deterrent effect of increasing maximum sentences is disputed. Some researchers find that longer sentences reduce crime through incapacitation and deterrence, while others argue that certainty of apprehension deters more effectively than sentence length and that longer sentences can increase recidivism.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded pretrial detention powers and harsher penalties for individuals who assault on-duty officers.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [],\n        \"empty_reason\": \"The text does not include clauses that impose costs on the defined concerns.\"\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Sentences for assaulting an on-duty officer shift toward a felony classification with up to three years in prison, rather than one year in jail.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [],\n        \"empty_reason\": \"No cost findings were identified to keep by rejecting the measure.\"\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded pretrial detention powers and harsher penalties for individuals who assault on-duty officers.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Sentences for assaulting an on-duty officer shift toward a felony classification with up to three years in prison, rather than one year in jail.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-534BE65A",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Makes assaulting an on-duty law enforcement officer a felony with a maximum penalty of three years in prison."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "toward longer sentences and felony classification for assaulting on-duty officers",
+        "quote": "is a felony punishable by up to three years in prison",
+        "mechanism": "Replaces the current maximum penalty of one year in jail with a felony classification carrying up to three years in prison.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C46",
+        "effect": "advances",
+        "direction": null,
+        "quote": "is a felony punishable by up to three years in prison",
+        "mechanism": "Increases the severity of the offense to a felony, which generally expands arrest and pretrial detention powers and extends potential incarceration time.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law punishes assault with up to one year in jail. The measure specifically increases the penalty for assaulting an on-duty law enforcement officer to a felony punishable by up to three years in prison.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "It will likely increase direct state costs for prison operations, as individuals convicted under this statute could be incarcerated in state prisons for up to three years instead of serving shorter terms in local jails.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "State taxpayers will bear the cost of longer prison sentences. Law enforcement officers may benefit from increased deterrence or incapacitation of offenders. Individuals convicted of the offense will face longer sentences and the collateral consequences of a felony record.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Prosecutors may use the threat of a felony charge and a three-year prison sentence as leverage in plea bargaining to secure convictions more efficiently.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Prosecutors gain significant discretion and negotiating power in plea deals due to the higher maximum penalty.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The deterrent effect of increasing maximum sentences is disputed. Some researchers find that longer sentences reduce crime through incapacitation and deterrence, while others argue that certainty of apprehension deters more effectively than sentence length and that longer sentences can increase recidivism.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded pretrial detention powers and harsher penalties for individuals who assault on-duty officers.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [],
+          "empty_reason": "The text does not include clauses that impose costs on the defined concerns."
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Sentences for assaulting an on-duty officer shift toward a felony classification with up to three years in prison, rather than one year in jail.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [],
+          "empty_reason": "No cost findings were identified to keep by rejecting the measure."
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Expanded pretrial detention powers and harsher penalties for individuals who assault on-duty officers.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Sentences for assaulting an on-duty officer shift toward a felony classification with up to three years in prison, rather than one year in jail.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 25.1,
+  "errors": [],
+  "accepted": true
+}

@@ -1,0 +1,16 @@
+{
+  "measure_id": "MEAS-D6FD5BF4",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M08, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "A parent of a child eligible to attend public school may open an education savings account. The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive."
+    },
+    {
+      "id": "§2",
+      "text": "Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses."
+    }
+  ],
+  "current_law": "State education funds are paid only to public school districts and charter schools."
+}

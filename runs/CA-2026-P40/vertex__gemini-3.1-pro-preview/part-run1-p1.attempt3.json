@@ -1,0 +1,844 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P40",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "b043a83384dab547226966bf990fb15a894aa21f170d291380ac7dd9accba233",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "09d29f5ffcba4688ac4dfe9052f041802ba5d4f45d983d4c08a684b051aafe69",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "9a2b81c8625df29150136e869147e7a9fbfa29572fc276c5899c4431f29a455f",
+      "part_template": "c32b1bbb3acce9fd85427fb1e23c5da2193d899470069e227a0dae9ab2ac5cfc"
+    },
+    "part": {
+      "index": 1,
+      "of": 3,
+      "clauses": [
+        "Prop 40 Preamble",
+        "Prop 40 Sec. 1",
+        "Prop 40 Sec. 2",
+        "Prop 40 Sec. 3",
+        "Prop 40 Sec. 4 §37",
+        "Prop 40 Sec. 5 §16355",
+        "Prop 40 Sec. 6 §50300",
+        "Prop 40 Sec. 6 §50301",
+        "Prop 40 Sec. 6 §50302"
+      ]
+    }
+  },
+  "prompt_file": "CA-2026-P40.run1.part1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 3,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T09:15:03.442703+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 20455
+        }
+      ],
+      "cached_content_token_count": 20455,
+      "candidates_token_count": 7183,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7183
+        }
+      ],
+      "prompt_token_count": 23232,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 23232
+        }
+      ],
+      "thoughts_token_count": 12868,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 43283,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P40\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"Prop 40 Preamble\",\n      \"text\": \"Establishes the title of the measure as the 2026 Billionaire Tax Act.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 1\",\n      \"text\": \"Provides the short title for the Act.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 2\",\n      \"text\": \"Details legislative findings regarding anticipated reductions in federal funding for Medi-Cal, public schools, and food assistance, and asserts that California billionaires pay a smaller percentage of their economic income in taxes than average taxpayers, justifying a one-time wealth tax to support these programs.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 3\",\n      \"text\": \"Declares the purpose and intent of the measure is to raise revenue through a one-time tax on billionaire wealth to protect funding for health care, K-14 education, and food assistance programs.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 4 §37\",\n      \"text\": \"Amends the California Constitution to authorize a one-time tax on the wealth and personal property of California billionaires, creates the 2026 Billionaire Tax Reserve Fund exempt from general fund constraints and spending limits, and allows for expedited judicial review of the tax without requiring prior payment.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n      \"text\": \"Directs the allocation of the Reserve Fund, with 90% dedicated to health care and 10% to education and food assistance, allows the Legislature to appropriate up to $25 billion annually, provides a $50 million loan to the Franchise Tax Board for startup administrative costs, and requires the Department of Finance to report annually on the fund's status.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50300\",\n      \"text\": \"Adds the statutory title for the 2026 Billionaire Tax Act within the Revenue and Taxation Code.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"text\": \"Imposes a 5% excise tax on the net worth of California residents and trusts with $1 billion or more for the 2026 tax year, provides a phased reduction for net worth between $1 billion and $1.1 billion, and requires all resident taxpayers to declare whether their net assets are above or below $1 billion.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50302\",\n      \"text\": \"Defines how net worth is computed for the tax, specifying that genuine recourse debts and sole proprietorship debts may be deducted, while excluding debts to related persons, contingent liabilities, and non-enforceable charitable pledges.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n          \"quote\": \"An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure introduces a new, distinct tax that applies exclusively to individuals with over $1 billion in net worth, adding complexity and taxing billionaires differently than others.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n          \"quote\": \"the tax imposed is 5 percent of the net worth of such individual or trust. In the case of an individual (other than a trust) having net worth less than $1.1 billion ($1,100,000,000), the tax imposed by this Section shall be reduced\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure imposes a new 5% tax exclusively on individuals whose net worth exceeds $1 billion.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n          \"quote\": \"every California resident individual required to file shall: (1) Declare that the individual’s net assets were worth less than or equal to $1 billion ($1,000,000,000) as of the valuation date;\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure requires all California resident taxpayers to submit a declaration to the government regarding whether their net worth is above or below $1 billion.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"The Director of Finance shall transfer to the Franchise Tax Board, as a start-up loan from the Reserve Fund or General Fund, up to $50 million for the first year following passage of this Act for actual and necessary costs in administering its duties under this Act\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure expands the Franchise Tax Board's administrative duties and budget to enforce the new billionaire tax.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding, which may include expenditures to restore or address any reductions in federal funding or state appropriations; investments to protect or enhance Medi-Cal and other health coverage programs for low-and moderate-income individuals;\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure directs the vast majority of its new revenue to supporting Medi-Cal, safety net providers, and health coverage for low- and moderate-income individuals.\",\n          \"certainty\": \"likely\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 4 §37\",\n          \"quote\": \"the Act provides for taxation on all forms of personal property and wealth, whether tangible or intangible\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure subjects owners of personal property and wealth to a new tax based on the value of their holdings.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"Food assistance expenditures to restore or address any reductions in federal funding or state appropriations, or further investments in programs such as CalFresh, CalFAP, CalFood or California’s Universal Meals Program for school meals.\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure dedicates revenue to food assistance programs that serve families and school children.\",\n          \"certainty\": \"likely\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"the Department of Finance, in consultation with relevant state agencies, shall provide to the Legislature all the following information: (1) The current balance in the Reserve Fund as of the reporting date;\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure requires the Department of Finance to annually report on the Reserve Fund's balances, estimated revenues, and past expenditures.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 4 §37\",\n          \"quote\": \"the Controller shall allocate and transfer the remaining moneys in the Reserve Fund to the following sub-accounts, which are hereby created: 90% to the Billionaire Tax Health Account and 10% to the Billionaire Tax Education and Food Assistance Account.\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure permanently earmarks the new tax revenues for specific health, education, and food assistance accounts.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 4 §37\",\n          \"quote\": \"Notwithstanding any other law, the Reserve Fund is a special fund, permanently separate and apart from the General Fund or any other state fund or account.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure locks the new tax revenue into a special fund outside the General Fund and mandates specific percentage allocations.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account for education-related and food assistance expenditures, which may include: (A) Education-related expenditures to restore or address any reductions in federal funding or state appropriations, or to make investments to protect or enhance the kindergarten through grade fourteen public education system.\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure dedicates a portion of the tax revenue to protecting or enhancing K-14 public education.\",\n          \"certainty\": \"likely\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure directs the majority of the new tax revenue to health care programs.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account for education-related and food assistance expenditures\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure directs the remainder of the new tax revenue to education and food assistance programs.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n          \"quote\": \"The Director of Finance shall transfer to the Franchise Tax Board, as a start-up loan from the Reserve Fund or General Fund, up to $50 million for the first year following passage of this Act for actual and necessary costs in administering its duties under this Act\",\n          \"effect\": \"supports\",\n          \"why\": \"The measure expands the Franchise Tax Board's administrative duties and budget to enforce the new billionaire tax.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n          \"quote\": \"An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure imposes a 5% excise tax on the wealth of residents with a net worth over $1 billion.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n          \"quote\": \"the tax imposed is 5 percent of the net worth of such individual or trust. In the case of an individual (other than a trust) having net worth less than $1.1 billion ($1,100,000,000), the tax imposed by this Section shall be reduced\",\n          \"effect\": \"conflicts\",\n          \"why\": \"The measure sets a tax rate that applies exclusively to individuals with over $1 billion in net worth, creating a different tax structure for the highest wealth brackets.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. The measure authorizes and creates a one-time 5% excise tax on the wealth of California residents whose net worth is $1 billion or more for the 2026 tax year. The revenue is deposited into a newly created special Reserve Fund, outside the General Fund, with 90% allocated to health care (Medi-Cal) and 10% to K-14 education and food assistance. The Franchise Tax Board gets new administrative duties, funding, and discretion to audit wealth declarations.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include a $50 million loan to the Franchise Tax Board for startup administration in the first year, plus ongoing annual reimbursements. Compliance costs will be high for billionaires who must appraise complex, illiquid assets and determine net worth under new rules. Opportunity costs include wealth diverted from private investment into public health and education programs.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"California residents with a net worth of $1 billion or more as of January 1, 2026, bear the direct cost of the tax. Low- and moderate-income Californians relying on Medi-Cal, K-14 public schools, and food assistance programs like CalFresh benefit from the new funding.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Billionaires may attempt to relocate from California before the tax obligation date, shift assets into exempt categories, delay liquidity events, or engage in complex estate planning and litigation to challenge the tax's constitutionality and asset valuations. The Franchise Tax Board will likely respond with protracted audits and legal battles.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the threat of federal funding cuts to California's health care safety net, public schools, and food assistance, as well as the disparity where billionaires pay a smaller percentage of their true economic income in taxes compared to average taxpayers. The 5% wealth tax directly captures untaxed wealth to fund these specific programs, though the exact amount collected depends heavily on enforcement and asset valuation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The Franchise Tax Board gains significant discretion over auditing wealth returns and defining valuation methods. The Legislature gains authority to appropriate up to $25 billion annually from the Reserve Fund for the specified purposes.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effects of state-level wealth taxes on capital flight and revenue generation are strongly disputed; some researchers argue such taxes cause wealthy individuals to leave the state, eroding the tax base, while others find the ultra-wealthy are largely stationary and the taxes raise significant revenue without massive flight.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"High administration and enforcement costs are expected, as assessing the fair market value of complex, illiquid assets is highly contentious. The measure explicitly allocates an initial $50 million loan for the Franchise Tax Board's administration, with ongoing actual and necessary costs to be reimbursed from the Reserve Fund.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 4 §37\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"Because the core authorization of the tax amends the California Constitution, repealing it would require another voter-approved constitutional amendment.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"“Reductions in federal funding” and other references to reductions or cuts in federal funding mean any decrease in federal financial participation, grants, payments, reimbursements, or other federal funding provided to California for health care, education, or food assistance programs, when compared to state fiscal year 2024-25 levels, adjusted for inflation and population growth\",\n      \"note\": \"Defines cuts broadly relative to inflation and population growth, capturing almost any relative decrease in funding.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 4 §37\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"Notwithstanding any other provision of the Constitution, the Act provides for taxation on all forms of personal property and wealth\",\n      \"note\": \"Overrides other constitutional limits to authorize taxation on all personal property.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 4 §37\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"Notwithstanding any other law, the Reserve Fund is a special fund, permanently separate and apart from the General Fund\",\n      \"note\": \"Overrides existing laws regarding fund separation.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 4 §37\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"Notwithstanding Section 32 or any other provision of law, a facial challenge to the 2026 Billionaire Tax Act is authorized\",\n      \"note\": \"Overrides normal legal barriers to facial challenges before a tax is paid.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 5 §16355\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"The Legislature shall have the authority to appropriate up to $22.5 billion each fiscal year from the Billionaire Tax Health Account and up to $2.5 billion each year from the Billionaire Tax Education and Food Assistance Account.\",\n      \"note\": \"The actual funding impact depends on the Legislature exercising its authority to appropriate the funds each year.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50301\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"In the case of an individual (other than a trust) having net worth less than $1.1 billion ($1,100,000,000), the tax imposed by this Section shall be reduced by 0.1 percentage point (but not below zero) for each $2 million ($2,000,000) by which such person’s net worth falls below $1.1 billion\",\n      \"note\": \"Provides a phase-in reduction for the tax rate for individuals with a net worth between $1 billion and $1.1 billion.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P40",
+    "restatements": [
+      {
+        "clause_id": "Prop 40 Preamble",
+        "text": "Establishes the title of the measure as the 2026 Billionaire Tax Act."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 1",
+        "text": "Provides the short title for the Act."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 2",
+        "text": "Details legislative findings regarding anticipated reductions in federal funding for Medi-Cal, public schools, and food assistance, and asserts that California billionaires pay a smaller percentage of their economic income in taxes than average taxpayers, justifying a one-time wealth tax to support these programs."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 3",
+        "text": "Declares the purpose and intent of the measure is to raise revenue through a one-time tax on billionaire wealth to protect funding for health care, K-14 education, and food assistance programs."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "text": "Amends the California Constitution to authorize a one-time tax on the wealth and personal property of California billionaires, creates the 2026 Billionaire Tax Reserve Fund exempt from general fund constraints and spending limits, and allows for expedited judicial review of the tax without requiring prior payment."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "text": "Directs the allocation of the Reserve Fund, with 90% dedicated to health care and 10% to education and food assistance, allows the Legislature to appropriate up to $25 billion annually, provides a $50 million loan to the Franchise Tax Board for startup administrative costs, and requires the Department of Finance to report annually on the fund's status."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50300",
+        "text": "Adds the statutory title for the 2026 Billionaire Tax Act within the Revenue and Taxation Code."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "text": "Imposes a 5% excise tax on the net worth of California residents and trusts with $1 billion or more for the 2026 tax year, provides a phased reduction for net worth between $1 billion and $1.1 billion, and requires all resident taxpayers to declare whether their net assets are above or below $1 billion."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50302",
+        "text": "Defines how net worth is computed for the tax, specifying that genuine recourse debts and sole proprietorship debts may be deducted, while excluding debts to related persons, contingent liabilities, and non-enforceable charitable pledges."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more",
+            "effect": "conflicts",
+            "why": "The measure introduces a new, distinct tax that applies exclusively to individuals with over $1 billion in net worth, adding complexity and taxing billionaires differently than others.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "the tax imposed is 5 percent of the net worth of such individual or trust. In the case of an individual (other than a trust) having net worth less than $1.1 billion ($1,100,000,000), the tax imposed by this Section shall be reduced",
+            "effect": "supports",
+            "why": "The measure imposes a new 5% tax exclusively on individuals whose net worth exceeds $1 billion.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "every California resident individual required to file shall: (1) Declare that the individual’s net assets were worth less than or equal to $1 billion ($1,000,000,000) as of the valuation date;",
+            "effect": "conflicts",
+            "why": "The measure requires all California resident taxpayers to submit a declaration to the government regarding whether their net worth is above or below $1 billion.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "The Director of Finance shall transfer to the Franchise Tax Board, as a start-up loan from the Reserve Fund or General Fund, up to $50 million for the first year following passage of this Act for actual and necessary costs in administering its duties under this Act",
+            "effect": "conflicts",
+            "why": "The measure expands the Franchise Tax Board's administrative duties and budget to enforce the new billionaire tax.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding, which may include expenditures to restore or address any reductions in federal funding or state appropriations; investments to protect or enhance Medi-Cal and other health coverage programs for low-and moderate-income individuals;",
+            "effect": "supports",
+            "why": "The measure directs the vast majority of its new revenue to supporting Medi-Cal, safety net providers, and health coverage for low- and moderate-income individuals.",
+            "certainty": "likely"
+          }
+        ]
+      },
+      {
+        "value_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "the Act provides for taxation on all forms of personal property and wealth, whether tangible or intangible",
+            "effect": "conflicts",
+            "why": "The measure subjects owners of personal property and wealth to a new tax based on the value of their holdings.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "Food assistance expenditures to restore or address any reductions in federal funding or state appropriations, or further investments in programs such as CalFresh, CalFAP, CalFood or California’s Universal Meals Program for school meals.",
+            "effect": "supports",
+            "why": "The measure dedicates revenue to food assistance programs that serve families and school children.",
+            "certainty": "likely"
+          }
+        ]
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "the Department of Finance, in consultation with relevant state agencies, shall provide to the Legislature all the following information: (1) The current balance in the Reserve Fund as of the reporting date;",
+            "effect": "supports",
+            "why": "The measure requires the Department of Finance to annually report on the Reserve Fund's balances, estimated revenues, and past expenditures.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C74",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "the Controller shall allocate and transfer the remaining moneys in the Reserve Fund to the following sub-accounts, which are hereby created: 90% to the Billionaire Tax Health Account and 10% to the Billionaire Tax Education and Food Assistance Account.",
+            "effect": "supports",
+            "why": "The measure permanently earmarks the new tax revenues for specific health, education, and food assistance accounts.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 4 §37",
+            "quote": "Notwithstanding any other law, the Reserve Fund is a special fund, permanently separate and apart from the General Fund or any other state fund or account.",
+            "effect": "conflicts",
+            "why": "The measure locks the new tax revenue into a special fund outside the General Fund and mandates specific percentage allocations.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C42",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account for education-related and food assistance expenditures, which may include: (A) Education-related expenditures to restore or address any reductions in federal funding or state appropriations, or to make investments to protect or enhance the kindergarten through grade fourteen public education system.",
+            "effect": "supports",
+            "why": "The measure dedicates a portion of the tax revenue to protecting or enhancing K-14 public education.",
+            "certainty": "likely"
+          }
+        ]
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C02",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "Ninety percent shall be allocated to the Billionaire Tax Health Account for health care funding",
+            "effect": "supports",
+            "why": "The measure directs the majority of the new tax revenue to health care programs.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account for education-related and food assistance expenditures",
+            "effect": "supports",
+            "why": "The measure directs the remainder of the new tax revenue to education and food assistance programs.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 5 §16355",
+            "quote": "The Director of Finance shall transfer to the Franchise Tax Board, as a start-up loan from the Reserve Fund or General Fund, up to $50 million for the first year following passage of this Act for actual and necessary costs in administering its duties under this Act",
+            "effect": "supports",
+            "why": "The measure expands the Franchise Tax Board's administrative duties and budget to enforce the new billionaire tax.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "An excise tax is imposed for tax year 2026 on the activity of sustaining excessive accumulations of wealth by applicable individuals with net worth of $1 billion dollars ($1,000,000,000) or more",
+            "effect": "conflicts",
+            "why": "The measure imposes a 5% excise tax on the wealth of residents with a net worth over $1 billion.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50301",
+            "quote": "the tax imposed is 5 percent of the net worth of such individual or trust. In the case of an individual (other than a trust) having net worth less than $1.1 billion ($1,100,000,000), the tax imposed by this Section shall be reduced",
+            "effect": "conflicts",
+            "why": "The measure sets a tax rate that applies exclusively to individuals with over $1 billion in net worth, creating a different tax structure for the highest wealth brackets.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. The measure authorizes and creates a one-time 5% excise tax on the wealth of California residents whose net worth is $1 billion or more for the 2026 tax year. The revenue is deposited into a newly created special Reserve Fund, outside the General Fund, with 90% allocated to health care (Medi-Cal) and 10% to K-14 education and food assistance. The Franchise Tax Board gets new administrative duties, funding, and discretion to audit wealth declarations.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q2",
+        "answer": "Direct costs include a $50 million loan to the Franchise Tax Board for startup administration in the first year, plus ongoing annual reimbursements. Compliance costs will be high for billionaires who must appraise complex, illiquid assets and determine net worth under new rules. Opportunity costs include wealth diverted from private investment into public health and education programs.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q3",
+        "answer": "California residents with a net worth of $1 billion or more as of January 1, 2026, bear the direct cost of the tax. Low- and moderate-income Californians relying on Medi-Cal, K-14 public schools, and food assistance programs like CalFresh benefit from the new funding.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q4",
+        "answer": "Billionaires may attempt to relocate from California before the tax obligation date, shift assets into exempt categories, delay liquidity events, or engage in complex estate planning and litigation to challenge the tax's constitutionality and asset valuations. The Franchise Tax Board will likely respond with protracted audits and legal battles.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q5",
+        "answer": "The measure addresses the threat of federal funding cuts to California's health care safety net, public schools, and food assistance, as well as the disparity where billionaires pay a smaller percentage of their true economic income in taxes compared to average taxpayers. The 5% wealth tax directly captures untaxed wealth to fund these specific programs, though the exact amount collected depends heavily on enforcement and asset valuation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "question_id": "Q6",
+        "answer": "The Franchise Tax Board gains significant discretion over auditing wealth returns and defining valuation methods. The Legislature gains authority to appropriate up to $25 billion annually from the Reserve Fund for the specified purposes.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "question_id": "Q7",
+        "answer": "The effects of state-level wealth taxes on capital flight and revenue generation are strongly disputed; some researchers argue such taxes cause wealthy individuals to leave the state, eroding the tax base, while others find the ultra-wealthy are largely stationary and the taxes raise significant revenue without massive flight.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "question_id": "Q8",
+        "answer": "High administration and enforcement costs are expected, as assessing the fair market value of complex, illiquid assets is highly contentious. The measure explicitly allocates an initial $50 million loan for the Franchise Tax Board's administration, with ongoing actual and necessary costs to be reimbursed from the Reserve Fund.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "question_id": "Q9",
+        "answer": "Because the core authorization of the tax amends the California Constitution, repealing it would require another voter-approved constitutional amendment.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "flag_id": "F1",
+        "quote": "“Reductions in federal funding” and other references to reductions or cuts in federal funding mean any decrease in federal financial participation, grants, payments, reimbursements, or other federal funding provided to California for health care, education, or food assistance programs, when compared to state fiscal year 2024-25 levels, adjusted for inflation and population growth",
+        "note": "Defines cuts broadly relative to inflation and population growth, capturing almost any relative decrease in funding."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "flag_id": "F2",
+        "quote": "Notwithstanding any other provision of the Constitution, the Act provides for taxation on all forms of personal property and wealth",
+        "note": "Overrides other constitutional limits to authorize taxation on all personal property."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "flag_id": "F2",
+        "quote": "Notwithstanding any other law, the Reserve Fund is a special fund, permanently separate and apart from the General Fund",
+        "note": "Overrides existing laws regarding fund separation."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 4 §37",
+        "flag_id": "F2",
+        "quote": "Notwithstanding Section 32 or any other provision of law, a facial challenge to the 2026 Billionaire Tax Act is authorized",
+        "note": "Overrides normal legal barriers to facial challenges before a tax is paid."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 5 §16355",
+        "flag_id": "F3",
+        "quote": "The Legislature shall have the authority to appropriate up to $22.5 billion each fiscal year from the Billionaire Tax Health Account and up to $2.5 billion each year from the Billionaire Tax Education and Food Assistance Account.",
+        "note": "The actual funding impact depends on the Legislature exercising its authority to appropriate the funds each year."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50301",
+        "flag_id": "F6",
+        "quote": "In the case of an individual (other than a trust) having net worth less than $1.1 billion ($1,100,000,000), the tax imposed by this Section shall be reduced by 0.1 percentage point (but not below zero) for each $2 million ($2,000,000) by which such person’s net worth falls below $1.1 billion",
+        "note": "Provides a phase-in reduction for the tax rate for individuals with a net worth between $1 billion and $1.1 billion."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [],
+  "seconds": 198.0,
+  "errors": [],
+  "accepted": true
+}

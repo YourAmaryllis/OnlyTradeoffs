@@ -1,0 +1,342 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-66497B0C",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "f7cb9990cd96d509404e199ac433d9b64aa8f1fa0aaa9b7ffd8e275c10a9fa8c",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "7ac8b0a197216c11199d3ae609bc720c3b762e3043b228362da4eb6ff12f011e"
+    }
+  },
+  "prompt_file": "MEAS-66497B0C.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:17:14.203447+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2106,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 2106
+        }
+      ],
+      "prompt_token_count": 7303,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7303
+        }
+      ],
+      "thoughts_token_count": 4749,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 14158,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-66497B0C\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires every county jail to honor federal immigration detainer requests by holding the specified person for up to 48 hours beyond their normal release time.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C52\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Every county jail shall honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours\",\n      \"mechanism\": \"Mandates that all county jails cooperate with federal immigration enforcement by honoring detainer requests.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"Shifts authority over honoring immigration detainers from counties to the state\",\n      \"quote\": \"Every county jail shall honor a detainer request\",\n      \"mechanism\": \"Eliminates local discretion by imposing a statewide requirement on county jails.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C46\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"holding the named person for up to 48 hours after the person would otherwise be released\",\n      \"mechanism\": \"Increases local detention powers by requiring jails to hold individuals beyond their scheduled release time.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C32\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"holding the named person for up to 48 hours after the person would otherwise be released\",\n      \"mechanism\": \"Subjects individuals to up to 48 hours of additional detention based solely on an administrative detainer request rather than a criminal charge or warrant.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f5\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C53\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours after the person would otherwise be released\",\n      \"mechanism\": \"Removes local policies that protected immigrants from being held for federal authorities after their local release conditions were met.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, each county decides whether its jail honors federal immigration detainer requests. This measure requires all county jails to honor these requests and hold the named individuals for up to 48 hours after they would otherwise be released.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Counties will bear the direct financial costs of housing, feeding, and supervising individuals for up to an extra 48 hours. They may also face legal and compliance costs if the holds result in litigation over constitutional rights or wrongful detention. Opportunity costs include jail bed space and staff time diverted from other local priorities.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"County taxpayers pay the costs of the extended detention and any associated legal liabilities. Federal immigration authorities benefit by gaining easier access to individuals they wish to deport, saving the resources required to locate them in the community.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Local law enforcement agencies will adjust their release protocols to incorporate the mandatory 48-hour holds. Some immigrant communities may become less willing to interact with local police or report crimes, fearing that any arrest could lead to deportation. Advocates may file lawsuits challenging the legality of the mandatory holds.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the issue of federal immigration authorities being unable to take custody of individuals who are released by local jails before federal agents arrive. The mechanism directly reaches this by mandating that jails hold the individuals for an additional 48 hours. This may simultaneously strain relationships between local law enforcement and immigrant communities.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Federal immigration authorities gain power and operational discretion, as local jails must now honor their administrative requests. The state government exercises power over county sheriffs and local jail administrators, who lose the discretion to set their own detainer policies.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of local cooperation with immigration enforcement on public safety is disputed. Some researchers find that cooperating with federal authorities reduces certain types of crime by removing potential reoffenders, while others find that such policies either have no effect on crime or actually decrease public safety by deterring immigrant communities from reporting crimes and cooperating with police.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Administration costs will involve coordination and communication between local jails and federal immigration authorities to ensure the transfer of custody within the 48-hour window. Enforcement costs include the direct expenses of staffing and maintaining the extended detentions.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F4\",\n      \"quote\": \"Every county jail shall honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours\",\n      \"note\": \"The measure mandates county jails to hold individuals for additional time without providing state funding to cover the costs of this extended detention.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Mandated local cooperation with federal immigration enforcement\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Expanded local detention powers to hold individuals beyond their scheduled release\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Due process protections against extended administrative detention\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          },\n          {\n            \"text\": \"Local protections allowing immigrants to be released without being held for federal authorities\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts authority over immigration detainer policies from counties to the state\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Due process protections against extended administrative detention\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          },\n          {\n            \"text\": \"Local protections allowing immigrants to be released without being held for federal authorities\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          },\n          {\n            \"text\": \"County authority to decide whether to honor immigration detainer requests\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Mandated local cooperation with federal immigration enforcement\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Expanded local detention powers to hold individuals beyond their scheduled release\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-66497B0C",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires every county jail to honor federal immigration detainer requests by holding the specified person for up to 48 hours beyond their normal release time."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C52",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Every county jail shall honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours",
+        "mechanism": "Mandates that all county jails cooperate with federal immigration enforcement by honoring detainer requests.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "Shifts authority over honoring immigration detainers from counties to the state",
+        "quote": "Every county jail shall honor a detainer request",
+        "mechanism": "Eliminates local discretion by imposing a statewide requirement on county jails.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C46",
+        "effect": "advances",
+        "direction": null,
+        "quote": "holding the named person for up to 48 hours after the person would otherwise be released",
+        "mechanism": "Increases local detention powers by requiring jails to hold individuals beyond their scheduled release time.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C32",
+        "effect": "costs",
+        "direction": null,
+        "quote": "holding the named person for up to 48 hours after the person would otherwise be released",
+        "mechanism": "Subjects individuals to up to 48 hours of additional detention based solely on an administrative detainer request rather than a criminal charge or warrant.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f5",
+        "clause_id": "§1",
+        "concern_id": "C53",
+        "effect": "costs",
+        "direction": null,
+        "quote": "honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours after the person would otherwise be released",
+        "mechanism": "Removes local policies that protected immigrants from being held for federal authorities after their local release conditions were met.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, each county decides whether its jail honors federal immigration detainer requests. This measure requires all county jails to honor these requests and hold the named individuals for up to 48 hours after they would otherwise be released.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Counties will bear the direct financial costs of housing, feeding, and supervising individuals for up to an extra 48 hours. They may also face legal and compliance costs if the holds result in litigation over constitutional rights or wrongful detention. Opportunity costs include jail bed space and staff time diverted from other local priorities.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "County taxpayers pay the costs of the extended detention and any associated legal liabilities. Federal immigration authorities benefit by gaining easier access to individuals they wish to deport, saving the resources required to locate them in the community.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Local law enforcement agencies will adjust their release protocols to incorporate the mandatory 48-hour holds. Some immigrant communities may become less willing to interact with local police or report crimes, fearing that any arrest could lead to deportation. Advocates may file lawsuits challenging the legality of the mandatory holds.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the issue of federal immigration authorities being unable to take custody of individuals who are released by local jails before federal agents arrive. The mechanism directly reaches this by mandating that jails hold the individuals for an additional 48 hours. This may simultaneously strain relationships between local law enforcement and immigrant communities.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Federal immigration authorities gain power and operational discretion, as local jails must now honor their administrative requests. The state government exercises power over county sheriffs and local jail administrators, who lose the discretion to set their own detainer policies.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of local cooperation with immigration enforcement on public safety is disputed. Some researchers find that cooperating with federal authorities reduces certain types of crime by removing potential reoffenders, while others find that such policies either have no effect on crime or actually decrease public safety by deterring immigrant communities from reporting crimes and cooperating with police.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q8",
+        "answer": "Administration costs will involve coordination and communication between local jails and federal immigration authorities to ensure the transfer of custody within the 48-hour window. Enforcement costs include the direct expenses of staffing and maintaining the extended detentions.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F4",
+        "quote": "Every county jail shall honor a detainer request from federal immigration authorities by holding the named person for up to 48 hours",
+        "note": "The measure mandates county jails to hold individuals for additional time without providing state funding to cover the costs of this extended detention."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Mandated local cooperation with federal immigration enforcement",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Expanded local detention powers to hold individuals beyond their scheduled release",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Due process protections against extended administrative detention",
+              "finding_ids": [
+                "f4"
+              ]
+            },
+            {
+              "text": "Local protections allowing immigrants to be released without being held for federal authorities",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts authority over immigration detainer policies from counties to the state",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Due process protections against extended administrative detention",
+              "finding_ids": [
+                "f4"
+              ]
+            },
+            {
+              "text": "Local protections allowing immigrants to be released without being held for federal authorities",
+              "finding_ids": [
+                "f5"
+              ]
+            },
+            {
+              "text": "County authority to decide whether to honor immigration detainer requests",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Mandated local cooperation with federal immigration enforcement",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Expanded local detention powers to hold individuals beyond their scheduled release",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 76.2,
+  "errors": [],
+  "accepted": true
+}

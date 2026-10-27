@@ -1,0 +1,310 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-93C31E24",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "a9943b1430022a0ecca21835dce05fe3c2f694618b84979a96576ed44624736a",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "e1004588088cef6da6aed4ecf82f16b9851f03ef12fd2905c581fc271d0d4305"
+    }
+  },
+  "prompt_file": "MEAS-93C31E24.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:55:49.697066+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1740,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1740
+        }
+      ],
+      "prompt_token_count": 7450,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7450
+        }
+      ],
+      "thoughts_token_count": 1640,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10830,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://onlytradeoffs.org/schema/eval-output-v0.json\",\n  \"title\": \"Only Tradeoffs evaluation output v0\",\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"type\": \"object\",\n  \"additionalProperties\": false,\n  \"required\": [\n    \"measure_id\",\n    \"restatements\",\n    \"findings\",\n    \"analysis\",\n    \"flags\",\n    \"vote_summary\"\n  ],\n  \"measure_id\": \"MEAS-93C31E24\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires a voter to present a current government-issued photo identification to receive a ballot at a polling place.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Allows a voter without identification to cast a provisional ballot, which will be counted if the voter presents identification to the county clerk within six days.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C58\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"a voter shall present a current government-issued photo identification\",\n      \"mechanism\": \"Voters must acquire and bring a specific type of photo identification to vote in person.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C59\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Before receiving a ballot at a polling place, a voter shall present a current government-issued photo identification.\",\n      \"mechanism\": \"Requires photo verification of identity before voting, replacing the signature and verbal confirmation.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§2\",\n      \"concern_id\": \"C58\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"presents identification to the county clerk within six days after the election\",\n      \"mechanism\": \"Voters who lack identification at the polls must make a separate trip to the county clerk after election day to have their vote counted.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§2\",\n      \"concern_id\": \"C59\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"counted if the voter presents identification to the county clerk within six days after the election\",\n      \"mechanism\": \"Provisional ballots are only counted if the voter subsequently provides physical identification.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, voters identify themselves at the polls by stating their name and address and signing the poll book. The measure requires voters to present a current government-issued photo identification instead.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, identity is established at the polling place via signature. Under the measure, voters without an ID at the polls can cast a provisional ballot, which will only be counted if they present their ID to the county clerk within six days.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Voters who lack a valid photo identification will incur the time and travel costs of acquiring one or traveling to the county clerk's office after the election. Election administrators will face costs to process provisional ballots and potentially to issue a higher volume of free state identification cards.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Voters who do not already possess a valid government-issued photo identification bear the burden of the new requirements. Those who prefer strict identity verification at polling places benefit from the implementation of a photo identification mandate.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Some voters who cast provisional ballots may fail to return to the county clerk within the six-day window, resulting in their ballots not being counted. Advocacy groups and campaigns may shift resources toward helping voters acquire acceptable identification before elections or track down provisional voters after election day.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the potential for in-person voter impersonation fraud by requiring government-issued photo identification. If voter impersonation is rare, the mechanism may screen out eligible voters who lack identification rather than significantly reducing fraud.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Requires voters to present government-issued photo identification to verify their identity at the polls.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Requires provisional voters to prove their identity within six days for their ballot to be counted.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Adds a requirement to obtain and present photo identification to vote in person.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Requires an extra trip to the county clerk after the election for voters who arrive without identification.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The text does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Allows voters to receive a ballot by stating their name and address and signing the poll book, without presenting photo identification.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Mandatory government-issued photo identification checks at the polls and subsequent verification for provisional ballots.\",\n            \"finding_ids\": [\n              \"f2\",\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://onlytradeoffs.org/schema/eval-output-v0.json",
+    "title": "Only Tradeoffs evaluation output v0",
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "measure_id",
+      "restatements",
+      "findings",
+      "analysis",
+      "flags",
+      "vote_summary"
+    ],
+    "measure_id": "MEAS-93C31E24",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires a voter to present a current government-issued photo identification to receive a ballot at a polling place."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Allows a voter without identification to cast a provisional ballot, which will be counted if the voter presents identification to the county clerk within six days."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C58",
+        "effect": "costs",
+        "direction": null,
+        "quote": "a voter shall present a current government-issued photo identification",
+        "mechanism": "Voters must acquire and bring a specific type of photo identification to vote in person.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C59",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Before receiving a ballot at a polling place, a voter shall present a current government-issued photo identification.",
+        "mechanism": "Requires photo verification of identity before voting, replacing the signature and verbal confirmation.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§2",
+        "concern_id": "C58",
+        "effect": "costs",
+        "direction": null,
+        "quote": "presents identification to the county clerk within six days after the election",
+        "mechanism": "Voters who lack identification at the polls must make a separate trip to the county clerk after election day to have their vote counted.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§2",
+        "concern_id": "C59",
+        "effect": "advances",
+        "direction": null,
+        "quote": "counted if the voter presents identification to the county clerk within six days after the election",
+        "mechanism": "Provisional ballots are only counted if the voter subsequently provides physical identification.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, voters identify themselves at the polls by stating their name and address and signing the poll book. The measure requires voters to present a current government-issued photo identification instead.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q1",
+        "answer": "Currently, identity is established at the polling place via signature. Under the measure, voters without an ID at the polls can cast a provisional ballot, which will only be counted if they present their ID to the county clerk within six days.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Voters who lack a valid photo identification will incur the time and travel costs of acquiring one or traveling to the county clerk's office after the election. Election administrators will face costs to process provisional ballots and potentially to issue a higher volume of free state identification cards.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Voters who do not already possess a valid government-issued photo identification bear the burden of the new requirements. Those who prefer strict identity verification at polling places benefit from the implementation of a photo identification mandate.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q4",
+        "answer": "Some voters who cast provisional ballots may fail to return to the county clerk within the six-day window, resulting in their ballots not being counted. Advocacy groups and campaigns may shift resources toward helping voters acquire acceptable identification before elections or track down provisional voters after election day.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the potential for in-person voter impersonation fraud by requiring government-issued photo identification. If voter impersonation is rare, the mechanism may screen out eligible voters who lack identification rather than significantly reducing fraud.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Requires voters to present government-issued photo identification to verify their identity at the polls.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Requires provisional voters to prove their identity within six days for their ballot to be counted.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Adds a requirement to obtain and present photo identification to vote in person.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Requires an extra trip to the county clerk after the election for voters who arrive without identification.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The text does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Allows voters to receive a ballot by stating their name and address and signing the poll book, without presenting photo identification.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Mandatory government-issued photo identification checks at the polls and subsequent verification for provisional ballots.",
+              "finding_ids": [
+                "f2",
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 47.9,
+  "errors": [
+    "schema: : Additional properties are not allowed ('$id', '$schema', 'additionalProperties', 'description', 'required', 'title', 'type' were unexpected)"
+  ],
+  "accepted": false
+}

@@ -1,0 +1,11 @@
+# Building the site (what Cloudflare runs on every push)
+pyyaml
+jinja2
+jsonschema
+# Running evaluations: install the one for your provider
+# boto3            # --provider bedrock
+# google-genai     # --provider vertex
+# openai           # --provider openai
+# Importing scanned filings (also: brew install tesseract poppler)
+# pdfplumber
+# rapidocr_onnxruntime

@@ -1,0 +1,295 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-D6FD5BF4",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "2f93b7f528b0b3017c4360fb173bf6e9ee21c4c8d98811da380f9bcadcb2e2c2",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "1bd154eb491a828c5abca7ea5e89eb388af726dbf110000f1014d909853f71a1"
+    }
+  },
+  "prompt_file": "MEAS-D6FD5BF4.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:03:47.749467+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1684,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1684
+        }
+      ],
+      "prompt_token_count": 7379,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7379
+        }
+      ],
+      "thoughts_token_count": 3547,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12610,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-D6FD5BF4\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Allows parents of children eligible for public school to open an education savings account, into which the state will deposit 90% of the per-pupil funding that would normally go to the child's resident school district.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Permits the funds in the education savings account to be spent on private school tuition, tutoring, textbooks, and approved online courses.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§2\",\n      \"concern_id\": \"C41\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses.\",\n      \"mechanism\": \"Provides state funding to be used for private and alternative educational options outside the assigned public school.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C42\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive.\",\n      \"mechanism\": \"Diverts a portion of per-pupil state funding away from public school districts when a resident child utilizes the savings account.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C39\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A parent of a child eligible to attend public school may open an education savings account.\",\n      \"mechanism\": \"Expands parents' ability to direct the state funding allocated for their child's education.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, state education funds are distributed strictly to public school districts and charter schools. This measure allows parents to redirect 90% of a child's allotted per-pupil funding into an individual account to be used for private education expenses.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include the 90% per-pupil allocations deposited into the accounts and the administrative expense of managing the program. Because eligibility applies to any child 'eligible to attend public school', the state may incur new net costs if students already attending private schools or being homeschooled claim the funds. Opportunity costs include reduced economies of scale for public schools.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Parents who choose alternative education options benefit from the financial subsidy. Private schools, tutoring services, and educational material vendors benefit from the new source of revenue. Public school districts bear the cost of lost per-pupil revenue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Parents may be incentivized to withdraw their children from public schools in favor of private or home-based options. Private educational providers might raise tuition or expand capacity in response to the increased purchasing power of families. Public school districts may struggle with budget shortfalls because their fixed costs (like building maintenance and administration) do not drop proportionately when a few students leave.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the problem of limited access to private education for families unable to afford alternative options by providing portable state funding. However, the mechanism creates a secondary issue by drawing funding away from public districts while potentially forcing the state to fund students who were already privately educated without state assistance.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effects of education savings accounts and voucher programs on student achievement and public school quality are empirically disputed. Some researchers find that such programs improve overall educational outcomes through market competition and by allowing students to find better-matching schools. Other researchers find that they drain vital resources from public school systems and that participating students can experience significant learning loss.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§2\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"approved online courses\",\n      \"note\": \"The text does not specify who approves the online courses or what criteria must be met for approval.\"\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"open an education savings account\",\n      \"note\": \"The practical effect depends on an agency establishing the infrastructure to create, administer, and audit these accounts.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded public funding and options for private education and alternative schooling.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Increased parental authority to direct state education funds.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Resources and funding stability for public school districts.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not trigger any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Per-pupil funding and resources retained entirely by public school districts and charter schools.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"State-funded accounts for private school tuition, tutoring, and other alternative options.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"The ability of parents to personally direct their child's portion of state education funding.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-D6FD5BF4",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Allows parents of children eligible for public school to open an education savings account, into which the state will deposit 90% of the per-pupil funding that would normally go to the child's resident school district."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Permits the funds in the education savings account to be spent on private school tuition, tutoring, textbooks, and approved online courses."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§2",
+        "concern_id": "C41",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses.",
+        "mechanism": "Provides state funding to be used for private and alternative educational options outside the assigned public school.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C42",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive.",
+        "mechanism": "Diverts a portion of per-pupil state funding away from public school districts when a resident child utilizes the savings account.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C39",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A parent of a child eligible to attend public school may open an education savings account.",
+        "mechanism": "Expands parents' ability to direct the state funding allocated for their child's education.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, state education funds are distributed strictly to public school districts and charter schools. This measure allows parents to redirect 90% of a child's allotted per-pupil funding into an individual account to be used for private education expenses.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs include the 90% per-pupil allocations deposited into the accounts and the administrative expense of managing the program. Because eligibility applies to any child 'eligible to attend public school', the state may incur new net costs if students already attending private schools or being homeschooled claim the funds. Opportunity costs include reduced economies of scale for public schools.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q3",
+        "answer": "Parents who choose alternative education options benefit from the financial subsidy. Private schools, tutoring services, and educational material vendors benefit from the new source of revenue. Public school districts bear the cost of lost per-pupil revenue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Parents may be incentivized to withdraw their children from public schools in favor of private or home-based options. Private educational providers might raise tuition or expand capacity in response to the increased purchasing power of families. Public school districts may struggle with budget shortfalls because their fixed costs (like building maintenance and administration) do not drop proportionately when a few students leave.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the problem of limited access to private education for families unable to afford alternative options by providing portable state funding. However, the mechanism creates a secondary issue by drawing funding away from public districts while potentially forcing the state to fund students who were already privately educated without state assistance.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q7",
+        "answer": "The effects of education savings accounts and voucher programs on student achievement and public school quality are empirically disputed. Some researchers find that such programs improve overall educational outcomes through market competition and by allowing students to find better-matching schools. Other researchers find that they drain vital resources from public school systems and that participating students can experience significant learning loss.",
+        "disputed": true
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§2",
+        "flag_id": "F1",
+        "quote": "approved online courses",
+        "note": "The text does not specify who approves the online courses or what criteria must be met for approval."
+      },
+      {
+        "clause_id": "§1",
+        "flag_id": "F3",
+        "quote": "open an education savings account",
+        "note": "The practical effect depends on an agency establishing the infrastructure to create, administer, and audit these accounts."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded public funding and options for private education and alternative schooling.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Increased parental authority to direct state education funds.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Resources and funding stability for public school districts.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not trigger any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Per-pupil funding and resources retained entirely by public school districts and charter schools.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "State-funded accounts for private school tuition, tutoring, and other alternative options.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "The ability of parents to personally direct their child's portion of state education funding.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 53.9,
+  "errors": [],
+  "accepted": true
+}

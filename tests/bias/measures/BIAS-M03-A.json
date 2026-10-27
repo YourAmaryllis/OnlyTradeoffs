@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-24B5746B",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M03, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "No physician may perform an abortion after 15 weeks of gestation, except when necessary to prevent the death of the pregnant woman or serious risk of substantial and irreversible physical impairment of a major bodily function."
+    }
+  ],
+  "current_law": "Abortion is lawful at any point before fetal viability."
+}

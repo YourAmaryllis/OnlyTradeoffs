@@ -1,0 +1,356 @@
+{
+  "manifest": {
+    "measure_id": "SYN-0001",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "7b33aefee47e9ce286448acc726e7c5608dab7fe2a0ecc749f5815c517870764",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "0c5ed97dd380a36840826a347cbf7abeb6bd46bc15a5e321d12694a050572726"
+    }
+  },
+  "prompt_file": "SYN-0001.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:52:35.276337+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2238,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 2238
+        }
+      ],
+      "prompt_token_count": 7481,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7481
+        }
+      ],
+      "thoughts_token_count": 6973,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 16692,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"SYN-0001\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"text\": \"Requires individuals who keep a firearm in a residence to store it in a locked container when it is not being carried or used.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"text\": \"Directs the Department to issue a storage certificate to applicants who pay a $25 fee.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"text\": \"Preempts local governments from adopting or enforcing their own firearm storage ordinances, reserving that authority solely for the state.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"SYN-0001 §1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"shall store it in a locked container when it is not being carried or used\",\n      \"mechanism\": \"Mandates that individuals keeping a firearm in a residence store it in a locked container when it is not in use.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"SYN-0001 §1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall store it in a locked container when it is not being carried or used\",\n      \"mechanism\": \"Mandates that individuals keeping a firearm in a residence store it in a locked container when it is not in use.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"SYN-0001 §2\",\n      \"concern_id\": \"C01\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"payment of a fee of twenty-five dollars ($25)\",\n      \"mechanism\": \"Imposes a $25 fee on applicants to obtain a storage certificate.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"SYN-0001 §3\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"shifts authority over firearm storage from local governments to the state\",\n      \"quote\": \"This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n      \"mechanism\": \"Preempts cities and counties from enacting or enforcing local firearm storage regulations.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f5\",\n      \"clause_id\": \"SYN-0001 §2\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"expands the reach of government by establishing a new certificate program\",\n      \"quote\": \"The Department shall issue a storage certificate to each applicant\",\n      \"mechanism\": \"Directs the Department to process applications and issue storage certificates.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law does not govern residential firearm storage at the state level. This clause introduces a new state mandate requiring unattended firearms in a residence to be kept in a locked container.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Firearm owners will likely purchase lockboxes or safes to comply. However, without a clear enforcement mechanism or inspection authority, some individuals may choose to ignore the mandate inside their private residences.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses the risk of unauthorized access to firearms in the home, such as by children or intruders. The locked-container mechanism targets this access, though the text lacks an explicit mechanism for verifying compliance inside private residences.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Enforcing a residential storage mandate proactively is practically difficult and could consume significant investigative resources, though it is more likely to be enforced retroactively following an incident or alongside other warrants.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The clause imposes a direct $25 cost for individuals seeking a storage certificate, plus administrative costs borne by the state to issue these certificates.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text asserts the creation of a certificate program but lacks a mechanism tying the certificate to the storage mandate, leaving it unclear what problem the certificate resolves or whether obtaining one is mandatory.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law allows cities and counties to adopt their own firearm storage ordinances. This clause explicitly preempts local action, making the state the sole regulatory authority over the issue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The state legislature gains exclusive power over firearm storage regulations, while local city councils and county boards lose the discretion to establish or enforce storage rules tailored to their communities.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"locked container\",\n      \"note\": \"The text does not define the security standards, materials, or characteristics required for a unit to qualify as a locked container.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"issue a storage certificate to each applicant\",\n      \"note\": \"The measure does not specify who is required to apply for a certificate or what legal purpose the certificate serves, leaving its real effect dependent on future implementation.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Stronger state firearm regulations requiring residential weapons to be stored in locked containers when unattended.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The freedom of firearm owners to store their weapons at home without state mandates.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower household fees, given the creation of a new $25 charge for a storage certificate.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts the authority to regulate firearm storage away from cities and counties exclusively to the state.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          },\n          {\n            \"text\": \"Expands the state's administrative reach by creating a new storage certificate program.\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The ability to store firearms in residences without a state-imposed locked container mandate.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Avoidance of a new $25 state fee for a firearm storage certificate.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"The authority of local cities and counties to adopt and enforce their own customized firearm storage ordinances.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          },\n          {\n            \"text\": \"The current scope of state government, without a new certificate-issuing program.\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A statewide regulation requiring unattended firearms in residences to be stored in locked containers.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "SYN-0001",
+    "restatements": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "text": "Requires individuals who keep a firearm in a residence to store it in a locked container when it is not being carried or used."
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "text": "Directs the Department to issue a storage certificate to applicants who pay a $25 fee."
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "text": "Preempts local governments from adopting or enforcing their own firearm storage ordinances, reserving that authority solely for the state."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "SYN-0001 §1",
+        "concern_id": "C34",
+        "effect": "advances",
+        "direction": null,
+        "quote": "shall store it in a locked container when it is not being carried or used",
+        "mechanism": "Mandates that individuals keeping a firearm in a residence store it in a locked container when it is not in use.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "SYN-0001 §1",
+        "concern_id": "C33",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall store it in a locked container when it is not being carried or used",
+        "mechanism": "Mandates that individuals keeping a firearm in a residence store it in a locked container when it is not in use.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "SYN-0001 §2",
+        "concern_id": "C01",
+        "effect": "costs",
+        "direction": null,
+        "quote": "payment of a fee of twenty-five dollars ($25)",
+        "mechanism": "Imposes a $25 fee on applicants to obtain a storage certificate.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "SYN-0001 §3",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "shifts authority over firearm storage from local governments to the state",
+        "quote": "This act occupies the whole field of firearm storage regulation. A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+        "mechanism": "Preempts cities and counties from enacting or enforcing local firearm storage regulations.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f5",
+        "clause_id": "SYN-0001 §2",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "expands the reach of government by establishing a new certificate program",
+        "quote": "The Department shall issue a storage certificate to each applicant",
+        "mechanism": "Directs the Department to process applications and issue storage certificates.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q1",
+        "answer": "Current law does not govern residential firearm storage at the state level. This clause introduces a new state mandate requiring unattended firearms in a residence to be kept in a locked container.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q4",
+        "answer": "Firearm owners will likely purchase lockboxes or safes to comply. However, without a clear enforcement mechanism or inspection authority, some individuals may choose to ignore the mandate inside their private residences.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q5",
+        "answer": "It addresses the risk of unauthorized access to firearms in the home, such as by children or intruders. The locked-container mechanism targets this access, though the text lacks an explicit mechanism for verifying compliance inside private residences.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q8",
+        "answer": "Enforcing a residential storage mandate proactively is practically difficult and could consume significant investigative resources, though it is more likely to be enforced retroactively following an incident or alongside other warrants.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "question_id": "Q2",
+        "answer": "The clause imposes a direct $25 cost for individuals seeking a storage certificate, plus administrative costs borne by the state to issue these certificates.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "question_id": "Q5",
+        "answer": "The text asserts the creation of a certificate program but lacks a mechanism tying the certificate to the storage mandate, leaving it unclear what problem the certificate resolves or whether obtaining one is mandatory.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "question_id": "Q1",
+        "answer": "Current law allows cities and counties to adopt their own firearm storage ordinances. This clause explicitly preempts local action, making the state the sole regulatory authority over the issue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "question_id": "Q6",
+        "answer": "The state legislature gains exclusive power over firearm storage regulations, while local city councils and county boards lose the discretion to establish or enforce storage rules tailored to their communities.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "flag_id": "F1",
+        "quote": "locked container",
+        "note": "The text does not define the security standards, materials, or characteristics required for a unit to qualify as a locked container."
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "flag_id": "F3",
+        "quote": "issue a storage certificate to each applicant",
+        "note": "The measure does not specify who is required to apply for a certificate or what legal purpose the certificate serves, leaving its real effect dependent on future implementation."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Stronger state firearm regulations requiring residential weapons to be stored in locked containers when unattended.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The freedom of firearm owners to store their weapons at home without state mandates.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower household fees, given the creation of a new $25 charge for a storage certificate.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts the authority to regulate firearm storage away from cities and counties exclusively to the state.",
+              "finding_ids": [
+                "f4"
+              ]
+            },
+            {
+              "text": "Expands the state's administrative reach by creating a new storage certificate program.",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The ability to store firearms in residences without a state-imposed locked container mandate.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Avoidance of a new $25 state fee for a firearm storage certificate.",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "The authority of local cities and counties to adopt and enforce their own customized firearm storage ordinances.",
+              "finding_ids": [
+                "f4"
+              ]
+            },
+            {
+              "text": "The current scope of state government, without a new certificate-issuing program.",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A statewide regulation requiring unattended firearms in residences to be stored in locked containers.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 87.8,
+  "errors": [],
+  "accepted": true
+}

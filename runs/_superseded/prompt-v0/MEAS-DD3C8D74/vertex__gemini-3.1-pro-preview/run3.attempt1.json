@@ -1,0 +1,295 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-DD3C8D74",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "ac5cc539ab5bdf0e343a38f3bc7c84f0df7ef64b42ac4a515a1b16f8150546c7",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "0bce7fe5b7a47a7f1feffada0b6330d73761fac9bd720c9f680a1aca73fc55b7"
+    }
+  },
+  "prompt_file": "MEAS-DD3C8D74.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:16:10.712945+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1563,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1563
+        }
+      ],
+      "prompt_token_count": 7347,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7347
+        }
+      ],
+      "thoughts_token_count": 4420,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 13330,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-DD3C8D74\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Allows a person 21 or older who may lawfully possess a handgun to carry it concealed without a permit.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Requires sheriffs to continue issuing concealed carry permits on request to qualified applicants for use in other states.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"may carry it concealed without a permit.\",\n      \"mechanism\": \"Removes the requirement to obtain a permit and complete an eight-hour safety course in order to carry a concealed handgun.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"may carry it concealed without a permit.\",\n      \"mechanism\": \"Removes the requirement to obtain a permit and complete an eight-hour safety course in order to carry a concealed handgun.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"shrinks government reach by removing a permit requirement\",\n      \"quote\": \"may carry it concealed without a permit.\",\n      \"mechanism\": \"Removes the sheriff's power to require a permit and safety course for in-state concealed carry.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law requires individuals to complete an eight-hour safety course and obtain a permit from the county sheriff to carry a concealed handgun. This clause removes these requirements for in-state carry.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"This clause preserves the existing permit issuance process on a voluntary basis for individuals who want a permit for out-of-state reciprocity.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs may include a loss of permit fee revenue for sheriffs, though fees are not explicitly mentioned in the text. There is an opportunity cost for firearm instructors, who will lose students who previously took the mandatory safety course.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Individuals 21 or older who wish to carry a concealed handgun benefit by avoiding the time and expense of a class and permit. Firearm safety instructors bear the cost of reduced demand.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"More people will likely carry concealed handguns because the barriers of mandatory training and permitting are removed. Demand for eight-hour safety courses will drop significantly.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the entry barrier of mandatory training and permitting for carrying a concealed handgun. By removing the mandate, it also removes a mechanism (the safety course) that addresses the potential spillover risks of untrained individuals carrying concealed weapons.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Individuals gain the discretion to carry concealed handguns without state permission. Sheriffs lose the power to restrict in-state concealed carry to those who have completed safety training.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"It is empirically disputed whether permitless carry laws increase crime or firearm accidents. Some researchers find that removing permit and training requirements increases firearm-related violence, while others find no significant effect or argue it deters crime.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Removing the permit requirement likely reduces the administrative workload and enforcement burden on county sheriffs regarding in-state concealed carry.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability to carry a concealed handgun without obtaining a permit.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shrinks government reach by removing the sheriff's power to require a permit for in-state concealed carry.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability to carry a concealed handgun without obtaining a permit.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-DD3C8D74",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Allows a person 21 or older who may lawfully possess a handgun to carry it concealed without a permit."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Requires sheriffs to continue issuing concealed carry permits on request to qualified applicants for use in other states."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C33",
+        "effect": "advances",
+        "direction": null,
+        "quote": "may carry it concealed without a permit.",
+        "mechanism": "Removes the requirement to obtain a permit and complete an eight-hour safety course in order to carry a concealed handgun.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C34",
+        "effect": "costs",
+        "direction": null,
+        "quote": "may carry it concealed without a permit.",
+        "mechanism": "Removes the requirement to obtain a permit and complete an eight-hour safety course in order to carry a concealed handgun.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "shrinks government reach by removing a permit requirement",
+        "quote": "may carry it concealed without a permit.",
+        "mechanism": "Removes the sheriff's power to require a permit and safety course for in-state concealed carry.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law requires individuals to complete an eight-hour safety course and obtain a permit from the county sheriff to carry a concealed handgun. This clause removes these requirements for in-state carry.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q1",
+        "answer": "This clause preserves the existing permit issuance process on a voluntary basis for individuals who want a permit for out-of-state reciprocity.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs may include a loss of permit fee revenue for sheriffs, though fees are not explicitly mentioned in the text. There is an opportunity cost for firearm instructors, who will lose students who previously took the mandatory safety course.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Individuals 21 or older who wish to carry a concealed handgun benefit by avoiding the time and expense of a class and permit. Firearm safety instructors bear the cost of reduced demand.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "More people will likely carry concealed handguns because the barriers of mandatory training and permitting are removed. Demand for eight-hour safety courses will drop significantly.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the entry barrier of mandatory training and permitting for carrying a concealed handgun. By removing the mandate, it also removes a mechanism (the safety course) that addresses the potential spillover risks of untrained individuals carrying concealed weapons.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Individuals gain the discretion to carry concealed handguns without state permission. Sheriffs lose the power to restrict in-state concealed carry to those who have completed safety training.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "It is empirically disputed whether permitless carry laws increase crime or firearm accidents. Some researchers find that removing permit and training requirements increases firearm-related violence, while others find no significant effect or argue it deters crime.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q8",
+        "answer": "Removing the permit requirement likely reduces the administrative workload and enforcement burden on county sheriffs regarding in-state concealed carry.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "The legal ability to carry a concealed handgun without obtaining a permit.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shrinks government reach by removing the sheriff's power to require a permit for in-state concealed carry.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The requirement that individuals complete an eight-hour safety course and obtain a permit to carry a concealed handgun.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "The legal ability to carry a concealed handgun without obtaining a permit.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 68.1,
+  "errors": [],
+  "accepted": true
+}

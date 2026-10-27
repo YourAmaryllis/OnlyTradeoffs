@@ -1,0 +1,245 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-534BE65A",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "88db96fcb6b6d6e92eb78aec888c582acb2631dc46a927b3c803d7efa05b0bbc",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "2de8863ef4a9ebde7bfea0e54dd6195174b02af0a36a3c5bc8eb402d9e783f52"
+    }
+  },
+  "prompt_file": "MEAS-534BE65A.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:13:29.571069+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1117,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1117
+        }
+      ],
+      "prompt_token_count": 7290,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7290
+        }
+      ],
+      "thoughts_token_count": 1642,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10049,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-534BE65A\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Makes assaulting an on-duty law enforcement officer a felony and sets the maximum penalty at three years in prison.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"toward longer sentences and higher offense classifications for assaults on law enforcement\",\n      \"quote\": \"Assault on an on-duty law enforcement officer is a felony punishable by up to three years in prison.\",\n      \"mechanism\": \"Classifies the specific act of assaulting an on-duty law enforcement officer as a felony and increases the maximum penalty from one year in jail to three years in prison.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, assault is punishable by up to one year in jail. The measure creates a specific felony classification for assaulting an on-duty law enforcement officer and raises the maximum punishment to three years in prison.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs will likely increase for the state prison system due to longer terms of incarceration. Court, prosecution, and indigent defense costs may also rise, as felony proceedings are typically more complex and resource-intensive than misdemeanor or jail-level cases.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Taxpayers bear the increased costs of longer incarceration and felony court proceedings. Law enforcement officers are the intended beneficiaries. Individuals convicted of the offense bear the costs of felony records and extended prison sentences.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Prosecutors may use the threat of a felony conviction and a three-year prison sentence as increased leverage during plea negotiations.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses assaults on law enforcement officers. Its mechanism is to impose harsher consequences, relying on deterrence and incapacitation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Prosecutors gain discretion and leverage by having the ability to charge a felony that carries a substantially longer maximum sentence.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The deterrent effect of increasing maximum sentence lengths is empirically disputed. Some researchers find that longer sentences reduce crime through deterrence and incapacitation, while others find that sentence severity has little marginal deterrent effect compared to the certainty of being caught, especially for impulsive acts like assault.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure only shifts sentencing and classification rules and does not unilaterally advance any tracked concerns.\"\n      },\n      \"give_up\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure only shifts sentencing and classification rules and does not unilaterally reduce any tracked concerns.\"\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts sentencing rules toward longer maximum terms and felony classifications for assaults on law enforcement officers.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"A maximum sentence of up to one year in jail for assault.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A shift toward longer maximum sentences of up to three years in prison and felony classifications for assaults on law enforcement officers.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-534BE65A",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Makes assaulting an on-duty law enforcement officer a felony and sets the maximum penalty at three years in prison."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "toward longer sentences and higher offense classifications for assaults on law enforcement",
+        "quote": "Assault on an on-duty law enforcement officer is a felony punishable by up to three years in prison.",
+        "mechanism": "Classifies the specific act of assaulting an on-duty law enforcement officer as a felony and increases the maximum penalty from one year in jail to three years in prison.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, assault is punishable by up to one year in jail. The measure creates a specific felony classification for assaulting an on-duty law enforcement officer and raises the maximum punishment to three years in prison.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs will likely increase for the state prison system due to longer terms of incarceration. Court, prosecution, and indigent defense costs may also rise, as felony proceedings are typically more complex and resource-intensive than misdemeanor or jail-level cases.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Taxpayers bear the increased costs of longer incarceration and felony court proceedings. Law enforcement officers are the intended beneficiaries. Individuals convicted of the offense bear the costs of felony records and extended prison sentences.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Prosecutors may use the threat of a felony conviction and a three-year prison sentence as increased leverage during plea negotiations.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses assaults on law enforcement officers. Its mechanism is to impose harsher consequences, relying on deterrence and incapacitation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Prosecutors gain discretion and leverage by having the ability to charge a felony that carries a substantially longer maximum sentence.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The deterrent effect of increasing maximum sentence lengths is empirically disputed. Some researchers find that longer sentences reduce crime through deterrence and incapacitation, while others find that sentence severity has little marginal deterrent effect compared to the certainty of being caught, especially for impulsive acts like assault.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [],
+          "empty_reason": "The measure only shifts sentencing and classification rules and does not unilaterally advance any tracked concerns."
+        },
+        "give_up": {
+          "items": [],
+          "empty_reason": "The measure only shifts sentencing and classification rules and does not unilaterally reduce any tracked concerns."
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts sentencing rules toward longer maximum terms and felony classifications for assaults on law enforcement officers.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "A maximum sentence of up to one year in jail for assault.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A shift toward longer maximum sentences of up to three years in prison and felony classifications for assaults on law enforcement officers.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 43.9,
+  "errors": [],
+  "accepted": true
+}

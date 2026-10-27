@@ -1,0 +1,335 @@
+{
+  "manifest": {
+    "measure_id": "SYN-0001",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "7b33aefee47e9ce286448acc726e7c5608dab7fe2a0ecc749f5815c517870764",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "562635afd5c85014edfce0b9ded6c0afee1a9f9944925b11a8f730cce4fa6b4c"
+    }
+  },
+  "prompt_file": "SYN-0001.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:06:38.294165+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1786,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1786
+        }
+      ],
+      "prompt_token_count": 7416,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7416
+        }
+      ],
+      "thoughts_token_count": 2676,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11878,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"measure_id\": \"SYN-0001\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"text\": \"Requires individuals who keep firearms in a residence to store them in a locked container when not being carried or used.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"text\": \"Directs the Department to issue storage certificates to applicants for a $25 fee.\"\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"text\": \"Preempts cities and counties from adopting or enforcing firearm storage ordinances, making the state the sole regulator.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"SYN-0001 §1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"shall store it in a locked container\",\n      \"mechanism\": \"Sets a state requirement to keep residential firearms locked up when not carried or used.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"SYN-0001 §1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"shall store it in a locked container\",\n      \"mechanism\": \"Sets a state requirement to keep residential firearms locked up when not carried or used.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"SYN-0001 §2\",\n      \"concern_id\": \"C01\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"payment of a fee of twenty-five dollars ($25)\",\n      \"mechanism\": \"Imposes a new fee on applicants for a storage certificate.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"SYN-0001 §2\",\n      \"concern_id\": \"C02\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"payment of a fee of twenty-five dollars ($25)\",\n      \"mechanism\": \"Generates new revenue through a certificate fee.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f5\",\n      \"clause_id\": \"SYN-0001 §3\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"shifts authority from cities and counties to the state\",\n      \"quote\": \"A city or county may not adopt or enforce any ordinance relating to firearm storage.\",\n      \"mechanism\": \"Prevents local governments from setting their own rules on firearm storage.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law has no state-level residential firearm storage requirements. The measure introduces a mandate to use a locked container when a firearm is not being carried or used.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"Addresses the risk of unauthorized access to firearms, including by children or thieves. The mechanism mandates a locked container, which could slow down access for self-defense.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Creates a direct cost of $25 per applicant for a storage certificate.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, cities and counties can create their own firearm storage laws. The measure removes this power and preempts local governments from enforcing such ordinances.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"SYN-0001 §3\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Shifts power from local city councils and county boards to the state legislature by occupying the whole field of regulation.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"SYN-0001 §2\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"storage certificate to each applicant\",\n      \"note\": \"The text establishes a storage certificate but does not specify who must obtain one, under what conditions, or what legal privilege it grants.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Statewide rules requiring firearms to be stored in a locked container\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"New state revenue from storage certificate fees\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The ability to store firearms at home without mandatory locks\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"A new $25 fee per applicant for a storage certificate\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts authority over firearm storage from local governments to the state\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The legal freedom to store residential firearms without a state lock requirement\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Avoiding a new $25 certificate fee\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"Local government authority to adopt their own firearm storage rules\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Statewide rules tightening firearm storage requirements\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Additional funding from the certificate fee\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "measure_id": "SYN-0001",
+    "restatements": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "text": "Requires individuals who keep firearms in a residence to store them in a locked container when not being carried or used."
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "text": "Directs the Department to issue storage certificates to applicants for a $25 fee."
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "text": "Preempts cities and counties from adopting or enforcing firearm storage ordinances, making the state the sole regulator."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "SYN-0001 §1",
+        "concern_id": "C34",
+        "effect": "advances",
+        "direction": null,
+        "quote": "shall store it in a locked container",
+        "mechanism": "Sets a state requirement to keep residential firearms locked up when not carried or used.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "SYN-0001 §1",
+        "concern_id": "C33",
+        "effect": "costs",
+        "direction": null,
+        "quote": "shall store it in a locked container",
+        "mechanism": "Sets a state requirement to keep residential firearms locked up when not carried or used.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "SYN-0001 §2",
+        "concern_id": "C01",
+        "effect": "costs",
+        "direction": null,
+        "quote": "payment of a fee of twenty-five dollars ($25)",
+        "mechanism": "Imposes a new fee on applicants for a storage certificate.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "SYN-0001 §2",
+        "concern_id": "C02",
+        "effect": "advances",
+        "direction": null,
+        "quote": "payment of a fee of twenty-five dollars ($25)",
+        "mechanism": "Generates new revenue through a certificate fee.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f5",
+        "clause_id": "SYN-0001 §3",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "shifts authority from cities and counties to the state",
+        "quote": "A city or county may not adopt or enforce any ordinance relating to firearm storage.",
+        "mechanism": "Prevents local governments from setting their own rules on firearm storage.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q1",
+        "answer": "Current law has no state-level residential firearm storage requirements. The measure introduces a mandate to use a locked container when a firearm is not being carried or used.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §1",
+        "question_id": "Q5",
+        "answer": "Addresses the risk of unauthorized access to firearms, including by children or thieves. The mechanism mandates a locked container, which could slow down access for self-defense.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §2",
+        "question_id": "Q2",
+        "answer": "Creates a direct cost of $25 per applicant for a storage certificate.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "question_id": "Q1",
+        "answer": "Currently, cities and counties can create their own firearm storage laws. The measure removes this power and preempts local governments from enforcing such ordinances.",
+        "disputed": false
+      },
+      {
+        "clause_id": "SYN-0001 §3",
+        "question_id": "Q6",
+        "answer": "Shifts power from local city councils and county boards to the state legislature by occupying the whole field of regulation.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "SYN-0001 §2",
+        "flag_id": "F1",
+        "quote": "storage certificate to each applicant",
+        "note": "The text establishes a storage certificate but does not specify who must obtain one, under what conditions, or what legal privilege it grants."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Statewide rules requiring firearms to be stored in a locked container",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "New state revenue from storage certificate fees",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The ability to store firearms at home without mandatory locks",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "A new $25 fee per applicant for a storage certificate",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts authority over firearm storage from local governments to the state",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The legal freedom to store residential firearms without a state lock requirement",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Avoiding a new $25 certificate fee",
+              "finding_ids": [
+                "f3"
+              ]
+            },
+            {
+              "text": "Local government authority to adopt their own firearm storage rules",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Statewide rules tightening firearm storage requirements",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Additional funding from the certificate fee",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 45.4,
+  "errors": [
+    "schema: : Additional properties are not allowed ('description' was unexpected)"
+  ],
+  "accepted": false
+}

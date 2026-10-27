@@ -1,0 +1,290 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-308F87C2",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "fb866d93e37e5b49b1939c39c7a0e8a3950aecf3f9cf9411ecabafaaae42746c",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "d6f8f33172446e4d31c7e31b5d4ef39a6ef57b668b986383d1ba7b325a70d437"
+    }
+  },
+  "prompt_file": "MEAS-308F87C2.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 3,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:58:15.811034+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1460,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1460
+        }
+      ],
+      "prompt_token_count": 7437,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7437
+        }
+      ],
+      "thoughts_token_count": 3015,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11912,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://onlytradeoffs.org/schema/eval-output-v0.json\",\n  \"measure_id\": \"MEAS-308F87C2\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the education savings account program on July 1, 2028, and transfers any unspent funds in those accounts to the state school fund.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C41\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The education savings account program is repealed\",\n      \"mechanism\": \"Eliminates the program that provides state funding for private school tuition, tutoring, and other educational alternatives.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C42\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Funds remaining in an account on that date revert to the state school fund.\",\n      \"mechanism\": \"Directs unused private education account balances to the state school fund and stops the 90 percent diversion of per-pupil funding.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"removes a state program\",\n      \"quote\": \"The education savings account program is repealed\",\n      \"mechanism\": \"Ends the state's administration of the education savings account program.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Compared to current law, which allows parents to divert 90 percent of state per-pupil funding into accounts for private tuition and other expenses, the measure eliminates these accounts entirely and redirects any unspent balances to the state school fund.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Families using the program face the opportunity cost of losing a 90 percent state per-pupil subsidy. The state no longer incurs the expense of funding the private accounts and avoids the program's administrative costs.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Families paying for private schooling, tutoring, and homeschooling materials pay the cost of lost state subsidies. Public school districts benefit from retaining the funding that would have otherwise been diverted.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Families unable to afford private tuition without the subsidy may re-enroll their children in public schools, increasing district enrollment numbers. Private schools and tutors may experience decreased demand or revenue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"Addresses the perceived problem of public funds being diverted to private education, utilizing a direct repeal to keep all per-pupil funding in the public system. Conversely, it creates a financial barrier for families seeking educational alternatives to their assigned district school.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Public school districts gain funding.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory change that can be undone by future legislation.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"effective July 1, 2028\",\n      \"note\": \"The repeal is delayed and takes effect several years in the future.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Funding for the public school system by sweeping unspent balances and retaining full per-pupil funding.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"State funding and structural support for educational alternatives like private school and tutoring.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Removes a state program by eliminating education savings accounts.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"State funding and structural support for educational alternatives like private school and tutoring.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Funding for the public school system by sweeping unspent balances and retaining full per-pupil funding.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://onlytradeoffs.org/schema/eval-output-v0.json",
+    "measure_id": "MEAS-308F87C2",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the education savings account program on July 1, 2028, and transfers any unspent funds in those accounts to the state school fund."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C41",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The education savings account program is repealed",
+        "mechanism": "Eliminates the program that provides state funding for private school tuition, tutoring, and other educational alternatives.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C42",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Funds remaining in an account on that date revert to the state school fund.",
+        "mechanism": "Directs unused private education account balances to the state school fund and stops the 90 percent diversion of per-pupil funding.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "removes a state program",
+        "quote": "The education savings account program is repealed",
+        "mechanism": "Ends the state's administration of the education savings account program.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Compared to current law, which allows parents to divert 90 percent of state per-pupil funding into accounts for private tuition and other expenses, the measure eliminates these accounts entirely and redirects any unspent balances to the state school fund.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Families using the program face the opportunity cost of losing a 90 percent state per-pupil subsidy. The state no longer incurs the expense of funding the private accounts and avoids the program's administrative costs.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Families paying for private schooling, tutoring, and homeschooling materials pay the cost of lost state subsidies. Public school districts benefit from retaining the funding that would have otherwise been diverted.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Families unable to afford private tuition without the subsidy may re-enroll their children in public schools, increasing district enrollment numbers. Private schools and tutors may experience decreased demand or revenue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "Addresses the perceived problem of public funds being diverted to private education, utilizing a direct repeal to keep all per-pupil funding in the public system. Conversely, it creates a financial barrier for families seeking educational alternatives to their assigned district school.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Public school districts gain funding.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory change that can be undone by future legislation.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F6",
+        "quote": "effective July 1, 2028",
+        "note": "The repeal is delayed and takes effect several years in the future."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Funding for the public school system by sweeping unspent balances and retaining full per-pupil funding.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "State funding and structural support for educational alternatives like private school and tutoring.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Removes a state program by eliminating education savings accounts.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "State funding and structural support for educational alternatives like private school and tutoring.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Funding for the public school system by sweeping unspent balances and retaining full per-pupil funding.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 41.6,
+  "errors": [
+    "schema: : Additional properties are not allowed ('$id', '$schema' were unexpected)"
+  ],
+  "accepted": false
+}

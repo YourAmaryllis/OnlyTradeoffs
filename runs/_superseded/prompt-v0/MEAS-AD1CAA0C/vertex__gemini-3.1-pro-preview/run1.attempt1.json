@@ -1,0 +1,269 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-AD1CAA0C",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "a6d3c5b800163edad9009f2b361a02b4b6b6529a2fcc4c22a4a0a615a4a0c4be",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "e15be66876b7cb9b6135266b1283c26952afa5ce32df8278677dc8f8918f78d0"
+    }
+  },
+  "prompt_file": "MEAS-AD1CAA0C.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:09:07.995042+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1301,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1301
+        }
+      ],
+      "prompt_token_count": 7298,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7298
+        }
+      ],
+      "thoughts_token_count": 2251,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10850,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-AD1CAA0C\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Increases the state personal income tax rate from 5 percent to 6 percent starting in the 2028 tax year.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C01\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"the personal income tax rate is 6 percent of taxable income.\",\n      \"mechanism\": \"Increases the personal income tax rate, requiring individuals to pay more of their taxable income to the state.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C02\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"the personal income tax rate is 6 percent of taxable income.\",\n      \"mechanism\": \"Generates additional state revenue by collecting a higher percentage of personal taxable income.\",\n      \"certainty\": \"likely\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law sets the state personal income tax rate at 5 percent of taxable income. The measure increases this rate to 6 percent starting with the 2028 tax year.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Taxpayers will face a direct cost of an additional 1 percent of their taxable income. Administrative and compliance costs will likely be negligible, as the structure of the tax does not change.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Individuals and households with taxable income will pay the higher tax, with higher earners paying a larger absolute amount. State government agencies and residents who rely on state-funded public services will benefit from the increased revenue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Taxpayers will have less disposable income, which could marginally reduce private consumption. The higher tax rate might create small incentives for top earners to relocate or seek tax shelters, though behavioral shifts from a 1 percentage point increase may be limited.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses a need for additional state revenue. The mechanism—raising the broad-based personal income tax rate—directly reaches this by increasing the funds collected from residents.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"State lawmakers and budget agencies gain power and discretion over how the new, additional tax revenue is appropriated and spent.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The impact of a state income tax increase on jobs, investment, and out-migration is disputed. Some studies suggest higher taxes reduce private-sector investment and encourage high-income individuals to relocate, while other research finds that migration effects are minimal and that the resulting public spending can support economic growth.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"For taxable years beginning on or after January 1, 2028,\",\n      \"note\": \"Sets a delayed effective date for the tax rate increase.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Increased funding for public services generated by higher tax collections.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Lower personal income taxes, as the rate rises from 5 percent to 6 percent.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any purely directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The current, lower personal income tax rate of 5 percent.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Additional state revenue for public services that the higher tax rate would have produced.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-AD1CAA0C",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Increases the state personal income tax rate from 5 percent to 6 percent starting in the 2028 tax year."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C01",
+        "effect": "costs",
+        "direction": null,
+        "quote": "the personal income tax rate is 6 percent of taxable income.",
+        "mechanism": "Increases the personal income tax rate, requiring individuals to pay more of their taxable income to the state.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C02",
+        "effect": "advances",
+        "direction": null,
+        "quote": "the personal income tax rate is 6 percent of taxable income.",
+        "mechanism": "Generates additional state revenue by collecting a higher percentage of personal taxable income.",
+        "certainty": "likely"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law sets the state personal income tax rate at 5 percent of taxable income. The measure increases this rate to 6 percent starting with the 2028 tax year.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Taxpayers will face a direct cost of an additional 1 percent of their taxable income. Administrative and compliance costs will likely be negligible, as the structure of the tax does not change.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Individuals and households with taxable income will pay the higher tax, with higher earners paying a larger absolute amount. State government agencies and residents who rely on state-funded public services will benefit from the increased revenue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Taxpayers will have less disposable income, which could marginally reduce private consumption. The higher tax rate might create small incentives for top earners to relocate or seek tax shelters, though behavioral shifts from a 1 percentage point increase may be limited.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses a need for additional state revenue. The mechanism—raising the broad-based personal income tax rate—directly reaches this by increasing the funds collected from residents.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "State lawmakers and budget agencies gain power and discretion over how the new, additional tax revenue is appropriated and spent.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The impact of a state income tax increase on jobs, investment, and out-migration is disputed. Some studies suggest higher taxes reduce private-sector investment and encourage high-income individuals to relocate, while other research finds that migration effects are minimal and that the resulting public spending can support economic growth.",
+        "disputed": true
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F6",
+        "quote": "For taxable years beginning on or after January 1, 2028,",
+        "note": "Sets a delayed effective date for the tax rate increase."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Increased funding for public services generated by higher tax collections.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Lower personal income taxes, as the rate rises from 5 percent to 6 percent.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any purely directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The current, lower personal income tax rate of 5 percent.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Additional state revenue for public services that the higher tax rate would have produced.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 36.0,
+  "errors": [],
+  "accepted": true
+}

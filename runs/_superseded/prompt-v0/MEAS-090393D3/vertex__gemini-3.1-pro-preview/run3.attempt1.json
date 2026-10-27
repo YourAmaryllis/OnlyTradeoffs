@@ -1,0 +1,338 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-090393D3",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "b372d6a0404d1de5bc2207188e1136fd78be86dc411096e8006868d6377209a3",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "207af65ad8df1dfed617931beda580fe1744baf377493c0b7faf69d988fc86f7"
+    }
+  },
+  "prompt_file": "MEAS-090393D3.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:16:28.194155+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2057,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 2057
+        }
+      ],
+      "prompt_token_count": 7334,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7334
+        }
+      ],
+      "thoughts_token_count": 5162,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 14553,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-090393D3\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires individuals to obtain a concealed carry permit from the county sheriff in order to carry a concealed handgun.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Requires the sheriff to issue a permit to any applicant who is 21 or older, can legally possess a handgun, and completes an eight-hour safety course.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No person may carry a concealed handgun without a concealed carry permit\",\n      \"mechanism\": \"It restricts the legal ability to carry a concealed handgun by requiring individuals to obtain a permit.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No person may carry a concealed handgun without a concealed carry permit\",\n      \"mechanism\": \"It tightens regulations by imposing a permit requirement on the concealed carry of handguns.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§2\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"completes an eight-hour safety course\",\n      \"mechanism\": \"It makes the legal ability to carry a concealed handgun conditional on the completion of an eight-hour safety course.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§2\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"completes an eight-hour safety course\",\n      \"mechanism\": \"It adds an eight-hour safety course as a requirement to obtain a concealed carry permit.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f5\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"expands the reach of government by creating a permit program\",\n      \"quote\": \"issued by the county sheriff\",\n      \"mechanism\": \"It establishes a new administrative permitting program to be managed by local sheriffs.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law allows an individual 21 or older who may lawfully possess a handgun to carry it concealed without a permit. The proposed measure requires individuals to obtain a concealed carry permit issued by the county sheriff, which is conditioned on completing an eight-hour safety course.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Individuals face the direct financial cost of the safety course and any potential application fees, as well as the opportunity cost of the eight hours required to complete the training. Local sheriffs' offices will incur administrative costs to process applications, verify applicant eligibility, and issue permits.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Individuals seeking to carry concealed handguns bear the time and financial costs of compliance. Firearms instructors and businesses offering safety courses benefit from a new mandated customer base.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Some individuals may choose not to carry a concealed handgun due to the added time and cost barriers. Firearm training providers will likely increase the number of classes offered to meet the new demand. County sheriffs must allocate staff and resources to establish and manage the application and issuance process.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the potential risks of untrained individuals carrying concealed handguns by requiring a formalized safety course. This mechanism may reduce accidental discharges or misuse, but it also creates an entry barrier that may prevent some individuals from legally carrying a weapon due to the time or cost of the required class.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"County sheriffs gain the administrative role of processing and issuing permits, though their discretion is limited by the \\\"shall issue\\\" requirement for qualified applicants. Firearm safety instructors gain a captive market of applicants mandated to take their courses.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of concealed carry permitting requirements on public safety is heavily disputed. Some researchers find that stricter permit and training requirements reduce violent crime and accidental firearm injuries, while others find that permitless carry does not increase crime and that armed civilians provide a deterrent effect.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Sheriffs' offices will need to dedicate administrative resources to process permit applications, verify background information for lawful possession, and check training certificates.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory change and can be amended or repealed by future legislation or ballot measures through the state's normal legislative process.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§2\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"eight-hour safety course\",\n      \"note\": \"The text does not specify what content the course must cover, how it is approved, or who is authorized to teach and certify it.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"flag_id\": \"F4\",\n      \"quote\": \"The sheriff shall issue a permit\",\n      \"note\": \"The text requires county sheriffs to administer a permit system but does not provide state funding or specify an application fee to cover the administrative costs.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"A permit requirement and mandatory eight-hour safety course to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f2\",\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability to carry a concealed handgun without a permit or mandatory training.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Expands government administration by requiring local sheriffs to process and issue permits.\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability to carry a concealed handgun without a permit or mandatory training.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A permit requirement and mandatory eight-hour safety course to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f2\",\n              \"f4\"\n            ]\n          },\n          {\n            \"text\": \"An expanded administrative system for local sheriffs to process and issue permits.\",\n            \"finding_ids\": [\n              \"f5\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-090393D3",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires individuals to obtain a concealed carry permit from the county sheriff in order to carry a concealed handgun."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Requires the sheriff to issue a permit to any applicant who is 21 or older, can legally possess a handgun, and completes an eight-hour safety course."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C33",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No person may carry a concealed handgun without a concealed carry permit",
+        "mechanism": "It restricts the legal ability to carry a concealed handgun by requiring individuals to obtain a permit.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C34",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No person may carry a concealed handgun without a concealed carry permit",
+        "mechanism": "It tightens regulations by imposing a permit requirement on the concealed carry of handguns.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§2",
+        "concern_id": "C33",
+        "effect": "costs",
+        "direction": null,
+        "quote": "completes an eight-hour safety course",
+        "mechanism": "It makes the legal ability to carry a concealed handgun conditional on the completion of an eight-hour safety course.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§2",
+        "concern_id": "C34",
+        "effect": "advances",
+        "direction": null,
+        "quote": "completes an eight-hour safety course",
+        "mechanism": "It adds an eight-hour safety course as a requirement to obtain a concealed carry permit.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f5",
+        "clause_id": "§1",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "expands the reach of government by creating a permit program",
+        "quote": "issued by the county sheriff",
+        "mechanism": "It establishes a new administrative permitting program to be managed by local sheriffs.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law allows an individual 21 or older who may lawfully possess a handgun to carry it concealed without a permit. The proposed measure requires individuals to obtain a concealed carry permit issued by the county sheriff, which is conditioned on completing an eight-hour safety course.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q2",
+        "answer": "Individuals face the direct financial cost of the safety course and any potential application fees, as well as the opportunity cost of the eight hours required to complete the training. Local sheriffs' offices will incur administrative costs to process applications, verify applicant eligibility, and issue permits.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q3",
+        "answer": "Individuals seeking to carry concealed handguns bear the time and financial costs of compliance. Firearms instructors and businesses offering safety courses benefit from a new mandated customer base.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q4",
+        "answer": "Some individuals may choose not to carry a concealed handgun due to the added time and cost barriers. Firearm training providers will likely increase the number of classes offered to meet the new demand. County sheriffs must allocate staff and resources to establish and manage the application and issuance process.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q5",
+        "answer": "The measure addresses the potential risks of untrained individuals carrying concealed handguns by requiring a formalized safety course. This mechanism may reduce accidental discharges or misuse, but it also creates an entry barrier that may prevent some individuals from legally carrying a weapon due to the time or cost of the required class.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q6",
+        "answer": "County sheriffs gain the administrative role of processing and issuing permits, though their discretion is limited by the \"shall issue\" requirement for qualified applicants. Firearm safety instructors gain a captive market of applicants mandated to take their courses.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of concealed carry permitting requirements on public safety is heavily disputed. Some researchers find that stricter permit and training requirements reduce violent crime and accidental firearm injuries, while others find that permitless carry does not increase crime and that armed civilians provide a deterrent effect.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q8",
+        "answer": "Sheriffs' offices will need to dedicate administrative resources to process permit applications, verify background information for lawful possession, and check training certificates.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory change and can be amended or repealed by future legislation or ballot measures through the state's normal legislative process.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§2",
+        "flag_id": "F1",
+        "quote": "eight-hour safety course",
+        "note": "The text does not specify what content the course must cover, how it is approved, or who is authorized to teach and certify it."
+      },
+      {
+        "clause_id": "§2",
+        "flag_id": "F4",
+        "quote": "The sheriff shall issue a permit",
+        "note": "The text requires county sheriffs to administer a permit system but does not provide state funding or specify an application fee to cover the administrative costs."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "A permit requirement and mandatory eight-hour safety course to carry a concealed handgun.",
+              "finding_ids": [
+                "f2",
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The legal ability to carry a concealed handgun without a permit or mandatory training.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Expands government administration by requiring local sheriffs to process and issue permits.",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The legal ability to carry a concealed handgun without a permit or mandatory training.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A permit requirement and mandatory eight-hour safety course to carry a concealed handgun.",
+              "finding_ids": [
+                "f2",
+                "f4"
+              ]
+            },
+            {
+              "text": "An expanded administrative system for local sheriffs to process and issue permits.",
+              "finding_ids": [
+                "f5"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 63.6,
+  "errors": [],
+  "accepted": true
+}

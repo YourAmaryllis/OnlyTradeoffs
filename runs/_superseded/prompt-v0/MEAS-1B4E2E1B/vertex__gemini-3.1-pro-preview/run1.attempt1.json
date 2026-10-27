@@ -1,0 +1,278 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-1B4E2E1B",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "bfb60c0cccf3ba908e9e228258cb641704aeb0ceb93c729d644e9f25622e9e2e",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "f387a05559326a67e581b44a3a4bdccc1c25c5d6fa0d874c5130641fe18803cb"
+    }
+  },
+  "prompt_file": "MEAS-1B4E2E1B.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:10:14.594177+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1385,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1385
+        }
+      ],
+      "prompt_token_count": 7321,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7321
+        }
+      ],
+      "thoughts_token_count": 1614,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10320,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-1B4E2E1B\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the existing cap on residential rent increases and allows landlords to raise rent by any amount, provided they give 60 days' written notice.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C17\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The limit on residential rent increases is repealed.\",\n      \"mechanism\": \"It removes existing limits on how much landlords can increase rent, weakening protections for renters.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A landlord may raise rent by any amount\",\n      \"mechanism\": \"It gives property owners full control over the pricing of their residential units.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C07\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The limit on residential rent increases is repealed.\",\n      \"mechanism\": \"It removes a direct cap on rent, which is a price paid by households.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law prohibits landlords from increasing residential rent by more than 5 percent in a 12-month period, unless the unit was first occupied within the last 15 years. This measure repeals that cap completely, allowing rent increases of any size as long as 60 days' written notice is given.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Current renters will likely pay higher housing costs if their landlords raise rents beyond the previous 5 percent cap. Landlords and property owners benefit by being able to collect higher rental revenues aligned with market rates.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Landlords will likely increase rents to match market demand. Renters who cannot afford the higher costs may be forced to move or face eviction. In the longer term, developers and investors may build or maintain more rental housing because their potential return on investment is no longer constrained by a rent cap.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the issue of rent control limiting landlords' revenue and creating potential housing shortages. While price ceilings like rent control can protect current tenants from displacement, they are broadly understood to create housing shortages and discourage new construction or maintenance. Repealing the cap removes these perverse incentives for builders and owners, but exposes current renters to immediate price shocks.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Landlords and property owners gain the discretion to set rents at any level.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Researchers generally agree that rent control protects incumbent tenants from steep price increases but reduces the overall supply and quality of rental housing. Repealing rent limits is expected by economists to increase housing supply in the long run, but it is disputed whether this supply increase offsets the immediate cost burden placed on current renters.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expands property owners' rights by allowing them to raise rent by any amount.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Removes protections for renters against unlimited rent increases.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Eliminates the cap on rent prices paid by households.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Maintains existing protections for renters against rent increases above 5 percent.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"Keeps the cap on rent prices paid by households.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Forgoes giving property owners the right to raise rent by any amount.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-1B4E2E1B",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the existing cap on residential rent increases and allows landlords to raise rent by any amount, provided they give 60 days' written notice."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C17",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The limit on residential rent increases is repealed.",
+        "mechanism": "It removes existing limits on how much landlords can increase rent, weakening protections for renters.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A landlord may raise rent by any amount",
+        "mechanism": "It gives property owners full control over the pricing of their residential units.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C07",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The limit on residential rent increases is repealed.",
+        "mechanism": "It removes a direct cap on rent, which is a price paid by households.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law prohibits landlords from increasing residential rent by more than 5 percent in a 12-month period, unless the unit was first occupied within the last 15 years. This measure repeals that cap completely, allowing rent increases of any size as long as 60 days' written notice is given.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Current renters will likely pay higher housing costs if their landlords raise rents beyond the previous 5 percent cap. Landlords and property owners benefit by being able to collect higher rental revenues aligned with market rates.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Landlords will likely increase rents to match market demand. Renters who cannot afford the higher costs may be forced to move or face eviction. In the longer term, developers and investors may build or maintain more rental housing because their potential return on investment is no longer constrained by a rent cap.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the issue of rent control limiting landlords' revenue and creating potential housing shortages. While price ceilings like rent control can protect current tenants from displacement, they are broadly understood to create housing shortages and discourage new construction or maintenance. Repealing the cap removes these perverse incentives for builders and owners, but exposes current renters to immediate price shocks.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Landlords and property owners gain the discretion to set rents at any level.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Researchers generally agree that rent control protects incumbent tenants from steep price increases but reduces the overall supply and quality of rental housing. Repealing rent limits is expected by economists to increase housing supply in the long run, but it is disputed whether this supply increase offsets the immediate cost burden placed on current renters.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expands property owners' rights by allowing them to raise rent by any amount.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Removes protections for renters against unlimited rent increases.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Eliminates the cap on rent prices paid by households.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Maintains existing protections for renters against rent increases above 5 percent.",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "Keeps the cap on rent prices paid by households.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Forgoes giving property owners the right to raise rent by any amount.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 34.9,
+  "errors": [],
+  "accepted": true
+}

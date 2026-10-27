@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-B9AF9BAA",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M04, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The photo identification requirement is repealed. A voter at a polling place shall state their name and address and sign the poll book."
+    }
+  ],
+  "current_law": "Before receiving a ballot at a polling place, a voter must present a current government-issued photo identification, or cast a provisional ballot that is counted if the voter presents identification within six days. The state issues identification cards free of charge to any registered voter who requests one."
+}

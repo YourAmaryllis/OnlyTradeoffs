@@ -1,0 +1,17 @@
+// The site is static: Cloudflare runs the build below on every push to main, then serves build/site.
+//   Build command:  pip install -r requirements.txt && python3 tools/build_site.py
+//   Deploy command: npx wrangler deploy
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "onlytradeoffs",
+  "compatibility_date": "2026-10-27",
+  "assets": {
+    "directory": "build/site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "onlytradeoffs.org", "custom_domain": true },
+    { "pattern": "www.onlytradeoffs.org", "custom_domain": true }
+  ]
+}

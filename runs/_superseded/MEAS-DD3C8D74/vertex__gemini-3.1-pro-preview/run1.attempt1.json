@@ -1,0 +1,277 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-DD3C8D74",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "ac5cc539ab5bdf0e343a38f3bc7c84f0df7ef64b42ac4a515a1b16f8150546c7",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "e3e3b66767035b6230b6e0aa998f46ba3596d3ab53f9494890c066f91584ac35"
+    }
+  },
+  "prompt_file": "MEAS-DD3C8D74.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:55:28.150285+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1339,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1339
+        }
+      ],
+      "prompt_token_count": 7451,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7451
+        }
+      ],
+      "thoughts_token_count": 2103,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10893,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-DD3C8D74\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Allows adults 21 or older who can legally possess a handgun to carry it concealed without a permit.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Requires sheriffs to keep issuing concealed carry permits to applicants who request them for use in other states.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C34\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"may carry it concealed without a permit.\",\n      \"mechanism\": \"Removes the requirement for eligible adults to obtain a permit before carrying a concealed handgun.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C33\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"may carry it concealed without a permit.\",\n      \"mechanism\": \"Expands the legal ability to carry a firearm by allowing concealed carry without an agency-issued permit.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"toward smaller government reach\",\n      \"quote\": \"may carry it concealed without a permit.\",\n      \"mechanism\": \"Removes a government mandate requiring individuals to obtain an agency-issued permit before carrying a concealed weapon.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law requires a person to complete an eight-hour safety course and obtain a permit from the county sheriff to carry a concealed handgun. The measure eliminates the safety course and permit requirements for in-state concealed carry, while maintaining an optional permit system for out-of-state use.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Individuals will save the financial cost and time associated with taking an eight-hour safety course. Sheriffs' offices will likely see a reduction in administrative processing costs, as well as a corresponding drop in any fee revenue from in-state permit applications.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Removing the training and permit barrier will likely increase the number of people carrying concealed handguns. Some handgun owners will still apply for and renew permits to maintain reciprocity when traveling to other states.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses the regulatory burden on carrying a concealed handgun by entirely removing the permit and training requirements for adults who can lawfully possess one.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Individuals gain the discretion to carry concealed handguns without prior agency approval. The county sheriff loses the authority to verify training and issue permits as a prerequisite for in-state concealed carry.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of permitless concealed carry on public safety is disputed. Some researchers find that removing permit and training requirements leads to increases in violent crime and firearm thefts, while others find no statistically significant impact on crime rates or argue it allows individuals to defend themselves more readily.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability to carry a concealed handgun without obtaining a permit.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Regulations requiring a permit to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Reduces government reach by eliminating the mandate to hold a permit for carrying a concealed handgun.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Regulations requiring an agency-issued permit to carry a concealed handgun.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"The legal ability to carry a concealed handgun without a permit.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-DD3C8D74",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Allows adults 21 or older who can legally possess a handgun to carry it concealed without a permit."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Requires sheriffs to keep issuing concealed carry permits to applicants who request them for use in other states."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C34",
+        "effect": "costs",
+        "direction": null,
+        "quote": "may carry it concealed without a permit.",
+        "mechanism": "Removes the requirement for eligible adults to obtain a permit before carrying a concealed handgun.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C33",
+        "effect": "advances",
+        "direction": null,
+        "quote": "may carry it concealed without a permit.",
+        "mechanism": "Expands the legal ability to carry a firearm by allowing concealed carry without an agency-issued permit.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "toward smaller government reach",
+        "quote": "may carry it concealed without a permit.",
+        "mechanism": "Removes a government mandate requiring individuals to obtain an agency-issued permit before carrying a concealed weapon.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law requires a person to complete an eight-hour safety course and obtain a permit from the county sheriff to carry a concealed handgun. The measure eliminates the safety course and permit requirements for in-state concealed carry, while maintaining an optional permit system for out-of-state use.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Individuals will save the financial cost and time associated with taking an eight-hour safety course. Sheriffs' offices will likely see a reduction in administrative processing costs, as well as a corresponding drop in any fee revenue from in-state permit applications.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Removing the training and permit barrier will likely increase the number of people carrying concealed handguns. Some handgun owners will still apply for and renew permits to maintain reciprocity when traveling to other states.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text addresses the regulatory burden on carrying a concealed handgun by entirely removing the permit and training requirements for adults who can lawfully possess one.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Individuals gain the discretion to carry concealed handguns without prior agency approval. The county sheriff loses the authority to verify training and issue permits as a prerequisite for in-state concealed carry.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of permitless concealed carry on public safety is disputed. Some researchers find that removing permit and training requirements leads to increases in violent crime and firearm thefts, while others find no statistically significant impact on crime rates or argue it allows individuals to defend themselves more readily.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "The legal ability to carry a concealed handgun without obtaining a permit.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Regulations requiring a permit to carry a concealed handgun.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Reduces government reach by eliminating the mandate to hold a permit for carrying a concealed handgun.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Regulations requiring an agency-issued permit to carry a concealed handgun.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "The legal ability to carry a concealed handgun without a permit.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 37.2,
+  "errors": [],
+  "accepted": true
+}

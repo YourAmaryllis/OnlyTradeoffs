@@ -1,0 +1,225 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-5D011247",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C62",
+      "C59",
+      "C23",
+      "C60",
+      "C10",
+      "C48",
+      "C55",
+      "C04",
+      "C32",
+      "C65",
+      "C27",
+      "C54",
+      "C07",
+      "C13",
+      "C58",
+      "C52",
+      "C20",
+      "C42",
+      "C19",
+      "C53",
+      "C43",
+      "C14",
+      "C37",
+      "C06",
+      "C67",
+      "C69",
+      "C68",
+      "C49",
+      "C31",
+      "C17",
+      "C09",
+      "C50",
+      "C45",
+      "C39",
+      "C47",
+      "C15",
+      "C16",
+      "C64",
+      "C36",
+      "C57",
+      "C34",
+      "C56",
+      "C25",
+      "C21",
+      "C30",
+      "C51",
+      "C02",
+      "C03",
+      "C18",
+      "C71",
+      "C29",
+      "C35",
+      "C24",
+      "C72",
+      "C70",
+      "C66",
+      "C26",
+      "C41",
+      "C61",
+      "C63",
+      "C44",
+      "C38",
+      "C05",
+      "C28",
+      "C33",
+      "C40",
+      "C22",
+      "C46",
+      "C11",
+      "C12",
+      "C08"
+    ],
+    "sha256": {
+      "measure": "80dbd11acfbd61916075a4ffa2c23e04681cb79f2d61a5611bf8cdaf25732432",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "0b01b5f0acea538f79bf8537bd1ae073ccea3a7c987eae90956661d12422c72d"
+    }
+  },
+  "prompt_file": "MEAS-5D011247.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:24:07.062510+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1005,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1005
+        }
+      ],
+      "prompt_token_count": 7290,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7290
+        }
+      ],
+      "thoughts_token_count": 1846,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10141,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-5D011247\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Makes assaulting an on-duty hospital worker a felony with a maximum penalty of three years in prison.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"increases the maximum sentence and elevates the classification for a specific assault\",\n      \"quote\": \"Assault on an on-duty hospital worker is a felony punishable by up to three years in prison.\",\n      \"mechanism\": \"The clause establishes a maximum three-year prison sentence and a felony classification for assaulting an on-duty hospital worker, compared to the current general assault penalty of up to one year in jail.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, assault is punishable by up to one year in jail. The proposed text changes this by creating a specific classification for assaulting an on-duty hospital worker, elevating it to a felony and raising the maximum penalty to three years in prison.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Extended sentences shift costs from county jails to state prisons and increase the total cost of incarceration. Processing the crime as a felony rather than a misdemeanor may also require more court, prosecution, and public defense resources.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Taxpayers bear the increased costs of longer trials and state prison incarceration. On-duty hospital workers benefit from any resulting incapacitation or deterrence. Those convicted of the offense bear the costs of longer sentences and the long-term collateral consequences of carrying a felony record.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Prosecutors may use the higher felony charge and the threat of a three-year prison sentence as leverage to negotiate plea agreements.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses violence against healthcare workers. The mechanism relies on increasing the severity of criminal penalties to deter future assaults and incapacitate offenders for longer periods.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The deterrent effect of longer sentences is disputed. Some researchers find that longer sentences prevent crime through incapacitation and deterrence, while other studies suggest that the certainty of being caught deters crime more effectively than the severity of the punishment, and that longer sentences have diminishing returns.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure only affects a directional concern regarding sentencing lengths.\"\n      },\n      \"give_up\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure only affects a directional concern regarding sentencing lengths.\"\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Increases the maximum sentence for assaulting an on-duty hospital worker from one year in jail to three years in prison, and elevates the offense to a felony.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure only affects a directional concern regarding sentencing lengths.\"\n      },\n      \"forgo\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure only affects a directional concern regarding sentencing lengths.\"\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-5D011247",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Makes assaulting an on-duty hospital worker a felony with a maximum penalty of three years in prison."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "increases the maximum sentence and elevates the classification for a specific assault",
+        "quote": "Assault on an on-duty hospital worker is a felony punishable by up to three years in prison.",
+        "mechanism": "The clause establishes a maximum three-year prison sentence and a felony classification for assaulting an on-duty hospital worker, compared to the current general assault penalty of up to one year in jail.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, assault is punishable by up to one year in jail. The proposed text changes this by creating a specific classification for assaulting an on-duty hospital worker, elevating it to a felony and raising the maximum penalty to three years in prison.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Extended sentences shift costs from county jails to state prisons and increase the total cost of incarceration. Processing the crime as a felony rather than a misdemeanor may also require more court, prosecution, and public defense resources.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Taxpayers bear the increased costs of longer trials and state prison incarceration. On-duty hospital workers benefit from any resulting incapacitation or deterrence. Those convicted of the offense bear the costs of longer sentences and the long-term collateral consequences of carrying a felony record.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Prosecutors may use the higher felony charge and the threat of a three-year prison sentence as leverage to negotiate plea agreements.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses violence against healthcare workers. The mechanism relies on increasing the severity of criminal penalties to deter future assaults and incapacitate offenders for longer periods.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The deterrent effect of longer sentences is disputed. Some researchers find that longer sentences prevent crime through incapacitation and deterrence, while other studies suggest that the certainty of being caught deters crime more effectively than the severity of the punishment, and that longer sentences have diminishing returns.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [],
+          "empty_reason": "The measure only affects a directional concern regarding sentencing lengths."
+        },
+        "give_up": {
+          "items": [],
+          "empty_reason": "The measure only affects a directional concern regarding sentencing lengths."
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Increases the maximum sentence for assaulting an on-duty hospital worker from one year in jail to three years in prison, and elevates the offense to a felony.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [],
+          "empty_reason": "The measure only affects a directional concern regarding sentencing lengths."
+        },
+        "forgo": {
+          "items": [],
+          "empty_reason": "The measure only affects a directional concern regarding sentencing lengths."
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 30.6,
+  "errors": [],
+  "accepted": true
+}

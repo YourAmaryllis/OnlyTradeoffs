@@ -1,0 +1,269 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-B86CB391",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "0e466c64038b301fb8b41864a5d18a85ca4587ac19482b2da659f1a552c3d062",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "a1c850728d667ed5fc210ebb244ba623286a599d896e0add124f9ecd2ea74298"
+    }
+  },
+  "prompt_file": "MEAS-B86CB391.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:06:08.385830+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4063
+        }
+      ],
+      "cached_content_token_count": 4063,
+      "candidates_token_count": 1186,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1186
+        }
+      ],
+      "prompt_token_count": 7329,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7329
+        }
+      ],
+      "thoughts_token_count": 1838,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10353,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"measure_id\": \"MEAS-B86CB391\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Reserves all minimum wage regulation to the state and voids any city ordinances that set a minimum wage.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C11\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance setting a minimum wage is void.\",\n      \"mechanism\": \"Removes the ability of cities to set a minimum wage higher than the state minimum wage, lowering the required pay floor in those jurisdictions.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Any city ordinance setting a minimum wage is void.\",\n      \"mechanism\": \"Eliminates local minimum wage requirements that exceed the state minimum, reducing payroll costs and standardizing compliance for businesses.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"Shifts authority from local governments to the state\",\n      \"quote\": \"The state occupies the whole field of minimum wage regulation.\",\n      \"mechanism\": \"Preempts cities from enacting their own minimum wage laws, making the issue an exclusively state-level decision.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, cities can enact a minimum wage that is higher than the state's minimum. The measure voids all existing city minimum wage ordinances and gives the state exclusive authority over minimum wage regulation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Employers in cities that currently have local minimum wages benefit from lower mandated payroll obligations. Workers in those cities who rely on local ordinances for higher wages bear the cost through a lowered minimum pay floor.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"State lawmakers gain exclusive control over minimum wage policy, while city governments lose the authority to set localized wage floors.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect on jobs and investment is disputed. Some researchers find that eliminating higher local minimum wages encourages hiring and business expansion by reducing labor costs. Other researchers find that higher minimum wages have little negative impact on employment and instead increase worker purchasing power, which can stimulate local economies.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Lower required payroll costs and simplified compliance for businesses that operate in cities.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"The ability of workers to receive a locally mandated minimum wage that is higher than the state minimum.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Authority to set minimum wages shifts entirely from cities to the state.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The ability of workers to receive a locally mandated minimum wage that is higher than the state minimum.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Lower required payroll costs and simplified compliance for businesses that operate in cities.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "measure_id": "MEAS-B86CB391",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Reserves all minimum wage regulation to the state and voids any city ordinances that set a minimum wage."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C11",
+        "effect": "costs",
+        "direction": null,
+        "quote": "Any city ordinance setting a minimum wage is void.",
+        "mechanism": "Removes the ability of cities to set a minimum wage higher than the state minimum wage, lowering the required pay floor in those jurisdictions.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Any city ordinance setting a minimum wage is void.",
+        "mechanism": "Eliminates local minimum wage requirements that exceed the state minimum, reducing payroll costs and standardizing compliance for businesses.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "Shifts authority from local governments to the state",
+        "quote": "The state occupies the whole field of minimum wage regulation.",
+        "mechanism": "Preempts cities from enacting their own minimum wage laws, making the issue an exclusively state-level decision.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, cities can enact a minimum wage that is higher than the state's minimum. The measure voids all existing city minimum wage ordinances and gives the state exclusive authority over minimum wage regulation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Employers in cities that currently have local minimum wages benefit from lower mandated payroll obligations. Workers in those cities who rely on local ordinances for higher wages bear the cost through a lowered minimum pay floor.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "State lawmakers gain exclusive control over minimum wage policy, while city governments lose the authority to set localized wage floors.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect on jobs and investment is disputed. Some researchers find that eliminating higher local minimum wages encourages hiring and business expansion by reducing labor costs. Other researchers find that higher minimum wages have little negative impact on employment and instead increase worker purchasing power, which can stimulate local economies.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Lower required payroll costs and simplified compliance for businesses that operate in cities.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "The ability of workers to receive a locally mandated minimum wage that is higher than the state minimum.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Authority to set minimum wages shifts entirely from cities to the state.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The ability of workers to receive a locally mandated minimum wage that is higher than the state minimum.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Lower required payroll costs and simplified compliance for businesses that operate in cities.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 31.5,
+  "errors": [
+    "schema: : Additional properties are not allowed ('description' was unexpected)"
+  ],
+  "accepted": false
+}

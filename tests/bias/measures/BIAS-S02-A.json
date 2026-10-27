@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-FEAA1B3E",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S02, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "Each public school classroom shall display a poster of the Ten Commandments, at least 11 by 14 inches, in a large, easily readable font."
+    }
+  ],
+  "current_law": "No law addresses religious displays in public school classrooms."
+}

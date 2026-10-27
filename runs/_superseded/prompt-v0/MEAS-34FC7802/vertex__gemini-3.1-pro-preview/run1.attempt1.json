@@ -1,0 +1,269 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-34FC7802",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "28f95dc2c1524e31f613e8b6a22c353df73f3b534dd8c568c1141d991bbfd771",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "d27538261aec67a2e1a811f67cccdc787608c043209c780016cfb6a1412148b1"
+    }
+  },
+  "prompt_file": "MEAS-34FC7802.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:09:08.010048+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1308,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1308
+        }
+      ],
+      "prompt_token_count": 7300,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7300
+        }
+      ],
+      "thoughts_token_count": 2954,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11562,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-34FC7802\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Reduces the personal income tax rate to 5 percent of taxable income for taxable years starting in 2028.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C01\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"the personal income tax rate is 5 percent of taxable income.\",\n      \"mechanism\": \"Reduces the personal income tax rate from 6 percent to 5 percent.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C02\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"the personal income tax rate is 5 percent of taxable income.\",\n      \"mechanism\": \"Reduces the personal income tax rate from 6 percent to 5 percent, decreasing the revenue collected to fund public services.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law sets the state personal income tax rate at 6 percent of taxable income. This measure reduces that rate to 5 percent beginning with the 2028 taxable year.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The direct cost is the loss of state tax revenue equivalent to 1 percent of all taxable personal income each year, beginning in 2028.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Individuals with taxable income benefit by paying lower taxes, with those holding the highest taxable incomes receiving the largest absolute savings. The cost of reduced state revenue falls on those who use state-funded public services, as well as public employees and contractors who may face funding reductions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Taxpayers will have more disposable income to spend, save, or invest. The state government will need to reduce spending on public services, draw from reserves, or raise other taxes to accommodate the loss of revenue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the level of household taxation. The mechanism directly lowers the income tax rate. This creates a corresponding drop in state revenue, which may lead to a shortage of funds for existing public programs.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of income tax cuts on jobs and investment is disputed. Some researchers conclude that lowering income taxes stimulates economic growth by increasing private investment and disposable income. Other researchers find that state-level tax cuts have little to no effect on growth and that the resulting reductions in public spending can negatively impact the economy.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"This is a statutory change that can be undone or modified by future legislation, subject to the state's normal legislative process.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"For taxable years beginning on or after January 1, 2028,\",\n      \"note\": \"The tax rate change does not take effect immediately; it is delayed until 2028.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Lower personal income taxes\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Tax revenue for public services\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not make changes that merely shift power or rules without a clear gain or cost.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Current levels of tax revenue for public services\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"A reduction in the personal income tax rate\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-34FC7802",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Reduces the personal income tax rate to 5 percent of taxable income for taxable years starting in 2028."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C01",
+        "effect": "advances",
+        "direction": null,
+        "quote": "the personal income tax rate is 5 percent of taxable income.",
+        "mechanism": "Reduces the personal income tax rate from 6 percent to 5 percent.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C02",
+        "effect": "costs",
+        "direction": null,
+        "quote": "the personal income tax rate is 5 percent of taxable income.",
+        "mechanism": "Reduces the personal income tax rate from 6 percent to 5 percent, decreasing the revenue collected to fund public services.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law sets the state personal income tax rate at 6 percent of taxable income. This measure reduces that rate to 5 percent beginning with the 2028 taxable year.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The direct cost is the loss of state tax revenue equivalent to 1 percent of all taxable personal income each year, beginning in 2028.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Individuals with taxable income benefit by paying lower taxes, with those holding the highest taxable incomes receiving the largest absolute savings. The cost of reduced state revenue falls on those who use state-funded public services, as well as public employees and contractors who may face funding reductions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Taxpayers will have more disposable income to spend, save, or invest. The state government will need to reduce spending on public services, draw from reserves, or raise other taxes to accommodate the loss of revenue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the level of household taxation. The mechanism directly lowers the income tax rate. This creates a corresponding drop in state revenue, which may lead to a shortage of funds for existing public programs.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of income tax cuts on jobs and investment is disputed. Some researchers conclude that lowering income taxes stimulates economic growth by increasing private investment and disposable income. Other researchers find that state-level tax cuts have little to no effect on growth and that the resulting reductions in public spending can negatively impact the economy.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "This is a statutory change that can be undone or modified by future legislation, subject to the state's normal legislative process.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F6",
+        "quote": "For taxable years beginning on or after January 1, 2028,",
+        "note": "The tax rate change does not take effect immediately; it is delayed until 2028."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Lower personal income taxes",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Tax revenue for public services",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not make changes that merely shift power or rules without a clear gain or cost."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Current levels of tax revenue for public services",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "A reduction in the personal income tax rate",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 45.9,
+  "errors": [],
+  "accepted": true
+}

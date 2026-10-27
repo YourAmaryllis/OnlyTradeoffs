@@ -1,0 +1,4 @@
+seed 2 attempt 1: ACCEPTED (38.3s) 
+seed 3 attempt 1: REJECTED (51.2s) analysis: blocked term 'extreme'
+seed 3 attempt 2: ACCEPTED (42.7s) 
+2/2 runs accepted → /Users/arthur/YourAmaryllis/OnlyTradeoffs/runs/MEAS-BB31064A/vertex__gemini-3.1-pro-preview

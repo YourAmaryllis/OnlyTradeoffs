@@ -1,0 +1,35 @@
+# One folder per election. The pipeline reads this file and nothing else to know
+# what to build. To add an election: copy this folder, list its measures, put
+# each official text in a measure file, run the models, run the pipeline.
+id: demo-synthetic
+name: Demo election (synthetic measures)
+date: 2026-11-03
+status: draft          # draft | published. Draft elections show a banner on every page.
+synthetic: true        # true = every measure is made up for testing. Shown on every page.
+
+# Which run outputs count. Only accepted runs with these versions are reconciled,
+# so a rerun with a new prompt never mixes with old results.
+pins:
+  prompt_version: v1
+  concern_list_version: 1-draft.r4
+
+# Jurisdictions, outermost first. Measures point at one by id.
+jurisdictions:
+- id: example-state
+  name: Example State
+  type: state
+- id: example-county
+  name: Example County
+  type: county
+  parent: example-state
+
+measures:
+# file: the measure file the models were given (clauses + current law).
+# ballot_label: shown to voters to identify the measure. Never sent to a model.
+# source: where the official text came from. Synthetic measures have none.
+- file: tests/fixtures/synthetic-storage.measure.json
+  code: Measure A
+  ballot_label: Firearm Storage Act
+  jurisdiction: example-state
+  kind: initiative
+  source: {url: null, sha256: null, fetched_at: null}

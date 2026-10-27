@@ -1,0 +1,8 @@
+{% if election.synthetic or election.status != 'published' %}
+<div class="banner">
+  <div class="wrap">
+  {% if election.synthetic %}<strong>Synthetic demo.</strong> Every measure in this election is made up for testing. None is a real proposal.{% endif %}{{ ' ' }}
+  {% if election.status != 'published' %}<strong>Draft.</strong> Results may change before publication.{% endif %}
+  </div>
+</div>
+{% endif %}

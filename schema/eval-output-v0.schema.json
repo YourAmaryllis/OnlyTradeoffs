@@ -1,0 +1,415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://onlytradeoffs.org/schema/eval-output-v0.json",
+  "title": "Only Tradeoffs evaluation output v0",
+  "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "measure_id",
+    "restatements",
+    "findings",
+    "analysis",
+    "flags",
+    "vote_summary"
+  ],
+  "properties": {
+    "measure_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "restatements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id",
+          "text"
+        ],
+        "properties": {
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "description": "Pass 1: what each clause does, in neutral words, with no evaluation."
+    },
+    "findings": {
+      "type": "array",
+      "description": "Pass 2: clause x concern findings. Omitted cells mean no effect.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "clause_id",
+          "concern_id",
+          "effect",
+          "direction",
+          "quote",
+          "mechanism",
+          "certainty"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^f\\d+$"
+          },
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "concern_id": {
+            "type": "string",
+            "pattern": "^C\\d+$"
+          },
+          "effect": {
+            "enum": [
+              "advances",
+              "costs",
+              "mixed",
+              "moves"
+            ],
+            "description": "advances/costs/mixed per the concern's advances_when; moves only for directional concerns."
+          },
+          "direction": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Required (non-null) when effect is moves: which way the text moves the axis. Null otherwise."
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Exact span copied from the clause."
+          },
+          "mechanism": {
+            "type": "string",
+            "minLength": 1
+          },
+          "certainty": {
+            "enum": [
+              "stated",
+              "likely",
+              "depends-on-implementation"
+            ]
+          }
+        }
+      }
+    },
+    "analysis": {
+      "type": "array",
+      "description": "Pass 3: analysis-question answers. Always inference.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id",
+          "question_id",
+          "answer",
+          "disputed"
+        ],
+        "properties": {
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question_id": {
+            "type": "string",
+            "pattern": "^Q\\d+$"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "disputed": {
+            "type": "boolean",
+            "description": "True if researchers disagree about the effect; the answer must then describe both findings."
+          }
+        }
+      }
+    },
+    "flags": {
+      "type": "array",
+      "description": "Pass 4: text-quality flags.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id",
+          "flag_id",
+          "quote",
+          "note"
+        ],
+        "properties": {
+          "clause_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "flag_id": {
+            "type": "string",
+            "pattern": "^F\\d+$"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "vote_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "if_yes",
+        "if_no"
+      ],
+      "properties": {
+        "if_yes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "gain",
+            "give_up",
+            "changes"
+          ],
+          "properties": {
+            "gain": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items",
+                "empty_reason"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "text",
+                      "finding_ids"
+                    ],
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "finding_ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "pattern": "^f\\d+$"
+                        }
+                      }
+                    }
+                  }
+                },
+                "empty_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "description": "Items built only from findings. If items is empty, empty_reason must say why."
+            },
+            "give_up": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items",
+                "empty_reason"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "text",
+                      "finding_ids"
+                    ],
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "finding_ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "pattern": "^f\\d+$"
+                        }
+                      }
+                    }
+                  }
+                },
+                "empty_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "description": "Items built only from findings. If items is empty, empty_reason must say why."
+            },
+            "changes": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items",
+                "empty_reason"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "text",
+                      "finding_ids"
+                    ],
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "finding_ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "pattern": "^f\\d+$"
+                        }
+                      }
+                    }
+                  }
+                },
+                "empty_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "description": "Items built only from findings. If items is empty, empty_reason must say why."
+            }
+          },
+          "description": "changes holds findings on directional concerns."
+        },
+        "if_no": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "keep",
+            "forgo"
+          ],
+          "properties": {
+            "keep": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items",
+                "empty_reason"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "text",
+                      "finding_ids"
+                    ],
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "finding_ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "pattern": "^f\\d+$"
+                        }
+                      }
+                    }
+                  }
+                },
+                "empty_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "description": "Items built only from findings. If items is empty, empty_reason must say why."
+            },
+            "forgo": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items",
+                "empty_reason"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "text",
+                      "finding_ids"
+                    ],
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "finding_ids": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "pattern": "^f\\d+$"
+                        }
+                      }
+                    }
+                  }
+                },
+                "empty_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "description": "Items built only from findings. If items is empty, empty_reason must say why."
+            }
+          }
+        }
+      },
+      "description": "Pass 5: built only from findings above."
+    }
+  }
+}

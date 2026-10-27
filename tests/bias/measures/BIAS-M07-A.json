@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-A2846196",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M07, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "On January 1, 2028, the state minimum wage increases to $17.00 per hour."
+    }
+  ],
+  "current_law": "The state minimum wage is $15.00 per hour."
+}

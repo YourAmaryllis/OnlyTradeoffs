@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-308F87C2",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M08, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The education savings account program is repealed effective July 1, 2028. Funds remaining in an account on that date revert to the state school fund."
+    }
+  ],
+  "current_law": "A parent of a child eligible to attend public school may open an education savings account funded with 90 percent of state per-pupil funding, usable for private tuition, tutoring, textbooks, and online courses."
+}

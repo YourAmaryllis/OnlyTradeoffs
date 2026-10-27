@@ -1,0 +1,18 @@
+== P41
+run1 attempt 13: REJECTED (57.8s) call failed
+run1 attempt 14: REJECTED (55.2s) call failed
+run1 attempt 15: REJECTED (121.3s) restatement: blocked term 'liberal'
+run1 attempt 16: REJECTED (77.0s) call failed
+0/1 runs accepted → /Users/arthur/YourAmaryllis/OnlyTradeoffs/runs/CA-2026-P41/vertex__gemini-3.1-pro-preview
+== P40
+CA-2026-P40: 12466 words -> 3 parts
+part-run1-p1: reusing part-run1-p1.attempt3.json
+part-run1-p2 attempt 4: REJECTED (93.6s) call failed
+part-run1-p2 attempt 5: REJECTED (166.2s) analysis: blocked term 'conservative'
+part-run1-p2 attempt 6: ACCEPTED (139.3s) 
+part-run1-p3 attempt 1: REJECTED (163.2s) flag F6: quote not found verbatim in Prop 40 Sec. 6 §50308: '“Tax obligation date” means January 1, 2026.'; flag F2: quote not found verbatim in Prop 40 Sec. 9: 'Notwithstanding any other provision of law, the State, gover'; analysis: blocked term 'aims to'
+part-run1-p3 attempt 2: REJECTED (165.7s) flag F6: quote not found verbatim in Prop 40 Sec. 6 §50308: '“Tax obligation date” means January 1, 2026.'
+part-run1-p3 attempt 3: REJECTED (43.0s) call failed
+part-run1-p3 attempt 4: REJECTED (117.9s) C18 evidence: quote not found verbatim in Prop 40 Sec. 6 §50312: 'If the Board determines that a transaction or series of tran'; C75 evidence: quote not found verbatim in Prop 40 Sec. 6 §50312: 'If the Board determines that a transaction or series of tran'
+seed 1: part 3/3 did not pass; not merging
+0/1 runs accepted → /Users/arthur/YourAmaryllis/OnlyTradeoffs/runs/CA-2026-P40/vertex__gemini-3.1-pro-preview

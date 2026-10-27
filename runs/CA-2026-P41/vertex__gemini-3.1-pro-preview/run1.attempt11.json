@@ -1,0 +1,827 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P41",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "4eb78b11491634d20571f822b20fea16923d17de7999b5a9c2ab9d4429e99500",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "09d29f5ffcba4688ac4dfe9052f041802ba5d4f45d983d4c08a684b051aafe69",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "32435f62ce4b79290015955994465891857b74dcffcd9151406505fb01466be6"
+    }
+  },
+  "prompt_file": "CA-2026-P41.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 11,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T09:36:14.880213+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6879,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6879
+        }
+      ],
+      "prompt_token_count": 9548,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 9548
+        }
+      ],
+      "thoughts_token_count": 8882,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 25309,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P41\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"Prop 41 Sec. 1\",\n      \"text\": \"Titles the act the \\\"Improving Transparency, Effectiveness, and Efficiency in California Government Act of 2026.\\\"\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 2\",\n      \"text\": \"Declares findings regarding California's cost of living, tax rates, government spending, and the perceived need for program efficiency and spending limits.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 3\",\n      \"text\": \"States the purpose of the act is to require the California State Auditor to audit programs receiving new special taxes and to prohibit exempting new taxes from the state spending limit.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"text\": \"Requires the California State Auditor to conduct a pre-election financial and performance audit of programs designated to receive funds from proposed special tax initiatives, mandates the inclusion of an executive summary in the state voter information guide, and requires reimbursement for the audit costs from the tax revenues if the measure passes.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §2\",\n      \"text\": \"Requires the California State Auditor to conduct ongoing financial and performance audits every four years for all programs funded by special taxes enacted after January 1, 2026, with costs reimbursed from the tax revenues.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §3\",\n      \"text\": \"Prohibits the state from exempting or excluding any new state tax from the Government Spending Limitation and bars the imposition, collection, or enforcement of any tax that includes such an exemption.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §4\",\n      \"text\": \"Defines key terms, including \\\"California State Auditor,\\\" \\\"Government Spending Limitation,\\\" and \\\"special tax.\\\"\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §5\",\n      \"text\": \"Applies the act's provisions to all statewide initiative measures submitted to voters on or after January 1, 2026.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 5\",\n      \"text\": \"Declares that if this measure receives more votes, it nullifies any conflicting ballot measures passed at the same election that impose different special tax audit rules or contain taxes exempted from the spending limit.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 6\",\n      \"text\": \"Ensures that if any part of the act is found invalid by a court, the remaining parts stay in effect.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 7\",\n      \"text\": \"Sets the effective date as the earliest possible date allowed by the California Constitution.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 8\",\n      \"text\": \"Requires the act to be liberally construed to fulfill its intents and purposes.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 9\",\n      \"text\": \"Requires the Attorney General to appoint independent counsel to defend the act if the Governor and Attorney General refuse to do so, and creates a continuous appropriation from the General Fund to cover the independent defense costs.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §3\",\n          \"quote\": \"(a) No state tax that is enacted or takes effect on or after January 1, 2026 shall be exempted or excluded from the Government Spending Limitation.\",\n          \"effect\": \"supports\",\n          \"why\": \"It limits the spending authority of the state by applying strict spending caps to all new state taxes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §1\",\n          \"quote\": \"(a) When a certification for a proposed special tax initiative is submitted to the Secretary of State pursuant to subdivision (a) of Section 9034 of the Elections Code, the California State Auditor shall commence with the preparation of a pre-election financial and performance audit of each of the program(s) that would receive moneys from the special tax.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It expands the mandates and duties of the California State Auditor to include new pre-election audits.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §1\",\n          \"quote\": \"(e)(1) Copies of the pre-election financial and performance audit shall be delivered to the Governor, the Legislature, and the Secretary of State, and shall be posted on the California State Auditor’s website and made available to the public.\",\n          \"effect\": \"supports\",\n          \"why\": \"It requires pre-election audit reports on programs funded by proposed special taxes to be published and made accessible to the public.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §2\",\n          \"quote\": \"(a)(1) For all special taxes enacted by the Legislature or by a statewide initiative measure on or after January 1, 2026, the California State Auditor shall conduct ongoing financial and performance audits of each program that receives moneys from the special tax.\",\n          \"effect\": \"supports\",\n          \"why\": \"It mandates ongoing performance and financial audits of special tax programs every four years to ensure public oversight.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 41 Sec. 9\",\n          \"quote\": \"(c) In order to support the defense of this Act in instances where the Governor and Attorney General fail to do so despite the will of the voters, a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act on behalf of the State of California to the fullest extent possible.\",\n          \"effect\": \"supports\",\n          \"why\": \"It earmarks and guarantees continuous funding for independent legal defense.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §3\",\n          \"quote\": \"(a) No state tax that is enacted or takes effect on or after January 1, 2026 shall be exempted or excluded from the Government Spending Limitation.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It firmly locks in the constitutional spending limit for all new state taxes, reducing the flexibility of the state to exempt funds from the cap.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 41 Sec. 9\",\n          \"quote\": \"(c) In order to support the defense of this Act in instances where the Governor and Attorney General fail to do so despite the will of the voters, a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act on behalf of the State of California to the fullest extent possible.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It locks in spending by creating a continuous appropriation from the General Fund that applies regardless of fiscal years.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §3\",\n          \"quote\": \"(b) The State of California shall not impose, collect, or enforce any state tax that is enacted or takes effect on or after January 1, 2026 if the state tax is exempted or excluded from the Government Spending Limitation.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It restricts the state's ability to raise and collect revenue through new taxes that bypass constitutional spending caps, thereby limiting funds that could be raised for public services.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §1\",\n          \"quote\": \"(f) If the special tax initiative is approved by voters, the California State Auditor shall be reimbursed from the revenue generated by the special tax initiative for reasonable costs incurred in preparing the pre-election financial and performance audit, as determined by the Controller.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It diverts a portion of the special tax revenue away from the intended public programs to pay for the costs of conducting the audit.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"both\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §1\",\n          \"quote\": \"(a) When a certification for a proposed special tax initiative is submitted to the Secretary of State pursuant to subdivision (a) of Section 9034 of the Elections Code, the California State Auditor shall commence with the preparation of a pre-election financial and performance audit of each of the program(s) that would receive moneys from the special tax.\",\n          \"effect\": \"supports\",\n          \"why\": \"It expands the mandates and duties of the California State Auditor to include new pre-election audits.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 41 Sec. 4 §3\",\n          \"quote\": \"(a) No state tax that is enacted or takes effect on or after January 1, 2026 shall be exempted or excluded from the Government Spending Limitation.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It restricts government spending authority by enforcing strict spending caps on all new state taxes.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. The measure introduces a new requirement for the California State Auditor to conduct financial and performance audits of programs receiving funds from proposed special tax initiatives before an election, placing an executive summary of the findings in the state voter guide.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §3\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"The measure prohibits any new state tax from being exempted from the existing Government Spending Limitation (Article XIII B), actively blocking the collection or enforcement of taxes that attempt to bypass this limit.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include the administrative expense for the State Auditor to conduct extensive pre-election and ongoing audits, which are reimbursed directly from the special tax revenues. Opportunity costs arise as these funds are diverted from the public programs the special taxes were intended to support.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 9\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"A direct but unquantified cost is created by the continuous appropriation from the General Fund to pay for independent legal counsel if the Governor and Attorney General refuse to defend the measure.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Taxpayers who fund the special taxes bear the cost of the audits, as their money is partially redirected to reimburse the Auditor. Beneficiaries of the special tax programs receive slightly less funding, but voters as a whole benefit from increased information and transparency.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Initiative proponents may face higher hurdles in passing special taxes due to potentially critical audit summaries appearing in the voter guide. The Auditor's office will need to expand its staff and capacity to handle the mandated influx of pre-election and ongoing audits.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §3\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"The Legislature may be disincentivized from passing new taxes if they push the state over the constitutional spending limit, as the inability to exempt them means excess revenues would trigger required tax refunds or cuts elsewhere.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses information gaps for voters regarding the efficiency and necessity of proposed special taxes. The mechanism—mandatory independent audits published in the voter guide—reaches this goal, though it creates a minor funding shortage for the targeted programs by diverting tax revenue to pay for the audits.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §3\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses the issue of elected officials bypassing constitutional spending caps by exempting new taxes. The blanket prohibition directly reaches this by rendering any such exempted tax unenforceable.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The California State Auditor gains significant influence over the public perception and potential electoral success of proposed special taxes. Voters gain more structured information to base their decisions on.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §3\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The Legislature and Governor lose discretion to exempt new taxes from the state spending limit, shifting fiscal constraint power toward the structural limits of the state constitution.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The empirical effect of mandatory government audits on program efficiency is disputed. Some researchers find that independent audits reduce waste and force better outcomes, while others argue they primarily increase administrative burdens without driving meaningful policy changes.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §3\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The impact of strict state spending limits is disputed. Some economists argue they successfully constrain tax burdens and force government efficiency, while others find they restrict a state's ability to adequately fund needed public services or respond to fiscal crises.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Administrative costs are taken directly off the top of the generated revenue, as the text requires the State Auditor to be reimbursed for \\\"reasonable costs\\\" incurred in preparing the audits from the special tax revenues themselves.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"Because the measure adds a new Article XXIV to the California Constitution via voter approval, it can only be undone or amended by another ballot measure approved by the voters. It does not contain a sunset clause.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"Prop 41 Sec. 9\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"(a) Notwithstanding anything to the contrary contained in Chapter 6 (commencing with Section 12500) of Part 2 of Division 3 of Title 2 of the Government Code or any other law, the Attorney General shall appoint independent counsel\",\n      \"note\": \"Uses clear override language to bypass existing laws regarding the appointment of counsel.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 6\",\n      \"flag_id\": \"F5\",\n      \"quote\": \"The provisions of this Act are severable. If any portion, section, subdivision, paragraph, clause, subclause, sentence, phrase, word, or application of this Act is for any reason held to be invalid by a decision of any court of competent jurisdiction, that decision shall not affect the validity of the remaining portions of this Act.\",\n      \"note\": \"Contains a standard severability clause.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 7\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"This Act shall take effect at the earliest possible date in accordance with Section 10 of Article II of the California Constitution. This Act shall become operative on the same day it takes effect.\",\n      \"note\": \"Specifies the effective and operative date of the act.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 4 §5\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"SEC. 5. This article applies to all statewide initiative measures submitted to the electors on or after January 1, 2026, including measures that appear on the ballot at the same election at which the measure adding this article is approved by the electors.\",\n      \"note\": \"Sets a phase-in or applicability date for the new rules regarding statewide initiatives.\"\n    },\n    {\n      \"clause_id\": \"Prop 41 Sec. 3\",\n      \"flag_id\": \"F8\",\n      \"quote\": \"to require the California State Auditor to conduct upfront and ongoing audits of all state programs that are targeted to receive revenue from new or higher special taxes... while also prohibiting exemptions from the state spending limit\",\n      \"note\": \"Bundles two distinct policy changes: mandatory audits for special taxes and a blanket prohibition on exempting any new taxes from the constitutional spending limit.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P41",
+    "restatements": [
+      {
+        "clause_id": "Prop 41 Sec. 1",
+        "text": "Titles the act the \"Improving Transparency, Effectiveness, and Efficiency in California Government Act of 2026.\""
+      },
+      {
+        "clause_id": "Prop 41 Sec. 2",
+        "text": "Declares findings regarding California's cost of living, tax rates, government spending, and the perceived need for program efficiency and spending limits."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 3",
+        "text": "States the purpose of the act is to require the California State Auditor to audit programs receiving new special taxes and to prohibit exempting new taxes from the state spending limit."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "text": "Requires the California State Auditor to conduct a pre-election financial and performance audit of programs designated to receive funds from proposed special tax initiatives, mandates the inclusion of an executive summary in the state voter information guide, and requires reimbursement for the audit costs from the tax revenues if the measure passes."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §2",
+        "text": "Requires the California State Auditor to conduct ongoing financial and performance audits every four years for all programs funded by special taxes enacted after January 1, 2026, with costs reimbursed from the tax revenues."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §3",
+        "text": "Prohibits the state from exempting or excluding any new state tax from the Government Spending Limitation and bars the imposition, collection, or enforcement of any tax that includes such an exemption."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §4",
+        "text": "Defines key terms, including \"California State Auditor,\" \"Government Spending Limitation,\" and \"special tax.\""
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §5",
+        "text": "Applies the act's provisions to all statewide initiative measures submitted to voters on or after January 1, 2026."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 5",
+        "text": "Declares that if this measure receives more votes, it nullifies any conflicting ballot measures passed at the same election that impose different special tax audit rules or contain taxes exempted from the spending limit."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 6",
+        "text": "Ensures that if any part of the act is found invalid by a court, the remaining parts stay in effect."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 7",
+        "text": "Sets the effective date as the earliest possible date allowed by the California Constitution."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 8",
+        "text": "Requires the act to be liberally construed to fulfill its intents and purposes."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 9",
+        "text": "Requires the Attorney General to appoint independent counsel to defend the act if the Governor and Attorney General refuse to do so, and creates a continuous appropriation from the General Fund to cover the independent defense costs."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "Prop 41 Sec. 4 §3",
+            "quote": "(a) No state tax that is enacted or takes effect on or after January 1, 2026 shall be exempted or excluded from the Government Spending Limitation.",
+            "effect": "supports",
+            "why": "It limits the spending authority of the state by applying strict spending caps to all new state taxes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 41 Sec. 4 §1",
+            "quote": "(a) When a certification for a proposed special tax initiative is submitted to the Secretary of State pursuant to subdivision (a) of Section 9034 of the Elections Code, the California State Auditor shall commence with the preparation of a pre-election financial and performance audit of each of the program(s) that would receive moneys from the special tax.",
+            "effect": "conflicts",
+            "why": "It expands the mandates and duties of the California State Auditor to include new pre-election audits.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 41 Sec. 4 §1",
+            "quote": "(e)(1) Copies of the pre-election financial and performance audit shall be delivered to the Governor, the Legislature, and the Secretary of State, and shall be posted on the California State Auditor’s website and made available to the public.",
+            "effect": "supports",
+            "why": "It requires pre-election audit reports on programs funded by proposed special taxes to be published and made accessible to the public.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 41 Sec. 4 §2",
+            "quote": "(a)(1) For all special taxes enacted by the Legislature or by a statewide initiative measure on or after January 1, 2026, the California State Auditor shall conduct ongoing financial and performance audits of each program that receives moneys from the special tax.",
+            "effect": "supports",
+            "why": "It mandates ongoing performance and financial audits of special tax programs every four years to ensure public oversight.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C74",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 41 Sec. 9",
+            "quote": "(c) In order to support the defense of this Act in instances where the Governor and Attorney General fail to do so despite the will of the voters, a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act on behalf of the State of California to the fullest extent possible.",
+            "effect": "supports",
+            "why": "It earmarks and guarantees continuous funding for independent legal defense.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 41 Sec. 4 §3",
+            "quote": "(a) No state tax that is enacted or takes effect on or after January 1, 2026 shall be exempted or excluded from the Government Spending Limitation.",
+            "effect": "conflicts",
+            "why": "It firmly locks in the constitutional spending limit for all new state taxes, reducing the flexibility of the state to exempt funds from the cap.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 41 Sec. 9",
+            "quote": "(c) In order to support the defense of this Act in instances where the Governor and Attorney General fail to do so despite the will of the voters, a continuous appropriation is hereby made from the General Fund to the Controller, without regard to fiscal years, in an amount necessary to cover the costs of retaining independent counsel to faithfully and vigorously defend this Act on behalf of the State of California to the fullest extent possible.",
+            "effect": "conflicts",
+            "why": "It locks in spending by creating a continuous appropriation from the General Fund that applies regardless of fiscal years.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C02",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 41 Sec. 4 §3",
+            "quote": "(b) The State of California shall not impose, collect, or enforce any state tax that is enacted or takes effect on or after January 1, 2026 if the state tax is exempted or excluded from the Government Spending Limitation.",
+            "effect": "conflicts",
+            "why": "It restricts the state's ability to raise and collect revenue through new taxes that bypass constitutional spending caps, thereby limiting funds that could be raised for public services.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 41 Sec. 4 §1",
+            "quote": "(f) If the special tax initiative is approved by voters, the California State Auditor shall be reimbursed from the revenue generated by the special tax initiative for reasonable costs incurred in preparing the pre-election financial and performance audit, as determined by the Controller.",
+            "effect": "conflicts",
+            "why": "It diverts a portion of the special tax revenue away from the intended public programs to pay for the costs of conducting the audit.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C75",
+        "result": "both",
+        "evidence": [
+          {
+            "clause_id": "Prop 41 Sec. 4 §1",
+            "quote": "(a) When a certification for a proposed special tax initiative is submitted to the Secretary of State pursuant to subdivision (a) of Section 9034 of the Elections Code, the California State Auditor shall commence with the preparation of a pre-election financial and performance audit of each of the program(s) that would receive moneys from the special tax.",
+            "effect": "supports",
+            "why": "It expands the mandates and duties of the California State Auditor to include new pre-election audits.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 41 Sec. 4 §3",
+            "quote": "(a) No state tax that is enacted or takes effect on or after January 1, 2026 shall be exempted or excluded from the Government Spending Limitation.",
+            "effect": "conflicts",
+            "why": "It restricts government spending authority by enforcing strict spending caps on all new state taxes.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. The measure introduces a new requirement for the California State Auditor to conduct financial and performance audits of programs receiving funds from proposed special tax initiatives before an election, placing an executive summary of the findings in the state voter guide.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §3",
+        "question_id": "Q1",
+        "answer": "The measure prohibits any new state tax from being exempted from the existing Government Spending Limitation (Article XIII B), actively blocking the collection or enforcement of taxes that attempt to bypass this limit.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q2",
+        "answer": "Direct costs include the administrative expense for the State Auditor to conduct extensive pre-election and ongoing audits, which are reimbursed directly from the special tax revenues. Opportunity costs arise as these funds are diverted from the public programs the special taxes were intended to support.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 9",
+        "question_id": "Q2",
+        "answer": "A direct but unquantified cost is created by the continuous appropriation from the General Fund to pay for independent legal counsel if the Governor and Attorney General refuse to defend the measure.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q3",
+        "answer": "Taxpayers who fund the special taxes bear the cost of the audits, as their money is partially redirected to reimburse the Auditor. Beneficiaries of the special tax programs receive slightly less funding, but voters as a whole benefit from increased information and transparency.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q4",
+        "answer": "Initiative proponents may face higher hurdles in passing special taxes due to potentially critical audit summaries appearing in the voter guide. The Auditor's office will need to expand its staff and capacity to handle the mandated influx of pre-election and ongoing audits.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §3",
+        "question_id": "Q4",
+        "answer": "The Legislature may be disincentivized from passing new taxes if they push the state over the constitutional spending limit, as the inability to exempt them means excess revenues would trigger required tax refunds or cuts elsewhere.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q5",
+        "answer": "The measure addresses information gaps for voters regarding the efficiency and necessity of proposed special taxes. The mechanism—mandatory independent audits published in the voter guide—reaches this goal, though it creates a minor funding shortage for the targeted programs by diverting tax revenue to pay for the audits.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §3",
+        "question_id": "Q5",
+        "answer": "It addresses the issue of elected officials bypassing constitutional spending caps by exempting new taxes. The blanket prohibition directly reaches this by rendering any such exempted tax unenforceable.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q6",
+        "answer": "The California State Auditor gains significant influence over the public perception and potential electoral success of proposed special taxes. Voters gain more structured information to base their decisions on.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §3",
+        "question_id": "Q6",
+        "answer": "The Legislature and Governor lose discretion to exempt new taxes from the state spending limit, shifting fiscal constraint power toward the structural limits of the state constitution.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q7",
+        "answer": "The empirical effect of mandatory government audits on program efficiency is disputed. Some researchers find that independent audits reduce waste and force better outcomes, while others argue they primarily increase administrative burdens without driving meaningful policy changes.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §3",
+        "question_id": "Q7",
+        "answer": "The impact of strict state spending limits is disputed. Some economists argue they successfully constrain tax burdens and force government efficiency, while others find they restrict a state's ability to adequately fund needed public services or respond to fiscal crises.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q8",
+        "answer": "Administrative costs are taken directly off the top of the generated revenue, as the text requires the State Auditor to be reimbursed for \"reasonable costs\" incurred in preparing the audits from the special tax revenues themselves.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §1",
+        "question_id": "Q9",
+        "answer": "Because the measure adds a new Article XXIV to the California Constitution via voter approval, it can only be undone or amended by another ballot measure approved by the voters. It does not contain a sunset clause.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 41 Sec. 9",
+        "flag_id": "F2",
+        "quote": "(a) Notwithstanding anything to the contrary contained in Chapter 6 (commencing with Section 12500) of Part 2 of Division 3 of Title 2 of the Government Code or any other law, the Attorney General shall appoint independent counsel",
+        "note": "Uses clear override language to bypass existing laws regarding the appointment of counsel."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 6",
+        "flag_id": "F5",
+        "quote": "The provisions of this Act are severable. If any portion, section, subdivision, paragraph, clause, subclause, sentence, phrase, word, or application of this Act is for any reason held to be invalid by a decision of any court of competent jurisdiction, that decision shall not affect the validity of the remaining portions of this Act.",
+        "note": "Contains a standard severability clause."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 7",
+        "flag_id": "F6",
+        "quote": "This Act shall take effect at the earliest possible date in accordance with Section 10 of Article II of the California Constitution. This Act shall become operative on the same day it takes effect.",
+        "note": "Specifies the effective and operative date of the act."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 4 §5",
+        "flag_id": "F6",
+        "quote": "SEC. 5. This article applies to all statewide initiative measures submitted to the electors on or after January 1, 2026, including measures that appear on the ballot at the same election at which the measure adding this article is approved by the electors.",
+        "note": "Sets a phase-in or applicability date for the new rules regarding statewide initiatives."
+      },
+      {
+        "clause_id": "Prop 41 Sec. 3",
+        "flag_id": "F8",
+        "quote": "to require the California State Auditor to conduct upfront and ongoing audits of all state programs that are targeted to receive revenue from new or higher special taxes... while also prohibiting exemptions from the state spending limit",
+        "note": "Bundles two distinct policy changes: mandatory audits for special taxes and a blanket prohibition on exempting any new taxes from the constitutional spending limit."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [],
+  "seconds": 144.9,
+  "errors": [
+    "analysis: blocked term 'intended to'"
+  ],
+  "accepted": false
+}

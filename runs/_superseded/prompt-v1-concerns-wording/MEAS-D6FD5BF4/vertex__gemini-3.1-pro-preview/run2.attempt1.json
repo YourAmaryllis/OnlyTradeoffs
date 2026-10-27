@@ -1,0 +1,717 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-D6FD5BF4",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 2,
+    "concern_order": [
+      "C01",
+      "C26",
+      "C58",
+      "C06",
+      "C79",
+      "C36",
+      "C03",
+      "C55",
+      "C16",
+      "C12",
+      "C51",
+      "C08",
+      "C05",
+      "C48",
+      "C18",
+      "C77",
+      "C82",
+      "C17",
+      "C32",
+      "C70",
+      "C40",
+      "C45",
+      "C65",
+      "C15",
+      "C57",
+      "C59",
+      "C31",
+      "C54",
+      "C11",
+      "C50",
+      "C25",
+      "C46",
+      "C33",
+      "C35",
+      "C76",
+      "C37",
+      "C60",
+      "C22",
+      "C78",
+      "C71",
+      "C80",
+      "C38",
+      "C20",
+      "C39",
+      "C69",
+      "C07",
+      "C43",
+      "C66",
+      "C68",
+      "C02",
+      "C13",
+      "C14",
+      "C64",
+      "C30",
+      "C63",
+      "C28",
+      "C56",
+      "C62",
+      "C21",
+      "C67",
+      "C61",
+      "C49",
+      "C24",
+      "C83",
+      "C73",
+      "C72",
+      "C29",
+      "C52",
+      "C81",
+      "C42",
+      "C53",
+      "C44",
+      "C47",
+      "C75",
+      "C04",
+      "C23",
+      "C27",
+      "C34",
+      "C19",
+      "C41",
+      "C09",
+      "C10",
+      "C74"
+    ],
+    "sha256": {
+      "measure": "2f93b7f528b0b3017c4360fb173bf6e9ee21c4c8d98811da380f9bcadcb2e2c2",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "af573768ac1aeacf6d57d09a1c90091f92f7d697bdc5893abf0a2655c7c85015",
+      "user_template": "e3a62682914a346cb0307a1bb4914bc0a5be6d9b50bdf9e8e785b3b05864d1da",
+      "schema": "f205ce78fe339dfb80adc2d4b05ac8bbd36c99f6bb835fdbdefaabde8cebfac4",
+      "user_message": "01e4574d087c271d2a6ccadb420a962ae0f165045281fa9eace3dd182615656e"
+    }
+  },
+  "prompt_file": "MEAS-D6FD5BF4.run2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T07:13:32.622036+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 4556,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4556
+        }
+      ],
+      "prompt_token_count": 6435,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6435
+        }
+      ],
+      "thoughts_token_count": 4421,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 15412,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-D6FD5BF4\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Permits parents of public-school-eligible children to open education savings accounts, into which the state must deposit 90 percent of the per-pupil funding that the student's resident district would have otherwise received.\"\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"text\": \"Specifies that the funds in these accounts may be spent on private school tuition, tutoring, textbooks, and approved online courses.\"\n    }\n  ],\n  \"concerns\": [\n    {\n      \"concern_id\": \"C01\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state shall deposit into the account 90 percent of the state per-pupil funding\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It requires the state to fund and administer a new education savings account program.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C76\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C78\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C39\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"A parent of a child eligible to attend public school may open an education savings account.\",\n          \"effect\": \"supports\",\n          \"why\": \"Parents are given the right to establish individual accounts for education funding.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"§2\",\n          \"quote\": \"Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses.\",\n          \"effect\": \"supports\",\n          \"why\": \"It grants parents the authority to direct state funds toward alternative education choices like private school and tutoring.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C02\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It reduces the money available for public school districts by redirecting a portion of their per-pupil funding to private accounts.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C42\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It decreases the resources available to public school districts by diverting per-pupil funding when a child participates.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C44\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"A parent of a child eligible to attend public school may open an education savings account. The state shall deposit into the account\",\n          \"effect\": \"supports\",\n          \"why\": \"It creates a financial benefit for parents to support their child's education.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state shall deposit into the account 90 percent of the state per-pupil funding\",\n          \"effect\": \"supports\",\n          \"why\": \"It creates a new state-administered program providing education savings accounts.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C23\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C19\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C41\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"A parent of a child eligible to attend public school may open an education savings account.\",\n          \"effect\": \"supports\",\n          \"why\": \"It establishes a funding vehicle designed to let parents access alternatives to public schools.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"§2\",\n          \"quote\": \"Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses.\",\n          \"effect\": \"supports\",\n          \"why\": \"It explicitly provides state funding to be used for educational options outside the public school system.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"concern_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"concern_id\": \"C74\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"§1\",\n          \"quote\": \"The state shall deposit into the account 90 percent of the state per-pupil funding\",\n          \"effect\": \"supports\",\n          \"why\": \"It mandates the deposit of a specified portion of state funding directly into these specific accounts.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, state education funding is distributed exclusively to public school districts and charter schools. This measure changes that by allowing state education funds to be diverted into private education savings accounts established by parents.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include the 90% per-pupil funding amount allocated to each participating student's account. There is also an opportunity cost for public school districts, which lose funding for each transferring student but may still bear fixed overhead costs that do not decrease proportionally with lower enrollment.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Parents who enroll their children in private schools, tutoring, or homeschooling directly benefit from the state subsidies. Private schools and educational service providers benefit from an expanded customer base capable of paying with state funds. Public school districts bear the cost of lost state revenue.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Parents may be incentivized to withdraw their children from public schools in favor of private or home-based options. Private schools might increase their tuition or expand enrollment capacity to capture the new influx of available state funds. Public schools may need to consolidate programs or cut staff in response to budget reductions.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses the problem that some families lack the financial resources to access alternatives to their assigned public school. The mechanism addresses this by directly subsidizing private educational expenses. However, it may create a problem of reduced economies of scale for public schools, or potential tuition inflation in private education.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§2\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Parents gain the discretion to direct education spending. The state agency or board tasked with defining and processing 'approved' online courses gains regulatory power. Private educational providers gain market power.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of school choice programs on student outcomes and public school finances is disputed. Some researchers find that such programs improve student achievement and graduation rates due to better educational matching and increased competition, while others find null or negative impacts on test scores and conclude that diverted funding harms the quality of remaining local public schools.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Establishing, maintaining, and auditing the individual savings accounts, and evaluating providers to prevent fraud, will require administrative overhead, which reduces the total share of funds reaching direct instruction.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"As a statutory change, it can be repealed or amended by the legislature through normal legislative processes, unless locked by specific state constitutional provisions.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§2\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"approved online courses\",\n      \"note\": \"The real effect on what families can purchase depends on future administrative decisions identifying which courses are 'approved'.\"\n    }\n  ]\n}",
+  "parsed": {
+    "measure_id": "MEAS-D6FD5BF4",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Permits parents of public-school-eligible children to open education savings accounts, into which the state must deposit 90 percent of the per-pupil funding that the student's resident district would have otherwise received."
+      },
+      {
+        "clause_id": "§2",
+        "text": "Specifies that the funds in these accounts may be spent on private school tuition, tutoring, textbooks, and approved online courses."
+      }
+    ],
+    "concerns": [
+      {
+        "concern_id": "C01",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C16",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state shall deposit into the account 90 percent of the state per-pupil funding",
+            "effect": "conflicts",
+            "why": "It requires the state to fund and administer a new education savings account program.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C76",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C78",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C39",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "A parent of a child eligible to attend public school may open an education savings account.",
+            "effect": "supports",
+            "why": "Parents are given the right to establish individual accounts for education funding.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "§2",
+            "quote": "Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses.",
+            "effect": "supports",
+            "why": "It grants parents the authority to direct state funds toward alternative education choices like private school and tutoring.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C02",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive.",
+            "effect": "conflicts",
+            "why": "It reduces the money available for public school districts by redirecting a portion of their per-pupil funding to private accounts.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C42",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state shall deposit into the account 90 percent of the state per-pupil funding the child's resident district would otherwise receive.",
+            "effect": "conflicts",
+            "why": "It decreases the resources available to public school districts by diverting per-pupil funding when a child participates.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C44",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "A parent of a child eligible to attend public school may open an education savings account. The state shall deposit into the account",
+            "effect": "supports",
+            "why": "It creates a financial benefit for parents to support their child's education.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state shall deposit into the account 90 percent of the state per-pupil funding",
+            "effect": "supports",
+            "why": "It creates a new state-administered program providing education savings accounts.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C23",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C19",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C41",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "A parent of a child eligible to attend public school may open an education savings account.",
+            "effect": "supports",
+            "why": "It establishes a funding vehicle designed to let parents access alternatives to public schools.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "§2",
+            "quote": "Account funds may be used for private school tuition, tutoring, textbooks, and approved online courses.",
+            "effect": "supports",
+            "why": "It explicitly provides state funding to be used for educational options outside the public school system.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "concern_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "concern_id": "C74",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "§1",
+            "quote": "The state shall deposit into the account 90 percent of the state per-pupil funding",
+            "effect": "supports",
+            "why": "It mandates the deposit of a specified portion of state funding directly into these specific accounts.",
+            "certainty": "stated"
+          }
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, state education funding is distributed exclusively to public school districts and charter schools. This measure changes that by allowing state education funds to be diverted into private education savings accounts established by parents.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs include the 90% per-pupil funding amount allocated to each participating student's account. There is also an opportunity cost for public school districts, which lose funding for each transferring student but may still bear fixed overhead costs that do not decrease proportionally with lower enrollment.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Parents who enroll their children in private schools, tutoring, or homeschooling directly benefit from the state subsidies. Private schools and educational service providers benefit from an expanded customer base capable of paying with state funds. Public school districts bear the cost of lost state revenue.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Parents may be incentivized to withdraw their children from public schools in favor of private or home-based options. Private schools might increase their tuition or expand enrollment capacity to capture the new influx of available state funds. Public schools may need to consolidate programs or cut staff in response to budget reductions.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "It addresses the problem that some families lack the financial resources to access alternatives to their assigned public school. The mechanism addresses this by directly subsidizing private educational expenses. However, it may create a problem of reduced economies of scale for public schools, or potential tuition inflation in private education.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§2",
+        "question_id": "Q6",
+        "answer": "Parents gain the discretion to direct education spending. The state agency or board tasked with defining and processing 'approved' online courses gains regulatory power. Private educational providers gain market power.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of school choice programs on student outcomes and public school finances is disputed. Some researchers find that such programs improve student achievement and graduation rates due to better educational matching and increased competition, while others find null or negative impacts on test scores and conclude that diverted funding harms the quality of remaining local public schools.",
+        "disputed": true
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q8",
+        "answer": "Establishing, maintaining, and auditing the individual savings accounts, and evaluating providers to prevent fraud, will require administrative overhead, which reduces the total share of funds reaching direct instruction.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q9",
+        "answer": "As a statutory change, it can be repealed or amended by the legislature through normal legislative processes, unless locked by specific state constitutional provisions.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§2",
+        "flag_id": "F3",
+        "quote": "approved online courses",
+        "note": "The real effect on what families can purchase depends on future administrative decisions identifying which courses are 'approved'."
+      }
+    ]
+  },
+  "stripped_fences": false,
+  "seconds": 97.9,
+  "errors": [
+    "C41 why: blocked term 'designed to'"
+  ],
+  "accepted": false
+}

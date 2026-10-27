@@ -1,0 +1,263 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-5D011247",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "80dbd11acfbd61916075a4ffa2c23e04681cb79f2d61a5611bf8cdaf25732432",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "54c43ec042dc76575677f6432f9a851fe16c45fc5a22fd600395ffbe8d8ceb61"
+    }
+  },
+  "prompt_file": "MEAS-5D011247.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 3,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:07:24.908142+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1287,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1287
+        }
+      ],
+      "prompt_token_count": 7329,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7329
+        }
+      ],
+      "thoughts_token_count": 2816,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 11432,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-5D011247\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Elevates the penalty for assaulting an on-duty hospital worker to a felony with a maximum sentence of three years in prison, compared to the current general assault penalty of up to one year in jail.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"increases maximum sentences and elevates the offense to a felony\",\n      \"quote\": \"Assault on an on-duty hospital worker is a felony punishable by up to three years in prison.\",\n      \"mechanism\": \"Increases the maximum penalty from one year in jail to three years in prison and classifies the offense as a felony when the victim is an on-duty hospital worker.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C11\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"Assault on an on-duty hospital worker is a felony punishable by up to three years in prison.\",\n      \"mechanism\": \"Enhances workplace safety protections for hospital workers by establishing a specific, harsher criminal penalty for assaulting them while on duty.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, assault is punishable by up to one year in jail. The measure changes this by making assault on an on-duty hospital worker a felony punishable by up to three years in prison.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The state will likely incur higher incarceration costs by shifting offenders from local jails (where they serve up to one year) to state prisons (where they may serve up to three years). There are also opportunity costs for the incarcerated individuals.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"State taxpayers bear the increased costs of state prison incarceration. On-duty hospital workers benefit from the targeted protection and potential deterrence. Individuals convicted of the enhanced offense bear the cost of longer sentences and the lifelong impacts of a felony record.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Prosecutors may use the threat of a felony charge and a longer sentence as leverage to secure plea agreements.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses workplace violence against hospital workers. It relies on the mechanism of enhanced criminal penalties and felony classification to deter assaults and incapacitate offenders.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Prosecutors gain greater discretion and leverage in charging and plea bargaining due to the higher maximum penalty and felony status.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"hospital worker\",\n      \"note\": \"The text does not define the term, leaving it unclear whether it applies only to medical personnel or extends to administrative staff, janitors, contractors, or volunteers working in a hospital.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Enhanced workplace safety protections and deterrents for on-duty hospital workers.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not reduce tracked legal protections or increase tracked burdens for the public or businesses.\"\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Elevates assaults on hospital workers to a felony and increases the maximum sentence from one year in jail to three years in prison.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"The current maximum sentence of one year in jail for assault, without a separate felony classification based on the victim's occupation.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Harsher criminal penalties and specific legal protections for on-duty hospital workers.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-5D011247",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Elevates the penalty for assaulting an on-duty hospital worker to a felony with a maximum sentence of three years in prison, compared to the current general assault penalty of up to one year in jail."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "increases maximum sentences and elevates the offense to a felony",
+        "quote": "Assault on an on-duty hospital worker is a felony punishable by up to three years in prison.",
+        "mechanism": "Increases the maximum penalty from one year in jail to three years in prison and classifies the offense as a felony when the victim is an on-duty hospital worker.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C11",
+        "effect": "advances",
+        "direction": null,
+        "quote": "Assault on an on-duty hospital worker is a felony punishable by up to three years in prison.",
+        "mechanism": "Enhances workplace safety protections for hospital workers by establishing a specific, harsher criminal penalty for assaulting them while on duty.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, assault is punishable by up to one year in jail. The measure changes this by making assault on an on-duty hospital worker a felony punishable by up to three years in prison.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The state will likely incur higher incarceration costs by shifting offenders from local jails (where they serve up to one year) to state prisons (where they may serve up to three years). There are also opportunity costs for the incarcerated individuals.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "State taxpayers bear the increased costs of state prison incarceration. On-duty hospital workers benefit from the targeted protection and potential deterrence. Individuals convicted of the enhanced offense bear the cost of longer sentences and the lifelong impacts of a felony record.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Prosecutors may use the threat of a felony charge and a longer sentence as leverage to secure plea agreements.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses workplace violence against hospital workers. It relies on the mechanism of enhanced criminal penalties and felony classification to deter assaults and incapacitate offenders.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Prosecutors gain greater discretion and leverage in charging and plea bargaining due to the higher maximum penalty and felony status.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "hospital worker",
+        "note": "The text does not define the term, leaving it unclear whether it applies only to medical personnel or extends to administrative staff, janitors, contractors, or volunteers working in a hospital."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Enhanced workplace safety protections and deterrents for on-duty hospital workers.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [],
+          "empty_reason": "The measure does not reduce tracked legal protections or increase tracked burdens for the public or businesses."
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Elevates assaults on hospital workers to a felony and increases the maximum sentence from one year in jail to three years in prison.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "The current maximum sentence of one year in jail for assault, without a separate felony classification based on the victim's occupation.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Harsher criminal penalties and specific legal protections for on-duty hospital workers.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 39.5,
+  "errors": [],
+  "accepted": true
+}

@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-65C399B8",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S01, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "A labor union that makes independent political expenditures over $10,000 in a calendar year shall publicly disclose each person who contributed more than $1,000 toward those expenditures."
+    }
+  ],
+  "current_law": "Labor unions that make independent political expenditures report the total amount spent but not the sources of the funds."
+}

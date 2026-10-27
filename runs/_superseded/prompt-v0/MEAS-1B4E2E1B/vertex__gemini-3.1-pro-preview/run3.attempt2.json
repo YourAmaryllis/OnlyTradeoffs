@@ -1,0 +1,304 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-1B4E2E1B",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "bfb60c0cccf3ba908e9e228258cb641704aeb0ceb93c729d644e9f25622e9e2e",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "3a935a8cf6448aa5add57d24bd2d109a8fef656e4d937a02afaf96539dbde0ef"
+    }
+  },
+  "prompt_file": "MEAS-1B4E2E1B.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:19:03.495828+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 4080
+        }
+      ],
+      "cached_content_token_count": 4080,
+      "candidates_token_count": 1627,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1627
+        }
+      ],
+      "prompt_token_count": 7321,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7321
+        }
+      ],
+      "thoughts_token_count": 5242,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 14190,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "{\n  \"measure_id\": \"MEAS-1B4E2E1B\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Repeals the current limit on residential rent increases and allows landlords to raise rent by any amount with 60 days' written notice.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C17\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The limit on residential rent increases is repealed.\",\n      \"mechanism\": \"Removes the 5 percent cap on annual rent hikes, ending statutory renter protection from larger rent increases.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C15\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"A landlord may raise rent by any amount\",\n      \"mechanism\": \"Expands property owners' control over their rental units by allowing unrestricted rent pricing.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C07\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"The limit on residential rent increases is repealed.\",\n      \"mechanism\": \"Removes the direct cap on rent prices, which allowed rent to go up by no more than 5 percent previously.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C18\",\n      \"effect\": \"moves\",\n      \"direction\": \"Reduces government mandates by removing the regulation that caps residential rent increases.\",\n      \"quote\": \"The limit on residential rent increases is repealed.\",\n      \"mechanism\": \"Eliminates the state rule that dictates how much landlords can increase rent.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law limits residential rent increases to 5 percent in a 12-month period, with an exception for units built within the past 15 years. The measure repeals this limit entirely, allowing landlords to raise rent by any amount provided they give 60 days' written notice.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The measure eliminates compliance and administrative costs for landlords who previously had to track and adhere to the 5 percent annual limit. For the state, it likely removes the administrative and enforcement costs associated with regulating rent increases.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Landlords benefit financially and operationally from the ability to increase rents without state-imposed limits. Renters bear the cost of potential rent increases that exceed the previous 5 percent cap, which may lead to higher living expenses or displacement.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Without a rent cap, landlords will likely increase rents to match market rates or to cover rising maintenance and operational costs. This could lead to displacement for tenants unable to afford the increases. The potential for higher rental income may also incentivize landlords to better maintain existing properties and encourage developers to build new rental housing.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the constraint that rent control places on landlords' return on investment and property rights by repealing the price ceiling. In doing so, it removes the mechanism that was intended to protect existing tenants from sudden price spikes and unequal bargaining power.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Landlords gain complete discretion over how much to charge for residential rent.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"Economists and housing researchers disagree on the net effects of rent control. Many studies find that rent caps protect current tenants from price spikes and displacement in the short term, but reduce the long-term supply and quality of housing by lowering incentives to build or maintain rental properties. Other researchers argue that removing rent limits primarily leads to higher rents and tenant displacement, disputing whether deregulation alone sufficiently spurs new affordable housing construction.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Property owners gain the freedom to raise residential rent by any amount without a statutory cap.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Renters lose the protection of a 5 percent annual limit on rent increases, removing a direct ceiling on housing charges.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Reduces government regulation by eliminating the state mandate that caps rent increases.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Renters maintain the protection of a 5 percent annual cap on rent increases, keeping a ceiling on household housing charges.\",\n            \"finding_ids\": [\n              \"f1\",\n              \"f3\"\n            ]\n          },\n          {\n            \"text\": \"The state keeps its regulatory mandate limiting rent increases.\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Property owners forgo the ability to set rent at any amount without a statutory cap.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}",
+  "parsed": {
+    "measure_id": "MEAS-1B4E2E1B",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Repeals the current limit on residential rent increases and allows landlords to raise rent by any amount with 60 days' written notice."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C17",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The limit on residential rent increases is repealed.",
+        "mechanism": "Removes the 5 percent cap on annual rent hikes, ending statutory renter protection from larger rent increases.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C15",
+        "effect": "advances",
+        "direction": null,
+        "quote": "A landlord may raise rent by any amount",
+        "mechanism": "Expands property owners' control over their rental units by allowing unrestricted rent pricing.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C07",
+        "effect": "costs",
+        "direction": null,
+        "quote": "The limit on residential rent increases is repealed.",
+        "mechanism": "Removes the direct cap on rent prices, which allowed rent to go up by no more than 5 percent previously.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C18",
+        "effect": "moves",
+        "direction": "Reduces government mandates by removing the regulation that caps residential rent increases.",
+        "quote": "The limit on residential rent increases is repealed.",
+        "mechanism": "Eliminates the state rule that dictates how much landlords can increase rent.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law limits residential rent increases to 5 percent in a 12-month period, with an exception for units built within the past 15 years. The measure repeals this limit entirely, allowing landlords to raise rent by any amount provided they give 60 days' written notice.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "The measure eliminates compliance and administrative costs for landlords who previously had to track and adhere to the 5 percent annual limit. For the state, it likely removes the administrative and enforcement costs associated with regulating rent increases.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Landlords benefit financially and operationally from the ability to increase rents without state-imposed limits. Renters bear the cost of potential rent increases that exceed the previous 5 percent cap, which may lead to higher living expenses or displacement.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Without a rent cap, landlords will likely increase rents to match market rates or to cover rising maintenance and operational costs. This could lead to displacement for tenants unable to afford the increases. The potential for higher rental income may also incentivize landlords to better maintain existing properties and encourage developers to build new rental housing.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the constraint that rent control places on landlords' return on investment and property rights by repealing the price ceiling. In doing so, it removes the mechanism that was intended to protect existing tenants from sudden price spikes and unequal bargaining power.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Landlords gain complete discretion over how much to charge for residential rent.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "Economists and housing researchers disagree on the net effects of rent control. Many studies find that rent caps protect current tenants from price spikes and displacement in the short term, but reduce the long-term supply and quality of housing by lowering incentives to build or maintain rental properties. Other researchers argue that removing rent limits primarily leads to higher rents and tenant displacement, disputing whether deregulation alone sufficiently spurs new affordable housing construction.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Property owners gain the freedom to raise residential rent by any amount without a statutory cap.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Renters lose the protection of a 5 percent annual limit on rent increases, removing a direct ceiling on housing charges.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Reduces government regulation by eliminating the state mandate that caps rent increases.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Renters maintain the protection of a 5 percent annual cap on rent increases, keeping a ceiling on household housing charges.",
+              "finding_ids": [
+                "f1",
+                "f3"
+              ]
+            },
+            {
+              "text": "The state keeps its regulatory mandate limiting rent increases.",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Property owners forgo the ability to set rent at any amount without a statutory cap.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": false,
+  "seconds": 66.2,
+  "errors": [
+    "analysis: blocked term 'intended to'"
+  ],
+  "accepted": false
+}

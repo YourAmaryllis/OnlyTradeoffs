@@ -1,0 +1,231 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-534BE65A",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "88db96fcb6b6d6e92eb78aec888c582acb2631dc46a927b3c803d7efa05b0bbc",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "c8d610d898067c70f7317b74dbe4e8e00b9484688123730d45a4a5bfc2e8982d"
+    }
+  },
+  "prompt_file": "MEAS-534BE65A.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:24:00.009940+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1138,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1138
+        }
+      ],
+      "prompt_token_count": 7290,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7290
+        }
+      ],
+      "thoughts_token_count": 3769,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12197,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-534BE65A\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Elevates the offense of assaulting an on-duty law enforcement officer to a felony and increases the maximum penalty from up to one year in jail to up to three years in prison.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C47\",\n      \"effect\": \"moves\",\n      \"direction\": \"Increases the maximum sentence length for assaulting a law enforcement officer\",\n      \"quote\": \"Assault on an on-duty law enforcement officer is a felony punishable by up to three years in prison.\",\n      \"mechanism\": \"The text creates a specific felony charge for this offense and sets its maximum term of incarceration at three years, up from the current one-year maximum for assault.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Under current law, assault carries a maximum penalty of up to one year in jail. The proposed text specifically makes assault on an on-duty law enforcement officer a felony punishable by up to three years in prison.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"Direct costs include the expense of housing individuals in state prison for up to three years, shifting some incarceration costs from local jails to the state system. Opportunity costs include the lost economic contributions and community ties of those incarcerated for longer periods.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Taxpayers bear the financial burden of extended state incarceration. Individuals convicted of the offense face longer prison sentences and the lifelong consequences of a felony record. Law enforcement officers are the focus of the increased penalties.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Prosecutors may use the possibility of a three-year felony sentence as stronger leverage in plea negotiations. The shift from a misdemeanor-level penalty to a felony may change how defendants approach trials and plea agreements.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses a perceived need for stricter punishment for those who assault on-duty law enforcement officers. By increasing the maximum penalty to three years in prison, the mechanism allows the justice system to impose longer periods of incapacitation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Prosecutors gain enhanced discretion and bargaining power in plea negotiations by having the option to pursue a heavier felony charge. Judges gain the authority to impose longer sentences.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"There is ongoing criminological debate over the deterrent effect of sentence lengths. Some studies find that longer sentences reduce crime through incapacitation and deterrence, while others suggest that the certainty of apprehension deters crime more effectively than the severity of the punishment, and that longer prison terms can sometimes increase recidivism.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure's only effect is a directional change to criminal sentence lengths, which does not constitute an inherent gain on the evaluated axes.\"\n      },\n      \"give_up\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure's only effect is a directional change to criminal sentence lengths, which does not constitute an inherent loss on the evaluated axes.\"\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Increases the maximum sentence length for assaulting an on-duty law enforcement officer.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [],\n        \"empty_reason\": \"Maintaining current sentence lengths is a directional baseline rather than a specific benefit kept.\"\n      },\n      \"forgo\": {\n        \"items\": [],\n        \"empty_reason\": \"The foregone change to sentence lengths is directional and does not register as a specific benefit or protection lost.\"\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-534BE65A",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Elevates the offense of assaulting an on-duty law enforcement officer to a felony and increases the maximum penalty from up to one year in jail to up to three years in prison."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C47",
+        "effect": "moves",
+        "direction": "Increases the maximum sentence length for assaulting a law enforcement officer",
+        "quote": "Assault on an on-duty law enforcement officer is a felony punishable by up to three years in prison.",
+        "mechanism": "The text creates a specific felony charge for this offense and sets its maximum term of incarceration at three years, up from the current one-year maximum for assault.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Under current law, assault carries a maximum penalty of up to one year in jail. The proposed text specifically makes assault on an on-duty law enforcement officer a felony punishable by up to three years in prison.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "Direct costs include the expense of housing individuals in state prison for up to three years, shifting some incarceration costs from local jails to the state system. Opportunity costs include the lost economic contributions and community ties of those incarcerated for longer periods.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Taxpayers bear the financial burden of extended state incarceration. Individuals convicted of the offense face longer prison sentences and the lifelong consequences of a felony record. Law enforcement officers are the focus of the increased penalties.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Prosecutors may use the possibility of a three-year felony sentence as stronger leverage in plea negotiations. The shift from a misdemeanor-level penalty to a felony may change how defendants approach trials and plea agreements.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The text addresses a perceived need for stricter punishment for those who assault on-duty law enforcement officers. By increasing the maximum penalty to three years in prison, the mechanism allows the justice system to impose longer periods of incapacitation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Prosecutors gain enhanced discretion and bargaining power in plea negotiations by having the option to pursue a heavier felony charge. Judges gain the authority to impose longer sentences.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "There is ongoing criminological debate over the deterrent effect of sentence lengths. Some studies find that longer sentences reduce crime through incapacitation and deterrence, while others suggest that the certainty of apprehension deters crime more effectively than the severity of the punishment, and that longer prison terms can sometimes increase recidivism.",
+        "disputed": true
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [],
+          "empty_reason": "The measure's only effect is a directional change to criminal sentence lengths, which does not constitute an inherent gain on the evaluated axes."
+        },
+        "give_up": {
+          "items": [],
+          "empty_reason": "The measure's only effect is a directional change to criminal sentence lengths, which does not constitute an inherent loss on the evaluated axes."
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Increases the maximum sentence length for assaulting an on-duty law enforcement officer.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [],
+          "empty_reason": "Maintaining current sentence lengths is a directional baseline rather than a specific benefit kept."
+        },
+        "forgo": {
+          "items": [],
+          "empty_reason": "The foregone change to sentence lengths is directional and does not register as a specific benefit or protection lost."
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 48.4,
+  "errors": [],
+  "accepted": true
+}

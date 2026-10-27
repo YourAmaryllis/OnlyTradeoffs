@@ -1,0 +1,4 @@
+seed 1 attempt 1: REJECTED (73.8s) schema: : Additional properties are not allowed ('description' was unexpected)
+seed 1 attempt 2: REJECTED (53.2s) schema: : Additional properties are not allowed ('description' was unexpected)
+seed 1 attempt 3: ACCEPTED (40.6s) 
+1/1 runs accepted → /Users/arthur/YourAmaryllis/OnlyTradeoffs/runs/MEAS-BB31064A/vertex__gemini-3.1-pro-preview

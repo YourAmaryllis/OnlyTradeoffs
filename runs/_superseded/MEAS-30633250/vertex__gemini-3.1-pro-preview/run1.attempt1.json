@@ -1,0 +1,300 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-30633250",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "a523e63fdd36ef6b61917e83972c898a67b86df49c8108a04f38e53d47174adf",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "dc2f474077b89bf4f61dc4234a6284aff737efa6e47d2e9812ee5c496191a78f"
+    }
+  },
+  "prompt_file": "MEAS-30633250.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:56:24.825877+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1600,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1600
+        }
+      ],
+      "prompt_token_count": 7404,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7404
+        }
+      ],
+      "thoughts_token_count": 3675,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12679,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://onlytradeoffs.org/schema/eval-output-v0.json\",\n  \"title\": \"Only Tradeoffs evaluation output v0\",\n  \"measure_id\": \"MEAS-30633250\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Prohibits county jails from holding individuals past their normal release time solely because of a federal immigration detainer request.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C52\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.\",\n      \"mechanism\": \"Prohibits county jails from honoring federal immigration detainer requests that require holding a person beyond their normal release time.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C53\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.\",\n      \"mechanism\": \"Provides a state-level protection for immigrants against extended detention in county jails based solely on federal requests.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C21\",\n      \"effect\": \"moves\",\n      \"direction\": \"shifts authority over immigration detainer policies from counties to the state\",\n      \"quote\": \"No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.\",\n      \"mechanism\": \"Replaces county-by-county discretion with a statewide prohibition on extended holds for federal detainers.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f4\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C46\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.\",\n      \"mechanism\": \"Removes the power of county jails to extend a person's detention based solely on a request from federal immigration authorities.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law allows each county to decide whether to honor federal immigration detainer requests. The measure overrides this local discretion, prohibiting any county jail from holding an individual beyond their normal release time solely due to a federal detainer.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Immigrants subject to detainer requests benefit by avoiding extended detention in county jails. Federal immigration authorities bear an enforcement cost, as they lose the ability to have individuals held by local jails while arranging for custody transfers. Counties may save on local detention costs but lose flexibility.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Federal immigration authorities may have to deploy personnel to county jails prior to individuals' exact release times to take custody directly. Counties currently honoring these requests will have to change their jail release protocols.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the extended detention of immigrants in local facilities without local criminal justification, resolving it by forbidding holds based solely on federal detainers. From an opposing view, it creates an entry barrier for federal agents seeking to take custody of individuals from local jails.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The state gains power over detention policy at the expense of county governments and sheriffs, who lose the discretion to cooperate with federal detainer requests by extending local holds.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"State-level legal protections for immigrants against extended local detention\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Local participation and cooperation with federal immigration enforcement\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"County detention powers to hold individuals based on federal requests\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [\n          {\n            \"text\": \"Shifts authority over immigration detainer policies from counties to the state\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Local participation and cooperation with federal immigration enforcement\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          },\n          {\n            \"text\": \"County detention powers to hold individuals based on federal requests\",\n            \"finding_ids\": [\n              \"f4\"\n            ]\n          },\n          {\n            \"text\": \"County authority to decide whether to honor immigration detainers\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"State-level legal protections for immigrants against extended local detention\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://onlytradeoffs.org/schema/eval-output-v0.json",
+    "title": "Only Tradeoffs evaluation output v0",
+    "measure_id": "MEAS-30633250",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Prohibits county jails from holding individuals past their normal release time solely because of a federal immigration detainer request."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C52",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.",
+        "mechanism": "Prohibits county jails from honoring federal immigration detainer requests that require holding a person beyond their normal release time.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C53",
+        "effect": "advances",
+        "direction": null,
+        "quote": "No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.",
+        "mechanism": "Provides a state-level protection for immigrants against extended detention in county jails based solely on federal requests.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C21",
+        "effect": "moves",
+        "direction": "shifts authority over immigration detainer policies from counties to the state",
+        "quote": "No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.",
+        "mechanism": "Replaces county-by-county discretion with a statewide prohibition on extended holds for federal detainers.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f4",
+        "clause_id": "§1",
+        "concern_id": "C46",
+        "effect": "costs",
+        "direction": null,
+        "quote": "No county jail may hold a person beyond the time the person would otherwise be released solely on the basis of a detainer request from federal immigration authorities.",
+        "mechanism": "Removes the power of county jails to extend a person's detention based solely on a request from federal immigration authorities.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law allows each county to decide whether to honor federal immigration detainer requests. The measure overrides this local discretion, prohibiting any county jail from holding an individual beyond their normal release time solely due to a federal detainer.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Immigrants subject to detainer requests benefit by avoiding extended detention in county jails. Federal immigration authorities bear an enforcement cost, as they lose the ability to have individuals held by local jails while arranging for custody transfers. Counties may save on local detention costs but lose flexibility.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Federal immigration authorities may have to deploy personnel to county jails prior to individuals' exact release times to take custody directly. Counties currently honoring these requests will have to change their jail release protocols.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the extended detention of immigrants in local facilities without local criminal justification, resolving it by forbidding holds based solely on federal detainers. From an opposing view, it creates an entry barrier for federal agents seeking to take custody of individuals from local jails.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "The state gains power over detention policy at the expense of county governments and sheriffs, who lose the discretion to cooperate with federal detainer requests by extending local holds.",
+        "disputed": false
+      }
+    ],
+    "flags": [],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "State-level legal protections for immigrants against extended local detention",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Local participation and cooperation with federal immigration enforcement",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "County detention powers to hold individuals based on federal requests",
+              "finding_ids": [
+                "f4"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [
+            {
+              "text": "Shifts authority over immigration detainer policies from counties to the state",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Local participation and cooperation with federal immigration enforcement",
+              "finding_ids": [
+                "f1"
+              ]
+            },
+            {
+              "text": "County detention powers to hold individuals based on federal requests",
+              "finding_ids": [
+                "f4"
+              ]
+            },
+            {
+              "text": "County authority to decide whether to honor immigration detainers",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "State-level legal protections for immigrants against extended local detention",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 51.9,
+  "errors": [
+    "schema: : Additional properties are not allowed ('$id', '$schema', 'title' were unexpected)"
+  ],
+  "accepted": false
+}

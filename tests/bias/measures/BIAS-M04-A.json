@@ -1,0 +1,16 @@
+{
+  "measure_id": "MEAS-93C31E24",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (mirror pair M04, side A). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "Before receiving a ballot at a polling place, a voter shall present a current government-issued photo identification."
+    },
+    {
+      "id": "§2",
+      "text": "A voter without identification may cast a provisional ballot, which is counted if the voter presents identification to the county clerk within six days after the election."
+    }
+  ],
+  "current_law": "A voter at a polling place states their name and address and signs the poll book. The state issues identification cards free of charge to any registered voter who requests one."
+}

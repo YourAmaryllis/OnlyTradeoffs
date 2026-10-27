@@ -1,0 +1,679 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-34B18148",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C69",
+      "C36",
+      "C66",
+      "C26",
+      "C05",
+      "C17",
+      "C03",
+      "C70",
+      "C11",
+      "C68",
+      "C64",
+      "C13",
+      "C24",
+      "C20",
+      "C63",
+      "C19",
+      "C23",
+      "C06",
+      "C04",
+      "C31",
+      "C71",
+      "C40",
+      "C10",
+      "C41",
+      "C52",
+      "C37",
+      "C22",
+      "C30",
+      "C12",
+      "C08",
+      "C55",
+      "C58",
+      "C49",
+      "C47",
+      "C34",
+      "C42",
+      "C53",
+      "C14",
+      "C56",
+      "C50",
+      "C35",
+      "C43",
+      "C44",
+      "C72",
+      "C21",
+      "C59",
+      "C38",
+      "C15",
+      "C46",
+      "C65",
+      "C29",
+      "C45",
+      "C01",
+      "C67",
+      "C61",
+      "C39",
+      "C28",
+      "C25",
+      "C51",
+      "C62",
+      "C02",
+      "C32",
+      "C07",
+      "C27",
+      "C48",
+      "C57",
+      "C54",
+      "C60",
+      "C16",
+      "C33",
+      "C09",
+      "C18"
+    ],
+    "sha256": {
+      "measure": "7cd321a974137208f24a319a7afa9d3fc901ee67cf4a58085e3aa3499be15ed5",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "62e9385caa0811b5f2746fb6739073e0f30285c49bb159cb84a44bf6686ed003"
+    }
+  },
+  "prompt_file": "MEAS-34B18148.run1.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T22:58:24.721624+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 3786,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 3786
+        }
+      ],
+      "prompt_token_count": 7419,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7419
+        }
+      ],
+      "thoughts_token_count": 1386,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 12591,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"$id\": \"https://onlytradeoffs.org/schema/eval-output-v0.json\",\n  \"title\": \"Only Tradeoffs evaluation output v0\",\n  \"description\": \"One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.\",\n  \"type\": \"object\",\n  \"additionalProperties\": false,\n  \"required\": [\n    \"measure_id\",\n    \"restatements\",\n    \"findings\",\n    \"analysis\",\n    \"flags\",\n    \"vote_summary\"\n  ],\n  \"properties\": {\n    \"measure_id\": {\n      \"type\": \"string\",\n      \"minLength\": 1\n    },\n    \"restatements\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"additionalProperties\": false,\n        \"required\": [\n          \"clause_id\",\n          \"text\"\n        ],\n        \"properties\": {\n          \"clause_id\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"text\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          }\n        }\n      }\n    },\n    \"findings\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"additionalProperties\": false,\n        \"required\": [\n          \"id\",\n          \"clause_id\",\n          \"concern_id\",\n          \"effect\",\n          \"direction\",\n          \"quote\",\n          \"mechanism\",\n          \"certainty\"\n        ],\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\",\n            \"pattern\": \"^f\\\\d+$\"\n          },\n          \"clause_id\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"concern_id\": {\n            \"type\": \"string\",\n            \"pattern\": \"^C\\\\d+$\"\n          },\n          \"effect\": {\n            \"enum\": [\n              \"advances\",\n              \"costs\",\n              \"mixed\",\n              \"moves\"\n            ]\n          },\n          \"direction\": {\n            \"type\": [\n              \"string\",\n              \"null\"\n            ]\n          },\n          \"quote\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"mechanism\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"certainty\": {\n            \"enum\": [\n              \"stated\",\n              \"likely\",\n              \"depends-on-implementation\"\n            ]\n          }\n        }\n      }\n    },\n    \"analysis\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"additionalProperties\": false,\n        \"required\": [\n          \"clause_id\",\n          \"question_id\",\n          \"answer\",\n          \"disputed\"\n        ],\n        \"properties\": {\n          \"clause_id\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"question_id\": {\n            \"type\": \"string\",\n            \"pattern\": \"^Q\\\\d+$\"\n          },\n          \"answer\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"disputed\": {\n            \"type\": \"boolean\"\n          }\n        }\n      }\n    },\n    \"flags\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"additionalProperties\": false,\n        \"required\": [\n          \"clause_id\",\n          \"flag_id\",\n          \"quote\",\n          \"note\"\n        ],\n        \"properties\": {\n          \"clause_id\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"flag_id\": {\n            \"type\": \"string\",\n            \"pattern\": \"^F\\\\d+$\"\n          },\n          \"quote\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          },\n          \"note\": {\n            \"type\": \"string\",\n            \"minLength\": 1\n          }\n        }\n      }\n    },\n    \"vote_summary\": {\n      \"type\": \"object\",\n      \"additionalProperties\": false,\n      \"required\": [\n        \"if_yes\",\n        \"if_no\"\n      ],\n      \"properties\": {\n        \"if_yes\": {\n          \"type\": \"object\",\n          \"additionalProperties\": false,\n          \"required\": [\n            \"gain\",\n            \"give_up\",\n            \"changes\"\n          ],\n          \"properties\": {\n            \"gain\": {\n              \"type\": \"object\",\n              \"additionalProperties\": false,\n              \"required\": [\n                \"items\",\n                \"empty_reason\"\n              ],\n              \"properties\": {\n                \"items\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"additionalProperties\": false,\n                    \"required\": [\n                      \"text\",\n                      \"finding_ids\"\n                    ],\n                    \"properties\": {\n                      \"text\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1\n                      },\n                      \"finding_ids\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                          \"type\": \"string\",\n                          \"pattern\": \"^f\\\\d+$\"\n                        }\n                      }\n                    }\n                  }\n                },\n                \"empty_reason\": {\n                  \"type\": [\n                    \"string\",\n                    \"null\"\n                  ]\n                }\n              }\n            },\n            \"give_up\": {\n              \"type\": \"object\",\n              \"additionalProperties\": false,\n              \"required\": [\n                \"items\",\n                \"empty_reason\"\n              ],\n              \"properties\": {\n                \"items\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"additionalProperties\": false,\n                    \"required\": [\n                      \"text\",\n                      \"finding_ids\"\n                    ],\n                    \"properties\": {\n                      \"text\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1\n                      },\n                      \"finding_ids\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                          \"type\": \"string\",\n                          \"pattern\": \"^f\\\\d+$\"\n                        }\n                      }\n                    }\n                  }\n                },\n                \"empty_reason\": {\n                  \"type\": [\n                    \"string\",\n                    \"null\"\n                  ]\n                }\n              }\n            },\n            \"changes\": {\n              \"type\": \"object\",\n              \"additionalProperties\": false,\n              \"required\": [\n                \"items\",\n                \"empty_reason\"\n              ],\n              \"properties\": {\n                \"items\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"additionalProperties\": false,\n                    \"required\": [\n                      \"text\",\n                      \"finding_ids\"\n                    ],\n                    \"properties\": {\n                      \"text\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1\n                      },\n                      \"finding_ids\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                          \"type\": \"string\",\n                          \"pattern\": \"^f\\\\d+$\"\n                        }\n                      }\n                    }\n                  }\n                },\n                \"empty_reason\": {\n                  \"type\": [\n                    \"string\",\n                    \"null\"\n                  ]\n                }\n              }\n            }\n          }\n        },\n        \"if_no\": {\n          \"type\": \"object\",\n          \"additionalProperties\": false,\n          \"required\": [\n            \"keep\",\n            \"forgo\"\n          ],\n          \"properties\": {\n            \"keep\": {\n              \"type\": \"object\",\n              \"additionalProperties\": false,\n              \"required\": [\n                \"items\",\n                \"empty_reason\"\n              ],\n              \"properties\": {\n                \"items\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"additionalProperties\": false,\n                    \"required\": [\n                      \"text\",\n                      \"finding_ids\"\n                    ],\n                    \"properties\": {\n                      \"text\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1\n                      },\n                      \"finding_ids\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                          \"type\": \"string\",\n                          \"pattern\": \"^f\\\\d+$\"\n                        }\n                      }\n                    }\n                  }\n                },\n                \"empty_reason\": {\n                  \"type\": [\n                    \"string\",\n                    \"null\"\n                  ]\n                }\n              }\n            },\n            \"forgo\": {\n              \"type\": \"object\",\n              \"additionalProperties\": false,\n              \"required\": [\n                \"items\",\n                \"empty_reason\"\n              ],\n              \"properties\": {\n                \"items\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"additionalProperties\": false,\n                    \"required\": [\n                      \"text\",\n                      \"finding_ids\"\n                    ],\n                    \"properties\": {\n                      \"text\": {\n                        \"type\": \"string\",\n                        \"minLength\": 1\n                      },\n                      \"finding_ids\": {\n                        \"type\": \"array\",\n                        \"minItems\": 1,\n                        \"items\": {\n                          \"type\": \"string\",\n                          \"pattern\": \"^f\\\\d+$\"\n                        }\n                      }\n                    }\n                  }\n                },\n                \"empty_reason\": {\n                  \"type\": [\n                    \"string\",\n                    \"null\"\n                  ]\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  },\n  \"measure_id\": \"MEAS-34B18148\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Requires corporations spending over $10,000 a year on independent political expenditures to publicly identify individuals who contributed more than $1,000 toward those efforts.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C60\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"publicly disclose each person who contributed more than $1,000 toward those expenditures.\",\n      \"mechanism\": \"Mandates public reporting of the identities of individuals contributing over $1,000 to corporate independent political expenditures.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C61\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"publicly disclose each person who contributed more than $1,000 toward those expenditures.\",\n      \"mechanism\": \"Removes the ability of large contributors to fund corporate independent political expenditures anonymously.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f3\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"A corporation that makes independent political expenditures over $10,000 in a calendar year shall publicly disclose\",\n      \"mechanism\": \"Adds a compliance and tracking requirement for corporations making political expenditures.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Currently, corporations report the total amount spent on independent political expenditures, but are not required to disclose the sources of those funds. This measure requires corporations spending over $10,000 to publicly disclose any individual who contributed more than $1,000 toward those expenditures.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"It creates compliance costs for corporations to track and report individual contributors. It also introduces administrative costs for the state to receive, process, and publish these disclosures.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Corporations bear the reporting and compliance burden. The public, journalists, and opposing political campaigns benefit from the disclosure of donor information. Contributors bear the cost of lost privacy.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Donors seeking privacy may reduce their contributions or redirect their funds to other entities not subject to the disclosure rule. Corporations might split their political spending across multiple organizations to stay under the $10,000 threshold and avoid triggering the requirement.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"It addresses an information gap where voters do not know who is funding corporate political spending (often referred to as 'dark money'). By mandating disclosure, the mechanism directly targets this gap, though it may also create a chilling effect on donations from individuals fearing retaliation.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"contributed more than $1,000 toward those expenditures.\",\n      \"note\": \"It is somewhat vague how it is determined whether a contribution to a corporation was directed 'toward those expenditures' rather than for general corporate purposes.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded public disclosure of who is funding corporate political spending.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Ability of donors to privately fund corporate political expenditures without public identification.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower compliance and reporting requirements for corporations making political expenditures.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Ability of donors to privately fund corporate political expenditures without public identification.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          },\n          {\n            \"text\": \"Lower compliance and reporting requirements for corporations making political expenditures.\",\n            \"finding_ids\": [\n              \"f3\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Expanded public disclosure of who is funding corporate political spending.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://onlytradeoffs.org/schema/eval-output-v0.json",
+    "title": "Only Tradeoffs evaluation output v0",
+    "description": "One model run on one measure. Every property is required; optional values are null. This keeps the schema usable with every vendor's strict structured-output mode.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "measure_id",
+      "restatements",
+      "findings",
+      "analysis",
+      "flags",
+      "vote_summary"
+    ],
+    "properties": {
+      "measure_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "restatements": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "clause_id",
+            "text"
+          ],
+          "properties": {
+            "clause_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "findings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "clause_id",
+            "concern_id",
+            "effect",
+            "direction",
+            "quote",
+            "mechanism",
+            "certainty"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "pattern": "^f\\d+$"
+            },
+            "clause_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "concern_id": {
+              "type": "string",
+              "pattern": "^C\\d+$"
+            },
+            "effect": {
+              "enum": [
+                "advances",
+                "costs",
+                "mixed",
+                "moves"
+              ]
+            },
+            "direction": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mechanism": {
+              "type": "string",
+              "minLength": 1
+            },
+            "certainty": {
+              "enum": [
+                "stated",
+                "likely",
+                "depends-on-implementation"
+              ]
+            }
+          }
+        }
+      },
+      "analysis": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "clause_id",
+            "question_id",
+            "answer",
+            "disputed"
+          ],
+          "properties": {
+            "clause_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "question_id": {
+              "type": "string",
+              "pattern": "^Q\\d+$"
+            },
+            "answer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "disputed": {
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "flags": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "clause_id",
+            "flag_id",
+            "quote",
+            "note"
+          ],
+          "properties": {
+            "clause_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag_id": {
+              "type": "string",
+              "pattern": "^F\\d+$"
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "vote_summary": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "if_yes",
+          "if_no"
+        ],
+        "properties": {
+          "if_yes": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "gain",
+              "give_up",
+              "changes"
+            ],
+            "properties": {
+              "gain": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "items",
+                  "empty_reason"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "text",
+                        "finding_ids"
+                      ],
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "finding_ids": {
+                          "type": "array",
+                          "minItems": 1,
+                          "items": {
+                            "type": "string",
+                            "pattern": "^f\\d+$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "empty_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "give_up": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "items",
+                  "empty_reason"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "text",
+                        "finding_ids"
+                      ],
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "finding_ids": {
+                          "type": "array",
+                          "minItems": 1,
+                          "items": {
+                            "type": "string",
+                            "pattern": "^f\\d+$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "empty_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "changes": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "items",
+                  "empty_reason"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "text",
+                        "finding_ids"
+                      ],
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "finding_ids": {
+                          "type": "array",
+                          "minItems": 1,
+                          "items": {
+                            "type": "string",
+                            "pattern": "^f\\d+$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "empty_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "if_no": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "keep",
+              "forgo"
+            ],
+            "properties": {
+              "keep": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "items",
+                  "empty_reason"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "text",
+                        "finding_ids"
+                      ],
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "finding_ids": {
+                          "type": "array",
+                          "minItems": 1,
+                          "items": {
+                            "type": "string",
+                            "pattern": "^f\\d+$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "empty_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "forgo": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "items",
+                  "empty_reason"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "text",
+                        "finding_ids"
+                      ],
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "finding_ids": {
+                          "type": "array",
+                          "minItems": 1,
+                          "items": {
+                            "type": "string",
+                            "pattern": "^f\\d+$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "empty_reason": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "measure_id": "MEAS-34B18148",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Requires corporations spending over $10,000 a year on independent political expenditures to publicly identify individuals who contributed more than $1,000 toward those efforts."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C60",
+        "effect": "advances",
+        "direction": null,
+        "quote": "publicly disclose each person who contributed more than $1,000 toward those expenditures.",
+        "mechanism": "Mandates public reporting of the identities of individuals contributing over $1,000 to corporate independent political expenditures.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C61",
+        "effect": "costs",
+        "direction": null,
+        "quote": "publicly disclose each person who contributed more than $1,000 toward those expenditures.",
+        "mechanism": "Removes the ability of large contributors to fund corporate independent political expenditures anonymously.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f3",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "costs",
+        "direction": null,
+        "quote": "A corporation that makes independent political expenditures over $10,000 in a calendar year shall publicly disclose",
+        "mechanism": "Adds a compliance and tracking requirement for corporations making political expenditures.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Currently, corporations report the total amount spent on independent political expenditures, but are not required to disclose the sources of those funds. This measure requires corporations spending over $10,000 to publicly disclose any individual who contributed more than $1,000 toward those expenditures.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q2",
+        "answer": "It creates compliance costs for corporations to track and report individual contributors. It also introduces administrative costs for the state to receive, process, and publish these disclosures.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Corporations bear the reporting and compliance burden. The public, journalists, and opposing political campaigns benefit from the disclosure of donor information. Contributors bear the cost of lost privacy.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Donors seeking privacy may reduce their contributions or redirect their funds to other entities not subject to the disclosure rule. Corporations might split their political spending across multiple organizations to stay under the $10,000 threshold and avoid triggering the requirement.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "It addresses an information gap where voters do not know who is funding corporate political spending (often referred to as 'dark money'). By mandating disclosure, the mechanism directly targets this gap, though it may also create a chilling effect on donations from individuals fearing retaliation.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F1",
+        "quote": "contributed more than $1,000 toward those expenditures.",
+        "note": "It is somewhat vague how it is determined whether a contribution to a corporation was directed 'toward those expenditures' rather than for general corporate purposes."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Expanded public disclosure of who is funding corporate political spending.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Ability of donors to privately fund corporate political expenditures without public identification.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower compliance and reporting requirements for corporations making political expenditures.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Ability of donors to privately fund corporate political expenditures without public identification.",
+              "finding_ids": [
+                "f2"
+              ]
+            },
+            {
+              "text": "Lower compliance and reporting requirements for corporations making political expenditures.",
+              "finding_ids": [
+                "f3"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Expanded public disclosure of who is funding corporate political spending.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 49.1,
+  "errors": [
+    "schema: : Additional properties are not allowed ('$id', '$schema', 'additionalProperties', 'description', 'properties', 'required', 'title', 'type' were unexpected)"
+  ],
+  "accepted": false
+}

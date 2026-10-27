@@ -1,0 +1,10 @@
+# Who funds, supports, and opposes each measure. Never sent to a model.
+# Every row cites a source; every person or organization is listed in data/entities.yaml.
+as_of: null
+sources: {}
+#  sos: {title: (filing database name), url: (URL), fetched_at: YYYY-MM-DD}
+measures: {}
+#  Proposition 1:
+#    committees:    [{entity: <id>, side: support|oppose, raised_usd: 0, source: sos}]
+#    contributions: [{from: <id>, to: <committee id>, amount_usd: 0, source: sos}]
+#    endorsements:  [{entity: <id>, side: support|oppose, source: <id>}]

@@ -1,0 +1,784 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P40",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "b043a83384dab547226966bf990fb15a894aa21f170d291380ac7dd9accba233",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "09d29f5ffcba4688ac4dfe9052f041802ba5d4f45d983d4c08a684b051aafe69",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "c7f99c21621479513bfae31f6b60dccdbf11de1ed8b56b76a3ddef05223660d9",
+      "part_template": "c32b1bbb3acce9fd85427fb1e23c5da2193d899470069e227a0dae9ab2ac5cfc"
+    },
+    "part": {
+      "index": 2,
+      "of": 3,
+      "clauses": [
+        "Prop 40 Sec. 6 §50303",
+        "Prop 40 Sec. 6 §50304",
+        "Prop 40 Sec. 6 §50305",
+        "Prop 40 Sec. 6 §50306",
+        "Prop 40 Sec. 6 §50307"
+      ]
+    }
+  },
+  "prompt_file": "CA-2026-P40.run1.part2.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T09:18:21.478673+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6161,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6161
+        }
+      ],
+      "prompt_token_count": 23200,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 23200
+        }
+      ],
+      "thoughts_token_count": 4507,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 33868,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P40\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"text\": \"Establishes rules for determining the fair market value of assets for the net worth tax, defining market value as the price between a willing buyer and seller, and prohibiting the use of features designed to reduce appraised value. Sets specific valuation formulas for private businesses using book value and book profits, requires certified appraisals for assets over $1 million, includes certain trusts and transferred property, and exempts directly held real property, certain retirement accounts, and tangible property located out of state for most of the year.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"text\": \"Creates Optional Deferral Accounts (ODAs) for qualifying taxpayers whose tax liability exceeds their publicly traded assets, allowing them to defer the tax by attaching specific assets to the account. Requires these taxpayers to file annual reports and imposes the tax upon material distribution transactions, such as withdrawals or transfers.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n      \"text\": \"Requires appraisers to send certified appraisals to the Franchise Tax Board and authorizes the Board to adopt rules for appraisers and penalize them for substantial or gross misstatements of value, up to 4 percent of the resulting tax understatement.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50306\",\n      \"text\": \"Apportions 100 percent of the tax to California for applicable individuals resident in the state on the tax obligation date, but allows an alternative apportionment method if a taxpayer proves the wealth was not accumulated or substantially sustained in California, setting a minimum apportionment of 25 percent unless constitutionally prohibited.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50307\",\n      \"text\": \"Allows a prorated credit against the California tax for net wealth taxes paid to other jurisdictions, based on the number of days the taxpayer resided in the other jurisdiction during the tax year.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"for all other interests in any business entities... the fair market value of those interests at the end of any tax year shall be presumed to be the sum of the book value of the business entity... plus a present-value multiplier of 7.5 times the annual book profits of the business entity—as averaged over the current tax year and the preceding two tax years\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It increases tax complexity by requiring taxpayers to calculate the value of private business interests using a multi-step formula involving book value, averaged book profits, and a specific multiplier.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It taxes different types of assets unevenly by entirely exempting directly held real estate from the net worth calculation while taxing other business and personal assets.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"No valuation or other discount shall be taken into account if such discount would have the effect of reducing the value of a partial interest in an asset below the taxpayer’s pro rata portion of the value of the entire asset.\",\n          \"effect\": \"supports\",\n          \"why\": \"It prevents wealthy taxpayers from using partial-interest discounts to artificially lower the taxable value of their assets, supporting the collection of taxes on very high incomes and wealth.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"No valuation or other discount shall be taken into account if such discount would have the effect of reducing the value of a partial interest in an asset below the taxpayer’s pro rata portion of the value of the entire asset.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It prevents wealthy taxpayers from using partial-interest discounts to artificially lower the taxable value of their assets, ensuring high-wealth individuals pay taxes on the full pro-rata value rather than moving toward flat treatment across all income types.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"for each asset or group of substantially interchangeable assets (such as derivative contracts relating to the same underlying security) worth in excess of $1 million ($1,000,000), the taxpayer shall submit a certified appraisal.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It requires individuals to share detailed personal financial data and formal appraisals of specific assets, such as art or private debts, with the government.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"The Board shall adopt regulations, or publish guidance, further detailing the requirements for certified appraisals and for appraisers qualified to make certified appraisals for purposes of this Chapter.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It expands the regulatory powers of the Franchise Tax Board to oversee and set standards for appraisers.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"The Board shall adopt regulations, or publish guidance, further detailing the requirements for certified appraisals and for appraisers qualified to make certified appraisals for purposes of this Chapter.\",\n          \"effect\": \"supports\",\n          \"why\": \"It grants a state agency new regulatory authority to define standards for certified appraisals and qualified appraisers.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"The taxpayer shall report the following at the time when forms are filed pursuant to this Chapter: (i) The percentage of the business entity owned by the taxpayer, (ii) The book value of the business entity as of the end of the tax year... and (iii) The book profits of the business entity in the tax year\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It increases the compliance burden by requiring owners to calculate and report specific internal financial metrics of private business entities.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"The Board shall adopt regulations regarding the taxability of receivables and similar assets under this Part. Subject to the requirements of this subdivision, the Board may exempt certain receivables and similar assets from all taxation under this Part\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It gives an appointed board the discretion to decide which assets are exempt from taxation, shifting this decision away from voters or elected legislators.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n          \"quote\": \"The taxpayer shall multiply the taxpayer’s accumulated unliquidated tax withholding percentage by the fair market value... of all material distribution transactions for the tax year. There shall be a tax imposed on the taxpayer in the amount of the resulting product.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It imposes a specific tax on individuals making withdrawals or transferring assets attached to a deferral account, raising household taxes for those individuals.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It grants a specific exemption for directly held real estate, creating favoritism for the real property asset class over other types of investments.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n          \"quote\": \"The Board shall adopt regulations regarding the taxability of receivables and similar assets under this Part. Subject to the requirements of this subdivision, the Board may exempt certain receivables and similar assets from all taxation under this Part\",\n          \"effect\": \"supports\",\n          \"why\": \"It authorizes an appointed board to establish regulations and decide which assets qualify for tax exemption.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed... 4 percent of the understatement of tax\",\n          \"effect\": \"conflicts\",\n          \"why\": \"It increases the exposure of private appraisers to financial penalties for overstating or understating asset valuations.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n          \"quote\": \"the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed... 4 percent of the understatement of tax\",\n          \"effect\": \"supports\",\n          \"why\": \"It grants the Franchise Tax Board new enforcement powers to directly penalize third-party appraisers who misstate asset values.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. The measure introduces complex anti-evasion rules for a new wealth tax, creating a formula to value private businesses using book value and book profits, disregarding features added to reduce appraised value, and exempting directly held real estate.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"There will be high compliance and tracking costs for taxpayers navigating Optional Deferral Accounts, requiring them to report ongoing asset activity. The state will bear ongoing administrative costs to track these accounts, potentially across decades or even after the taxpayer leaves the state.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"High net-worth taxpayers bear the direct cost and the paperwork burden. Professional appraisers bear new risks of penalties. Owners heavily invested in directly held real estate benefit, as their properties are exempt from the net worth calculation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Taxpayers are strongly incentivized to restructure their portfolios toward exempt asset classes, particularly by converting liquid assets into directly held real estate. They may also attempt to temporarily relocate high-value tangible personal property outside California to trigger the 270-day exclusion rule, or structure executive compensation as contingent deferred compensation to avoid inclusion.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses the difficulty of valuing private, illiquid wealth that billionaires use to shield their fortunes. The mechanism defines explicit formulas (e.g., a 7.5 profit multiplier), disregards tax-avoidance discounts, and targets assets parked in trusts. However, by outright exempting directly held real property, it creates an enormous tax shelter that may undermine the intended revenue capture.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50305\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The Franchise Tax Board gains significant discretionary power to regulate appraisers, define exemption criteria for certain receivables, and assess penalties. The real estate industry benefits from increased investment due to the exemption for directly held property.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50306\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses capital flight, where wealthy residents leave the state to avoid the tax. The mechanism mandates 100 percent apportionment to California for residents on a specific snapshot date and places the legal burden on the taxpayer to prove otherwise, limiting proration based on the fraction of the year lived in the state.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Administration and enforcement will be complex and expensive. Auditing the book values and profits of complex private equity structures, evaluating certified appraisals of unique assets like art, and continuously tracking Optional Deferral Accounts for liquidity-constrained taxpayers over multiple years requires highly specialized personnel and lengthy audit processes.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50304\",\n      \"flag_id\": \"F1\",\n      \"quote\": \"ordinary and necessary transactions for maintaining or increasing the value of assets\",\n      \"note\": \"Vague standard for what constitutes a non-material distribution that isn't taxed.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50306\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"The rules in this Chapter supersede other rules, including the rules concerning the division of income for purposes of part-year residence.\",\n      \"note\": \"Overrides existing state income tax rules regarding part-year residency.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50303\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"All receivables shall be included in net worth under this Part until the Board has adopted regulations.\",\n      \"note\": \"The real effect on taxing receivables depends on future Board regulations.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P40",
+    "restatements": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "text": "Establishes rules for determining the fair market value of assets for the net worth tax, defining market value as the price between a willing buyer and seller, and prohibiting the use of features designed to reduce appraised value. Sets specific valuation formulas for private businesses using book value and book profits, requires certified appraisals for assets over $1 million, includes certain trusts and transferred property, and exempts directly held real property, certain retirement accounts, and tangible property located out of state for most of the year."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "text": "Creates Optional Deferral Accounts (ODAs) for qualifying taxpayers whose tax liability exceeds their publicly traded assets, allowing them to defer the tax by attaching specific assets to the account. Requires these taxpayers to file annual reports and imposes the tax upon material distribution transactions, such as withdrawals or transfers."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50305",
+        "text": "Requires appraisers to send certified appraisals to the Franchise Tax Board and authorizes the Board to adopt rules for appraisers and penalize them for substantial or gross misstatements of value, up to 4 percent of the resulting tax understatement."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "text": "Apportions 100 percent of the tax to California for applicable individuals resident in the state on the tax obligation date, but allows an alternative apportionment method if a taxpayer proves the wealth was not accumulated or substantially sustained in California, setting a minimum apportionment of 25 percent unless constitutionally prohibited."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50307",
+        "text": "Allows a prorated credit against the California tax for net wealth taxes paid to other jurisdictions, based on the number of days the taxpayer resided in the other jurisdiction during the tax year."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "for all other interests in any business entities... the fair market value of those interests at the end of any tax year shall be presumed to be the sum of the book value of the business entity... plus a present-value multiplier of 7.5 times the annual book profits of the business entity—as averaged over the current tax year and the preceding two tax years",
+            "effect": "conflicts",
+            "why": "It increases tax complexity by requiring taxpayers to calculate the value of private business interests using a multi-step formula involving book value, averaged book profits, and a specific multiplier.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.",
+            "effect": "conflicts",
+            "why": "It taxes different types of assets unevenly by entirely exempting directly held real estate from the net worth calculation while taxing other business and personal assets.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "No valuation or other discount shall be taken into account if such discount would have the effect of reducing the value of a partial interest in an asset below the taxpayer’s pro rata portion of the value of the entire asset.",
+            "effect": "supports",
+            "why": "It prevents wealthy taxpayers from using partial-interest discounts to artificially lower the taxable value of their assets, supporting the collection of taxes on very high incomes and wealth.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C73",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "No valuation or other discount shall be taken into account if such discount would have the effect of reducing the value of a partial interest in an asset below the taxpayer’s pro rata portion of the value of the entire asset.",
+            "effect": "conflicts",
+            "why": "It prevents wealthy taxpayers from using partial-interest discounts to artificially lower the taxable value of their assets, ensuring high-wealth individuals pay taxes on the full pro-rata value rather than moving toward flat treatment across all income types.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "for each asset or group of substantially interchangeable assets (such as derivative contracts relating to the same underlying security) worth in excess of $1 million ($1,000,000), the taxpayer shall submit a certified appraisal.",
+            "effect": "conflicts",
+            "why": "It requires individuals to share detailed personal financial data and formal appraisals of specific assets, such as art or private debts, with the government.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "The Board shall adopt regulations, or publish guidance, further detailing the requirements for certified appraisals and for appraisers qualified to make certified appraisals for purposes of this Chapter.",
+            "effect": "conflicts",
+            "why": "It expands the regulatory powers of the Franchise Tax Board to oversee and set standards for appraisers.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "The Board shall adopt regulations, or publish guidance, further detailing the requirements for certified appraisals and for appraisers qualified to make certified appraisals for purposes of this Chapter.",
+            "effect": "supports",
+            "why": "It grants a state agency new regulatory authority to define standards for certified appraisals and qualified appraisers.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "The taxpayer shall report the following at the time when forms are filed pursuant to this Chapter: (i) The percentage of the business entity owned by the taxpayer, (ii) The book value of the business entity as of the end of the tax year... and (iii) The book profits of the business entity in the tax year",
+            "effect": "conflicts",
+            "why": "It increases the compliance burden by requiring owners to calculate and report specific internal financial metrics of private business entities.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "The Board shall adopt regulations regarding the taxability of receivables and similar assets under this Part. Subject to the requirements of this subdivision, the Board may exempt certain receivables and similar assets from all taxation under this Part",
+            "effect": "conflicts",
+            "why": "It gives an appointed board the discretion to decide which assets are exempt from taxation, shifting this decision away from voters or elected legislators.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50304",
+            "quote": "The taxpayer shall multiply the taxpayer’s accumulated unliquidated tax withholding percentage by the fair market value... of all material distribution transactions for the tax year. There shall be a tax imposed on the taxpayer in the amount of the resulting product.",
+            "effect": "conflicts",
+            "why": "It imposes a specific tax on individuals making withdrawals or transferring assets attached to a deferral account, raising household taxes for those individuals.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "All interests in any real property held directly by a taxpayer or held via a revocable trust shall not be included in net worth.",
+            "effect": "conflicts",
+            "why": "It grants a specific exemption for directly held real estate, creating favoritism for the real property asset class over other types of investments.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50303",
+            "quote": "The Board shall adopt regulations regarding the taxability of receivables and similar assets under this Part. Subject to the requirements of this subdivision, the Board may exempt certain receivables and similar assets from all taxation under this Part",
+            "effect": "supports",
+            "why": "It authorizes an appointed board to establish regulations and decide which assets qualify for tax exemption.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed... 4 percent of the understatement of tax",
+            "effect": "conflicts",
+            "why": "It increases the exposure of private appraisers to financial penalties for overstating or understating asset valuations.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50305",
+            "quote": "the Board may at its discretion impose a penalty on the appraiser, as if such appraiser were “the taxpayer”... no such penalty shall exceed... 4 percent of the understatement of tax",
+            "effect": "supports",
+            "why": "It grants the Franchise Tax Board new enforcement powers to directly penalize third-party appraisers who misstate asset values.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. The measure introduces complex anti-evasion rules for a new wealth tax, creating a formula to value private businesses using book value and book profits, disregarding features added to reduce appraised value, and exempting directly held real estate.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "question_id": "Q2",
+        "answer": "There will be high compliance and tracking costs for taxpayers navigating Optional Deferral Accounts, requiring them to report ongoing asset activity. The state will bear ongoing administrative costs to track these accounts, potentially across decades or even after the taxpayer leaves the state.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q3",
+        "answer": "High net-worth taxpayers bear the direct cost and the paperwork burden. Professional appraisers bear new risks of penalties. Owners heavily invested in directly held real estate benefit, as their properties are exempt from the net worth calculation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q4",
+        "answer": "Taxpayers are strongly incentivized to restructure their portfolios toward exempt asset classes, particularly by converting liquid assets into directly held real estate. They may also attempt to temporarily relocate high-value tangible personal property outside California to trigger the 270-day exclusion rule, or structure executive compensation as contingent deferred compensation to avoid inclusion.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "question_id": "Q5",
+        "answer": "The text addresses the difficulty of valuing private, illiquid wealth that billionaires use to shield their fortunes. The mechanism defines explicit formulas (e.g., a 7.5 profit multiplier), disregards tax-avoidance discounts, and targets assets parked in trusts. However, by outright exempting directly held real property, it creates an enormous tax shelter that may undermine the intended revenue capture.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50305",
+        "question_id": "Q6",
+        "answer": "The Franchise Tax Board gains significant discretionary power to regulate appraisers, define exemption criteria for certain receivables, and assess penalties. The real estate industry benefits from increased investment due to the exemption for directly held property.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "question_id": "Q5",
+        "answer": "The text addresses capital flight, where wealthy residents leave the state to avoid the tax. The mechanism mandates 100 percent apportionment to California for residents on a specific snapshot date and places the legal burden on the taxpayer to prove otherwise, limiting proration based on the fraction of the year lived in the state.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "question_id": "Q8",
+        "answer": "Administration and enforcement will be complex and expensive. Auditing the book values and profits of complex private equity structures, evaluating certified appraisals of unique assets like art, and continuously tracking Optional Deferral Accounts for liquidity-constrained taxpayers over multiple years requires highly specialized personnel and lengthy audit processes.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50304",
+        "flag_id": "F1",
+        "quote": "ordinary and necessary transactions for maintaining or increasing the value of assets",
+        "note": "Vague standard for what constitutes a non-material distribution that isn't taxed."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50306",
+        "flag_id": "F2",
+        "quote": "The rules in this Chapter supersede other rules, including the rules concerning the division of income for purposes of part-year residence.",
+        "note": "Overrides existing state income tax rules regarding part-year residency."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50303",
+        "flag_id": "F3",
+        "quote": "All receivables shall be included in net worth under this Part until the Board has adopted regulations.",
+        "note": "The real effect on taxing receivables depends on future Board regulations."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [],
+  "seconds": 97.1,
+  "errors": [
+    "C64: appears more than once",
+    "C36: appears more than once",
+    "values missing (2): C06, C39",
+    "restatement: blocked term 'designed to'"
+  ],
+  "accepted": false
+}

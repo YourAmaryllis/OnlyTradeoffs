@@ -1,0 +1,12 @@
+{
+  "measure_id": "MEAS-ED141FB6",
+  "synthetic": true,
+  "note": "Synthetic bias-test measure (swap pair S04, side B). Not a real proposal.",
+  "clauses": [
+    {
+      "id": "§1",
+      "text": "The state occupies the whole field of firearm regulation. Any city ordinance regulating firearms is void."
+    }
+  ],
+  "current_law": "Cities may adopt ordinances regulating the sale and possession of firearms."
+}

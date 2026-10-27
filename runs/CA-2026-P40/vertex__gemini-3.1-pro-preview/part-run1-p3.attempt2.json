@@ -1,0 +1,860 @@
+{
+  "manifest": {
+    "measure_id": "CA-2026-P40",
+    "prompt_version": "v1",
+    "concern_list_version": "1-draft.r4",
+    "concern_list_frozen": false,
+    "seed": 1,
+    "concern_order": [
+      "C05",
+      "C34",
+      "C32",
+      "C65",
+      "C63",
+      "C04",
+      "C72",
+      "C03",
+      "C35",
+      "C31",
+      "C58",
+      "C40",
+      "C56",
+      "C46",
+      "C18",
+      "C64",
+      "C45",
+      "C70",
+      "C83",
+      "C50",
+      "C08",
+      "C81",
+      "C19",
+      "C77",
+      "C68",
+      "C15",
+      "C37",
+      "C25",
+      "C44",
+      "C09",
+      "C20",
+      "C74",
+      "C33",
+      "C10",
+      "C06",
+      "C39",
+      "C61",
+      "C57",
+      "C17",
+      "C52",
+      "C59",
+      "C80",
+      "C76",
+      "C42",
+      "C30",
+      "C26",
+      "C78",
+      "C13",
+      "C28",
+      "C67",
+      "C41",
+      "C23",
+      "C82",
+      "C38",
+      "C21",
+      "C55",
+      "C53",
+      "C36",
+      "C49",
+      "C62",
+      "C02",
+      "C75",
+      "C54",
+      "C12",
+      "C24",
+      "C29",
+      "C69",
+      "C01",
+      "C47",
+      "C79",
+      "C73",
+      "C51",
+      "C11",
+      "C22",
+      "C43",
+      "C66",
+      "C48",
+      "C71",
+      "C14",
+      "C27",
+      "C07",
+      "C60",
+      "C16"
+    ],
+    "sha256": {
+      "measure": "b043a83384dab547226966bf990fb15a894aa21f170d291380ac7dd9accba233",
+      "concern_list": "4217a3fdffd181c9a3d74e233766f7bb52e9fc8f1b38ffaeebf201ba0283c528",
+      "system_prompt": "09d29f5ffcba4688ac4dfe9052f041802ba5d4f45d983d4c08a684b051aafe69",
+      "user_template": "419432791155047698cd48e2f473e7d37b3ff9cb498f1758e0757c2adc471965",
+      "schema": "d662c1f22369d3cd5542b22766e55b77f5aac10dc11e7de8586bcd69e293e82b",
+      "user_message": "73291aca52fc0cc16459780d808762bd71354223082f4b236413c04a4a982556",
+      "part_template": "c32b1bbb3acce9fd85427fb1e23c5da2193d899470069e227a0dae9ab2ac5cfc"
+    },
+    "part": {
+      "index": 3,
+      "of": 3,
+      "clauses": [
+        "Prop 40 Sec. 6 §50308",
+        "Prop 40 Sec. 6 §50309",
+        "Prop 40 Sec. 6 §50310",
+        "Prop 40 Sec. 6 §50311",
+        "Prop 40 Sec. 6 §50312",
+        "Prop 40 Sec. 6 §50313",
+        "Prop 40 Sec. 6 §50314",
+        "Prop 40 Sec. 7",
+        "Prop 40 Sec. 8",
+        "Prop 40 Sec. 9"
+      ]
+    }
+  },
+  "prompt_file": "CA-2026-P40.run1.part3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 2,
+  "params": {
+    "max_tokens": 60000,
+    "temperature": null
+  },
+  "started_at": "2026-10-27T10:07:33.423545+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 23257
+        }
+      ],
+      "cached_content_token_count": 23257,
+      "candidates_token_count": 7583,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7583
+        }
+      ],
+      "prompt_token_count": 23257,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 23257
+        }
+      ],
+      "thoughts_token_count": 11221,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 42061,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"CA-2026-P40\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50308\",\n      \"text\": \"Defines key terms for the tax, including \\\"net worth\\\" and \\\"applicable individual,\\\" and sets the tax obligation date as January 1, 2026, and the valuation date as December 31, 2026.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n      \"text\": \"Grants the Franchise Tax Board authority to adopt regulations to implement the tax, exempts the Board from standard administrative rulemaking procedures until 2028, and sets a 10-year deadline for mailing deficiency assessment notices for the 2026 tax year.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50310\",\n      \"text\": \"Allows the Legislature to amend the act with a two-thirds vote, provided the amendments are consistent with and further the measure's purposes.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50311\",\n      \"text\": \"Contains a severability clause ensuring that if any part of the act or its application to specific dates is found unconstitutional, the remaining provisions or modified dates will still be enforced to the maximum extent possible.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n      \"text\": \"Imposes 20% to 40% penalties for understating tax liability, grants the Board broad authority to ignore entities or transactions lacking economic substance, allows the Board to hire outside experts, and permits the Board to sue for a new trial if it disagrees with an Office of Tax Appeals decision.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50313\",\n      \"text\": \"Directs that the measure be broadly interpreted to achieve its goals.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50314\",\n      \"text\": \"Establishes an expedited legal process for challenges to the measure's validity, requiring lawsuits to be filed within 60 days in Sacramento Superior Court and directing appeals straight to the California Supreme Court.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 7\",\n      \"text\": \"Prohibits taxpayers from deducting any state net worth tax on their state income tax returns.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 8\",\n      \"text\": \"Declares that if another measure taxing billionaire net worth is on the same ballot, the two conflict, and the measure with the most votes will take effect in its entirety.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 9\",\n      \"text\": \"Grants initiative proponents or any citizen the legal standing to defend the measure in court and requires the state to pay their reasonable legal fees if the Attorney General does not defend it.\"\n    }\n  ],\n  \"values\": [\n    {\n      \"value_id\": \"C05\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C34\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C32\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C65\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C63\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C04\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C72\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C03\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C35\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C31\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C58\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C40\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C56\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C46\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C18\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n          \"quote\": \"Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This removes standard administrative limits and procedures, expanding the Franchise Tax Board's unilateral rule-making authority.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n          \"quote\": \"the Board is authorized to hire and pay reasonable fees to any outside experts or outside counsel as appropriate to help fully administer and collect the tax authorized by this part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This expands the agency's power and resources by allowing it to hire external staff to enforce the tax.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C64\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C45\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C70\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C83\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C50\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C08\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C81\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C19\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n          \"quote\": \"Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This allows the appointed Franchise Tax Board to create rules without standard legislative oversight procedures, moving decision-making toward an appointed agency.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C77\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C68\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C15\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C37\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C25\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C44\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C09\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C20\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n          \"quote\": \"Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This removes standard public notice, comment, and oversight procedures from the Franchise Tax Board's rule-making process for the first couple of years.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C74\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C33\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C10\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C06\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C39\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C61\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C57\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C17\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C52\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C59\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C80\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C76\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n          \"quote\": \"Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"supports\",\n          \"why\": \"This allows the appointed Franchise Tax Board to create rules without standard legislative oversight procedures, increasing its decision-making power.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C42\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C30\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C26\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C78\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 9\",\n          \"quote\": \"any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This increases exposure to lawsuits by granting any state citizen the authority to take legal action to defend the measure.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n          \"quote\": \"if the Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This exposes taxpayers to further litigation by allowing the tax agency to sue them in court even if the taxpayer wins an administrative appeal.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n          \"quote\": \"The penalty for a substantial understatement under this Section shall be an amount equal to 20 percent of any understatement of tax.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This establishes strict financial penalties for underreporting tax liability.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C13\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C28\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C67\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C41\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C23\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 9\",\n          \"quote\": \"any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act\",\n          \"effect\": \"supports\",\n          \"why\": \"This expands the right to sue by granting any state citizen the authority to take legal action to defend the measure.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n          \"quote\": \"if the Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.\",\n          \"effect\": \"supports\",\n          \"why\": \"This expands the enforcement power of the tax agency by allowing it to sue in court to override an administrative appeal decision.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n          \"quote\": \"The penalty for a substantial understatement under this Section shall be an amount equal to 20 percent of any understatement of tax.\",\n          \"effect\": \"supports\",\n          \"why\": \"This creates strict financial penalties for those who underreport their tax liability.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C82\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C38\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C21\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C55\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C53\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C36\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C49\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C62\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 9\",\n          \"quote\": \"the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act\",\n          \"effect\": \"supports\",\n          \"why\": \"This empowers initiative proponents by legally guaranteeing their right to defend their measure in court.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 9\",\n          \"quote\": \"The reasonable fees and costs of defending the Act and advocating for its validity, if the Attorney General does not defend the Act, shall be a charge on funds appropriated to the Attorney General\",\n          \"effect\": \"supports\",\n          \"why\": \"This protects proponents by requiring the state to pay their legal fees if the state's attorney general declines to defend the measure they proposed.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C02\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C75\",\n      \"result\": \"supports\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n          \"quote\": \"Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"supports\",\n          \"why\": \"This expands the regulatory power of the Franchise Tax Board by allowing it to issue rules without the standard administrative procedures.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n          \"quote\": \"the Board is authorized to hire and pay reasonable fees to any outside experts or outside counsel as appropriate to help fully administer and collect the tax authorized by this part.\",\n          \"effect\": \"supports\",\n          \"why\": \"This gives the Board expanded authority to hire and pay external staff to administer and enforce the tax.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C54\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C12\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C24\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C29\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C69\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C01\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 7\",\n          \"quote\": \"No deduction shall be allowed for any tax imposed by the State on net worth\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This denies taxpayers the ability to deduct the state net worth tax on their state income tax returns, which increases their overall tax burden.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C47\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C79\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C73\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C51\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C11\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C22\",\n      \"result\": \"conflicts\",\n      \"evidence\": [\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50314\",\n          \"quote\": \"Any appeal from an adverse determination in the Sacramento County Superior Court shall be directly to the California Supreme Court, without intermediate appellate review\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This bypasses the state's intermediate appellate courts, reducing standard judicial checks and processes.\",\n          \"certainty\": \"stated\"\n        },\n        {\n          \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n          \"quote\": \"Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.\",\n          \"effect\": \"conflicts\",\n          \"why\": \"This removes standard procedural checks and balances on the tax agency's rule-making authority.\",\n          \"certainty\": \"stated\"\n        }\n      ]\n    },\n    {\n      \"value_id\": \"C43\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C66\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C48\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C71\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C14\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C27\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C07\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C60\",\n      \"result\": \"none\",\n      \"evidence\": []\n    },\n    {\n      \"value_id\": \"C16\",\n      \"result\": \"none\",\n      \"evidence\": []\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50308\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law was not provided. The measure establishes definitions, administrative procedures, and enforcement mechanisms for a new tax on billionaire wealth. It allows the Franchise Tax Board to issue regulations exempt from the Administrative Procedure Act until 2028, sets a 10-year statute of limitations for deficiency assessments for the 2026 tax year, imposes penalties of 20% to 40% for substantial or gross understatements, creates an expedited judicial review process that bypasses intermediate appellate courts, denies any state income tax deduction for the net worth tax, and grants legal standing and legal fees to proponents or citizens defending the measure.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n      \"question_id\": \"Q2\",\n      \"answer\": \"The measure incurs direct costs for the Franchise Tax Board to administer the tax, hire outside experts, and litigate disputes, including potential trial de novo actions against the Office of Tax Appeals. The state also bears the cost of paying reasonable legal fees for proponents or citizens who defend the Act if the Attorney General declines. Taxpayers face compliance costs to navigate anti-avoidance rules, and the judicial branch will expend resources managing expedited, high-stakes litigation.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"The state General Fund or the Attorney General's budget pays for the legal defense of the Act if proponents intervene. Taxpayers subject to the wealth tax bear the costs of the tax itself, the 20-40% understatement penalties, and the loss of a state income tax deduction. The Franchise Tax Board gains enforcement tools, while outside legal counsel and valuation experts benefit from state hiring and taxpayer compliance needs.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50314\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"The Franchise Tax Board will likely adopt aggressive anti-avoidance regulations rapidly, utilizing its temporary exemption from standard rulemaking limits. Taxpayers facing a new wealth tax and strict penalties will likely restructure assets, litigate valuations, or attempt to move wealth out of state, though the measure includes broad \\\"substance over form\\\" rules to capture such moves. Opponents will likely file validation actions in Sacramento Superior Court within the 60-day window, triggering immediate litigation that ascends directly to the State Supreme Court.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50314\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The text addresses the risk that the tax implementation gets bogged down in prolonged litigation or administrative delays. It attempts to fix this by bypassing standard administrative procedures for two years, requiring legal challenges to be filed within 60 days in a single venue, bypassing intermediate appellate courts, and guaranteeing standing and state funding for proponents to defend the law.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"The Franchise Tax Board gains significant unreviewed regulatory power until 2028, a 10-year window to issue assessments for 2026, and the right to sue the state's Office of Tax Appeals in a trial de novo. Initiative proponents and individual citizens gain the power to legally defend the measure at the state's expense. The California Supreme Court gains direct, expedited jurisdiction over challenges to the Act.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"It is disputed whether bypassing standard administrative and judicial review procedures results in better enforcement and sounder legal decisions. Proponents argue it prevents wealthy opponents from using procedural delays to kill the law; critics argue it sacrifices procedural fairness and leads to legal errors that require correction later.\",\n      \"disputed\": true\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50312\",\n      \"question_id\": \"Q8\",\n      \"answer\": \"Significant resources will be consumed by administration and enforcement, as the measure authorizes the Franchise Tax Board to hire outside experts and counsel. Litigation over valuations, economic substance doctrines, and the measure's constitutionality will likely demand considerable time and money from both the state and taxpayers.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50310\",\n      \"question_id\": \"Q9\",\n      \"answer\": \"The measure can be amended by the Legislature with a two-thirds vote, but only if the amendment is \\\"consistent with and furthers the purposes\\\" of the Act. Otherwise, it would require a voter-approved ballot measure to alter or repeal.\",\n      \"disputed\": false\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"Prop 40 Sec. 9\",\n      \"flag_id\": \"F2\",\n      \"quote\": \"Notwithstanding any other provision of law, the State, government agency, any of its of ficials, any other government employer, the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act\",\n      \"note\": \"Overrides other laws to grant broad standing to defend the measure.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50309\",\n      \"flag_id\": \"F3\",\n      \"quote\": \"The Board shall have the authority to adopt regulations to implement, interpret, make specific, or otherwise carry out any provision of this Part.\",\n      \"note\": \"Implementation relies heavily on future regulations drafted by the Franchise Tax Board.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50311\",\n      \"flag_id\": \"F5\",\n      \"quote\": \"The provisions of the 2026 Billionaire Tax Act, also referred to as “the Act,” are severable.\",\n      \"note\": \"Includes a strong severability clause directing courts to reform dates if needed to keep the tax alive.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50308\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"“Tax obligation date” means January 1, 2026.\",\n      \"note\": \"Specifies strict, immediate effective and valuation dates for the tax.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 6 §50310\",\n      \"flag_id\": \"F7\",\n      \"quote\": \"The Legislature may amend the 2026 Billionaire Tax Act, by statute passed in each house of the Legislature by rollcall vote entered in the journal, two-thirds of the membership concurring, if the statute is consistent with and furthers the purposes of the 2026 Billionaire Tax Act.\",\n      \"note\": \"Requires a two-thirds supermajority to amend, restricted to changes that further the measure's purposes.\"\n    },\n    {\n      \"clause_id\": \"Prop 40 Sec. 9\",\n      \"flag_id\": \"F9\",\n      \"quote\": \"any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act\",\n      \"note\": \"Creates a private right for any citizen to sue or intervene to defend the measure.\"\n    }\n  ]\n}\n```",
+  "parsed": {
+    "measure_id": "CA-2026-P40",
+    "restatements": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50308",
+        "text": "Defines key terms for the tax, including \"net worth\" and \"applicable individual,\" and sets the tax obligation date as January 1, 2026, and the valuation date as December 31, 2026."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "text": "Grants the Franchise Tax Board authority to adopt regulations to implement the tax, exempts the Board from standard administrative rulemaking procedures until 2028, and sets a 10-year deadline for mailing deficiency assessment notices for the 2026 tax year."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50310",
+        "text": "Allows the Legislature to amend the act with a two-thirds vote, provided the amendments are consistent with and further the measure's purposes."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50311",
+        "text": "Contains a severability clause ensuring that if any part of the act or its application to specific dates is found unconstitutional, the remaining provisions or modified dates will still be enforced to the maximum extent possible."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50312",
+        "text": "Imposes 20% to 40% penalties for understating tax liability, grants the Board broad authority to ignore entities or transactions lacking economic substance, allows the Board to hire outside experts, and permits the Board to sue for a new trial if it disagrees with an Office of Tax Appeals decision."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50313",
+        "text": "Directs that the measure be broadly interpreted to achieve its goals."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50314",
+        "text": "Establishes an expedited legal process for challenges to the measure's validity, requiring lawsuits to be filed within 60 days in Sacramento Superior Court and directing appeals straight to the California Supreme Court."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 7",
+        "text": "Prohibits taxpayers from deducting any state net worth tax on their state income tax returns."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 8",
+        "text": "Declares that if another measure taxing billionaire net worth is on the same ballot, the two conflict, and the measure with the most votes will take effect in its entirety."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 9",
+        "text": "Grants initiative proponents or any citizen the legal standing to defend the measure in court and requires the state to pay their reasonable legal fees if the Attorney General does not defend it."
+      }
+    ],
+    "values": [
+      {
+        "value_id": "C05",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C34",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C32",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C65",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C63",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C04",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C72",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C03",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C35",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C31",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C58",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C40",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C56",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C46",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C18",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "conflicts",
+            "why": "This removes standard administrative limits and procedures, expanding the Franchise Tax Board's unilateral rule-making authority.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "the Board is authorized to hire and pay reasonable fees to any outside experts or outside counsel as appropriate to help fully administer and collect the tax authorized by this part.",
+            "effect": "conflicts",
+            "why": "This expands the agency's power and resources by allowing it to hire external staff to enforce the tax.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C64",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C45",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C70",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C83",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C50",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C08",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C81",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C19",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "conflicts",
+            "why": "This allows the appointed Franchise Tax Board to create rules without standard legislative oversight procedures, moving decision-making toward an appointed agency.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C77",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C68",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C15",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C37",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C25",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C44",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C09",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C20",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "conflicts",
+            "why": "This removes standard public notice, comment, and oversight procedures from the Franchise Tax Board's rule-making process for the first couple of years.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C74",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C33",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C10",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C06",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C39",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C61",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C57",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C17",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C52",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C59",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C80",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C76",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "supports",
+            "why": "This allows the appointed Franchise Tax Board to create rules without standard legislative oversight procedures, increasing its decision-making power.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C42",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C30",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C26",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C78",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 9",
+            "quote": "any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act",
+            "effect": "conflicts",
+            "why": "This increases exposure to lawsuits by granting any state citizen the authority to take legal action to defend the measure.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "if the Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.",
+            "effect": "conflicts",
+            "why": "This exposes taxpayers to further litigation by allowing the tax agency to sue them in court even if the taxpayer wins an administrative appeal.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "The penalty for a substantial understatement under this Section shall be an amount equal to 20 percent of any understatement of tax.",
+            "effect": "conflicts",
+            "why": "This establishes strict financial penalties for underreporting tax liability.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C13",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C28",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C67",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C41",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C23",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 9",
+            "quote": "any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act",
+            "effect": "supports",
+            "why": "This expands the right to sue by granting any state citizen the authority to take legal action to defend the measure.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "if the Board disagrees with a decision of the Office of Tax Appeals, the Board may bring an action in superior court for a trial de novo.",
+            "effect": "supports",
+            "why": "This expands the enforcement power of the tax agency by allowing it to sue in court to override an administrative appeal decision.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "The penalty for a substantial understatement under this Section shall be an amount equal to 20 percent of any understatement of tax.",
+            "effect": "supports",
+            "why": "This creates strict financial penalties for those who underreport their tax liability.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C82",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C38",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C21",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C55",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C53",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C36",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C49",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C62",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 9",
+            "quote": "the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act",
+            "effect": "supports",
+            "why": "This empowers initiative proponents by legally guaranteeing their right to defend their measure in court.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 9",
+            "quote": "The reasonable fees and costs of defending the Act and advocating for its validity, if the Attorney General does not defend the Act, shall be a charge on funds appropriated to the Attorney General",
+            "effect": "supports",
+            "why": "This protects proponents by requiring the state to pay their legal fees if the state's attorney general declines to defend the measure they proposed.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C02",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C75",
+        "result": "supports",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "supports",
+            "why": "This expands the regulatory power of the Franchise Tax Board by allowing it to issue rules without the standard administrative procedures.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50312",
+            "quote": "the Board is authorized to hire and pay reasonable fees to any outside experts or outside counsel as appropriate to help fully administer and collect the tax authorized by this part.",
+            "effect": "supports",
+            "why": "This gives the Board expanded authority to hire and pay external staff to administer and enforce the tax.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C54",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C12",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C24",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C29",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C69",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C01",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 7",
+            "quote": "No deduction shall be allowed for any tax imposed by the State on net worth",
+            "effect": "conflicts",
+            "why": "This denies taxpayers the ability to deduct the state net worth tax on their state income tax returns, which increases their overall tax burden.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C47",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C79",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C73",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C51",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C11",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C22",
+        "result": "conflicts",
+        "evidence": [
+          {
+            "clause_id": "Prop 40 Sec. 6 §50314",
+            "quote": "Any appeal from an adverse determination in the Sacramento County Superior Court shall be directly to the California Supreme Court, without intermediate appellate review",
+            "effect": "conflicts",
+            "why": "This bypasses the state's intermediate appellate courts, reducing standard judicial checks and processes.",
+            "certainty": "stated"
+          },
+          {
+            "clause_id": "Prop 40 Sec. 6 §50309",
+            "quote": "Until January 1, 2028, the rulemaking provisions of the Administrative Procedure Act (Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code) shall not apply to any regulation, standard, criterion, procedure, determination, rule, notice, guideline, or any other guidance established or issued by the Board pursuant to this Part.",
+            "effect": "conflicts",
+            "why": "This removes standard procedural checks and balances on the tax agency's rule-making authority.",
+            "certainty": "stated"
+          }
+        ]
+      },
+      {
+        "value_id": "C43",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C66",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C48",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C71",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C14",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C27",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C07",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C60",
+        "result": "none",
+        "evidence": []
+      },
+      {
+        "value_id": "C16",
+        "result": "none",
+        "evidence": []
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "Prop 40 Sec. 6 §50308",
+        "question_id": "Q1",
+        "answer": "Current law was not provided. The measure establishes definitions, administrative procedures, and enforcement mechanisms for a new tax on billionaire wealth. It allows the Franchise Tax Board to issue regulations exempt from the Administrative Procedure Act until 2028, sets a 10-year statute of limitations for deficiency assessments for the 2026 tax year, imposes penalties of 20% to 40% for substantial or gross understatements, creates an expedited judicial review process that bypasses intermediate appellate courts, denies any state income tax deduction for the net worth tax, and grants legal standing and legal fees to proponents or citizens defending the measure.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "question_id": "Q2",
+        "answer": "The measure incurs direct costs for the Franchise Tax Board to administer the tax, hire outside experts, and litigate disputes, including potential trial de novo actions against the Office of Tax Appeals. The state also bears the cost of paying reasonable legal fees for proponents or citizens who defend the Act if the Attorney General declines. Taxpayers face compliance costs to navigate anti-avoidance rules, and the judicial branch will expend resources managing expedited, high-stakes litigation.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50312",
+        "question_id": "Q3",
+        "answer": "The state General Fund or the Attorney General's budget pays for the legal defense of the Act if proponents intervene. Taxpayers subject to the wealth tax bear the costs of the tax itself, the 20-40% understatement penalties, and the loss of a state income tax deduction. The Franchise Tax Board gains enforcement tools, while outside legal counsel and valuation experts benefit from state hiring and taxpayer compliance needs.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50314",
+        "question_id": "Q4",
+        "answer": "The Franchise Tax Board will likely adopt aggressive anti-avoidance regulations rapidly, utilizing its temporary exemption from standard rulemaking limits. Taxpayers facing a new wealth tax and strict penalties will likely restructure assets, litigate valuations, or attempt to move wealth out of state, though the measure includes broad \"substance over form\" rules to capture such moves. Opponents will likely file validation actions in Sacramento Superior Court within the 60-day window, triggering immediate litigation that ascends directly to the State Supreme Court.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50314",
+        "question_id": "Q5",
+        "answer": "The text addresses the risk that the tax implementation gets bogged down in prolonged litigation or administrative delays. It attempts to fix this by bypassing standard administrative procedures for two years, requiring legal challenges to be filed within 60 days in a single venue, bypassing intermediate appellate courts, and guaranteeing standing and state funding for proponents to defend the law.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "question_id": "Q6",
+        "answer": "The Franchise Tax Board gains significant unreviewed regulatory power until 2028, a 10-year window to issue assessments for 2026, and the right to sue the state's Office of Tax Appeals in a trial de novo. Initiative proponents and individual citizens gain the power to legally defend the measure at the state's expense. The California Supreme Court gains direct, expedited jurisdiction over challenges to the Act.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "question_id": "Q7",
+        "answer": "It is disputed whether bypassing standard administrative and judicial review procedures results in better enforcement and sounder legal decisions. Proponents argue it prevents wealthy opponents from using procedural delays to kill the law; critics argue it sacrifices procedural fairness and leads to legal errors that require correction later.",
+        "disputed": true
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50312",
+        "question_id": "Q8",
+        "answer": "Significant resources will be consumed by administration and enforcement, as the measure authorizes the Franchise Tax Board to hire outside experts and counsel. Litigation over valuations, economic substance doctrines, and the measure's constitutionality will likely demand considerable time and money from both the state and taxpayers.",
+        "disputed": false
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50310",
+        "question_id": "Q9",
+        "answer": "The measure can be amended by the Legislature with a two-thirds vote, but only if the amendment is \"consistent with and furthers the purposes\" of the Act. Otherwise, it would require a voter-approved ballot measure to alter or repeal.",
+        "disputed": false
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "Prop 40 Sec. 9",
+        "flag_id": "F2",
+        "quote": "Notwithstanding any other provision of law, the State, government agency, any of its of ficials, any other government employer, the proponent, or in the absence of a proponent, any citizen of this State may defend the legality of this Act",
+        "note": "Overrides other laws to grant broad standing to defend the measure."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50309",
+        "flag_id": "F3",
+        "quote": "The Board shall have the authority to adopt regulations to implement, interpret, make specific, or otherwise carry out any provision of this Part.",
+        "note": "Implementation relies heavily on future regulations drafted by the Franchise Tax Board."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50311",
+        "flag_id": "F5",
+        "quote": "The provisions of the 2026 Billionaire Tax Act, also referred to as “the Act,” are severable.",
+        "note": "Includes a strong severability clause directing courts to reform dates if needed to keep the tax alive."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50308",
+        "flag_id": "F6",
+        "quote": "“Tax obligation date” means January 1, 2026.",
+        "note": "Specifies strict, immediate effective and valuation dates for the tax."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 6 §50310",
+        "flag_id": "F7",
+        "quote": "The Legislature may amend the 2026 Billionaire Tax Act, by statute passed in each house of the Legislature by rollcall vote entered in the journal, two-thirds of the membership concurring, if the statute is consistent with and furthers the purposes of the 2026 Billionaire Tax Act.",
+        "note": "Requires a two-thirds supermajority to amend, restricted to changes that further the measure's purposes."
+      },
+      {
+        "clause_id": "Prop 40 Sec. 9",
+        "flag_id": "F9",
+        "quote": "any citizen of this State may defend the legality of this Act, as provided therein through a validation action or as may otherwise be available, and is authorized to sue directly or intervene for the purpose of defending this Act",
+        "note": "Creates a private right for any citizen to sue or intervene to defend the measure."
+      }
+    ]
+  },
+  "stripped_fences": true,
+  "normalized": [],
+  "seconds": 165.7,
+  "errors": [
+    "flag F6: quote not found verbatim in Prop 40 Sec. 6 §50308: '“Tax obligation date” means January 1, 2026.'"
+  ],
+  "accepted": false
+}

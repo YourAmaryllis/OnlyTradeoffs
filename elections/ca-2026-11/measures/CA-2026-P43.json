@@ -1,0 +1,29 @@
+{
+  "measure_id": "CA-2026-P43",
+  "clauses": [
+    {
+      "id": "Prop 43 Preamble",
+      "text": "Resolved by the Assembly, the Senate concurring, That the Legislature of the State of California at its 2025–26 Regular Session commencing on the second day of December 2024, two-thirds of the membership of each house concurring, hereby proposes to the people of the State of California, that the Constitution of the State be amended as follows: That Section 4.5 is added to Article XIII A thereof, to read:"
+    },
+    {
+      "id": "Prop 43 §4.5(a)",
+      "text": "(a) Beginning on January 1, 2027, and notwithstanding Article II and Article XI, no local government, including the electorate of a local government exercising the initiative power, may impose, extend, or increase any special tax, except as provided in Section 4 of this article, subdivision (d) of Section 2 of Article XIII C, and paragraph (2) of subdivision (a) of Section 3 of Article XIII D, unless and until that tax is submitted to the electorate and approved by a two-thirds vote."
+    },
+    {
+      "id": "Prop 43 §4.5(b)",
+      "text": "(b) Notwithstanding Article II and Article XI, no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D."
+    },
+    {
+      "id": "Prop 43 §4.5(c)",
+      "text": "(c) “Local government” and “special tax” shall have the same meaning as provided in Section 1 of Article XIII C."
+    }
+  ],
+  "current_law": null,
+  "source": {
+    "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260ACA22",
+    "archived": "elections/ca-2026-11/sources/prop43-leginfo-aca22.html",
+    "sha256": "58afb4bc8355704c138544e08f6a4ac20f0665f78b1ad428336b8800fe87b5bf",
+    "fetched_at": "2026-10-27",
+    "import_log": "prop43-leginfo-aca22.import-log.txt"
+  }
+}

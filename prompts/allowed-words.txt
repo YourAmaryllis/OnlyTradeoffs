@@ -1,0 +1,8 @@
+# Ordinary legal words missing from the system dictionary (/usr/share/dict/words).
+# The outside-name check (tools/validate_output.py) treats these as words, not names.
+# Never add a person's, organization's, place's, or program's name here.
+preempt
+preemption
+appropriation
+nonprofit
+statewide

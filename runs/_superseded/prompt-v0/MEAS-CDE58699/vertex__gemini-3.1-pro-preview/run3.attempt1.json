@@ -1,0 +1,263 @@
+{
+  "manifest": {
+    "measure_id": "MEAS-CDE58699",
+    "prompt_version": "v0",
+    "concern_list_version": "1-draft.r3",
+    "concern_list_frozen": false,
+    "seed": 3,
+    "concern_order": [
+      "C42",
+      "C49",
+      "C45",
+      "C67",
+      "C54",
+      "C70",
+      "C08",
+      "C27",
+      "C56",
+      "C06",
+      "C37",
+      "C19",
+      "C52",
+      "C40",
+      "C24",
+      "C30",
+      "C61",
+      "C64",
+      "C23",
+      "C48",
+      "C21",
+      "C14",
+      "C22",
+      "C32",
+      "C07",
+      "C16",
+      "C44",
+      "C39",
+      "C04",
+      "C12",
+      "C33",
+      "C62",
+      "C29",
+      "C53",
+      "C28",
+      "C46",
+      "C71",
+      "C18",
+      "C72",
+      "C20",
+      "C03",
+      "C38",
+      "C11",
+      "C05",
+      "C43",
+      "C01",
+      "C25",
+      "C60",
+      "C66",
+      "C50",
+      "C58",
+      "C10",
+      "C41",
+      "C26",
+      "C55",
+      "C59",
+      "C51",
+      "C35",
+      "C65",
+      "C68",
+      "C13",
+      "C15",
+      "C36",
+      "C34",
+      "C69",
+      "C02",
+      "C09",
+      "C57",
+      "C47",
+      "C17",
+      "C63",
+      "C31"
+    ],
+    "sha256": {
+      "measure": "05b1b40611032335011814fdd8be829580c3cb50f42c466c5210cad6a6e01a42",
+      "concern_list": "aa26bf5217029a8cc497cfc564492446762b24151d77315a518c6111974c96cf",
+      "system_prompt": "7ad002d1958da8d7d718c154bf6d9a20aa4e2f71db62c36663d0a639b378a772",
+      "user_template": "aafdbf5b764694805227ca12a75a5e0b397beddd08a3399b9da212a32b4a3407",
+      "schema": "0f53c2e7362f578a8d90617620a2364f9d653073356159944d2168f9f0e1984c",
+      "user_message": "9ae8d8e3a0a5844f96ef5d48d91ef5eaf91a6710c43e7e11fbb6c7e797f5d97b"
+    }
+  },
+  "prompt_file": "MEAS-CDE58699.run3.prompt.json",
+  "provider": "vertex",
+  "model": "gemini-3.1-pro-preview",
+  "attempt": 1,
+  "params": {
+    "max_tokens": 32000,
+    "temperature": null
+  },
+  "started_at": "2026-10-26T23:19:50.065631+00:00",
+  "meta": {
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1220,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1220
+        }
+      ],
+      "prompt_token_count": 7295,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7295
+        }
+      ],
+      "thoughts_token_count": 1554,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 10069,
+      "traffic_type": "ON_DEMAND"
+    },
+    "stop_reason": "FinishReason.STOP",
+    "model_version": "gemini-3.1-pro-preview"
+  },
+  "raw_text": "```json\n{\n  \"measure_id\": \"MEAS-CDE58699\",\n  \"restatements\": [\n    {\n      \"clause_id\": \"§1\",\n      \"text\": \"Sets the state minimum wage to $15.00 per hour beginning January 1, 2028.\"\n    }\n  ],\n  \"findings\": [\n    {\n      \"id\": \"f1\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C08\",\n      \"effect\": \"advances\",\n      \"direction\": null,\n      \"quote\": \"the state minimum wage is $15.00 per hour.\",\n      \"mechanism\": \"Reduces the minimum wage from $17.00 to $15.00 per hour, lowering mandatory labor costs for businesses.\",\n      \"certainty\": \"stated\"\n    },\n    {\n      \"id\": \"f2\",\n      \"clause_id\": \"§1\",\n      \"concern_id\": \"C11\",\n      \"effect\": \"costs\",\n      \"direction\": null,\n      \"quote\": \"the state minimum wage is $15.00 per hour.\",\n      \"mechanism\": \"Reduces the minimum wage from $17.00 to $15.00 per hour, lowering the guaranteed minimum pay for workers.\",\n      \"certainty\": \"stated\"\n    }\n  ],\n  \"analysis\": [\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q1\",\n      \"answer\": \"Current law sets the state minimum wage at $17.00 per hour. The measure lowers this rate to $15.00 per hour effective January 1, 2028.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q3\",\n      \"answer\": \"Workers currently earning or expected to earn minimum wage bear the cost through lower guaranteed hourly earnings. Employers of minimum-wage labor benefit from reduced statutory labor costs.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q4\",\n      \"answer\": \"Employers may respond to lower labor costs by increasing hiring, expanding worker hours, or lowering prices. Alternatively, some workers might reduce their labor supply, while others may seek more hours to make up for the lower hourly rate.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q5\",\n      \"answer\": \"The measure addresses the burden of high mandatory labor costs on employers, which can limit hiring or drive up consumer prices. The mechanism reaches this by directly lowering the statutory wage floor.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q6\",\n      \"answer\": \"Employers gain more discretion over setting entry-level wages, as the mandatory legal floor is lowered.\",\n      \"disputed\": false\n    },\n    {\n      \"clause_id\": \"§1\",\n      \"question_id\": \"Q7\",\n      \"answer\": \"The effect of minimum wage levels on employment and hiring (Jobs and investment) is heavily disputed among economists. Some studies conclude that higher minimum wages reduce hiring and hours for low-wage workers, suggesting a lower wage would boost job creation. Other studies find that modest minimum wage changes have little to no negative effect on employment levels but significantly impact worker earnings.\",\n      \"disputed\": true\n    }\n  ],\n  \"flags\": [\n    {\n      \"clause_id\": \"§1\",\n      \"flag_id\": \"F6\",\n      \"quote\": \"On January 1, 2028,\",\n      \"note\": \"The measure specifies a delayed effective date of January 1, 2028.\"\n    }\n  ],\n  \"vote_summary\": {\n    \"if_yes\": {\n      \"gain\": {\n        \"items\": [\n          {\n            \"text\": \"Lower mandatory labor costs for businesses.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"give_up\": {\n        \"items\": [\n          {\n            \"text\": \"Higher minimum pay guarantees for workers.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"changes\": {\n        \"items\": [],\n        \"empty_reason\": \"The measure does not affect any directional concerns.\"\n      }\n    },\n    \"if_no\": {\n      \"keep\": {\n        \"items\": [\n          {\n            \"text\": \"Higher minimum pay guarantees for workers.\",\n            \"finding_ids\": [\n              \"f2\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      },\n      \"forgo\": {\n        \"items\": [\n          {\n            \"text\": \"Lower mandatory labor costs for businesses.\",\n            \"finding_ids\": [\n              \"f1\"\n            ]\n          }\n        ],\n        \"empty_reason\": null\n      }\n    }\n  }\n}\n```",
+  "parsed": {
+    "measure_id": "MEAS-CDE58699",
+    "restatements": [
+      {
+        "clause_id": "§1",
+        "text": "Sets the state minimum wage to $15.00 per hour beginning January 1, 2028."
+      }
+    ],
+    "findings": [
+      {
+        "id": "f1",
+        "clause_id": "§1",
+        "concern_id": "C08",
+        "effect": "advances",
+        "direction": null,
+        "quote": "the state minimum wage is $15.00 per hour.",
+        "mechanism": "Reduces the minimum wage from $17.00 to $15.00 per hour, lowering mandatory labor costs for businesses.",
+        "certainty": "stated"
+      },
+      {
+        "id": "f2",
+        "clause_id": "§1",
+        "concern_id": "C11",
+        "effect": "costs",
+        "direction": null,
+        "quote": "the state minimum wage is $15.00 per hour.",
+        "mechanism": "Reduces the minimum wage from $17.00 to $15.00 per hour, lowering the guaranteed minimum pay for workers.",
+        "certainty": "stated"
+      }
+    ],
+    "analysis": [
+      {
+        "clause_id": "§1",
+        "question_id": "Q1",
+        "answer": "Current law sets the state minimum wage at $17.00 per hour. The measure lowers this rate to $15.00 per hour effective January 1, 2028.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q3",
+        "answer": "Workers currently earning or expected to earn minimum wage bear the cost through lower guaranteed hourly earnings. Employers of minimum-wage labor benefit from reduced statutory labor costs.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q4",
+        "answer": "Employers may respond to lower labor costs by increasing hiring, expanding worker hours, or lowering prices. Alternatively, some workers might reduce their labor supply, while others may seek more hours to make up for the lower hourly rate.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q5",
+        "answer": "The measure addresses the burden of high mandatory labor costs on employers, which can limit hiring or drive up consumer prices. The mechanism reaches this by directly lowering the statutory wage floor.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q6",
+        "answer": "Employers gain more discretion over setting entry-level wages, as the mandatory legal floor is lowered.",
+        "disputed": false
+      },
+      {
+        "clause_id": "§1",
+        "question_id": "Q7",
+        "answer": "The effect of minimum wage levels on employment and hiring (Jobs and investment) is heavily disputed among economists. Some studies conclude that higher minimum wages reduce hiring and hours for low-wage workers, suggesting a lower wage would boost job creation. Other studies find that modest minimum wage changes have little to no negative effect on employment levels but significantly impact worker earnings.",
+        "disputed": true
+      }
+    ],
+    "flags": [
+      {
+        "clause_id": "§1",
+        "flag_id": "F6",
+        "quote": "On January 1, 2028,",
+        "note": "The measure specifies a delayed effective date of January 1, 2028."
+      }
+    ],
+    "vote_summary": {
+      "if_yes": {
+        "gain": {
+          "items": [
+            {
+              "text": "Lower mandatory labor costs for businesses.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "give_up": {
+          "items": [
+            {
+              "text": "Higher minimum pay guarantees for workers.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "changes": {
+          "items": [],
+          "empty_reason": "The measure does not affect any directional concerns."
+        }
+      },
+      "if_no": {
+        "keep": {
+          "items": [
+            {
+              "text": "Higher minimum pay guarantees for workers.",
+              "finding_ids": [
+                "f2"
+              ]
+            }
+          ],
+          "empty_reason": null
+        },
+        "forgo": {
+          "items": [
+            {
+              "text": "Lower mandatory labor costs for businesses.",
+              "finding_ids": [
+                "f1"
+              ]
+            }
+          ],
+          "empty_reason": null
+        }
+      }
+    }
+  },
+  "stripped_fences": true,
+  "seconds": 28.8,
+  "errors": [],
+  "accepted": true
+}
